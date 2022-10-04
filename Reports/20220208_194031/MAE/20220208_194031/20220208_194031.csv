@@ -1,0 +1,98 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MAE,,,,2022-02-08 19:40:40,2022-02-08 19:46:34,5m - 53.807s,FAILED
+,,,,,,,
+Test Cases/PayBill/payBills_todayTransaction,,,,2022-02-08 19:40:40,2022-02-08 19:42:28,1m - 47.150s,PASSED
+"startApplication(appPath, false)",,,,2022-02-08 19:40:41,2022-02-08 19:40:54,13.564s,PASSED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.dev"")",,,,2022-02-08 19:40:54,2022-02-08 19:40:54,0.001s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.MainActivity"")",,,,2022-02-08 19:40:54,2022-02-08 19:40:54,0.000s,PASSED
+delay(5),,,,2022-02-08 19:40:54,2022-02-08 19:40:59,5.018s,PASSED
+"if (getDeviceManufacturer() == ""samsung"")",,,,2022-02-08 19:40:59,2022-02-08 19:41:00,0.670s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-02-08 19:41:00,2022-02-08 19:41:14,13.614s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTypeSelection"", [""text"":""Personal Current Account""]), 10)",,,,2022-02-08 19:41:14,2022-02-08 19:41:17,3.417s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-02-08 19:41:17,2022-02-08 19:41:21,3.951s,PASSED
+"if (verifyElementVisible(findTestObject(""Login Onboarding/loginEnterPasswordMessage""), 0, OPTIONAL))",,,,2022-02-08 19:41:21,2022-02-08 19:41:25,3.749s,PASSED
+"waitForElementPresent(findTestObject(""Paybill/payBillsIconSelect""), 0)",,,,2022-02-08 19:41:25,2022-02-08 19:41:30,4.811s,PASSED
+"tap(findTestObject(""Paybill/payBillsIconSelect""), 0)",,,,2022-02-08 19:41:30,2022-02-08 19:41:30,0.483s,PASSED
+"tap(findTestObject(""Paybill/payBillSearchBillerInputField""), 0)",,,,2022-02-08 19:41:30,2022-02-08 19:41:33,2.706s,PASSED
+"setText(findTestObject(""Paybill/payBillBillerNameInputField""), ""Maxis"", 0)",,,,2022-02-08 19:41:33,2022-02-08 19:41:35,2.044s,PASSED
+delay(3),,,,2022-02-08 19:41:35,2022-02-08 19:41:38,3.004s,PASSED
+"tap(findTestObject(""Paybill/payBillBillerSelect"", [""text"":""Maxis Mobile Sdn Bhd""]), 10)",,,,2022-02-08 19:41:38,2022-02-08 19:41:39,1.316s,PASSED
+"tap(findTestObject(""Paybill/payBillBillerSelect"", [""text"":""Maxis Mobile Sdn Bhd""]), 10)",,,,2022-02-08 19:41:39,2022-02-08 19:41:40,0.506s,PASSED
+"setText(findTestObject(""Paybill/PayBillAccountNumberInputField""), ""1544054651"", 0)",,,,2022-02-08 19:41:40,2022-02-08 19:41:42,2.288s,PASSED
+hideKeyboard(),,,,2022-02-08 19:41:42,2022-02-08 19:41:43,1.086s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-02-08 19:41:43,2022-02-08 19:41:44,0.448s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-02-08 19:41:44,2022-02-08 19:41:46,2.084s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-02-08 19:41:46,2022-02-08 19:41:46,0.617s,PASSED
+delay(3),,,,2022-02-08 19:41:46,2022-02-08 19:41:49,3.007s,PASSED
+"tap(findTestObject(""Main/mainAmountTickBtn""), 0)",,,,2022-02-08 19:41:49,2022-02-08 19:41:50,0.626s,PASSED
+delay(5),,,,2022-02-08 19:41:50,2022-02-08 19:41:55,5.005s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainPayNowBtn""), 5)",,,,2022-02-08 19:41:55,2022-02-08 19:41:55,0.436s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-02-08 19:41:55,2022-02-08 19:41:56,0.511s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-02-08 19:41:56,2022-02-08 19:42:16,20.644s,PASSED
+"message = getText(findTestObject(""Main/mainTransactionStatusMessageTxt""), 10)",,,,2022-02-08 19:42:16,2022-02-08 19:42:22,5.624s,PASSED
+println(message),,,,2022-02-08 19:42:22,2022-02-08 19:42:22,0.003s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-02-08 19:42:22,2022-02-08 19:42:22,0.156s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-02-08 19:42:22,2022-02-08 19:42:23,0.328s,PASSED
+delay(5),,,,2022-02-08 19:42:23,2022-02-08 19:42:28,5.006s,PASSED
+,,,,,,,
+Test Cases/Zakat/zakat_zakatPayment,,,,2022-02-08 19:42:28,2022-02-08 19:44:23,1m - 55.246s,PASSED
+delay(10),,,,2022-02-08 19:42:28,2022-02-08 19:42:38,10.002s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-02-08 19:42:38,2022-02-08 19:42:58,20.168s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-02-08 19:42:58,2022-02-08 19:43:01,3.068s,PASSED
+"if (verifyElementVisible(findTestObject(""Paybill/payBillsEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-02-08 19:43:01,2022-02-08 19:43:21,20.136s,PASSED
+"tap(findTestObject(""zakat/payBillZakatTopMenuSelect""), 0)",,,,2022-02-08 19:43:21,2022-02-08 19:43:22,0.462s,PASSED
+delay(2),,,,2022-02-08 19:43:22,2022-02-08 19:43:24,2.005s,PASSED
+"tap(findTestObject(""zakat/zakatIconSelect""), 0)",,,,2022-02-08 19:43:24,2022-02-08 19:43:24,0.559s,PASSED
+delay(2),,,,2022-02-08 19:43:24,2022-02-08 19:43:26,2.004s,PASSED
+"tap(findTestObject(""zakat/zakatBodyDropdownSelectBoxx""), 0)",,,,2022-02-08 19:43:26,2022-02-08 19:43:27,0.434s,PASSED
+"tap(findTestObject(""zakat/zakatBaitulmalPerlisDropdownSelect""), 0)",,,,2022-02-08 19:43:27,2022-02-08 19:43:28,1.321s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-02-08 19:43:28,2022-02-08 19:43:28,0.345s,PASSED
+delay(3),,,,2022-02-08 19:43:28,2022-02-08 19:43:31,3.003s,PASSED
+"tap(findTestObject(""zakat/zakatTypeDropdownSelectBox""), 0)",,,,2022-02-08 19:43:31,2022-02-08 19:43:32,0.468s,PASSED
+"tap(findTestObject(""zakat/zakatTypeZakatEmasDropdownSelect""), 0)",,,,2022-02-08 19:43:32,2022-02-08 19:43:33,1.365s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-02-08 19:43:33,2022-02-08 19:43:34,0.346s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-02-08 19:43:34,2022-02-08 19:43:34,0.956s,PASSED
+"setText(findTestObject(""zakat/zakatMobileNoInputField""), ""181610161"", 0)",,,,2022-02-08 19:43:34,2022-02-08 19:43:37,2.324s,PASSED
+hideKeyboard(),,,,2022-02-08 19:43:37,2022-02-08 19:43:38,1.030s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-02-08 19:43:38,2022-02-08 19:43:38,0.484s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-02-08 19:43:38,2022-02-08 19:43:41,2.493s,PASSED
+"tap(findTestObject(""zakat/zakatAmountTickBtn""), 0)",,,,2022-02-08 19:43:41,2022-02-08 19:43:41,0.538s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-02-08 19:43:41,2022-02-08 19:43:44,3.098s,PASSED
+delay(3),,,,2022-02-08 19:43:44,2022-02-08 19:43:47,3.002s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-02-08 19:43:47,2022-02-08 19:44:07,19.699s,PASSED
+delay(5),,,,2022-02-08 19:44:07,2022-02-08 19:44:12,5.002s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-02-08 19:44:12,2022-02-08 19:44:12,0.303s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-02-08 19:44:12,2022-02-08 19:44:13,0.382s,PASSED
+delay(10),,,,2022-02-08 19:44:13,2022-02-08 19:44:23,10.003s,PASSED
+,,,,,,,
+Test Cases/Zakat/zakat_zakatPaymentAddFavorite,,,,2022-02-08 19:44:23,2022-02-08 19:45:12,48.689s,FAILED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-02-08 19:44:23,2022-02-08 19:44:26,2.588s,PASSED
+"tap(findTestObject(""zakat/payBillZakatTopMenuSelect""), 0)",,,,2022-02-08 19:44:26,2022-02-08 19:44:26,0.489s,PASSED
+delay(2),,,,2022-02-08 19:44:26,2022-02-08 19:44:28,2.002s,PASSED
+"tap(findTestObject(""zakat/zakatIconSelect""), 0)",,,,2022-02-08 19:44:28,2022-02-08 19:44:29,0.526s,PASSED
+delay(2),,,,2022-02-08 19:44:29,2022-02-08 19:44:31,2.007s,PASSED
+"tap(findTestObject(""zakat/zakatBodyDropdownSelectBoxx""), 0)",,,,2022-02-08 19:44:31,2022-02-08 19:44:31,0.450s,PASSED
+"tap(findTestObject(""zakat/zakatBaitulmalPerlisDropdownSelect""), 0)",,,,2022-02-08 19:44:31,2022-02-08 19:44:32,1.287s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-02-08 19:44:32,2022-02-08 19:44:33,0.347s,PASSED
+delay(3),,,,2022-02-08 19:44:33,2022-02-08 19:44:36,3.007s,PASSED
+"tap(findTestObject(""zakat/zakatTypeDropdownSelectBox""), 0)",,,,2022-02-08 19:44:36,2022-02-08 19:44:36,0.490s,PASSED
+"tap(findTestObject(""zakat/zakatTypeZakatEmasDropdownSelect""), 0)",,,,2022-02-08 19:44:36,2022-02-08 19:44:38,1.298s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-02-08 19:44:38,2022-02-08 19:44:38,0.369s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-02-08 19:44:38,2022-02-08 19:44:39,0.944s,PASSED
+"setText(findTestObject(""zakat/zakatMobileNoInputField""), ""181610161"", 0)",,,,2022-02-08 19:44:39,2022-02-08 19:44:41,2.237s,PASSED
+hideKeyboard(),,,,2022-02-08 19:44:41,2022-02-08 19:44:42,1.018s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-02-08 19:44:42,2022-02-08 19:44:43,0.542s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-02-08 19:44:43,2022-02-08 19:44:45,2.043s,PASSED
+"tap(findTestObject(""zakat/zakatAmountTickBtn""), 0)",,,,2022-02-08 19:44:45,2022-02-08 19:44:45,0.511s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-02-08 19:44:45,2022-02-08 19:44:48,3.028s,PASSED
+delay(3),,,,2022-02-08 19:44:48,2022-02-08 19:44:51,3.007s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainS2UApproveBtn""), 0)",,,,2022-02-08 19:44:51,2022-02-08 19:45:12,20.303s,FAILED
+,,,,,,,
+Test Cases/Zakat/zakat_zakatPaymentFavoriteTransaction,,,,2022-02-08 19:45:12,2022-02-08 19:45:32,20.368s,FAILED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-02-08 19:45:12,2022-02-08 19:45:32,20.151s,FAILED
+,,,,,,,
+Test Cases/Others/ticketing_buyKLIATicket,,,,2022-02-08 19:45:32,2022-02-08 19:46:34,1m - 2.123s,FAILED
+"waitForElementPresent(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-02-08 19:45:32,2022-02-08 19:45:53,20.544s,PASSED
+"swipe(900, 1245, 300, 1245)",,,,2022-02-08 19:45:53,2022-02-08 19:45:54,1.131s,PASSED
+"waitForElementPresent(findTestObject(""Banking/m2uAccountERLIconSelect""), 0)",,,,2022-02-08 19:45:54,2022-02-08 19:46:14,20.058s,PASSED
+"tap(findTestObject(""Banking/m2uAccountERLIconSelect""), 0)",,,,2022-02-08 19:46:14,2022-02-08 19:46:34,20.121s,FAILED

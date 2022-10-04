@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Issue" time="44.309" tests="1" failures="0" errors="0">
+   <testsuite name="Issue" tests="1" failures="0" errors="0" time="44.309" skipped="0" timestamp="2022-04-06 12:54:16" hostname="a00139272 - 192.168.0.176" id="Test Suites/Issue">
+      <properties>
+         <property name="deviceName" value="Xiaomi 21061119AG (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/a00139272/git/MAE-BAU/Reports/20220406_125405/Issue/20220406_125405"/>
+         <property name="logFiles" value="/Users/a00139272/git/MAE-BAU/Reports/20220406_125405/Issue/20220406_125405/execution0.log, /Users/a00139272/git/MAE-BAU/Reports/20220406_125405/Issue/20220406_125405/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="a00139272 - 192.168.0.176"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.1&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.1"/>
+         <property name="deviceModel" value="21061119AG"/>
+         <property name="hostAddress" value="192.168.0.176"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="002b9cc60508"/>
+         <property name="deviceName" value="Xiaomi 21061119AG (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Performance test/Launch" time="43.834" classname="Test Cases/Performance test/Launch" status="PASSED">
+         <system-out><![CDATA[2022-04-06 12:54:17 - [TEST_CASE][PASSED] - Test Cases/Performance test/Launch: Test Cases/Performance test/Launch
+
+2022-04-06 12:54:18 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appPackage", "com.maybank2u.life.sit"): null
+
+2022-04-06 12:54:18 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appActivity", "com.maybank2u.life.MainActivity"): null
+
+2022-04-06 12:54:18 - [TEST_STEP][PASSED] - if (isApplicationOpened == false): Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release (1).apk'
+
+2022-04-06 12:54:18 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release (1).apk'
+
+2022-04-06 12:54:18 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-04-06 12:54:18 - [MESSAGE][INFO] - User set preference: ['deviceId', '002b9cc60508']
+
+2022-04-06 12:54:18 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.maybank2u.life.sit']
+
+2022-04-06 12:54:18 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.maybank2u.life.MainActivity']
+
+2022-04-06 12:54:20 - [MESSAGE][INFO] - Appium server started on port 58,254
+
+2022-04-06 12:54:34 - [MESSAGE][PASSED] - Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release (1).apk'
+
+2022-04-06 12:54:34 - [TEST_STEP][PASSED] - start = System.currentTimeMillis(): null
+
+2022-04-06 12:54:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Dashboard/dashboardWalletTopSelect"), 20): Element 'Object Repository/Dashboard/dashboardWalletTopSelect' is visible
+
+2022-04-06 12:54:38 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/dashboardWalletTopSelect' is visible
+
+2022-04-06 12:54:38 - [TEST_STEP][PASSED] - end = System.currentTimeMillis(): null
+
+2022-04-06 12:54:38 - [TEST_STEP][PASSED] - loadintime = end - start: null
+
+2022-04-06 12:54:38 - [TEST_STEP][PASSED] - newLoad = MILLISECONDS.toSeconds(loadintime): null
+
+2022-04-06 12:54:38 - [TEST_STEP][PASSED] - manu = getDeviceManufacturer(): Device manufacturer is: 'Xiaomi'
+
+2022-04-06 12:54:38 - [MESSAGE][PASSED] - Device manufacturer is: 'Xiaomi'
+
+2022-04-06 12:54:38 - [TEST_STEP][PASSED] - os = getDeviceOS(): Device OS name is: 'Android'
+
+2022-04-06 12:54:38 - [MESSAGE][PASSED] - Device OS name is: 'Android'
+
+2022-04-06 12:54:38 - [TEST_STEP][PASSED] - osVersion = getDeviceOSVersion(): Device OS version is: '11'
+
+2022-04-06 12:54:38 - [MESSAGE][PASSED] - Device OS version is: '11'
+
+2022-04-06 12:54:38 - [TEST_STEP][PASSED] - println(manu): null
+
+2022-04-06 12:54:38 - [TEST_STEP][PASSED] - println(os): null
+
+2022-04-06 12:54:38 - [TEST_STEP][PASSED] - println(osVersion): null
+
+2022-04-06 12:54:38 - [TEST_STEP][PASSED] - test = dataFolder: null
+
+2022-04-06 12:54:38 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2022-04-06 12:54:38 - [TEST_STEP][PASSED] - file1 = new java.io.File(test): null
+
+2022-04-06 12:54:38 - [TEST_STEP][PASSED] - assert file1.exists() == true: null
+
+2022-04-06 12:54:38 - [TEST_STEP][PASSED] - woorkbook1 = getWorkbook(test): null
+
+2022-04-06 12:54:39 - [TEST_STEP][PASSED] - sheet1 = getExcelSheet(woorkbook1, sheetName): null
+
+2022-04-06 12:54:39 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 0, 0, manu): null
+
+2022-04-06 12:54:39 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 0, 1, os): null
+
+2022-04-06 12:54:39 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 0, 2, osVersion): null
+
+2022-04-06 12:54:39 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 0, 3, newLoad): null
+
+2022-04-06 12:54:39 - [TEST_STEP][PASSED] - saveWorkbook(test, woorkbook1): null
+
+2022-04-06 12:54:39 - [TEST_STEP][PASSED] - device_Height = getDeviceHeight(): Current device physical height is 2167
+
+2022-04-06 12:54:39 - [MESSAGE][PASSED] - Current device physical height is 2167
+
+2022-04-06 12:54:39 - [TEST_STEP][PASSED] - device_Width = getDeviceWidth(): Current device physical width is 1080
+
+2022-04-06 12:54:39 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2022-04-06 12:54:39 - [TEST_STEP][PASSED] - startX = device_Width / 3: null
+
+2022-04-06 12:54:39 - [TEST_STEP][PASSED] - startY = device_Height * 0.97: null
+
+2022-04-06 12:54:39 - [TEST_STEP][PASSED] - tapAtPosition(startX, startY): Tapped at [360, 2,101]
+
+2022-04-06 12:54:39 - [MESSAGE][PASSED] - Tapped at [360, 2,101]
+
+2022-04-06 12:54:39 - [TEST_STEP][PASSED] - start1 = System.currentTimeMillis(): null
+
+2022-04-06 12:54:39 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): null
+
+2022-04-06 12:54:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-04-06 12:54:41 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainEnterPINMessage' is visible
+
+2022-04-06 12:54:41 - [TEST_STEP][PASSED] - end1 = System.currentTimeMillis(): null
+
+2022-04-06 12:54:41 - [TEST_STEP][PASSED] - loadintime1 = end1 - start1: null
+
+2022-04-06 12:54:41 - [TEST_STEP][PASSED] - newLoad1 = MILLISECONDS.toSeconds(loadintime1): null
+
+2022-04-06 12:54:41 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 0, 4, newLoad1): null
+
+2022-04-06 12:54:41 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:54:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-04-06 12:54:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:54:41 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:54:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-04-06 12:54:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:54:43 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:54:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-04-06 12:54:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:54:45 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:54:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-04-06 12:54:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:54:47 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:54:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-04-06 12:54:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:54:49 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN2"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-04-06 12:54:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-04-06 12:54:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-04-06 12:54:51 - [TEST_STEP][PASSED] - start2 = System.currentTimeMillis(): null
+
+2022-04-06 12:54:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Banking/m2uAccountTypeSelection", ["text":findTestData("PerfTestData").getValue(1, 1)]), 20): Element 'Object Repository/Banking/m2uAccountTypeSelection' is visible
+
+2022-04-06 12:55:01 - [MESSAGE][PASSED] - Element 'Object Repository/Banking/m2uAccountTypeSelection' is visible
+
+2022-04-06 12:55:01 - [TEST_STEP][PASSED] - end2 = System.currentTimeMillis(): null
+
+2022-04-06 12:55:01 - [TEST_STEP][PASSED] - loadintime2 = end2 - start2: null
+
+2022-04-06 12:55:01 - [TEST_STEP][PASSED] - newLoad2 = MILLISECONDS.toSeconds(loadintime2): null
+
+2022-04-06 12:55:01 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 0, 5, newLoad2): null
+
+2022-04-06 12:55:01 - [TEST_STEP][PASSED] - saveWorkbook(test, woorkbook1): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-06 12:54:16 - [TEST_SUITE][PASSED] - Issue: Test Cases/Performance test/Launch]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

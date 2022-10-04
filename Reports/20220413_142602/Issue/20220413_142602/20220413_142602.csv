@@ -1,0 +1,69 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Issue,,,,2022-04-13 14:26:13,2022-04-13 14:30:08,3m - 55.563s,FAILED
+,,,,,,,
+Test Cases/PayBill/payBills_todayTransaction,,,,2022-04-13 14:26:13,2022-04-13 14:30:08,3m - 55.337s,FAILED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.sit"")",,,,2022-04-13 14:26:13,2022-04-13 14:26:13,0.001s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.MainActivity"")",,,,2022-04-13 14:26:13,2022-04-13 14:26:13,0.001s,PASSED
+"startApplication(appPath, false)",,,,2022-04-13 14:26:13,2022-04-13 14:26:27,13.621s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Dashboard/dashboardWalletTopSelect""), 0)",,,,2022-04-13 14:26:27,2022-04-13 14:26:32,4.831s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Dashboard/dashboardQuickActionsTitleTxt""), 0)",,,,2022-04-13 14:26:32,2022-04-13 14:26:32,0.628s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Dashboard/dashboardSSLTitleTxt""), 0)",,,,2022-04-13 14:26:32,2022-04-13 14:26:33,0.483s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Dashboard/mainBottomMenuMaybank2uBtn""), 0)",,,,2022-04-13 14:26:33,2022-04-13 14:26:53,20.163s,PASSED
+"takeScreenshot(""/Users/a00139272/git/MAEAutomation2/Performance/Wifi 3Bar/1.png"")",,,,2022-04-13 14:26:53,2022-04-13 14:26:54,1.443s,PASSED
+device_Height = getDeviceHeight(),,,,2022-04-13 14:26:54,2022-04-13 14:26:55,0.094s,PASSED
+device_Width = getDeviceWidth(),,,,2022-04-13 14:26:55,2022-04-13 14:26:55,0.104s,PASSED
+startX = device_Width / 3,,,,2022-04-13 14:26:55,2022-04-13 14:26:55,0.001s,PASSED
+startY = device_Height * 0.97,,,,2022-04-13 14:26:55,2022-04-13 14:26:55,0.001s,PASSED
+"tapAtPosition(startX, startY)",,,,2022-04-13 14:26:55,2022-04-13 14:26:55,0.240s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-04-13 14:26:55,2022-04-13 14:27:09,14.576s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTypeSelection"", [""text"":accType]), 10)",,,,2022-04-13 14:27:09,2022-04-13 14:27:22,12.193s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-04-13 14:27:22,2022-04-13 14:27:26,4.523s,PASSED
+"if (verifyElementVisible(findTestObject(""Login Onboarding/loginEnterPasswordMessage""), 0, OPTIONAL))",,,,2022-04-13 14:27:26,2022-04-13 14:27:33,7.153s,PASSED
+"verifyElementExist(findTestObject(""Paybill/payBillsIconSelect""), 20)",,,,2022-04-13 14:27:33,2022-04-13 14:27:53,19.555s,PASSED
+"takeScreenshot(""/Users/a00139272/git/MAEAutomation2/Performance/Wifi 3Bar/5.png"")",,,,2022-04-13 14:27:53,2022-04-13 14:27:54,0.762s,PASSED
+"tap(findTestObject(""Paybill/payBillsIconSelect""), 0)",,,,2022-04-13 14:27:54,2022-04-13 14:27:54,0.350s,PASSED
+"tap(findTestObject(""Paybill/payBillSearchBillerInputField""), 0)",,,,2022-04-13 14:27:54,2022-04-13 14:27:59,4.878s,PASSED
+"setText(findTestObject(""Paybill/payBillBillerNameInputField""), payeeName, 0)",,,,2022-04-13 14:27:59,2022-04-13 14:28:00,0.950s,PASSED
+delay(3),,,,2022-04-13 14:28:00,2022-04-13 14:28:03,3.006s,PASSED
+"tap(findTestObject(""Paybill/payBillBillerSelect"", [""payeeName"":payeeName]), 10)",,,,2022-04-13 14:28:03,2022-04-13 14:28:03,0.456s,PASSED
+"tap(findTestObject(""Paybill/payBillBillerSelect"", [""payeeName"":payeeName]), 10)",,,,2022-04-13 14:28:03,2022-04-13 14:28:04,0.949s,PASSED
+delay(3),,,,2022-04-13 14:28:04,2022-04-13 14:28:07,3.006s,PASSED
+"verifyElementText(findTestObject(""Paybill/payBillsAccountPayeeNameTxt"", [""payee"":payeeName]), payeeName)",,,,2022-04-13 14:28:07,2022-04-13 14:28:07,0.273s,PASSED
+"verifyElementExist(findTestObject(""Paybill/payBillsAccountNumberTitleTxt""), 0)",,,,2022-04-13 14:28:07,2022-04-13 14:28:08,0.223s,PASSED
+"setText(findTestObject(""Paybill/PayBillAccountNumberInputField""), AccountNo, 0)",,,,2022-04-13 14:28:08,2022-04-13 14:28:09,0.873s,PASSED
+hideKeyboard(),,,,2022-04-13 14:28:09,2022-04-13 14:28:11,1.967s,PASSED
+"verifyElementText(findTestObject(""Paybill/payBillsAccountNumberInputtedTxt"", [""AccountNo"":AccountNo]), AccountNo)",,,,2022-04-13 14:28:11,2022-04-13 14:28:11,0.257s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-04-13 14:28:11,2022-04-13 14:28:11,0.371s,PASSED
+delay(3),,,,2022-04-13 14:28:11,2022-04-13 14:28:14,3.006s,PASSED
+"verifyElementText(findTestObject(""Paybill/payBillsAmountPayeeNameTxt"", [""payee"":payeeName]), payeeName)",,,,2022-04-13 14:28:14,2022-04-13 14:28:15,0.365s,PASSED
+"verifyElementText(findTestObject(""Paybill/payBillsAmountPayeeAccountNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-04-13 14:28:15,2022-04-13 14:28:15,0.738s,PASSED
+"verifyElementExist(findTestObject(""Paybill/payBillsAmountInitialTxt""), 0)",,,,2022-04-13 14:28:15,2022-04-13 14:28:16,0.237s,PASSED
+"verifyElementExist(findTestObject(""Paybill/payBillsAmountCurrencyTxt""), 0)",,,,2022-04-13 14:28:16,2022-04-13 14:28:16,0.177s,PASSED
+"verifyElementExist(findTestObject(""Paybill/payBillsAmountEnterTitleTxt""), 0)",,,,2022-04-13 14:28:16,2022-04-13 14:28:16,0.277s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-04-13 14:28:16,2022-04-13 14:28:16,0.407s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-04-13 14:28:16,2022-04-13 14:28:17,0.435s,PASSED
+delay(3),,,,2022-04-13 14:28:17,2022-04-13 14:28:20,3.007s,PASSED
+"verifyElementText(findTestObject(""Paybill/payBillsAmountInputtedTxt"", [""value"":value]), value)",,,,2022-04-13 14:28:20,2022-04-13 14:28:21,0.761s,PASSED
+"tap(findTestObject(""Main/mainAmountTickBtn""), 0)",,,,2022-04-13 14:28:21,2022-04-13 14:28:21,0.668s,PASSED
+delay(5),,,,2022-04-13 14:28:21,2022-04-13 14:28:26,5.004s,PASSED
+"verifyElementText(findTestObject(""Paybill/payBillsConfirmPayeeNameTxt"", [""payeeName"":payeeName]), payeeName)",,,,2022-04-13 14:28:26,2022-04-13 14:28:27,0.254s,PASSED
+"verifyElementText(findTestObject(""Paybill/payBillsConfirmPayeeAccountNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-04-13 14:28:27,2022-04-13 14:28:27,0.904s,PASSED
+"verifyElementText(findTestObject(""Paybill/payBillsConfirmAmountTxt"", [""amount"":amount]), amount)",,,,2022-04-13 14:28:27,2022-04-13 14:28:28,0.331s,PASSED
+"verifyElementExist(findTestObject(""Paybill/payBillsConfirmDateTitleTxt""), 0)",,,,2022-04-13 14:28:28,2022-04-13 14:28:28,0.262s,PASSED
+"verifyElementText(findTestObject(""Paybill/payBillsConfirmDateTxt"", [""trxDate"":trxDate]), trxDate)",,,,2022-04-13 14:28:28,2022-04-13 14:28:28,0.312s,PASSED
+"verifyElementExist(findTestObject(""Paybill/payBillsConfirmPayFromTxt""), 0)",,,,2022-04-13 14:28:28,2022-04-13 14:28:29,0.276s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccTypeTxt"", [""accType"":accType]), accType)",,,,2022-04-13 14:28:29,2022-04-13 14:28:29,0.282s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccNoTxt"", [""accNoFrom"":accNoFrom]), accNoFrom)",,,,2022-04-13 14:28:29,2022-04-13 14:28:29,0.314s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationFromAccBalanceTxt""), 0)",,,,2022-04-13 14:28:29,2022-04-13 14:28:29,0.249s,PASSED
+"accountBalance = getText(findTestObject(""Transfer/transferConfirmationFromAccBalanceTxt""), 0)",,,,2022-04-13 14:28:29,2022-04-13 14:28:30,0.275s,PASSED
+"takeScreenshot(""/Users/a00139272/git/MAEAutomation2/Performance/Wifi 3Bar/2.png"")",,,,2022-04-13 14:28:30,2022-04-13 14:28:31,0.768s,PASSED
+println(accountBalance),,,,2022-04-13 14:28:31,2022-04-13 14:28:31,0.002s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainPayNowBtn""), 5)",,,,2022-04-13 14:28:31,2022-04-13 14:28:31,0.379s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-04-13 14:28:31,2022-04-13 14:28:31,0.452s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-04-13 14:28:31,2022-04-13 14:28:51,20.084s,PASSED
+else,,,,2022-04-13 14:28:51,2022-04-13 14:29:28,36.328s,FAILED
+delay(10),,,,2022-04-13 14:29:28,2022-04-13 14:29:38,10.005s,PASSED
+"verifyElementExist(findTestObject(""Festive Season/returnAngpaoStatusMessageTxt""), 0)",,,,2022-04-13 14:29:38,2022-04-13 14:29:58,20.144s,FAILED
+"message = getText(findTestObject(""Festive Season/returnAngpaoStatusMessageTxt""), 10)",,,,2022-04-13 14:29:58,2022-04-13 14:30:08,10.253s,FAILED
+println(message),,,,2022-04-13 14:30:08,2022-04-13 14:30:08,0.007s,PASSED
+assert message == successTransactionMessage,,,,2022-04-13 14:30:08,2022-04-13 14:30:08,0.010s,FAILED

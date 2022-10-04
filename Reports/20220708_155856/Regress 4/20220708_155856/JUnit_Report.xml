@@ -1,0 +1,1547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regress 4" time="2413.08" tests="9" failures="0" errors="0">
+   <testsuite name="Regress 4" tests="9" failures="0" errors="0" time="2413.08" skipped="0" timestamp="2022-07-08 15:59:06" hostname="a00139272 - localhost" id="Test Suites/Regress 4">
+      <properties>
+         <property name="deviceName" value="Xiaomi 21061119AG (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/a00139272/git/MAE-BAU-MY/Reports/20220708_155856/Regress 4/20220708_155856"/>
+         <property name="logFiles" value="/Users/a00139272/git/MAE-BAU-MY/Reports/20220708_155856/Regress 4/20220708_155856/execution0.log, /Users/a00139272/git/MAE-BAU-MY/Reports/20220708_155856/Regress 4/20220708_155856/appium.log"/>
+         <property name="attachments" value="/Users/a00139272/Desktop/Screenshot/sendMoney.png, /Users/a00139272/Desktop/Screenshot/requestMoney.png, /Users/a00139272/Desktop/Screenshot/cancelRequest.png, /Users/a00139272/Desktop/Screenshot/requestMoney.png, /Users/a00139272/Desktop/Screenshot/markAsPaidRequestMoney.png, /Users/a00139272/Desktop/Screenshot/createSplitBill.png, /Users/a00139272/Desktop/Screenshot/createThreeSplitBill.png, /Users/a00139272/Desktop/Screenshot/markPaidSplitBill.png, /Users/a00139272/Desktop/Screenshot/removePastSplit.png"/>
+         <property name="hostName" value="a00139272 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.1&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.1"/>
+         <property name="deviceModel" value="21061119AG"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="002b9cc60508"/>
+         <property name="deviceName" value="Xiaomi 21061119AG (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Send Request Money/sendMoney" time="800.388" classname="Test Cases/Send Request Money/sendMoney" status="PASSED">
+         <system-out><![CDATA[2022-07-08 15:59:06 - [TEST_CASE][PASSED] - Test Cases/Send Request Money/sendMoney: Test Cases/Send Request Money/sendMoney
+
+2022-07-08 15:59:06 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appPackage", "com.maybank2u.life.sit"): null
+
+2022-07-08 15:59:06 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appActivity", "com.maybank2u.life.MainActivity"): null
+
+2022-07-08 15:59:06 - [TEST_STEP][PASSED] - if (isApplicationOpened == false): Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release (1).apk'
+
+2022-07-08 15:59:06 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release (1).apk'
+
+2022-07-08 15:59:07 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-07-08 15:59:07 - [MESSAGE][INFO] - User set preference: ['deviceId', '002b9cc60508']
+
+2022-07-08 15:59:07 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.maybank2u.life.sit']
+
+2022-07-08 15:59:07 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.maybank2u.life.MainActivity']
+
+2022-07-08 15:59:07 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/Cellar/node/17.0.1/bin/node"
+
+2022-07-08 15:59:08 - [MESSAGE][INFO] - Appium server started on port 58,939
+
+2022-07-08 15:59:21 - [MESSAGE][PASSED] - Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release (1).apk'
+
+2022-07-08 15:59:21 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Dashboard/dashboardWalletTopSelect"), 0): Element 'Object Repository/Dashboard/dashboardWalletTopSelect' is exist
+
+2022-07-08 15:59:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 15:59:47 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/dashboardWalletTopSelect' is exist
+
+2022-07-08 15:59:47 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Dashboard/dashboardQuickActionsTitleTxt"), 0): Element 'Object Repository/Dashboard/dashboardQuickActionsTitleTxt' is exist
+
+2022-07-08 15:59:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 15:59:48 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/dashboardQuickActionsTitleTxt' is exist
+
+2022-07-08 15:59:48 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Dashboard/dashboardSSLTitleTxt"), 0): Element 'Object Repository/Dashboard/dashboardSSLTitleTxt' is exist
+
+2022-07-08 15:59:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 15:59:48 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/dashboardSSLTitleTxt' is exist
+
+2022-07-08 15:59:48 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Dashboard/mainBottomMenuMaybank2uBtn"), 0): Element 'Object Repository/Dashboard/mainBottomMenuMaybank2uBtn' is exist
+
+2022-07-08 15:59:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:00:28 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/mainBottomMenuMaybank2uBtn' is exist
+
+2022-07-08 16:00:28 - [TEST_STEP][PASSED] - device_Height = getDeviceHeight(): Current device physical height is 2167
+
+2022-07-08 16:00:28 - [MESSAGE][PASSED] - Current device physical height is 2167
+
+2022-07-08 16:00:28 - [TEST_STEP][PASSED] - device_Width = getDeviceWidth(): Current device physical width is 1080
+
+2022-07-08 16:00:28 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2022-07-08 16:00:28 - [TEST_STEP][PASSED] - startX = device_Width / 3: null
+
+2022-07-08 16:00:28 - [TEST_STEP][PASSED] - startY = device_Height * 0.97: null
+
+2022-07-08 16:00:28 - [TEST_STEP][PASSED] - tapAtPosition(startX, startY): Tapped at [360, 2,101]
+
+2022-07-08 16:00:29 - [MESSAGE][PASSED] - Tapped at [360, 2,101]
+
+2022-07-08 16:00:29 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): null
+
+2022-07-08 16:00:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:00:30 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainEnterPINMessage' is visible
+
+2022-07-08 16:00:30 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-07-08 16:00:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:00:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-07-08 16:00:30 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-07-08 16:00:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:00:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-07-08 16:00:32 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-07-08 16:00:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:00:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-07-08 16:00:34 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-07-08 16:00:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:00:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-07-08 16:00:35 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-07-08 16:00:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:00:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-07-08 16:00:37 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN2"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-07-08 16:00:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:00:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-07-08 16:00:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-08 16:00:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-08 16:00:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Banking/m2uAccountTypeSelection", ["text":"Personal Current Account"]), 0): Element 'Object Repository/Banking/m2uAccountTypeSelection' is visible
+
+2022-07-08 16:00:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:00:49 - [MESSAGE][PASSED] - Element 'Object Repository/Banking/m2uAccountTypeSelection' is visible
+
+2022-07-08 16:00:49 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountTypeSelection", ["text":"Personal Current Account"]), 0): Tapped on element 'Object Repository/Banking/m2uAccountTypeSelection'
+
+2022-07-08 16:00:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:00:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountTypeSelection'
+
+2022-07-08 16:00:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:00:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:00:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Banking/m2uAccountSendReqIconSelect"), 0): Element 'Object Repository/Banking/m2uAccountSendReqIconSelect' is visible
+
+2022-07-08 16:00:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:00:53 - [MESSAGE][PASSED] - Element 'Object Repository/Banking/m2uAccountSendReqIconSelect' is visible
+
+2022-07-08 16:00:53 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountSendReqIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountSendReqIconSelect'
+
+2022-07-08 16:00:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:00:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountSendReqIconSelect'
+
+2022-07-08 16:00:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:00:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:00:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Send Request Money/sendMoneyIconSelect"), 0): Element 'Object Repository/Send Request Money/sendMoneyIconSelect' is visible
+
+2022-07-08 16:00:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:01:47 - [MESSAGE][PASSED] - Element 'Object Repository/Send Request Money/sendMoneyIconSelect' is visible
+
+2022-07-08 16:01:47 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/sendMoneyIconSelect"), 0): Tapped on element 'Object Repository/Send Request Money/sendMoneyIconSelect'
+
+2022-07-08 16:01:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:02:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/sendMoneyIconSelect'
+
+2022-07-08 16:02:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:02:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:02:51 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Tabung/tabungEnterPasswordTxt"), 0, OPTIONAL)): null
+
+2022-07-08 16:02:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:03:42 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungEnterPasswordTxt' is visible
+
+2022-07-08 16:03:42 - [TEST_STEP][PASSED] - setText(findTestObject("Tabung/tabungSignInInputPasswordField"), Password, 0): Text 'pass1234' has been set to element 'Object Repository/Tabung/tabungSignInInputPasswordField'
+
+2022-07-08 16:03:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:05:33 - [MESSAGE][PASSED] - Text 'pass1234' has been set to element 'Object Repository/Tabung/tabungSignInInputPasswordField'
+
+2022-07-08 16:05:33 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-07-08 16:05:37 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-08 16:05:37 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungSignInContinueBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungSignInContinueBtn'
+
+2022-07-08 16:05:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:06:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungSignInContinueBtn'
+
+2022-07-08 16:06:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:06:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:06:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Send Request Money/sendMoneyContactIconSelect"), 0): Element 'Object Repository/Send Request Money/sendMoneyContactIconSelect' is present
+
+2022-07-08 16:06:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:07:13 - [MESSAGE][PASSED] - Element 'Object Repository/Send Request Money/sendMoneyContactIconSelect' is present
+
+2022-07-08 16:07:13 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/sendMoneyContactIconSelect"), 0): Tapped on element 'Object Repository/Send Request Money/sendMoneyContactIconSelect'
+
+2022-07-08 16:07:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:08:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/sendMoneyContactIconSelect'
+
+2022-07-08 16:08:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:08:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:08:19 - [TEST_STEP][PASSED] - setText(findTestObject("Send Request Money/sendMoneyContactSearchInputField"), contactName, 0): Text 'Fazatul PNS' has been set to element 'Object Repository/Send Request Money/sendMoneyContactSearchInputField'
+
+2022-07-08 16:08:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:09:49 - [MESSAGE][PASSED] - Text 'Fazatul PNS' has been set to element 'Object Repository/Send Request Money/sendMoneyContactSearchInputField'
+
+2022-07-08 16:09:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:09:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:09:52 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-07-08 16:09:54 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-08 16:09:54 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyContactSelect", ["contactName":contactName]), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyContactSelect'
+
+2022-07-08 16:09:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:10:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyContactSelect'
+
+2022-07-08 16:10:55 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyContactSelect", ["contactName":contactName]), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyContactSelect'
+
+2022-07-08 16:10:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:11:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyContactSelect'
+
+2022-07-08 16:11:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:11:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:11:53 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN4"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-07-08 16:11:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:11:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-07-08 16:11:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:11:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:11:56 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainAmountTickBtn"), 0): Tapped on element 'Object Repository/Main/mainAmountTickBtn'
+
+2022-07-08 16:11:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:11:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainAmountTickBtn'
+
+2022-07-08 16:11:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:11:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:11:59 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/payMoneyConfirmationRequestSendNowBtn"), 0): Tapped on element 'Object Repository/Send Request Money/payMoneyConfirmationRequestSendNowBtn'
+
+2022-07-08 16:11:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:12:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/payMoneyConfirmationRequestSendNowBtn'
+
+2022-07-08 16:12:00 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Festive Season/festiveReturnAngpaoTACNoTxt"), 10, OPTIONAL)): Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-07-08 16:12:10 - [MESSAGE][WARNING] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-07-08 16:12:10 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-07-08 16:12:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:12:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:12:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainS2UApproveBtn"), 10): Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-07-08 16:12:15 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-07-08 16:12:15 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainS2UApproveBtn"), 0): Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-07-08 16:12:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:12:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-07-08 16:12:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:12:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:12:21 - [TEST_STEP][PASSED] - referenceID = getText(findTestObject("Send Request Money/requestMoneyPaySummaryRefIDTxt"), 0): Text of element 'Object Repository/Send Request Money/requestMoneyPaySummaryRefIDTxt' is: 'SM181663011M'
+
+2022-07-08 16:12:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:12:21 - [MESSAGE][PASSED] - Text of element 'Object Repository/Send Request Money/requestMoneyPaySummaryRefIDTxt' is: 'SM181663011M'
+
+2022-07-08 16:12:21 - [TEST_STEP][PASSED] - println(referenceID): null
+
+2022-07-08 16:12:21 - [TEST_STEP][PASSED] - test = dataFolder: null
+
+2022-07-08 16:12:21 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2022-07-08 16:12:21 - [TEST_STEP][PASSED] - file1 = new java.io.File(test): null
+
+2022-07-08 16:12:21 - [TEST_STEP][PASSED] - assert file1.exists() == true: null
+
+2022-07-08 16:12:21 - [TEST_STEP][PASSED] - woorkbook1 = getWorkbook(test): null
+
+2022-07-08 16:12:22 - [TEST_STEP][PASSED] - sheet1 = getExcelSheet(woorkbook1, sheetName): null
+
+2022-07-08 16:12:22 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 0, 1, referenceID): null
+
+2022-07-08 16:12:22 - [TEST_STEP][PASSED] - saveWorkbook(test, woorkbook1): null
+
+2022-07-08 16:12:22 - [TEST_STEP][PASSED] - message = getText(findTestObject("Main/mainTransactionStatusMessageTxt"), 10): Text of element 'Object Repository/Main/mainTransactionStatusMessageTxt' is: 'Transfer successful'
+
+2022-07-08 16:12:22 - [MESSAGE][PASSED] - Text of element 'Object Repository/Main/mainTransactionStatusMessageTxt' is: 'Transfer successful'
+
+2022-07-08 16:12:22 - [TEST_STEP][PASSED] - println(message): null
+
+2022-07-08 16:12:22 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Main/mainDoneBtn"), 10): Element 'Object Repository/Main/mainDoneBtn' is exist
+
+2022-07-08 16:12:22 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is exist
+
+2022-07-08 16:12:22 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Desktop/Screenshot/sendMoney.png"): Screenshot is taken
+
+2022-07-08 16:12:23 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Desktop/Screenshot/sendMoney.png]]
+
+2022-07-08 16:12:23 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-07-08 16:12:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:12:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-07-08 16:12:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:12:26 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Send Request Money/requestMoney" time="522.622" classname="Test Cases/Send Request Money/requestMoney" status="PASSED">
+         <system-out><![CDATA[2022-07-08 16:12:26 - [TEST_CASE][PASSED] - Test Cases/Send Request Money/requestMoney: Test Cases/Send Request Money/requestMoney
+
+2022-07-08 16:12:27 - [TEST_STEP][PASSED] - device_Height = getDeviceHeight(): Current device physical height is 2167
+
+2022-07-08 16:12:27 - [MESSAGE][PASSED] - Current device physical height is 2167
+
+2022-07-08 16:12:27 - [TEST_STEP][PASSED] - device_Width = getDeviceWidth(): Current device physical width is 1080
+
+2022-07-08 16:12:27 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2022-07-08 16:12:27 - [TEST_STEP][PASSED] - startX = device_Width / 3: null
+
+2022-07-08 16:12:27 - [TEST_STEP][PASSED] - startY = device_Height * 0.97: null
+
+2022-07-08 16:12:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Send Request Money/requestMoneyIconSelect"), 10): Element 'Object Repository/Send Request Money/requestMoneyIconSelect' is visible
+
+2022-07-08 16:13:17 - [MESSAGE][PASSED] - Element 'Object Repository/Send Request Money/requestMoneyIconSelect' is visible
+
+2022-07-08 16:13:17 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyIconSelect"), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyIconSelect'
+
+2022-07-08 16:13:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:14:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyIconSelect'
+
+2022-07-08 16:14:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:14:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:14:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Send Request Money/sendRequestContactSearchIconSelect"), 10): Element 'Object Repository/Send Request Money/sendRequestContactSearchIconSelect' is visible
+
+2022-07-08 16:15:14 - [MESSAGE][PASSED] - Element 'Object Repository/Send Request Money/sendRequestContactSearchIconSelect' is visible
+
+2022-07-08 16:15:14 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/sendRequestContactSearchIconSelect"), 0): Tapped on element 'Object Repository/Send Request Money/sendRequestContactSearchIconSelect'
+
+2022-07-08 16:15:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:16:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/sendRequestContactSearchIconSelect'
+
+2022-07-08 16:16:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:16:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:16:18 - [TEST_STEP][PASSED] - setText(findTestObject("Send Request Money/requestMoneyContactInputField"), contactName, 0): Text 'Fazatul PNS' has been set to element 'Object Repository/Send Request Money/requestMoneyContactInputField'
+
+2022-07-08 16:16:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:17:48 - [MESSAGE][PASSED] - Text 'Fazatul PNS' has been set to element 'Object Repository/Send Request Money/requestMoneyContactInputField'
+
+2022-07-08 16:17:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:17:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:17:51 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-07-08 16:17:54 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-08 16:17:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:17:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:17:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Send Request Money/requestMoneyContactSelect", ["contactName":contactName]), 0): Element 'Object Repository/Send Request Money/requestMoneyContactSelect' is visible
+
+2022-07-08 16:17:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:18:47 - [MESSAGE][PASSED] - Element 'Object Repository/Send Request Money/requestMoneyContactSelect' is visible
+
+2022-07-08 16:18:47 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyContactSelect", ["contactName":contactName]), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyContactSelect'
+
+2022-07-08 16:18:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:19:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyContactSelect'
+
+2022-07-08 16:19:48 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyContactSelect", ["contactName":contactName]), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyContactSelect'
+
+2022-07-08 16:19:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:20:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyContactSelect'
+
+2022-07-08 16:20:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:20:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:20:45 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN4"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-07-08 16:20:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:20:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-07-08 16:20:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:20:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:20:48 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainAmountTickBtn"), 0): Tapped on element 'Object Repository/Main/mainAmountTickBtn'
+
+2022-07-08 16:20:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:20:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainAmountTickBtn'
+
+2022-07-08 16:20:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:20:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:20:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Send Request Money/requestMoneyConfirmationContactNameTxt", ["contactName":contactName]), contactName): Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyConfirmationContactNameTxt' are matched.
+
+2022-07-08 16:20:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyConfirmationContactNameTxt' are matched.
+
+2022-07-08 16:20:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Send Request Money/requestMoneyConfirmationAmountBtn"), "RM 0.04"): Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyConfirmationAmountBtn' are matched.
+
+2022-07-08 16:20:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyConfirmationAmountBtn' are matched.
+
+2022-07-08 16:20:52 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyNotesSelect"), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyNotesSelect'
+
+2022-07-08 16:20:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:20:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyNotesSelect'
+
+2022-07-08 16:20:52 - [TEST_STEP][PASSED] - setText(findTestObject("Send Request Money/requestMoneyNotesSelect"), "Send Request Test", 0): Text 'Send Request Test' has been set to element 'Object Repository/Send Request Money/requestMoneyNotesSelect'
+
+2022-07-08 16:20:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:20:55 - [MESSAGE][PASSED] - Text 'Send Request Test' has been set to element 'Object Repository/Send Request Money/requestMoneyNotesSelect'
+
+2022-07-08 16:20:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:20:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:20:58 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-07-08 16:21:01 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-08 16:21:01 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyConfirmationSendRequestBtn"), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyConfirmationSendRequestBtn'
+
+2022-07-08 16:21:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:21:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyConfirmationSendRequestBtn'
+
+2022-07-08 16:21:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:21:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:21:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Send Request Money/requestMoneySummaryNameTxt", ["contactName":contactName]), contactName): Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneySummaryNameTxt' are matched.
+
+2022-07-08 16:21:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneySummaryNameTxt' are matched.
+
+2022-07-08 16:21:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Send Request Money/requestMoneySummaryDoneBtn"), 0): Element 'Object Repository/Send Request Money/requestMoneySummaryDoneBtn' is visible
+
+2022-07-08 16:21:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:21:07 - [MESSAGE][PASSED] - Element 'Object Repository/Send Request Money/requestMoneySummaryDoneBtn' is visible
+
+2022-07-08 16:21:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Send Request Money/requestMoneySummarySuccessMessageTxt"), "Request successful"): Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneySummarySuccessMessageTxt' are matched.
+
+2022-07-08 16:21:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneySummarySuccessMessageTxt' are matched.
+
+2022-07-08 16:21:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Send Request Money/requestMoneySummaryAmountTxt"), "RM 0.04"): Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneySummaryAmountTxt' are matched.
+
+2022-07-08 16:21:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneySummaryAmountTxt' are matched.
+
+2022-07-08 16:21:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Send Request Money/requestMoneySummaryDoneBtn"), 10): Element 'Object Repository/Send Request Money/requestMoneySummaryDoneBtn' is visible
+
+2022-07-08 16:21:08 - [MESSAGE][PASSED] - Element 'Object Repository/Send Request Money/requestMoneySummaryDoneBtn' is visible
+
+2022-07-08 16:21:08 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Desktop/Screenshot/requestMoney.png"): Screenshot is taken
+
+2022-07-08 16:21:09 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Desktop/Screenshot/requestMoney.png]]
+
+2022-07-08 16:21:09 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneySummaryDoneBtn"), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneySummaryDoneBtn'
+
+2022-07-08 16:21:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:21:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneySummaryDoneBtn']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Send Request Money/requestMoney_cancelRequest" time="108.462" classname="Test Cases/Send Request Money/requestMoney_cancelRequest" status="PASSED">
+         <system-out><![CDATA[2022-07-08 16:21:09 - [TEST_CASE][PASSED] - Test Cases/Send Request Money/requestMoney_cancelRequest: Test Cases/Send Request Money/requestMoney_cancelRequest
+
+2022-07-08 16:21:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:21:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:21:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:21:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:21:15 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyListStatusTxt"), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyListStatusTxt'
+
+2022-07-08 16:21:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:22:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyListStatusTxt'
+
+2022-07-08 16:22:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:22:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:22:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Send Request Money/requestMoneyDetailsNameTxt"), "Icrpp"): Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyDetailsNameTxt' are matched.
+
+2022-07-08 16:22:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyDetailsNameTxt' are matched.
+
+2022-07-08 16:22:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Send Request Money/requestMoneyDetailsAmountTxt"), "RM 0.04"): Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyDetailsAmountTxt' are matched.
+
+2022-07-08 16:22:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyDetailsAmountTxt' are matched.
+
+2022-07-08 16:22:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Send Request Money/requestMoneyDetailsNotesTxt"), "Send Request Test"): Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyDetailsNotesTxt' are matched.
+
+2022-07-08 16:22:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyDetailsNotesTxt' are matched.
+
+2022-07-08 16:22:11 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyDetailsThreeDotsBtn"), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyDetailsThreeDotsBtn'
+
+2022-07-08 16:22:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:22:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyDetailsThreeDotsBtn'
+
+2022-07-08 16:22:11 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyThreeDotsCancelRequestBtn"), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyThreeDotsCancelRequestBtn'
+
+2022-07-08 16:22:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:22:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyThreeDotsCancelRequestBtn'
+
+2022-07-08 16:22:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:22:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:22:15 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Send Request Money/requestMoneyListStatusTxt"), 0): Element 'Object Repository/Send Request Money/requestMoneyListStatusTxt' not found
+
+2022-07-08 16:22:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:22:56 - [MESSAGE][PASSED] - Element 'Object Repository/Send Request Money/requestMoneyListStatusTxt' not found
+
+2022-07-08 16:22:56 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Desktop/Screenshot/cancelRequest.png"): Screenshot is taken
+
+2022-07-08 16:22:57 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Desktop/Screenshot/cancelRequest.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Send Request Money/requestMoney" time="493.737" classname="Test Cases/Send Request Money/requestMoney" status="PASSED">
+         <system-out><![CDATA[2022-07-08 16:22:57 - [TEST_CASE][PASSED] - Test Cases/Send Request Money/requestMoney: Test Cases/Send Request Money/requestMoney
+
+2022-07-08 16:22:57 - [TEST_STEP][PASSED] - device_Height = getDeviceHeight(): Current device physical height is 2167
+
+2022-07-08 16:22:57 - [MESSAGE][PASSED] - Current device physical height is 2167
+
+2022-07-08 16:22:57 - [TEST_STEP][PASSED] - device_Width = getDeviceWidth(): Current device physical width is 1080
+
+2022-07-08 16:22:58 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2022-07-08 16:22:58 - [TEST_STEP][PASSED] - startX = device_Width / 3: null
+
+2022-07-08 16:22:58 - [TEST_STEP][PASSED] - startY = device_Height * 0.97: null
+
+2022-07-08 16:22:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Send Request Money/requestMoneyIconSelect"), 10): Element 'Object Repository/Send Request Money/requestMoneyIconSelect' is visible
+
+2022-07-08 16:23:48 - [MESSAGE][PASSED] - Element 'Object Repository/Send Request Money/requestMoneyIconSelect' is visible
+
+2022-07-08 16:23:48 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyIconSelect"), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyIconSelect'
+
+2022-07-08 16:23:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:24:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyIconSelect'
+
+2022-07-08 16:24:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:24:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:24:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Send Request Money/sendRequestContactSearchIconSelect"), 10): Element 'Object Repository/Send Request Money/sendRequestContactSearchIconSelect' is visible
+
+2022-07-08 16:25:45 - [MESSAGE][PASSED] - Element 'Object Repository/Send Request Money/sendRequestContactSearchIconSelect' is visible
+
+2022-07-08 16:25:45 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/sendRequestContactSearchIconSelect"), 0): Tapped on element 'Object Repository/Send Request Money/sendRequestContactSearchIconSelect'
+
+2022-07-08 16:25:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:26:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/sendRequestContactSearchIconSelect'
+
+2022-07-08 16:26:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:26:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:26:48 - [TEST_STEP][PASSED] - setText(findTestObject("Send Request Money/requestMoneyContactInputField"), contactName, 0): Text 'Fazatul PNS' has been set to element 'Object Repository/Send Request Money/requestMoneyContactInputField'
+
+2022-07-08 16:26:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:27:49 - [MESSAGE][PASSED] - Text 'Fazatul PNS' has been set to element 'Object Repository/Send Request Money/requestMoneyContactInputField'
+
+2022-07-08 16:27:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:27:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:27:52 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-07-08 16:27:54 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-08 16:27:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:27:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:27:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Send Request Money/requestMoneyContactSelect", ["contactName":contactName]), 0): Element 'Object Repository/Send Request Money/requestMoneyContactSelect' is visible
+
+2022-07-08 16:27:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:28:48 - [MESSAGE][PASSED] - Element 'Object Repository/Send Request Money/requestMoneyContactSelect' is visible
+
+2022-07-08 16:28:48 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyContactSelect", ["contactName":contactName]), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyContactSelect'
+
+2022-07-08 16:28:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:29:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyContactSelect'
+
+2022-07-08 16:29:49 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyContactSelect", ["contactName":contactName]), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyContactSelect'
+
+2022-07-08 16:29:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:30:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyContactSelect'
+
+2022-07-08 16:30:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:30:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:30:46 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN4"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-07-08 16:30:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:30:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-07-08 16:30:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:30:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:30:49 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainAmountTickBtn"), 0): Tapped on element 'Object Repository/Main/mainAmountTickBtn'
+
+2022-07-08 16:30:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:30:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainAmountTickBtn'
+
+2022-07-08 16:30:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:30:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:30:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Send Request Money/requestMoneyConfirmationContactNameTxt", ["contactName":contactName]), contactName): Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyConfirmationContactNameTxt' are matched.
+
+2022-07-08 16:30:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyConfirmationContactNameTxt' are matched.
+
+2022-07-08 16:30:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Send Request Money/requestMoneyConfirmationAmountBtn"), "RM 0.04"): Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyConfirmationAmountBtn' are matched.
+
+2022-07-08 16:30:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyConfirmationAmountBtn' are matched.
+
+2022-07-08 16:30:53 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyNotesSelect"), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyNotesSelect'
+
+2022-07-08 16:30:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:30:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyNotesSelect'
+
+2022-07-08 16:30:53 - [TEST_STEP][PASSED] - setText(findTestObject("Send Request Money/requestMoneyNotesSelect"), "Send Request Test", 0): Text 'Send Request Test' has been set to element 'Object Repository/Send Request Money/requestMoneyNotesSelect'
+
+2022-07-08 16:30:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:30:56 - [MESSAGE][PASSED] - Text 'Send Request Test' has been set to element 'Object Repository/Send Request Money/requestMoneyNotesSelect'
+
+2022-07-08 16:30:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:30:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:30:59 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-07-08 16:31:03 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-08 16:31:03 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyConfirmationSendRequestBtn"), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyConfirmationSendRequestBtn'
+
+2022-07-08 16:31:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:31:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyConfirmationSendRequestBtn'
+
+2022-07-08 16:31:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:31:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:31:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Send Request Money/requestMoneySummaryNameTxt", ["contactName":contactName]), contactName): Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneySummaryNameTxt' are matched.
+
+2022-07-08 16:31:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneySummaryNameTxt' are matched.
+
+2022-07-08 16:31:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Send Request Money/requestMoneySummaryDoneBtn"), 0): Element 'Object Repository/Send Request Money/requestMoneySummaryDoneBtn' is visible
+
+2022-07-08 16:31:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:31:08 - [MESSAGE][PASSED] - Element 'Object Repository/Send Request Money/requestMoneySummaryDoneBtn' is visible
+
+2022-07-08 16:31:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Send Request Money/requestMoneySummarySuccessMessageTxt"), "Request successful"): Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneySummarySuccessMessageTxt' are matched.
+
+2022-07-08 16:31:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneySummarySuccessMessageTxt' are matched.
+
+2022-07-08 16:31:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Send Request Money/requestMoneySummaryAmountTxt"), "RM 0.04"): Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneySummaryAmountTxt' are matched.
+
+2022-07-08 16:31:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneySummaryAmountTxt' are matched.
+
+2022-07-08 16:31:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Send Request Money/requestMoneySummaryDoneBtn"), 10): Element 'Object Repository/Send Request Money/requestMoneySummaryDoneBtn' is visible
+
+2022-07-08 16:31:09 - [MESSAGE][PASSED] - Element 'Object Repository/Send Request Money/requestMoneySummaryDoneBtn' is visible
+
+2022-07-08 16:31:09 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Desktop/Screenshot/requestMoney.png"): Screenshot is taken
+
+2022-07-08 16:31:11 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Desktop/Screenshot/requestMoney.png]]
+
+2022-07-08 16:31:11 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneySummaryDoneBtn"), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneySummaryDoneBtn'
+
+2022-07-08 16:31:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:31:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneySummaryDoneBtn']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Send Request Money/requestMoney_markAsPaid" time="179.4" classname="Test Cases/Send Request Money/requestMoney_markAsPaid" status="PASSED">
+         <system-out><![CDATA[2022-07-08 16:31:11 - [TEST_CASE][PASSED] - Test Cases/Send Request Money/requestMoney_markAsPaid: Test Cases/Send Request Money/requestMoney_markAsPaid
+
+2022-07-08 16:31:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:31:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:31:16 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyListStatusTxt"), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyListStatusTxt'
+
+2022-07-08 16:31:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:32:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyListStatusTxt'
+
+2022-07-08 16:32:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:32:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:32:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Send Request Money/requestMoneyDetailsNameTxt"), "Icrpp"): Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyDetailsNameTxt' are matched.
+
+2022-07-08 16:32:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyDetailsNameTxt' are matched.
+
+2022-07-08 16:32:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Send Request Money/requestMoneyDetailsAmountTxt"), "RM 0.04"): Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyDetailsAmountTxt' are matched.
+
+2022-07-08 16:32:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyDetailsAmountTxt' are matched.
+
+2022-07-08 16:32:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Send Request Money/requestMoneyDetailsNotesTxt"), "Send Request Test"): Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyDetailsNotesTxt' are matched.
+
+2022-07-08 16:32:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Send Request Money/requestMoneyDetailsNotesTxt' are matched.
+
+2022-07-08 16:32:12 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyDetailsThreeDotsBtn"), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyDetailsThreeDotsBtn'
+
+2022-07-08 16:32:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:32:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyDetailsThreeDotsBtn'
+
+2022-07-08 16:32:12 - [TEST_STEP][PASSED] - tap(findTestObject("Send Request Money/requestMoneyThreeDotsMarksPaidBtn"), 0): Tapped on element 'Object Repository/Send Request Money/requestMoneyThreeDotsMarksPaidBtn'
+
+2022-07-08 16:32:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:32:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Send Request Money/requestMoneyThreeDotsMarksPaidBtn'
+
+2022-07-08 16:32:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:32:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:32:17 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Desktop/Screenshot/markAsPaidRequestMoney.png"): Screenshot is taken
+
+2022-07-08 16:32:17 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Desktop/Screenshot/markAsPaidRequestMoney.png]]
+
+2022-07-08 16:32:17 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Send Request Money/requestMoneyListStatusTxt"), 0): Element 'Object Repository/Send Request Money/requestMoneyListStatusTxt' not found
+
+2022-07-08 16:32:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:32:58 - [MESSAGE][PASSED] - Element 'Object Repository/Send Request Money/requestMoneyListStatusTxt' not found
+
+2022-07-08 16:32:58 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-07-08 16:33:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-07-08 16:33:08 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainTopLeftBackButton"), 0): Tapped on element 'Object Repository/Main/mainTopLeftBackButton'
+
+2022-07-08 16:33:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:34:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainTopLeftBackButton'
+
+2022-07-08 16:34:00 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainTopLeftBackButton"), 0): Tapped on element 'Object Repository/Main/mainTopLeftBackButton'
+
+2022-07-08 16:34:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:34:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainTopLeftBackButton'
+
+2022-07-08 16:34:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:34:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:34:05 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainTopLeftBackButton"), 0): Tapped on element 'Object Repository/Main/mainTopLeftBackButton'
+
+2022-07-08 16:34:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:34:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainTopLeftBackButton'
+
+2022-07-08 16:34:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:34:10 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Split Bill/splitBill_createSplitBillComplete" time="102.036" classname="Test Cases/Split Bill/splitBill_createSplitBillComplete" status="PASSED">
+         <system-out><![CDATA[2022-07-08 16:34:10 - [TEST_CASE][PASSED] - Test Cases/Split Bill/splitBill_createSplitBillComplete: Test Cases/Split Bill/splitBill_createSplitBillComplete
+
+2022-07-08 16:34:11 - [TEST_STEP][PASSED] - try: Delayed 5 second(s)
+
+2022-07-08 16:34:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:34:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:34:16 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountSplitBillIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountSplitBillIconSelect'
+
+2022-07-08 16:34:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:34:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountSplitBillIconSelect'
+
+2022-07-08 16:34:16 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillListSplitaBillBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillListSplitaBillBtn'
+
+2022-07-08 16:34:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:34:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillListSplitaBillBtn'
+
+2022-07-08 16:34:19 - [TEST_STEP][PASSED] - setText(findTestObject("SplitBill/splitBillCreateBillNameInputField"), billName, 0): Text 'Lunch' has been set to element 'Object Repository/SplitBill/splitBillCreateBillNameInputField'
+
+2022-07-08 16:34:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:34:22 - [MESSAGE][PASSED] - Text 'Lunch' has been set to element 'Object Repository/SplitBill/splitBillCreateBillNameInputField'
+
+2022-07-08 16:34:22 - [TEST_STEP][PASSED] - setText(findTestObject("SplitBill/splitBillCreateNotesInputField"), "bill", 0): Text 'bill' has been set to element 'Object Repository/SplitBill/splitBillCreateNotesInputField'
+
+2022-07-08 16:34:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:34:24 - [MESSAGE][PASSED] - Text 'bill' has been set to element 'Object Repository/SplitBill/splitBillCreateNotesInputField'
+
+2022-07-08 16:34:24 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-07-08 16:34:27 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-08 16:34:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-08 16:34:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-08 16:34:29 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateEvenlyRadioBtn"), 10): Tapped on element 'Object Repository/SplitBill/splitBillCreateEvenlyRadioBtn'
+
+2022-07-08 16:34:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateEvenlyRadioBtn'
+
+2022-07-08 16:34:30 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateEvenlyRadioBtn"), 10): Tapped on element 'Object Repository/SplitBill/splitBillCreateEvenlyRadioBtn'
+
+2022-07-08 16:34:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateEvenlyRadioBtn'
+
+2022-07-08 16:34:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-08 16:34:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-08 16:34:33 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateContinueBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCreateContinueBtn'
+
+2022-07-08 16:34:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:34:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateContinueBtn'
+
+2022-07-08 16:34:33 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-07-08 16:34:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:34:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-07-08 16:34:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:34:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:34:37 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-07-08 16:34:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:34:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-07-08 16:34:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:34:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:34:41 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-07-08 16:34:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:34:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-07-08 16:34:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:34:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:34:44 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillAmountTickBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillAmountTickBtn'
+
+2022-07-08 16:34:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:34:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillAmountTickBtn'
+
+2022-07-08 16:34:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:34:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:34:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:34:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:34:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SplitBill/splitBillCreateSearchIconBtn"), 10): Element 'Object Repository/SplitBill/splitBillCreateSearchIconBtn' is present
+
+2022-07-08 16:34:53 - [MESSAGE][PASSED] - Element 'Object Repository/SplitBill/splitBillCreateSearchIconBtn' is present
+
+2022-07-08 16:34:53 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateSearchIconBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCreateSearchIconBtn'
+
+2022-07-08 16:34:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:34:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateSearchIconBtn'
+
+2022-07-08 16:34:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:34:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:34:58 - [TEST_STEP][PASSED] - setText(findTestObject("SplitBill/splitBillCreateContactSearchtInputField"), contactName, 0): Text 'Fazatul PNS' has been set to element 'Object Repository/SplitBill/splitBillCreateContactSearchtInputField'
+
+2022-07-08 16:34:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:35:01 - [MESSAGE][PASSED] - Text 'Fazatul PNS' has been set to element 'Object Repository/SplitBill/splitBillCreateContactSearchtInputField'
+
+2022-07-08 16:35:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:35:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:35:04 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-07-08 16:35:07 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-08 16:35:07 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateContactSelect"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCreateContactSelect'
+
+2022-07-08 16:35:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:35:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateContactSelect'
+
+2022-07-08 16:35:07 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateContactSelect"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCreateContactSelect'
+
+2022-07-08 16:35:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:35:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateContactSelect'
+
+2022-07-08 16:35:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:35:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:35:11 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateDoneBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCreateDoneBtn'
+
+2022-07-08 16:35:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:35:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateDoneBtn'
+
+2022-07-08 16:35:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:35:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:35:14 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-07-08 16:35:14 - [TEST_STEP][PASSED] - elements = driver.findElementsByClassName("android.widget.ImageView"): null
+
+2022-07-08 16:35:14 - [TEST_STEP][PASSED] - println("The size of elements is ::" + elements.size()): null
+
+2022-07-08 16:35:14 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateContinueBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCreateContinueBtn'
+
+2022-07-08 16:35:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:35:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateContinueBtn'
+
+2022-07-08 16:35:15 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillConfirmCameraIcon1"), 0): Tapped on element 'Object Repository/SplitBill/splitBillConfirmCameraIcon1'
+
+2022-07-08 16:35:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:35:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillConfirmCameraIcon1'
+
+2022-07-08 16:35:16 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCameraTakePhotoBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCameraTakePhotoBtn'
+
+2022-07-08 16:35:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:35:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCameraTakePhotoBtn'
+
+2022-07-08 16:35:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SplitBill/splitBillCameraCaptureBtn"), 10): Element 'Object Repository/SplitBill/splitBillCameraCaptureBtn' is present
+
+2022-07-08 16:35:18 - [MESSAGE][PASSED] - Element 'Object Repository/SplitBill/splitBillCameraCaptureBtn' is present
+
+2022-07-08 16:35:18 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCameraCaptureBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCameraCaptureBtn'
+
+2022-07-08 16:35:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:35:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCameraCaptureBtn'
+
+2022-07-08 16:35:18 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-07-08 16:35:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-07-08 16:35:28 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateCameraConfirmTickBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCreateCameraConfirmTickBtn'
+
+2022-07-08 16:35:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:35:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateCameraConfirmTickBtn'
+
+2022-07-08 16:35:29 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-07-08 16:35:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-07-08 16:35:39 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillSummarySplitNowBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillSummarySplitNowBtn'
+
+2022-07-08 16:35:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:35:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillSummarySplitNowBtn'
+
+2022-07-08 16:35:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:35:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:35:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Main/mainDoneBtn"), 30): Element 'Object Repository/Main/mainDoneBtn' is present
+
+2022-07-08 16:35:46 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is present
+
+2022-07-08 16:35:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Main/mainTransactionStatusMessageTxt"), "Split bill created"): Actual text and expected text of test object 'Object Repository/Main/mainTransactionStatusMessageTxt' are matched.
+
+2022-07-08 16:35:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Main/mainTransactionStatusMessageTxt' are matched.
+
+2022-07-08 16:35:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Main/mainDoneBtn"), 10): Element 'Object Repository/Main/mainDoneBtn' is present
+
+2022-07-08 16:35:46 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is present
+
+2022-07-08 16:35:46 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Desktop/Screenshot/createSplitBill.png"): Screenshot is taken
+
+2022-07-08 16:35:47 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Desktop/Screenshot/createSplitBill.png]]
+
+2022-07-08 16:35:47 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-07-08 16:35:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:35:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-07-08 16:35:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:35:53 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Split Bill/splitBill_createSplitBillThreeFriends_Paid" time="107.499" classname="Test Cases/Split Bill/splitBill_createSplitBillThreeFriends_Paid" status="PASSED">
+         <system-out><![CDATA[2022-07-08 16:35:53 - [TEST_CASE][PASSED] - Test Cases/Split Bill/splitBill_createSplitBillThreeFriends_Paid: Test Cases/Split Bill/splitBill_createSplitBillThreeFriends_Paid
+
+2022-07-08 16:35:53 - [TEST_STEP][PASSED] - try: Delayed 5 second(s)
+
+2022-07-08 16:35:53 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillListSplitaBillBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillListSplitaBillBtn'
+
+2022-07-08 16:35:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:35:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillListSplitaBillBtn'
+
+2022-07-08 16:35:54 - [TEST_STEP][PASSED] - setText(findTestObject("SplitBill/splitBillCreateBillNameInputField"), billName, 0): Text 'Dinner' has been set to element 'Object Repository/SplitBill/splitBillCreateBillNameInputField'
+
+2022-07-08 16:35:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:35:57 - [MESSAGE][PASSED] - Text 'Dinner' has been set to element 'Object Repository/SplitBill/splitBillCreateBillNameInputField'
+
+2022-07-08 16:35:57 - [TEST_STEP][PASSED] - setText(findTestObject("SplitBill/splitBillCreateNotesInputField"), "bill", 0): Text 'bill' has been set to element 'Object Repository/SplitBill/splitBillCreateNotesInputField'
+
+2022-07-08 16:35:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:35:59 - [MESSAGE][PASSED] - Text 'bill' has been set to element 'Object Repository/SplitBill/splitBillCreateNotesInputField'
+
+2022-07-08 16:35:59 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-07-08 16:36:02 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-08 16:36:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-08 16:36:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-08 16:36:04 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateEvenlyRadioBtn"), 10): Tapped on element 'Object Repository/SplitBill/splitBillCreateEvenlyRadioBtn'
+
+2022-07-08 16:36:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateEvenlyRadioBtn'
+
+2022-07-08 16:36:04 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateEvenlyRadioBtn"), 10): Tapped on element 'Object Repository/SplitBill/splitBillCreateEvenlyRadioBtn'
+
+2022-07-08 16:36:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateEvenlyRadioBtn'
+
+2022-07-08 16:36:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-08 16:36:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-08 16:36:07 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateContinueBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCreateContinueBtn'
+
+2022-07-08 16:36:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:36:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateContinueBtn'
+
+2022-07-08 16:36:07 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-07-08 16:36:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:36:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-07-08 16:36:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:36:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:36:11 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-07-08 16:36:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:36:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-07-08 16:36:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:36:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:36:15 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-07-08 16:36:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:36:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-07-08 16:36:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:36:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:36:18 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillAmountTickBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillAmountTickBtn'
+
+2022-07-08 16:36:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:36:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillAmountTickBtn'
+
+2022-07-08 16:36:18 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2022-07-08 16:36:33 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2022-07-08 16:36:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SplitBill/splitBillCreateSearchIconBtn"), 10): Element 'Object Repository/SplitBill/splitBillCreateSearchIconBtn' is present
+
+2022-07-08 16:36:34 - [MESSAGE][PASSED] - Element 'Object Repository/SplitBill/splitBillCreateSearchIconBtn' is present
+
+2022-07-08 16:36:34 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateSearchIconBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCreateSearchIconBtn'
+
+2022-07-08 16:36:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:36:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateSearchIconBtn'
+
+2022-07-08 16:36:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:36:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:36:39 - [TEST_STEP][PASSED] - setText(findTestObject("SplitBill/splitBillCreateContactSearchtInputField"), contactName, 0): Text 'Trinity' has been set to element 'Object Repository/SplitBill/splitBillCreateContactSearchtInputField'
+
+2022-07-08 16:36:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:36:40 - [MESSAGE][PASSED] - Text 'Trinity' has been set to element 'Object Repository/SplitBill/splitBillCreateContactSearchtInputField'
+
+2022-07-08 16:36:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:36:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:36:43 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-07-08 16:36:46 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-08 16:36:46 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateContactSelect"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCreateContactSelect'
+
+2022-07-08 16:36:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:36:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateContactSelect'
+
+2022-07-08 16:36:46 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateContactSelect"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCreateContactSelect'
+
+2022-07-08 16:36:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:36:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateContactSelect'
+
+2022-07-08 16:36:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:36:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:36:50 - [TEST_STEP][PASSED] - clearText(findTestObject("SplitBill/splitBillCreateContactSearchtInputField"), 0): Element 'Object Repository/SplitBill/splitBillCreateContactSearchtInputField' text is cleared
+
+2022-07-08 16:36:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:36:50 - [MESSAGE][PASSED] - Element 'Object Repository/SplitBill/splitBillCreateContactSearchtInputField' text is cleared
+
+2022-07-08 16:36:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:36:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:36:53 - [TEST_STEP][PASSED] - setText(findTestObject("SplitBill/splitBillCreateContactSearchtInputField"), contactName2, 0): Text 'Fazatul PNS' has been set to element 'Object Repository/SplitBill/splitBillCreateContactSearchtInputField'
+
+2022-07-08 16:36:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:36:54 - [MESSAGE][PASSED] - Text 'Fazatul PNS' has been set to element 'Object Repository/SplitBill/splitBillCreateContactSearchtInputField'
+
+2022-07-08 16:36:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:36:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:36:57 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-07-08 16:36:58 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-08 16:36:58 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateContactSelect"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCreateContactSelect'
+
+2022-07-08 16:36:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:36:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateContactSelect'
+
+2022-07-08 16:36:58 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateDoneBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCreateDoneBtn'
+
+2022-07-08 16:36:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:36:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateDoneBtn'
+
+2022-07-08 16:36:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:37:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:37:02 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-07-08 16:37:02 - [TEST_STEP][PASSED] - elements = driver.findElementsByClassName("android.widget.ImageView"): null
+
+2022-07-08 16:37:02 - [TEST_STEP][PASSED] - println("The size of elements is ::" + elements.size()): null
+
+2022-07-08 16:37:02 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateContinueBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCreateContinueBtn'
+
+2022-07-08 16:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateContinueBtn'
+
+2022-07-08 16:37:02 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillConfirmCameraIcon1"), 0): Tapped on element 'Object Repository/SplitBill/splitBillConfirmCameraIcon1'
+
+2022-07-08 16:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillConfirmCameraIcon1'
+
+2022-07-08 16:37:03 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCameraTakePhotoBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCameraTakePhotoBtn'
+
+2022-07-08 16:37:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCameraTakePhotoBtn'
+
+2022-07-08 16:37:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SplitBill/splitBillCameraCaptureBtn"), 30): Element 'Object Repository/SplitBill/splitBillCameraCaptureBtn' is present
+
+2022-07-08 16:37:06 - [MESSAGE][PASSED] - Element 'Object Repository/SplitBill/splitBillCameraCaptureBtn' is present
+
+2022-07-08 16:37:06 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCameraCaptureBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCameraCaptureBtn'
+
+2022-07-08 16:37:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCameraCaptureBtn'
+
+2022-07-08 16:37:06 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-07-08 16:37:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-07-08 16:37:16 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillCreateCameraConfirmTickBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillCreateCameraConfirmTickBtn'
+
+2022-07-08 16:37:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillCreateCameraConfirmTickBtn'
+
+2022-07-08 16:37:16 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-07-08 16:37:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-07-08 16:37:26 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillSummarySplitNowBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillSummarySplitNowBtn'
+
+2022-07-08 16:37:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillSummarySplitNowBtn'
+
+2022-07-08 16:37:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:37:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:37:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Main/mainDoneBtn"), 30): Element 'Object Repository/Main/mainDoneBtn' is present
+
+2022-07-08 16:37:33 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is present
+
+2022-07-08 16:37:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Main/mainTransactionStatusMessageTxt"), "Split bill created"): Actual text and expected text of test object 'Object Repository/Main/mainTransactionStatusMessageTxt' are matched.
+
+2022-07-08 16:37:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Main/mainTransactionStatusMessageTxt' are matched.
+
+2022-07-08 16:37:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Main/mainDoneBtn"), 10): Element 'Object Repository/Main/mainDoneBtn' is present
+
+2022-07-08 16:37:34 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is present
+
+2022-07-08 16:37:34 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Desktop/Screenshot/createThreeSplitBill.png"): Screenshot is taken
+
+2022-07-08 16:37:35 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Desktop/Screenshot/createThreeSplitBill.png]]
+
+2022-07-08 16:37:35 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-07-08 16:37:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-07-08 16:37:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:37:40 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Split Bill/splitBill_markAsPaid" time="23.729" classname="Test Cases/Split Bill/splitBill_markAsPaid" status="PASSED">
+         <system-out><![CDATA[2022-07-08 16:37:40 - [TEST_CASE][PASSED] - Test Cases/Split Bill/splitBill_markAsPaid: Test Cases/Split Bill/splitBill_markAsPaid
+
+2022-07-08 16:37:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:37:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:37:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SplitBill/splitBillToCollectListBillNameTxt", ["name":"Lunch"]), 0): Element 'Object Repository/SplitBill/splitBillToCollectListBillNameTxt' is present
+
+2022-07-08 16:37:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:44 - [MESSAGE][PASSED] - Element 'Object Repository/SplitBill/splitBillToCollectListBillNameTxt' is present
+
+2022-07-08 16:37:44 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillToCollectListBillNameTxt", ["name":"Lunch"]), 0): Tapped on element 'Object Repository/SplitBill/splitBillToCollectListBillNameTxt'
+
+2022-07-08 16:37:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillToCollectListBillNameTxt'
+
+2022-07-08 16:37:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:37:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:37:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SplitBill/splitBillDetailsParticipantMoreBtn"), 0): Element 'Object Repository/SplitBill/splitBillDetailsParticipantMoreBtn' is present
+
+2022-07-08 16:37:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:47 - [MESSAGE][PASSED] - Element 'Object Repository/SplitBill/splitBillDetailsParticipantMoreBtn' is present
+
+2022-07-08 16:37:47 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillDetailsParticipantMoreBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillDetailsParticipantMoreBtn'
+
+2022-07-08 16:37:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillDetailsParticipantMoreBtn'
+
+2022-07-08 16:37:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SplitBill/splitBillDetailsParticipantMarkCollectedDropdownSelect"), 0): Element 'Object Repository/SplitBill/splitBillDetailsParticipantMarkCollectedDropdownSelect' is present
+
+2022-07-08 16:37:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:49 - [MESSAGE][PASSED] - Element 'Object Repository/SplitBill/splitBillDetailsParticipantMarkCollectedDropdownSelect' is present
+
+2022-07-08 16:37:49 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillDetailsParticipantMarkCollectedDropdownSelect"), 0): Tapped on element 'Object Repository/SplitBill/splitBillDetailsParticipantMarkCollectedDropdownSelect'
+
+2022-07-08 16:37:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillDetailsParticipantMarkCollectedDropdownSelect'
+
+2022-07-08 16:37:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SplitBill/splitBillDetailsParticipantDoneBtn"), 0): Element 'Object Repository/SplitBill/splitBillDetailsParticipantDoneBtn' is present
+
+2022-07-08 16:37:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:49 - [MESSAGE][PASSED] - Element 'Object Repository/SplitBill/splitBillDetailsParticipantDoneBtn' is present
+
+2022-07-08 16:37:49 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillDetailsParticipantDoneBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillDetailsParticipantDoneBtn'
+
+2022-07-08 16:37:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillDetailsParticipantDoneBtn'
+
+2022-07-08 16:37:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:37:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:37:52 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Desktop/Screenshot/markPaidSplitBill.png"): Screenshot is taken
+
+2022-07-08 16:37:53 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Desktop/Screenshot/markPaidSplitBill.png]]
+
+2022-07-08 16:37:53 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("SplitBill/splitBillDetailsParticipantPaidStatusTxt"), 0): Element 'Object Repository/SplitBill/splitBillDetailsParticipantPaidStatusTxt' is exist
+
+2022-07-08 16:37:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:53 - [MESSAGE][PASSED] - Element 'Object Repository/SplitBill/splitBillDetailsParticipantPaidStatusTxt' is exist
+
+2022-07-08 16:37:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:37:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-08 16:37:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Main/mainTopLeftBackButton"), 0): Element 'Object Repository/Main/mainTopLeftBackButton' is present
+
+2022-07-08 16:37:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:59 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainTopLeftBackButton' is present
+
+2022-07-08 16:37:59 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainTopLeftBackButton"), 0): Tapped on element 'Object Repository/Main/mainTopLeftBackButton'
+
+2022-07-08 16:37:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:37:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainTopLeftBackButton'
+
+2022-07-08 16:37:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:38:04 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Split Bill/splitBill_removePastSplitBill" time="74.958" classname="Test Cases/Split Bill/splitBill_removePastSplitBill" status="PASSED">
+         <system-out><![CDATA[2022-07-08 16:38:04 - [TEST_CASE][PASSED] - Test Cases/Split Bill/splitBill_removePastSplitBill: Test Cases/Split Bill/splitBill_removePastSplitBill
+
+2022-07-08 16:38:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:38:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:38:07 - [TEST_STEP][PASSED] - swipe(900, 1245, 300, 1245): Swiped from 900,1,245 to 300,1,245
+
+2022-07-08 16:38:08 - [MESSAGE][PASSED] - Swiped from 900,1,245 to 300,1,245
+
+2022-07-08 16:38:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:38:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:38:11 - [TEST_STEP][PASSED] - swipe(900, 1245, 300, 1245): Swiped from 900,1,245 to 300,1,245
+
+2022-07-08 16:38:12 - [MESSAGE][PASSED] - Swiped from 900,1,245 to 300,1,245
+
+2022-07-08 16:38:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:38:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:38:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SplitBill/splitBillToCollectListBillNameTxt", ["name":"Lunch"]), 0): Element 'Object Repository/SplitBill/splitBillToCollectListBillNameTxt' is present
+
+2022-07-08 16:38:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:38:16 - [MESSAGE][PASSED] - Element 'Object Repository/SplitBill/splitBillToCollectListBillNameTxt' is present
+
+2022-07-08 16:38:16 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillToCollectListBillNameTxt", ["name":"Lunch"]), 0): Tapped on element 'Object Repository/SplitBill/splitBillToCollectListBillNameTxt'
+
+2022-07-08 16:38:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:38:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillToCollectListBillNameTxt'
+
+2022-07-08 16:38:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-07-08 16:38:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-08 16:38:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SplitBill/splitBillDetailsThreeDotsBtn"), 0): Element 'Object Repository/SplitBill/splitBillDetailsThreeDotsBtn' is present
+
+2022-07-08 16:38:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:38:19 - [MESSAGE][PASSED] - Element 'Object Repository/SplitBill/splitBillDetailsThreeDotsBtn' is present
+
+2022-07-08 16:38:19 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillDetailsThreeDotsBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillDetailsThreeDotsBtn'
+
+2022-07-08 16:38:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:38:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillDetailsThreeDotsBtn'
+
+2022-07-08 16:38:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SplitBill/splitBillDetailsThreeDotsRemoveBillBtn"), 0): Element 'Object Repository/SplitBill/splitBillDetailsThreeDotsRemoveBillBtn' is present
+
+2022-07-08 16:38:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:38:21 - [MESSAGE][PASSED] - Element 'Object Repository/SplitBill/splitBillDetailsThreeDotsRemoveBillBtn' is present
+
+2022-07-08 16:38:21 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillDetailsThreeDotsRemoveBillBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillDetailsThreeDotsRemoveBillBtn'
+
+2022-07-08 16:38:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:38:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillDetailsThreeDotsRemoveBillBtn'
+
+2022-07-08 16:38:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SplitBill/splitBillRemoveConfirmBtn"), 0): Element 'Object Repository/SplitBill/splitBillRemoveConfirmBtn' is present
+
+2022-07-08 16:38:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:38:23 - [MESSAGE][PASSED] - Element 'Object Repository/SplitBill/splitBillRemoveConfirmBtn' is present
+
+2022-07-08 16:38:23 - [TEST_STEP][PASSED] - tap(findTestObject("SplitBill/splitBillRemoveConfirmBtn"), 0): Tapped on element 'Object Repository/SplitBill/splitBillRemoveConfirmBtn'
+
+2022-07-08 16:38:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:38:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SplitBill/splitBillRemoveConfirmBtn'
+
+2022-07-08 16:38:23 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-07-08 16:38:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-07-08 16:38:33 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Desktop/Screenshot/removePastSplit.png"): Screenshot is taken
+
+2022-07-08 16:38:34 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Desktop/Screenshot/removePastSplit.png]]
+
+2022-07-08 16:38:34 - [TEST_STEP][PASSED] - verifyElementNotExist(findTestObject("SplitBill/splitBillToCollectListBillNameTxt", ["name":"Lunch"]), 0): Element 'Object Repository/SplitBill/splitBillToCollectListBillNameTxt' not found
+
+2022-07-08 16:38:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-07-08 16:39:14 - [MESSAGE][PASSED] - Element 'Object Repository/SplitBill/splitBillToCollectListBillNameTxt' not found
+
+2022-07-08 16:39:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-07-08 16:39:19 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-08 15:59:06 - [TEST_SUITE][PASSED] - Regress 4: Test Cases/Split Bill/splitBill_removePastSplitBill]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

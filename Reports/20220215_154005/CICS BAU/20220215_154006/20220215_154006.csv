@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CICS BAU,,,,2022-02-15 15:40:16,2022-02-15 15:42:27,2m - 10.252s,PASSED
+,,,,,,,
+Test Cases/Tabung/tabung_removeTabung,,,,2022-02-15 15:40:17,2022-02-15 15:42:27,2m - 10.033s,PASSED
+"startApplication(""/Users/a00139272/Katalon Studio/MAE/androidapp/app-sit-universal-release-copy.apk"", false)",,,,2022-02-15 15:40:17,2022-02-15 15:40:30,13.038s,PASSED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.sit"")",,,,2022-02-15 15:40:30,2022-02-15 15:40:30,0.001s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.sit.MainActivity"")",,,,2022-02-15 15:40:30,2022-02-15 15:40:30,0.000s,PASSED
+delay(3),,,,2022-02-15 15:40:30,2022-02-15 15:40:33,3.017s,PASSED
+"tapAtPosition(953, 2147)",,,,2022-02-15 15:40:33,2022-02-15 15:40:35,2.139s,PASSED
+"waitForElementPresent(findTestObject(""Tabung/moreTabungIconSelect""), 0)",,,,2022-02-15 15:40:35,2022-02-15 15:40:40,5.172s,PASSED
+"tap(findTestObject(""Tabung/moreTabungIconSelect""), 0)",,,,2022-02-15 15:40:40,2022-02-15 15:40:43,2.507s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-02-15 15:40:43,2022-02-15 15:40:55,11.971s,PASSED
+delay(5),,Remove Tabung,,2022-02-15 15:40:55,2022-02-15 15:41:00,5.008s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 1.png"")",,,,2022-02-15 15:41:00,2022-02-15 15:41:01,1.319s,PASSED
+"tap(findTestObject(""Tabung/tabungNameSelection"", [""text"":""Test Brazil""]), 10)",,,,2022-02-15 15:41:01,2022-02-15 15:41:03,1.849s,PASSED
+delay(2),,,,2022-02-15 15:41:03,2022-02-15 15:41:05,2.004s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 2.png"")",,,,2022-02-15 15:41:05,2022-02-15 15:41:06,0.788s,PASSED
+"tap(findTestObject(""Tabung/tabungThreeDotsBtn""), 0)",,,,2022-02-15 15:41:06,2022-02-15 15:41:06,0.620s,PASSED
+delay(2),,,,2022-02-15 15:41:06,2022-02-15 15:41:08,2.007s,PASSED
+"tap(findTestObject(""Tabung/tabungThreeDtosRemoveBtn""), 0)",,,,2022-02-15 15:41:08,2022-02-15 15:41:09,0.760s,PASSED
+delay(2),,,,2022-02-15 15:41:09,2022-02-15 15:41:11,2.006s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 3.png"")",,,,2022-02-15 15:41:11,2022-02-15 15:41:12,0.762s,PASSED
+"tap(findTestObject(""Tabung/tabungRemoveConfirmBtn""), 0)",,,,2022-02-15 15:41:12,2022-02-15 15:41:12,0.457s,PASSED
+delay(5),,,,2022-02-15 15:41:12,2022-02-15 15:41:17,5.003s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 4.png"")",,,,2022-02-15 15:41:17,2022-02-15 15:41:18,0.665s,PASSED
+"tap(findTestObject(""Tabung/tabungContinueBtn""), 0)",,,,2022-02-15 15:41:18,2022-02-15 15:41:19,0.512s,PASSED
+delay(2),,,,2022-02-15 15:41:19,2022-02-15 15:41:21,2.003s,PASSED
+"if (verifyElementVisible(findTestObject(""Tabung/tabungEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-02-15 15:41:21,2022-02-15 15:41:25,4.790s,PASSED
+delay(15),,,,2022-02-15 15:41:25,2022-02-15 15:41:40,15.003s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 5.png"")",,,,2022-02-15 15:41:40,2022-02-15 15:41:41,0.724s,PASSED
+"tap(findTestObject(""Tabung/tabungWithdrawFundBtn""), 0)",,,,2022-02-15 15:41:41,2022-02-15 15:41:42,0.623s,PASSED
+delay(2),,,,2022-02-15 15:41:42,2022-02-15 15:41:44,2.002s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-02-15 15:41:44,2022-02-15 15:42:08,24.329s,PASSED
+"message = getText(findTestObject(""Tabung/tabungRemoveSummaryTransferTxt""), 10)",,,,2022-02-15 15:42:08,2022-02-15 15:42:15,6.761s,PASSED
+delay(2),,,,2022-02-15 15:42:15,2022-02-15 15:42:17,2.005s,PASSED
+"verifyElementText(findTestObject(""Tabung/tabungRemoveSummaryTransferTxt""), ""You've successfully removed the Test Brazil Tabung. RM 0.01 has been transferred back into your account."")",,,,2022-02-15 15:42:17,2022-02-15 15:42:19,2.306s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 7.png"")",,,,2022-02-15 15:42:19,2022-02-15 15:42:20,0.701s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-02-15 15:42:20,2022-02-15 15:42:20,0.317s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-02-15 15:42:20,2022-02-15 15:42:21,0.421s,PASSED
+delay(5),,,,2022-02-15 15:42:21,2022-02-15 15:42:26,5.002s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 8.png"")",,,,2022-02-15 15:42:26,2022-02-15 15:42:27,1.027s,PASSED

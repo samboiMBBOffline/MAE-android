@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regress 2,,,,2022-02-14 12:41:30,2022-02-14 12:41:34,4.136s,FAILED
+,,,,,,,
+Test Cases/Tabung/tabung_withdrawTabung,,,,2022-02-14 12:41:30,2022-02-14 12:41:33,2.812s,FAILED
+delay(2),,Withdraw Tabung,,2022-02-14 12:41:31,2022-02-14 12:41:33,2.045s,PASSED
+"tap(findTestObject(""Tabung/tabungNameSelection"", [""text"":""Switzerland""]), 10)",,,,2022-02-14 12:41:33,2022-02-14 12:41:33,0.378s,FAILED
+,,,,,,,
+Test Cases/Tabung/tabung_enableESITabung,,,,2022-02-14 12:41:33,2022-02-14 12:41:33,0.366s,FAILED
+"tap(findTestObject(""Tabung/tabungNameSelection"", [""text"":""Switzerland""]), 10)",,ESI ENABLE,,2022-02-14 12:41:33,2022-02-14 12:41:33,0.043s,FAILED
+,,,,,,,
+Test Cases/Tabung/tabung_disableESITabung,,,,2022-02-14 12:41:33,2022-02-14 12:41:34,0.306s,FAILED
+"tap(findTestObject(""Tabung/tabungNameSelection"", [""text"":""Switzerland""]), 10)",,ESI DISABLE,,2022-02-14 12:41:34,2022-02-14 12:41:34,0.049s,FAILED
+,,,,,,,
+Test Cases/Tabung/tabung_renameTabung,,,,2022-02-14 12:41:34,2022-02-14 12:41:34,0.200s,FAILED
+"tap(findTestObject(""Tabung/tabungNameSelection"", [""text"":""Switzerland""]), 10)",,Renname Tabung,,2022-02-14 12:41:34,2022-02-14 12:41:34,0.033s,FAILED
+,,,,,,,
+Test Cases/Tabung/tabung_removeTabung,,,,2022-02-14 12:41:34,2022-02-14 12:41:34,0.217s,FAILED
+"tap(findTestObject(""Tabung/tabungNameSelection"", [""text"":""Singapore""]), 10)",,Remove Tabung,,2022-02-14 12:41:34,2022-02-14 12:41:34,0.037s,FAILED

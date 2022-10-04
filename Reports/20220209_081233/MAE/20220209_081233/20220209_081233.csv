@@ -1,0 +1,84 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MAE,,,,2022-02-09 08:12:43,2022-02-09 08:16:28,3m - 44.841s,PASSED
+,,,,,,,
+Test Cases/PayBill/payBills_todayTransaction,,,,2022-02-09 08:12:43,2022-02-09 08:14:38,1m - 54.591s,PASSED
+"startApplication(appPath, false)",,,,2022-02-09 08:12:44,2022-02-09 08:12:58,14.127s,PASSED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.dev"")",,,,2022-02-09 08:12:58,2022-02-09 08:12:58,0.001s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.MainActivity"")",,,,2022-02-09 08:12:58,2022-02-09 08:12:58,0.001s,PASSED
+delay(5),,,,2022-02-09 08:12:58,2022-02-09 08:13:03,5.024s,PASSED
+"if (getDeviceManufacturer() == ""samsung"")",,,,2022-02-09 08:13:03,2022-02-09 08:13:03,0.324s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-02-09 08:13:03,2022-02-09 08:13:17,13.823s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTypeSelection"", [""text"":""Personal Current Account""]), 10)",,,,2022-02-09 08:13:17,2022-02-09 08:13:20,3.474s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-02-09 08:13:20,2022-02-09 08:13:24,3.760s,PASSED
+"if (verifyElementVisible(findTestObject(""Login Onboarding/loginEnterPasswordMessage""), 0, OPTIONAL))",,,,2022-02-09 08:13:24,2022-02-09 08:13:27,3.192s,PASSED
+"waitForElementPresent(findTestObject(""Paybill/payBillsIconSelect""), 0)",,,,2022-02-09 08:13:27,2022-02-09 08:13:32,4.902s,PASSED
+"tap(findTestObject(""Paybill/payBillsIconSelect""), 0)",,,,2022-02-09 08:13:32,2022-02-09 08:13:33,0.465s,PASSED
+"tap(findTestObject(""Paybill/payBillSearchBillerInputField""), 0)",,,,2022-02-09 08:13:33,2022-02-09 08:13:36,2.802s,PASSED
+"setText(findTestObject(""Paybill/payBillBillerNameInputField""), ""Maxis"", 0)",,,,2022-02-09 08:13:36,2022-02-09 08:13:38,1.956s,PASSED
+delay(3),,,,2022-02-09 08:13:38,2022-02-09 08:13:41,3.004s,PASSED
+"tap(findTestObject(""Paybill/payBillBillerSelect"", [""text"":""Maxis Mobile Sdn Bhd""]), 10)",,,,2022-02-09 08:13:41,2022-02-09 08:13:41,0.594s,PASSED
+"tap(findTestObject(""Paybill/payBillBillerSelect"", [""text"":""Maxis Mobile Sdn Bhd""]), 10)",,,,2022-02-09 08:13:41,2022-02-09 08:13:42,1.160s,PASSED
+"setText(findTestObject(""Paybill/PayBillAccountNumberInputField""), ""1544054651"", 0)",,,,2022-02-09 08:13:42,2022-02-09 08:13:45,2.352s,PASSED
+hideKeyboard(),,,,2022-02-09 08:13:45,2022-02-09 08:13:46,1.035s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-02-09 08:13:46,2022-02-09 08:13:46,0.498s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-02-09 08:13:46,2022-02-09 08:13:48,2.088s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-02-09 08:13:48,2022-02-09 08:13:49,0.622s,PASSED
+delay(3),,,,2022-02-09 08:13:49,2022-02-09 08:13:52,3.004s,PASSED
+"tap(findTestObject(""Main/mainAmountTickBtn""), 0)",,,,2022-02-09 08:13:52,2022-02-09 08:13:53,0.660s,PASSED
+delay(5),,,,2022-02-09 08:13:53,2022-02-09 08:13:58,5.007s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainPayNowBtn""), 5)",,,,2022-02-09 08:13:58,2022-02-09 08:13:58,0.438s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-02-09 08:13:58,2022-02-09 08:13:59,0.584s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-02-09 08:13:59,2022-02-09 08:14:27,28.120s,PASSED
+"message = getText(findTestObject(""Main/mainTransactionStatusMessageTxt""), 10)",,,,2022-02-09 08:14:27,2022-02-09 08:14:32,5.535s,PASSED
+println(message),,,,2022-02-09 08:14:32,2022-02-09 08:14:32,0.003s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-02-09 08:14:32,2022-02-09 08:14:33,0.261s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-02-09 08:14:33,2022-02-09 08:14:33,0.392s,PASSED
+delay(5),,,,2022-02-09 08:14:33,2022-02-09 08:14:38,5.003s,PASSED
+,,,,,,,
+Test Cases/Others/ticketing_buyKLIATicket,,,,2022-02-09 08:14:38,2022-02-09 08:16:28,1m - 50.020s,PASSED
+"waitForElementPresent(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-02-09 08:14:38,2022-02-09 08:14:39,0.429s,PASSED
+"if (getDeviceManufacturer() == ""samsung"")",,,,2022-02-09 08:14:39,2022-02-09 08:14:40,1.170s,PASSED
+"waitForElementPresent(findTestObject(""Banking/m2uAccountERLIconSelect""), 0)",,,,2022-02-09 08:14:40,2022-02-09 08:14:40,0.354s,PASSED
+"tap(findTestObject(""Banking/m2uAccountERLIconSelect""), 0)",,,,2022-02-09 08:14:40,2022-02-09 08:14:42,1.807s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2022-02-09 08:14:42,2022-02-09 08:14:45,3.003s,PASSED
+"waitForElementPresent(findTestObject(""KLIA/kliaExpressBuyTicketBtn""), 0)",,,,2022-02-09 08:14:45,2022-02-09 08:14:45,0.309s,PASSED
+"tap(findTestObject(""KLIA/kliaExpressBuyTicketBtn""), 0)",,,,2022-02-09 08:14:45,2022-02-09 08:14:46,0.416s,PASSED
+"waitForElementPresent(findTestObject(""KLIA/kliaExpressFromDropdownSelect""), 0)",,,,2022-02-09 08:14:46,2022-02-09 08:14:47,1.207s,PASSED
+"tap(findTestObject(""KLIA/kliaExpressFromDropdownSelect""), 0)",,,,2022-02-09 08:14:47,2022-02-09 08:14:47,0.444s,PASSED
+"waitForElementPresent(findTestObject(""KLIA/kliaExpressFromDropdownSelectKLIA""), 0)",,,,2022-02-09 08:14:47,2022-02-09 08:14:49,1.357s,PASSED
+"tap(findTestObject(""KLIA/kliaExpressFromDropdownSelectKLIA""), 0)",,,,2022-02-09 08:14:49,2022-02-09 08:14:49,0.288s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-02-09 08:14:49,2022-02-09 08:14:50,0.867s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 10)",,,,2022-02-09 08:14:50,2022-02-09 08:14:50,0.412s,PASSED
+"waitForElementPresent(findTestObject(""KLIA/kliaExpressToDropdownSelect""), 0)",,,,2022-02-09 08:14:50,2022-02-09 08:14:51,0.654s,PASSED
+"tap(findTestObject(""KLIA/kliaExpressToDropdownSelect""), 0)",,,,2022-02-09 08:14:51,2022-02-09 08:14:51,0.438s,PASSED
+delay(3),,,,2022-02-09 08:14:51,2022-02-09 08:14:54,3.002s,PASSED
+"waitForElementPresent(findTestObject(""KLIA/kliaExpressToDropdownSelectKLSentral""), 0)",,,,2022-02-09 08:14:54,2022-02-09 08:14:55,0.223s,PASSED
+"tap(findTestObject(""KLIA/kliaExpressToDropdownSelectKLSentral""), 0)",,,,2022-02-09 08:14:55,2022-02-09 08:14:55,0.372s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-02-09 08:14:55,2022-02-09 08:14:55,0.140s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 10)",,,,2022-02-09 08:14:55,2022-02-09 08:14:55,0.302s,PASSED
+"waitForElementPresent(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-02-09 08:14:55,2022-02-09 08:14:56,1.109s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-02-09 08:14:56,2022-02-09 08:14:57,0.510s,PASSED
+"waitForElementPresent(findTestObject(""KLIA/kliaExpressEnterDateSelectField""), 0)",,,,2022-02-09 08:14:57,2022-02-09 08:14:58,1.494s,PASSED
+"tap(findTestObject(""KLIA/kliaExpressEnterDateSelectField""), 10)",,,,2022-02-09 08:14:58,2022-02-09 08:14:59,0.495s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainCalenderPickerNextBtn""), 0)",,,,2022-02-09 08:14:59,2022-02-09 08:15:01,1.854s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerNextBtn""), 0)",,,,2022-02-09 08:15:01,2022-02-09 08:15:02,0.750s,PASSED
+delay(3),,,,2022-02-09 08:15:02,2022-02-09 08:15:05,3.006s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainDatePicker1""), 0)",,,,2022-02-09 08:15:05,2022-02-09 08:15:05,0.600s,PASSED
+"tap(findTestObject(""Main/mainDatePicker1""), 0)",,,,2022-02-09 08:15:05,2022-02-09 08:15:06,0.740s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-02-09 08:15:06,2022-02-09 08:15:07,0.827s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-02-09 08:15:07,2022-02-09 08:15:08,0.859s,PASSED
+delay(3),,,,2022-02-09 08:15:08,2022-02-09 08:15:11,3.006s,PASSED
+"scrollToText(""Return Trip"", STOP_ON_FAILURE)",,,,2022-02-09 08:15:11,2022-02-09 08:15:14,3.235s,PASSED
+"tap(findTestObject(""KLIA/kliaExpressSingleTripSelect""), 0)",,,,2022-02-09 08:15:14,2022-02-09 08:15:14,0.383s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-02-09 08:15:14,2022-02-09 08:15:15,1.094s,PASSED
+delay(3),,,,2022-02-09 08:15:15,2022-02-09 08:15:18,3.006s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-02-09 08:15:18,2022-02-09 08:15:19,0.540s,PASSED
+"if (verifyElementVisible(findTestObject(""KLIA/ticketingEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-02-09 08:15:19,2022-02-09 08:15:39,20.131s,PASSED
+delay(10),,,,2022-02-09 08:15:39,2022-02-09 08:15:49,10.003s,PASSED
+"waitForElementPresent(findTestObject(""KLIA/kliaExpressPayNowBtn""), 0)",,,,2022-02-09 08:15:49,2022-02-09 08:15:49,0.319s,PASSED
+"tap(findTestObject(""KLIA/kliaExpressPayNowBtn""), 0)",,,,2022-02-09 08:15:49,2022-02-09 08:15:50,0.302s,PASSED
+delay(2),,,,2022-02-09 08:15:50,2022-02-09 08:15:52,2.004s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-02-09 08:15:52,2022-02-09 08:16:08,16.715s,PASSED
+delay(2),,,,2022-02-09 08:16:08,2022-02-09 08:16:10,2.006s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-02-09 08:16:10,2022-02-09 08:16:23,12.590s,PASSED
+delay(5),,,,2022-02-09 08:16:23,2022-02-09 08:16:28,5.005s,PASSED

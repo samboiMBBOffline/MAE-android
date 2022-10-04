@@ -1,0 +1,2090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regress 1" time="1008.732" tests="11" failures="0" errors="0">
+   <testsuite name="Regress 1" tests="11" failures="0" errors="0" time="1008.732" skipped="0" timestamp="2022-03-04 07:49:07" hostname="a00139272 - 192.168.0.189" id="Test Suites/Regress 1">
+      <properties>
+         <property name="deviceName" value="Xiaomi 21061119AG (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/a00139272/git/MAE-BAU/Reports/20220304_074856/Regress 1/20220304_074856"/>
+         <property name="logFiles" value="/Users/a00139272/git/MAE-BAU/Reports/20220304_074856/Regress 1/20220304_074856/execution0.log, /Users/a00139272/git/MAE-BAU/Reports/20220304_074856/Regress 1/20220304_074856/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="a00139272 - 192.168.0.189"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.1&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.1"/>
+         <property name="deviceModel" value="21061119AG"/>
+         <property name="hostAddress" value="192.168.0.189"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="002b9cc60508"/>
+         <property name="deviceName" value="Xiaomi 21061119AG (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Login Onboard/onboard_onboardIntoMAE" time="163.461" classname="Test Cases/Login Onboard/onboard_onboardIntoMAE" status="PASSED">
+         <system-out><![CDATA[2022-03-04 07:49:07 - [TEST_CASE][PASSED] - Test Cases/Login Onboard/onboard_onboardIntoMAE: Test Cases/Login Onboard/onboard_onboardIntoMAE
+
+2022-03-04 07:49:07 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-sit-universal-release-copy.apk'
+
+2022-03-04 07:49:08 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-03-04 07:49:08 - [MESSAGE][INFO] - User set preference: ['deviceId', '002b9cc60508']
+
+2022-03-04 07:49:10 - [MESSAGE][INFO] - Appium server started on port 50,813
+
+2022-03-04 07:50:01 - [MESSAGE][PASSED] - Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-sit-universal-release-copy.apk'
+
+2022-03-04 07:50:01 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appPackage", "com.maybank2u.life.dev"): null
+
+2022-03-04 07:50:01 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appActivity", "com.maybank2u.life.MainActivity"): null
+
+2022-03-04 07:50:01 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Login Onboarding/onboardWelcomeSkipBtn"), 0, OPTIONAL)): null
+
+2022-03-04 07:50:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:05 - [MESSAGE][PASSED] - Element 'Object Repository/Login Onboarding/onboardWelcomeSkipBtn' is visible
+
+2022-03-04 07:50:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login Onboarding/onboardWelcomeSkipBtn"), 3000): Element 'Object Repository/Login Onboarding/onboardWelcomeSkipBtn' is present
+
+2022-03-04 07:50:05 - [MESSAGE][PASSED] - Element 'Object Repository/Login Onboarding/onboardWelcomeSkipBtn' is present
+
+2022-03-04 07:50:05 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/onboardWelcomeSkipBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/onboardWelcomeSkipBtn'
+
+2022-03-04 07:50:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/onboardWelcomeSkipBtn'
+
+2022-03-04 07:50:05 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/onboardTNCAgreeBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/onboardTNCAgreeBtn'
+
+2022-03-04 07:50:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/onboardTNCAgreeBtn'
+
+2022-03-04 07:50:06 - [TEST_STEP][PASSED] - tap(findTestObject("Dashboard/dashboardSetUpWalletIcon"), 0): Tapped on element 'Object Repository/Dashboard/dashboardSetUpWalletIcon'
+
+2022-03-04 07:50:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dashboard/dashboardSetUpWalletIcon'
+
+2022-03-04 07:50:11 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/getStartedExistingUserBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/getStartedExistingUserBtn'
+
+2022-03-04 07:50:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/getStartedExistingUserBtn'
+
+2022-03-04 07:50:13 - [TEST_STEP][PASSED] - setText(findTestObject("Login Onboarding/loginExistingUsernameInputField"), Username, 0): Text 'sanjayntb' has been set to element 'Object Repository/Login Onboarding/loginExistingUsernameInputField'
+
+2022-03-04 07:50:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:14 - [MESSAGE][PASSED] - Text 'sanjayntb' has been set to element 'Object Repository/Login Onboarding/loginExistingUsernameInputField'
+
+2022-03-04 07:50:14 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-04 07:50:15 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-04 07:50:15 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:50:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:50:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login Onboarding/loginExistingMineConfirmationBtn"), 50): Element 'Object Repository/Login Onboarding/loginExistingMineConfirmationBtn' is present
+
+2022-03-04 07:50:17 - [MESSAGE][PASSED] - Element 'Object Repository/Login Onboarding/loginExistingMineConfirmationBtn' is present
+
+2022-03-04 07:50:17 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingMineConfirmationBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingMineConfirmationBtn'
+
+2022-03-04 07:50:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingMineConfirmationBtn'
+
+2022-03-04 07:50:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login Onboarding/loginPasswordInputField"), Password, 0): Text 'Sanjay@49' has been set to element 'Object Repository/Login Onboarding/loginPasswordInputField'
+
+2022-03-04 07:50:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:20 - [MESSAGE][PASSED] - Text 'Sanjay@49' has been set to element 'Object Repository/Login Onboarding/loginPasswordInputField'
+
+2022-03-04 07:50:20 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-04 07:50:24 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-04 07:50:24 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:50:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:50:24 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Login Onboarding/Proceed"), 3, OPTIONAL)): Element 'Object Repository/Login Onboarding/Proceed' not found
+
+2022-03-04 07:50:27 - [MESSAGE][WARNING] - Element 'Object Repository/Login Onboarding/Proceed' not found
+
+2022-03-04 07:50:27 - [TEST_STEP][PASSED] - else: null
+
+2022-03-04 07:50:27 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:37 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:38 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:40 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:42 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:44 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN2"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-03-04 07:50:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-03-04 07:50:46 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginPinTickBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginPinTickBtn'
+
+2022-03-04 07:50:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginPinTickBtn'
+
+2022-03-04 07:50:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 07:50:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 07:50:50 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:50 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:52 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:54 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:56 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:50:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:50:58 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN2"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-03-04 07:50:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-03-04 07:51:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 07:51:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 07:51:02 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginPinTickBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginPinTickBtn'
+
+2022-03-04 07:51:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginPinTickBtn'
+
+2022-03-04 07:51:03 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginTouchIDSetUpLaterBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginTouchIDSetUpLaterBtn'
+
+2022-03-04 07:51:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginTouchIDSetUpLaterBtn'
+
+2022-03-04 07:51:06 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginVerifyNumberYesProceedBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginVerifyNumberYesProceedBtn'
+
+2022-03-04 07:51:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginVerifyNumberYesProceedBtn'
+
+2022-03-04 07:51:06 - [TEST_STEP][PASSED] - OTP = getText(findTestObject("Login Onboarding/secureGetOTPTxt"), 0): Text of element 'Object Repository/Login Onboarding/secureGetOTPTxt' is: 'Your OTP no. is 959798'
+
+2022-03-04 07:51:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:10 - [MESSAGE][PASSED] - Text of element 'Object Repository/Login Onboarding/secureGetOTPTxt' is: 'Your OTP no. is 959798'
+
+2022-03-04 07:51:10 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): null
+
+2022-03-04 07:51:10 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 07:51:10 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-03-04 07:51:10 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 07:51:10 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 07:51:10 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 07:51:10 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 07:51:10 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-03-04 07:51:10 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 07:51:10 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-03-04 07:51:10 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-03-04 07:51:10 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN9"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-03-04 07:51:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-03-04 07:51:12 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 07:51:12 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-03-04 07:51:12 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 07:51:12 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 07:51:12 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 07:51:12 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-03-04 07:51:12 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN5"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-03-04 07:51:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-03-04 07:51:13 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-03-04 07:51:13 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 07:51:13 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-03-04 07:51:13 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-03-04 07:51:13 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 07:51:13 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-03-04 07:51:13 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 07:51:13 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 07:51:13 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 07:51:13 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 07:51:13 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-03-04 07:51:13 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 07:51:13 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-03-04 07:51:13 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-03-04 07:51:13 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN9"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-03-04 07:51:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-03-04 07:51:15 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 07:51:15 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-03-04 07:51:15 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 07:51:15 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 07:51:15 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 07:51:15 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 07:51:15 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-03-04 07:51:15 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): Tapped on element 'Object Repository/Login Onboarding/PIN7'
+
+2022-03-04 07:51:15 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN7"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN7'
+
+2022-03-04 07:51:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN7'
+
+2022-03-04 07:51:17 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-03-04 07:51:17 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-03-04 07:51:17 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 07:51:17 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-03-04 07:51:17 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 07:51:17 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 07:51:17 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 07:51:17 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 07:51:17 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-03-04 07:51:17 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 07:51:17 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-03-04 07:51:17 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-03-04 07:51:17 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN9"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-03-04 07:51:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-03-04 07:51:21 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 07:51:21 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-03-04 07:51:21 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 07:51:21 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 07:51:21 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 07:51:21 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 07:51:21 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-03-04 07:51:21 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 07:51:21 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-03-04 07:51:21 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN8"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-03-04 07:51:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-03-04 07:51:22 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-03-04 07:51:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 07:51:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 07:51:25 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/TickOTP"), 0): Tapped on element 'Object Repository/Login Onboarding/TickOTP'
+
+2022-03-04 07:51:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/TickOTP'
+
+2022-03-04 07:51:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login Onboarding/onboardNameInputField"), "Amir", 0): Text 'Amir' has been set to element 'Object Repository/Login Onboarding/onboardNameInputField'
+
+2022-03-04 07:51:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:30 - [MESSAGE][PASSED] - Text 'Amir' has been set to element 'Object Repository/Login Onboarding/onboardNameInputField'
+
+2022-03-04 07:51:30 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-04 07:51:31 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-04 07:51:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 07:51:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 07:51:33 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:51:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:51:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 07:51:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 07:51:35 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2022-03-04 07:51:35 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:51:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:51:37 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/onboardReferSkipBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/onboardReferSkipBtn'
+
+2022-03-04 07:51:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/onboardReferSkipBtn'
+
+2022-03-04 07:51:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 07:51:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 07:51:45 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 07:51:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 07:51:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:51:50 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Settings/settings_secure2uRegistration" time="73.497" classname="Test Cases/Settings/settings_secure2uRegistration" status="PASSED">
+         <system-out><![CDATA[2022-03-04 07:51:51 - [TEST_CASE][PASSED] - Test Cases/Settings/settings_secure2uRegistration: Test Cases/Settings/settings_secure2uRegistration
+
+2022-03-04 07:51:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 07:51:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 07:51:54 - [TEST_STEP][PASSED] - if (getDeviceManufacturer() == "samsung"): Device manufacturer is: 'Xiaomi'
+
+2022-03-04 07:51:54 - [MESSAGE][PASSED] - Device manufacturer is: 'Xiaomi'
+
+2022-03-04 07:51:54 - [TEST_STEP][PASSED] - else: Tapped at [953, 2,147]
+
+2022-03-04 07:51:54 - [TEST_STEP][PASSED] - tapAtPosition(953, 2147): Tapped at [953, 2,147]
+
+2022-03-04 07:51:54 - [MESSAGE][PASSED] - Tapped at [953, 2,147]
+
+2022-03-04 07:51:54 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainSettingsBtn"), 0): Tapped on element 'Object Repository/Main/mainSettingsBtn'
+
+2022-03-04 07:51:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainSettingsBtn'
+
+2022-03-04 07:51:57 - [TEST_STEP][PASSED] - tap(findTestObject("Settings/settingsMaybank2UBtn"), 0): Tapped on element 'Object Repository/Settings/settingsMaybank2UBtn'
+
+2022-03-04 07:51:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:51:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Settings/settingsMaybank2UBtn'
+
+2022-03-04 07:51:59 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Login Onboarding/loginEnterPasswordMessage"), 0, OPTIONAL)): Element 'Object Repository/Login Onboarding/loginEnterPasswordMessage' not found
+
+2022-03-04 07:51:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:52:19 - [MESSAGE][WARNING] - Element 'Object Repository/Login Onboarding/loginEnterPasswordMessage' not found
+
+2022-03-04 07:52:19 - [TEST_STEP][PASSED] - tap(findTestObject("Settings/settingS2UToggle"), 0): Tapped on element 'Object Repository/Settings/settingS2UToggle'
+
+2022-03-04 07:52:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:52:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Settings/settingS2UToggle'
+
+2022-03-04 07:52:19 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/s2UActivateNowBtn"), 0): Tapped on element 'Object Repository/Banking/s2UActivateNowBtn'
+
+2022-03-04 07:52:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:52:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/s2UActivateNowBtn'
+
+2022-03-04 07:52:20 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/s2UConfirmBtn"), 0): Tapped on element 'Object Repository/Banking/s2UConfirmBtn'
+
+2022-03-04 07:52:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:52:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/s2UConfirmBtn'
+
+2022-03-04 07:52:23 - [TEST_STEP][PASSED] - OTP = getText(findTestObject("Login Onboarding/secureGetOTPTxt"), 0): Text of element 'Object Repository/Login Onboarding/secureGetOTPTxt' is: 'Your OTP no. is 621886'
+
+2022-03-04 07:52:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:52:28 - [MESSAGE][PASSED] - Text of element 'Object Repository/Login Onboarding/secureGetOTPTxt' is: 'Your OTP no. is 621886'
+
+2022-03-04 07:52:28 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): null
+
+2022-03-04 07:52:28 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 07:52:28 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-03-04 07:52:28 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 07:52:28 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 07:52:28 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 07:52:28 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 07:52:28 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-03-04 07:52:28 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN6"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-03-04 07:52:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:52:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-03-04 07:52:30 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 07:52:30 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-03-04 07:52:30 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-03-04 07:52:30 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 07:52:30 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-03-04 07:52:30 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-03-04 07:52:30 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN2"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-03-04 07:52:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:52:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-03-04 07:52:31 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 07:52:31 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 07:52:31 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 07:52:31 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-03-04 07:52:31 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 07:52:31 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-03-04 07:52:31 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-03-04 07:52:31 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 07:52:31 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:52:31 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:52:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:52:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-03-04 07:52:33 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN8"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-03-04 07:52:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:52:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-03-04 07:52:35 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-03-04 07:52:35 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 07:52:35 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-03-04 07:52:35 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 07:52:35 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 07:52:35 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 07:52:35 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 07:52:35 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-03-04 07:52:35 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 07:52:35 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-03-04 07:52:35 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN8"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-03-04 07:52:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:52:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-03-04 07:52:39 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-03-04 07:52:39 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 07:52:39 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-03-04 07:52:39 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 07:52:39 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 07:52:39 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 07:52:39 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 07:52:39 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-03-04 07:52:39 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN6"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-03-04 07:52:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:52:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-03-04 07:52:40 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 07:52:40 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-03-04 07:52:40 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-03-04 07:52:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 07:52:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 07:52:43 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/TickOTP"), 0): Tapped on element 'Object Repository/Login Onboarding/TickOTP'
+
+2022-03-04 07:52:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:52:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/TickOTP'
+
+2022-03-04 07:52:44 - [TEST_STEP][PASSED] - setText(findTestObject("Banking/s2UIDNumberInputField"), S2U_ID, 0): Text '900505508965' has been set to element 'Object Repository/Banking/s2UIDNumberInputField'
+
+2022-03-04 07:52:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:52:48 - [MESSAGE][PASSED] - Text '900505508965' has been set to element 'Object Repository/Banking/s2UIDNumberInputField'
+
+2022-03-04 07:52:48 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-04 07:52:50 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-04 07:52:50 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:52:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:52:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:52:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 07:52:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 07:52:53 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-04 07:52:55 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-04 07:52:55 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:52:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:52:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:52:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 07:52:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 07:52:58 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:52:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:53:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:53:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 07:53:04 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PayBill/payBills_todayTransaction" time="117.05" classname="Test Cases/PayBill/payBills_todayTransaction" status="PASSED">
+         <system-out><![CDATA[2022-03-04 07:53:04 - [TEST_CASE][PASSED] - Test Cases/PayBill/payBills_todayTransaction: Test Cases/PayBill/payBills_todayTransaction
+
+2022-03-04 07:53:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:53:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 07:53:09 - [TEST_STEP][PASSED] - if (getDeviceManufacturer() == "samsung"): Device manufacturer is: 'Xiaomi'
+
+2022-03-04 07:53:09 - [MESSAGE][PASSED] - Device manufacturer is: 'Xiaomi'
+
+2022-03-04 07:53:09 - [TEST_STEP][PASSED] - else: Tapped at [347, 2,147]
+
+2022-03-04 07:53:09 - [TEST_STEP][PASSED] - tapAtPosition(347, 2147): Tapped at [347, 2,147]
+
+2022-03-04 07:53:10 - [MESSAGE][PASSED] - Tapped at [347, 2,147]
+
+2022-03-04 07:53:10 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-03-04 07:53:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:53:30 - [MESSAGE][WARNING] - Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-03-04 07:53:30 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountTypeSelection", ["text":"MAE"]), 10): Tapped on element 'Object Repository/Banking/m2uAccountTypeSelection'
+
+2022-03-04 07:53:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountTypeSelection'
+
+2022-03-04 07:53:34 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountPayBillsIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 07:53:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:53:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 07:53:36 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Login Onboarding/loginEnterPasswordMessage"), 0, OPTIONAL)): Element 'Object Repository/Login Onboarding/loginEnterPasswordMessage' not found
+
+2022-03-04 07:53:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:53:56 - [MESSAGE][WARNING] - Element 'Object Repository/Login Onboarding/loginEnterPasswordMessage' not found
+
+2022-03-04 07:53:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Paybill/payBillsIconSelect"), 0): Element 'Object Repository/Paybill/payBillsIconSelect' is present
+
+2022-03-04 07:53:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:53:56 - [MESSAGE][PASSED] - Element 'Object Repository/Paybill/payBillsIconSelect' is present
+
+2022-03-04 07:53:56 - [TEST_STEP][PASSED] - tap(findTestObject("Paybill/payBillsIconSelect"), 0): Tapped on element 'Object Repository/Paybill/payBillsIconSelect'
+
+2022-03-04 07:53:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:53:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Paybill/payBillsIconSelect'
+
+2022-03-04 07:53:56 - [TEST_STEP][PASSED] - tap(findTestObject("Paybill/payBillSearchBillerInputField"), 0): Tapped on element 'Object Repository/Paybill/payBillSearchBillerInputField'
+
+2022-03-04 07:53:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:54:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Paybill/payBillSearchBillerInputField'
+
+2022-03-04 07:54:01 - [TEST_STEP][PASSED] - setText(findTestObject("Paybill/payBillBillerNameInputField"), "Maxis", 0): Text 'Maxis' has been set to element 'Object Repository/Paybill/payBillBillerNameInputField'
+
+2022-03-04 07:54:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:54:02 - [MESSAGE][PASSED] - Text 'Maxis' has been set to element 'Object Repository/Paybill/payBillBillerNameInputField'
+
+2022-03-04 07:54:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 07:54:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 07:54:05 - [TEST_STEP][PASSED] - tap(findTestObject("Paybill/payBillBillerSelect", ["text":"Maxis Mobile Sdn Bhd"]), 10): Tapped on element 'Object Repository/Paybill/payBillBillerSelect'
+
+2022-03-04 07:54:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Paybill/payBillBillerSelect'
+
+2022-03-04 07:54:05 - [TEST_STEP][PASSED] - tap(findTestObject("Paybill/payBillBillerSelect", ["text":"Maxis Mobile Sdn Bhd"]), 10): Tapped on element 'Object Repository/Paybill/payBillBillerSelect'
+
+2022-03-04 07:54:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Paybill/payBillBillerSelect'
+
+2022-03-04 07:54:06 - [TEST_STEP][PASSED] - setText(findTestObject("Paybill/PayBillAccountNumberInputField"), AccountNo, 0): Text '1544054651' has been set to element 'Object Repository/Paybill/PayBillAccountNumberInputField'
+
+2022-03-04 07:54:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:54:08 - [MESSAGE][PASSED] - Text '1544054651' has been set to element 'Object Repository/Paybill/PayBillAccountNumberInputField'
+
+2022-03-04 07:54:08 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-04 07:54:11 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-04 07:54:11 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:54:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:54:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:54:11 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:54:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:54:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:54:13 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN4"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-03-04 07:54:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:54:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-03-04 07:54:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 07:54:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 07:54:17 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainAmountTickBtn"), 0): Tapped on element 'Object Repository/Main/mainAmountTickBtn'
+
+2022-03-04 07:54:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:54:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainAmountTickBtn'
+
+2022-03-04 07:54:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:54:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 07:54:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Main/mainPayNowBtn"), 5): Element 'Object Repository/Main/mainPayNowBtn' is present
+
+2022-03-04 07:54:23 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainPayNowBtn' is present
+
+2022-03-04 07:54:23 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainPayNowBtn"), 0): Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 07:54:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:54:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 07:54:23 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Festive Season/festiveReturnAngpaoTACNoTxt"), 0, OPTIONAL)): Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 07:54:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:54:43 - [MESSAGE][WARNING] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 07:54:43 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 07:54:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:54:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 07:54:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainS2UApproveBtn"), 10): Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 07:54:48 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 07:54:48 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainS2UApproveBtn"), 0): Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 07:54:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:54:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 07:54:49 - [TEST_STEP][PASSED] - message = getText(findTestObject("Main/mainTransactionStatusMessageTxt"), 10): Text of element 'Object Repository/Main/mainTransactionStatusMessageTxt' is: 'Payment successful'
+
+2022-03-04 07:54:55 - [MESSAGE][PASSED] - Text of element 'Object Repository/Main/mainTransactionStatusMessageTxt' is: 'Payment successful'
+
+2022-03-04 07:54:55 - [TEST_STEP][PASSED] - println(message): null
+
+2022-03-04 07:54:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 07:54:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:54:56 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 07:54:56 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 07:54:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:54:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 07:54:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:55:01 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PayBill/payBills_scheduleTransaction" time="78.247" classname="Test Cases/PayBill/payBills_scheduleTransaction" status="PASSED">
+         <system-out><![CDATA[2022-03-04 07:55:01 - [TEST_CASE][PASSED] - Test Cases/PayBill/payBills_scheduleTransaction: Test Cases/PayBill/payBills_scheduleTransaction
+
+2022-03-04 07:55:01 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountPayBillsIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 07:55:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:55:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 07:55:04 - [TEST_STEP][PASSED] - tap(findTestObject("Paybill/payBillsIconSelect"), 0): Tapped on element 'Object Repository/Paybill/payBillsIconSelect'
+
+2022-03-04 07:55:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:55:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Paybill/payBillsIconSelect'
+
+2022-03-04 07:55:05 - [TEST_STEP][PASSED] - tap(findTestObject("Paybill/payBillSearchBillerInputField"), 0): Tapped on element 'Object Repository/Paybill/payBillSearchBillerInputField'
+
+2022-03-04 07:55:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:55:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Paybill/payBillSearchBillerInputField'
+
+2022-03-04 07:55:08 - [TEST_STEP][PASSED] - setText(findTestObject("Paybill/payBillBillerNameInputField"), "Maxis", 0): Text 'Maxis' has been set to element 'Object Repository/Paybill/payBillBillerNameInputField'
+
+2022-03-04 07:55:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:55:10 - [MESSAGE][PASSED] - Text 'Maxis' has been set to element 'Object Repository/Paybill/payBillBillerNameInputField'
+
+2022-03-04 07:55:10 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-04 07:55:12 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-04 07:55:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 07:55:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 07:55:15 - [TEST_STEP][PASSED] - tap(findTestObject("Paybill/payBillBillerSelect", ["text":"Maxis Mobile Sdn Bhd"]), 10): Tapped on element 'Object Repository/Paybill/payBillBillerSelect'
+
+2022-03-04 07:55:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Paybill/payBillBillerSelect'
+
+2022-03-04 07:55:16 - [TEST_STEP][PASSED] - tap(findTestObject("Paybill/payBillBillerSelect", ["text":"Maxis Mobile Sdn Bhd"]), 10): Tapped on element 'Object Repository/Paybill/payBillBillerSelect'
+
+2022-03-04 07:55:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Paybill/payBillBillerSelect'
+
+2022-03-04 07:55:17 - [TEST_STEP][PASSED] - setText(findTestObject("Paybill/PayBillAccountNumberInputField"), "1544054651", 0): Text '1544054651' has been set to element 'Object Repository/Paybill/PayBillAccountNumberInputField'
+
+2022-03-04 07:55:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:55:19 - [MESSAGE][PASSED] - Text '1544054651' has been set to element 'Object Repository/Paybill/PayBillAccountNumberInputField'
+
+2022-03-04 07:55:19 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-04 07:55:21 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-04 07:55:21 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:55:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:55:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:55:21 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:55:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:55:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:55:23 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN4"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-03-04 07:55:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:55:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-03-04 07:55:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 07:55:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 07:55:26 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainAmountTickBtn"), 0): Tapped on element 'Object Repository/Main/mainAmountTickBtn'
+
+2022-03-04 07:55:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:55:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainAmountTickBtn'
+
+2022-03-04 07:55:27 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDatePickerTodaySelect"), 0): Tapped on element 'Object Repository/Main/mainDatePickerTodaySelect'
+
+2022-03-04 07:55:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:55:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDatePickerTodaySelect'
+
+2022-03-04 07:55:30 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerNextBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerNextBtn'
+
+2022-03-04 07:55:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:55:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerNextBtn'
+
+2022-03-04 07:55:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 07:55:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 07:55:36 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDatePicker1"), 0): Tapped on element 'Object Repository/Main/mainDatePicker1'
+
+2022-03-04 07:55:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:55:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDatePicker1'
+
+2022-03-04 07:55:36 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 07:55:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:55:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 07:55:37 - [TEST_STEP][PASSED] - date = getText(findTestObject("Main/mainGetTransactionDateTxt"), 10): Text of element 'Object Repository/Main/mainGetTransactionDateTxt' is: '01 Apr 2022'
+
+2022-03-04 07:55:37 - [MESSAGE][PASSED] - Text of element 'Object Repository/Main/mainGetTransactionDateTxt' is: '01 Apr 2022'
+
+2022-03-04 07:55:37 - [TEST_STEP][PASSED] - println("Date is " + date): null
+
+2022-03-04 07:55:37 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainPayNowBtn"), 0): Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 07:55:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:55:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 07:55:38 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Festive Season/festiveReturnAngpaoTACNoTxt"), 0, OPTIONAL)): Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 07:55:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:55:58 - [MESSAGE][WARNING] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 07:55:58 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 07:55:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:56:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 07:56:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainS2UApproveBtn"), 10): Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 07:56:03 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 07:56:03 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainS2UApproveBtn"), 0): Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 07:56:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:56:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 07:56:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 07:56:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:56:07 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 07:56:07 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 07:56:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:56:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 07:56:09 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-03-04 07:56:19 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JomPay/jomPay_todayTransaction" time="81.9" classname="Test Cases/JomPay/jomPay_todayTransaction" status="PASSED">
+         <system-out><![CDATA[2022-03-04 07:56:19 - [TEST_CASE][PASSED] - Test Cases/JomPay/jomPay_todayTransaction: Test Cases/JomPay/jomPay_todayTransaction
+
+2022-03-04 07:56:20 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountTypeSelection", ["text":"MAE"]), 10): Tapped on element 'Object Repository/Banking/m2uAccountTypeSelection'
+
+2022-03-04 07:56:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountTypeSelection'
+
+2022-03-04 07:56:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:56:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 07:56:26 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountPayBillsIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 07:56:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:56:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 07:56:29 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-03-04 07:56:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-03-04 07:56:39 - [TEST_STEP][PASSED] - println("JOMPAY OFF US"): null
+
+2022-03-04 07:56:39 - [TEST_STEP][PASSED] - tap(findTestObject("JomPay/payBillsJomPayTopMenuSelect"), 0): Tapped on element 'Object Repository/JomPay/payBillsJomPayTopMenuSelect'
+
+2022-03-04 07:56:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:56:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/JomPay/payBillsJomPayTopMenuSelect'
+
+2022-03-04 07:56:39 - [TEST_STEP][PASSED] - tap(findTestObject("JomPay/jomPayIconSelect"), 0): Tapped on element 'Object Repository/JomPay/jomPayIconSelect'
+
+2022-03-04 07:56:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:56:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/JomPay/jomPayIconSelect'
+
+2022-03-04 07:56:40 - [TEST_STEP][PASSED] - setText(findTestObject("JomPay/jomPayBillerInputField"), "1123", 0): Text '1123' has been set to element 'Object Repository/JomPay/jomPayBillerInputField'
+
+2022-03-04 07:56:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:56:42 - [MESSAGE][PASSED] - Text '1123' has been set to element 'Object Repository/JomPay/jomPayBillerInputField'
+
+2022-03-04 07:56:42 - [TEST_STEP][PASSED] - setText(findTestObject("JomPay/jomPayBillerRefInputField"), "568964", 0): Text '568964' has been set to element 'Object Repository/JomPay/jomPayBillerRefInputField'
+
+2022-03-04 07:56:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:56:43 - [MESSAGE][PASSED] - Text '568964' has been set to element 'Object Repository/JomPay/jomPayBillerRefInputField'
+
+2022-03-04 07:56:43 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-04 07:56:44 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-04 07:56:44 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:56:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:56:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:56:44 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:56:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:56:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:56:48 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 07:56:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:56:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 07:56:49 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 07:56:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:56:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 07:56:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:56:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 07:56:54 - [TEST_STEP][PASSED] - tap(findTestObject("JomPay/jomPayAmountTickBtn"), 0): Tapped on element 'Object Repository/JomPay/jomPayAmountTickBtn'
+
+2022-03-04 07:56:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:56:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/JomPay/jomPayAmountTickBtn'
+
+2022-03-04 07:56:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:57:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 07:57:00 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainPayNowBtn"), 0): Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 07:57:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:57:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 07:57:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 07:57:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 07:57:04 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Festive Season/festiveReturnAngpaoTACNoTxt"), 0, OPTIONAL)): Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 07:57:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:57:24 - [MESSAGE][WARNING] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 07:57:24 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 07:57:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:57:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 07:57:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainS2UApproveBtn"), 10): Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 07:57:29 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 07:57:29 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainS2UApproveBtn"), 0): Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 07:57:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:57:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 07:57:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:57:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 07:57:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("JomPay/jomPaySummarySuccesfulTxt"), "Payment successful"): Actual text and expected text of test object 'Object Repository/JomPay/jomPaySummarySuccesfulTxt' are matched.
+
+2022-03-04 07:57:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/JomPay/jomPaySummarySuccesfulTxt' are matched.
+
+2022-03-04 07:57:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 07:57:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:57:36 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 07:57:36 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 07:57:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:57:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 07:57:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:57:41 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JomPay/jomPay_scheduleTransaction" time="117.632" classname="Test Cases/JomPay/jomPay_scheduleTransaction" status="PASSED">
+         <system-out><![CDATA[2022-03-04 07:57:41 - [TEST_CASE][PASSED] - Test Cases/JomPay/jomPay_scheduleTransaction: Test Cases/JomPay/jomPay_scheduleTransaction
+
+2022-03-04 07:57:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:57:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 07:57:46 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-03-04 07:57:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:07 - [MESSAGE][WARNING] - Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-03-04 07:58:07 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountPayBillsIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 07:58:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 07:58:09 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Paybill/payBillsEnterPasswordTxt"), 0, OPTIONAL)): Element 'Object Repository/Paybill/payBillsEnterPasswordTxt' not found
+
+2022-03-04 07:58:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:29 - [MESSAGE][WARNING] - Element 'Object Repository/Paybill/payBillsEnterPasswordTxt' not found
+
+2022-03-04 07:58:29 - [TEST_STEP][PASSED] - println("JOMPAY Future Transaction"): null
+
+2022-03-04 07:58:29 - [TEST_STEP][PASSED] - tap(findTestObject("JomPay/payBillsJomPayTopMenuSelect"), 0): Tapped on element 'Object Repository/JomPay/payBillsJomPayTopMenuSelect'
+
+2022-03-04 07:58:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/JomPay/payBillsJomPayTopMenuSelect'
+
+2022-03-04 07:58:29 - [TEST_STEP][PASSED] - tap(findTestObject("JomPay/jomPayIconSelect"), 0): Tapped on element 'Object Repository/JomPay/jomPayIconSelect'
+
+2022-03-04 07:58:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/JomPay/jomPayIconSelect'
+
+2022-03-04 07:58:30 - [TEST_STEP][PASSED] - setText(findTestObject("JomPay/jomPayBillerInputField"), "9639", 0): Text '9639' has been set to element 'Object Repository/JomPay/jomPayBillerInputField'
+
+2022-03-04 07:58:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:32 - [MESSAGE][PASSED] - Text '9639' has been set to element 'Object Repository/JomPay/jomPayBillerInputField'
+
+2022-03-04 07:58:32 - [TEST_STEP][PASSED] - setText(findTestObject("JomPay/jomPayBillerRefInputField"), "0816101607", 0): Text '0816101607' has been set to element 'Object Repository/JomPay/jomPayBillerRefInputField'
+
+2022-03-04 07:58:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:33 - [MESSAGE][PASSED] - Text '0816101607' has been set to element 'Object Repository/JomPay/jomPayBillerRefInputField'
+
+2022-03-04 07:58:33 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-04 07:58:34 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-04 07:58:34 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:58:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 07:58:35 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:58:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 07:58:39 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 07:58:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 07:58:39 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 07:58:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 07:58:40 - [TEST_STEP][PASSED] - tap(findTestObject("JomPay/jomPayAmountTickBtn"), 0): Tapped on element 'Object Repository/JomPay/jomPayAmountTickBtn'
+
+2022-03-04 07:58:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/JomPay/jomPayAmountTickBtn'
+
+2022-03-04 07:58:40 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDatePickerTodaySelect"), 0): Tapped on element 'Object Repository/Main/mainDatePickerTodaySelect'
+
+2022-03-04 07:58:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDatePickerTodaySelect'
+
+2022-03-04 07:58:47 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerNextBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerNextBtn'
+
+2022-03-04 07:58:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerNextBtn'
+
+2022-03-04 07:58:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 07:58:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 07:58:52 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDatePicker1"), 0): Tapped on element 'Object Repository/Main/mainDatePicker1'
+
+2022-03-04 07:58:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDatePicker1'
+
+2022-03-04 07:58:53 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 07:58:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 07:58:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 07:58:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 07:58:56 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainPayNowBtn"), 0): Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 07:58:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:58:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 07:58:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:59:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 07:59:02 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Festive Season/festiveReturnAngpaoTACNoTxt"), 0, OPTIONAL)): Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 07:59:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:59:22 - [MESSAGE][WARNING] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 07:59:22 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 07:59:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:59:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 07:59:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainS2UApproveBtn"), 10): Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 07:59:27 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 07:59:27 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainS2UApproveBtn"), 0): Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 07:59:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:59:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 07:59:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 07:59:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 07:59:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("JomPay/jomPaySummaryScheduledTxt"), "Payment scheduled"): Actual text and expected text of test object 'Object Repository/JomPay/jomPaySummaryScheduledTxt' are matched.
+
+2022-03-04 07:59:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/JomPay/jomPaySummaryScheduledTxt' are matched.
+
+2022-03-04 07:59:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 07:59:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:59:33 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 07:59:33 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 07:59:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:59:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 07:59:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:59:39 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JomPay/JomPay Add Favorite" time="92.231" classname="Test Cases/JomPay/JomPay Add Favorite" status="PASSED">
+         <system-out><![CDATA[2022-03-04 07:59:39 - [TEST_CASE][PASSED] - Test Cases/JomPay/JomPay Add Favorite: Test Cases/JomPay/JomPay Add Favorite
+
+2022-03-04 07:59:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 07:59:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 07:59:44 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountPayBillsIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 07:59:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:59:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 07:59:46 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-03-04 07:59:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-03-04 07:59:56 - [TEST_STEP][PASSED] - tap(findTestObject("JomPay/payBillsJomPayTopMenuSelect"), 0): Tapped on element 'Object Repository/JomPay/payBillsJomPayTopMenuSelect'
+
+2022-03-04 07:59:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:59:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/JomPay/payBillsJomPayTopMenuSelect'
+
+2022-03-04 07:59:57 - [TEST_STEP][PASSED] - tap(findTestObject("JomPay/jomPayIconSelect"), 0): Tapped on element 'Object Repository/JomPay/jomPayIconSelect'
+
+2022-03-04 07:59:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 07:59:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/JomPay/jomPayIconSelect'
+
+2022-03-04 07:59:58 - [TEST_STEP][PASSED] - setText(findTestObject("JomPay/jomPayBillerInputField"), "9639", 0): Text '9639' has been set to element 'Object Repository/JomPay/jomPayBillerInputField'
+
+2022-03-04 07:59:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:00:00 - [MESSAGE][PASSED] - Text '9639' has been set to element 'Object Repository/JomPay/jomPayBillerInputField'
+
+2022-03-04 08:00:00 - [TEST_STEP][PASSED] - println("JOMPAY ON US"): null
+
+2022-03-04 08:00:00 - [TEST_STEP][PASSED] - setText(findTestObject("JomPay/jomPayBillerRefInputField"), "0816101607", 0): Text '0816101607' has been set to element 'Object Repository/JomPay/jomPayBillerRefInputField'
+
+2022-03-04 08:00:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:00:01 - [MESSAGE][PASSED] - Text '0816101607' has been set to element 'Object Repository/JomPay/jomPayBillerRefInputField'
+
+2022-03-04 08:00:01 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-04 08:00:02 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-04 08:00:02 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:00:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:00:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:00:02 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:00:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:00:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:00:06 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 08:00:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:00:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 08:00:07 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 08:00:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:00:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 08:00:07 - [TEST_STEP][PASSED] - tap(findTestObject("JomPay/jomPayAmountTickBtn"), 0): Tapped on element 'Object Repository/JomPay/jomPayAmountTickBtn'
+
+2022-03-04 08:00:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:00:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/JomPay/jomPayAmountTickBtn'
+
+2022-03-04 08:00:07 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-03-04 08:00:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-03-04 08:00:17 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainPayNowBtn"), 0): Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 08:00:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:00:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 08:00:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:00:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:00:21 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Festive Season/festiveReturnAngpaoTACNoTxt"), 0, OPTIONAL)): Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 08:00:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:00:41 - [MESSAGE][WARNING] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 08:00:41 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:00:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:00:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:00:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainS2UApproveBtn"), 10): Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 08:00:46 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 08:00:46 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainS2UApproveBtn"), 0): Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:00:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:00:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:00:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:00:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:00:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("JomPay/jomPaySummarySuccesfulTxt"), "Payment successful"): Actual text and expected text of test object 'Object Repository/JomPay/jomPaySummarySuccesfulTxt' are matched.
+
+2022-03-04 08:00:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/JomPay/jomPaySummarySuccesfulTxt' are matched.
+
+2022-03-04 08:00:52 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainAddToFavBtn"), 0): Tapped on element 'Object Repository/Main/mainAddToFavBtn'
+
+2022-03-04 08:00:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:00:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainAddToFavBtn'
+
+2022-03-04 08:00:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:00:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:00:57 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainAddToFavBtn"), 0): Tapped on element 'Object Repository/Main/mainAddToFavBtn'
+
+2022-03-04 08:00:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:00:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainAddToFavBtn'
+
+2022-03-04 08:00:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:01:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:01:00 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCloseFavPopUpBtn"), 0): Tapped on element 'Object Repository/Main/mainCloseFavPopUpBtn'
+
+2022-03-04 08:01:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:01:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCloseFavPopUpBtn'
+
+2022-03-04 08:01:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:01:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:01:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:01:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:01:06 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:01:06 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:01:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:01:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:01:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:01:11 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JomPay/JomPay Favorite Transaction" time="51.376" classname="Test Cases/JomPay/JomPay Favorite Transaction" status="PASSED">
+         <system-out><![CDATA[2022-03-04 08:01:11 - [TEST_CASE][PASSED] - Test Cases/JomPay/JomPay Favorite Transaction: Test Cases/JomPay/JomPay Favorite Transaction
+
+2022-03-04 08:01:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:01:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:01:16 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountPayBillsIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 08:01:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:01:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 08:01:19 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Paybill/payBillsEnterPasswordTxt"), 0, OPTIONAL)): Element 'Object Repository/Paybill/payBillsEnterPasswordTxt' not found
+
+2022-03-04 08:01:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:01:39 - [MESSAGE][WARNING] - Element 'Object Repository/Paybill/payBillsEnterPasswordTxt' not found
+
+2022-03-04 08:01:39 - [TEST_STEP][PASSED] - println("JOMPAY Fav Transaction"): null
+
+2022-03-04 08:01:39 - [TEST_STEP][PASSED] - tap(findTestObject("JomPay/payBillsJomPayTopMenuSelect"), 0): Tapped on element 'Object Repository/JomPay/payBillsJomPayTopMenuSelect'
+
+2022-03-04 08:01:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:01:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/JomPay/payBillsJomPayTopMenuSelect'
+
+2022-03-04 08:01:39 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainFavBodySelect"), 0): Tapped on element 'Object Repository/Main/mainFavBodySelect'
+
+2022-03-04 08:01:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:01:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainFavBodySelect'
+
+2022-03-04 08:01:40 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:01:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:01:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:01:42 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 08:01:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:01:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 08:01:42 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 08:01:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:01:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 08:01:43 - [TEST_STEP][PASSED] - tap(findTestObject("JomPay/jomPayAmountTickBtn"), 0): Tapped on element 'Object Repository/JomPay/jomPayAmountTickBtn'
+
+2022-03-04 08:01:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:01:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/JomPay/jomPayAmountTickBtn'
+
+2022-03-04 08:01:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:01:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:01:48 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainPayNowBtn"), 0): Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 08:01:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:01:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 08:01:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:01:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:01:56 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:01:56 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:01:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:01:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:01:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:02:02 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Zakat/zakat_zakatPayment" time="118.868" classname="Test Cases/Zakat/zakat_zakatPayment" status="PASSED">
+         <system-out><![CDATA[2022-03-04 08:02:02 - [TEST_CASE][PASSED] - Test Cases/Zakat/zakat_zakatPayment: Test Cases/Zakat/zakat_zakatPayment
+
+2022-03-04 08:02:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:02:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:02:08 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-03-04 08:02:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:02:28 - [MESSAGE][WARNING] - Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-03-04 08:02:28 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountPayBillsIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 08:02:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:02:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 08:02:30 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Paybill/payBillsEnterPasswordTxt"), 0, OPTIONAL)): Element 'Object Repository/Paybill/payBillsEnterPasswordTxt' not found
+
+2022-03-04 08:02:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:02:50 - [MESSAGE][WARNING] - Element 'Object Repository/Paybill/payBillsEnterPasswordTxt' not found
+
+2022-03-04 08:02:50 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/payBillZakatTopMenuSelect"), 0): Tapped on element 'Object Repository/zakat/payBillZakatTopMenuSelect'
+
+2022-03-04 08:02:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:02:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/payBillZakatTopMenuSelect'
+
+2022-03-04 08:02:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:02:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:02:53 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/zakatIconSelect"), 0): Tapped on element 'Object Repository/zakat/zakatIconSelect'
+
+2022-03-04 08:02:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:02:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/zakatIconSelect'
+
+2022-03-04 08:02:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:02:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:02:56 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/zakatBodyDropdownSelectBoxx"), 0): Tapped on element 'Object Repository/zakat/zakatBodyDropdownSelectBoxx'
+
+2022-03-04 08:02:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:02:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/zakatBodyDropdownSelectBoxx'
+
+2022-03-04 08:02:56 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/zakatBaitulmalPerlisDropdownSelect"), 0): Tapped on element 'Object Repository/zakat/zakatBaitulmalPerlisDropdownSelect'
+
+2022-03-04 08:02:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:02:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/zakatBaitulmalPerlisDropdownSelect'
+
+2022-03-04 08:02:57 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:02:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:02:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:02:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:03:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:03:01 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/zakatTypeDropdownSelectBox"), 0): Tapped on element 'Object Repository/zakat/zakatTypeDropdownSelectBox'
+
+2022-03-04 08:03:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:03:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/zakatTypeDropdownSelectBox'
+
+2022-03-04 08:03:01 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/zakatTypeZakatEmasDropdownSelect"), 0): Tapped on element 'Object Repository/zakat/zakatTypeZakatEmasDropdownSelect'
+
+2022-03-04 08:03:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:03:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/zakatTypeZakatEmasDropdownSelect'
+
+2022-03-04 08:03:02 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:03:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:03:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:03:03 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:03:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:03:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:03:03 - [TEST_STEP][PASSED] - setText(findTestObject("zakat/zakatMobileNoInputField"), "181610161", 0): Text '181610161' has been set to element 'Object Repository/zakat/zakatMobileNoInputField'
+
+2022-03-04 08:03:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:03:06 - [MESSAGE][PASSED] - Text '181610161' has been set to element 'Object Repository/zakat/zakatMobileNoInputField'
+
+2022-03-04 08:03:06 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-04 08:03:10 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-04 08:03:10 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:03:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:03:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:03:10 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:03:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:03:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:03:12 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/zakatAmountTickBtn"), 0): Tapped on element 'Object Repository/zakat/zakatAmountTickBtn'
+
+2022-03-04 08:03:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:03:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/zakatAmountTickBtn'
+
+2022-03-04 08:03:13 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainPayNowBtn"), 0): Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 08:03:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:03:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 08:03:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:03:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:03:19 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Festive Season/festiveReturnAngpaoTACNoTxt"), 0, OPTIONAL)): Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 08:03:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:03:39 - [MESSAGE][WARNING] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 08:03:39 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:03:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:03:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:03:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainS2UApproveBtn"), 10): Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 08:03:45 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 08:03:45 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainS2UApproveBtn"), 0): Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:03:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:03:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:03:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:03:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:03:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:03:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:03:56 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:03:56 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:03:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:03:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:03:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:04:01 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Zakat/zakat_zakatPaymentAddFavorite" time="81.738" classname="Test Cases/Zakat/zakat_zakatPaymentAddFavorite" status="PASSED">
+         <system-out><![CDATA[2022-03-04 08:04:01 - [TEST_CASE][PASSED] - Test Cases/Zakat/zakat_zakatPaymentAddFavorite: Test Cases/Zakat/zakat_zakatPaymentAddFavorite
+
+2022-03-04 08:04:02 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountPayBillsIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 08:04:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:04:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 08:04:04 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/payBillZakatTopMenuSelect"), 0): Tapped on element 'Object Repository/zakat/payBillZakatTopMenuSelect'
+
+2022-03-04 08:04:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:04:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/payBillZakatTopMenuSelect'
+
+2022-03-04 08:04:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:04:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:04:12 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/zakatIconSelect"), 0): Tapped on element 'Object Repository/zakat/zakatIconSelect'
+
+2022-03-04 08:04:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:04:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/zakatIconSelect'
+
+2022-03-04 08:04:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:04:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:04:15 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/zakatBodyDropdownSelectBoxx"), 0): Tapped on element 'Object Repository/zakat/zakatBodyDropdownSelectBoxx'
+
+2022-03-04 08:04:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:04:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/zakatBodyDropdownSelectBoxx'
+
+2022-03-04 08:04:15 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/zakatBaitulmalPerlisDropdownSelect"), 0): Tapped on element 'Object Repository/zakat/zakatBaitulmalPerlisDropdownSelect'
+
+2022-03-04 08:04:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:04:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/zakatBaitulmalPerlisDropdownSelect'
+
+2022-03-04 08:04:16 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:04:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:04:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:04:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:04:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:04:20 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/zakatTypeDropdownSelectBox"), 0): Tapped on element 'Object Repository/zakat/zakatTypeDropdownSelectBox'
+
+2022-03-04 08:04:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:04:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/zakatTypeDropdownSelectBox'
+
+2022-03-04 08:04:20 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/zakatTypeZakatEmasDropdownSelect"), 0): Tapped on element 'Object Repository/zakat/zakatTypeZakatEmasDropdownSelect'
+
+2022-03-04 08:04:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:04:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/zakatTypeZakatEmasDropdownSelect'
+
+2022-03-04 08:04:21 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:04:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:04:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:04:21 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:04:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:04:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:04:22 - [TEST_STEP][PASSED] - setText(findTestObject("zakat/zakatMobileNoInputField"), "181610161", 0): Text '181610161' has been set to element 'Object Repository/zakat/zakatMobileNoInputField'
+
+2022-03-04 08:04:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:04:24 - [MESSAGE][PASSED] - Text '181610161' has been set to element 'Object Repository/zakat/zakatMobileNoInputField'
+
+2022-03-04 08:04:24 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-04 08:04:29 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-04 08:04:29 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:04:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:04:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:04:30 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:04:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:04:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:04:32 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/zakatAmountTickBtn"), 0): Tapped on element 'Object Repository/zakat/zakatAmountTickBtn'
+
+2022-03-04 08:04:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:04:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/zakatAmountTickBtn'
+
+2022-03-04 08:04:32 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainPayNowBtn"), 0): Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 08:04:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:04:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 08:04:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:04:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:04:38 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Festive Season/festiveReturnAngpaoTACNoTxt"), 0, OPTIONAL)): Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 08:04:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:04:58 - [MESSAGE][WARNING] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 08:04:58 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:04:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:05:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:05:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainS2UApproveBtn"), 10): Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 08:05:04 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 08:05:04 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainS2UApproveBtn"), 0): Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:05:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:05:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:05:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:05:07 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainAddToFavBtn"), 0): Tapped on element 'Object Repository/Main/mainAddToFavBtn'
+
+2022-03-04 08:05:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainAddToFavBtn'
+
+2022-03-04 08:05:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:05:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:05:11 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainAddToFavBtn"), 0): Tapped on element 'Object Repository/Main/mainAddToFavBtn'
+
+2022-03-04 08:05:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainAddToFavBtn'
+
+2022-03-04 08:05:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:05:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:05:14 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCloseFavPopUpBtn"), 0): Tapped on element 'Object Repository/Main/mainCloseFavPopUpBtn'
+
+2022-03-04 08:05:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCloseFavPopUpBtn'
+
+2022-03-04 08:05:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:05:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:05:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:05:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:18 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:05:18 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:05:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:05:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:05:23 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Zakat/zakat_zakatPaymentFavoriteTransaction" time="32.454" classname="Test Cases/Zakat/zakat_zakatPaymentFavoriteTransaction" status="PASSED">
+         <system-out><![CDATA[2022-03-04 08:05:23 - [TEST_CASE][PASSED] - Test Cases/Zakat/zakat_zakatPaymentFavoriteTransaction: Test Cases/Zakat/zakat_zakatPaymentFavoriteTransaction
+
+2022-03-04 08:05:23 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountPayBillsIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 08:05:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-03-04 08:05:26 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/payBillZakatTopMenuSelect"), 0): Tapped on element 'Object Repository/zakat/payBillZakatTopMenuSelect'
+
+2022-03-04 08:05:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/payBillZakatTopMenuSelect'
+
+2022-03-04 08:05:27 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainFavBodySelect"), 0): Tapped on element 'Object Repository/Main/mainFavBodySelect'
+
+2022-03-04 08:05:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainFavBodySelect'
+
+2022-03-04 08:05:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:05:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:05:34 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/zakatTypeDropdownSelectBox"), 0): Tapped on element 'Object Repository/zakat/zakatTypeDropdownSelectBox'
+
+2022-03-04 08:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/zakatTypeDropdownSelectBox'
+
+2022-03-04 08:05:34 - [TEST_STEP][PASSED] - tap(findTestObject("zakat/zakatTypeZakatEmasDropdownSelect"), 0): Tapped on element 'Object Repository/zakat/zakatTypeZakatEmasDropdownSelect'
+
+2022-03-04 08:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/zakat/zakatTypeZakatEmasDropdownSelect'
+
+2022-03-04 08:05:36 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:05:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:05:36 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:05:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:05:37 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:05:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:05:39 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 08:05:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 08:05:39 - [TEST_STEP][PASSED] - tap(findTestObject("JomPay/jomPayAmountTickBtn"), 0): Tapped on element 'Object Repository/JomPay/jomPayAmountTickBtn'
+
+2022-03-04 08:05:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/JomPay/jomPayAmountTickBtn'
+
+2022-03-04 08:05:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainPayNowBtn"), 0): Element 'Object Repository/Main/mainPayNowBtn' is visible
+
+2022-03-04 08:05:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:42 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainPayNowBtn' is visible
+
+2022-03-04 08:05:42 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainPayNowBtn"), 0): Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 08:05:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-03-04 08:05:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:05:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:05:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:05:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:50 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:05:50 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:05:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:05:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:05:56 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-04 07:49:07 - [TEST_SUITE][PASSED] - Regress 1: Test Cases/Zakat/zakat_zakatPaymentFavoriteTransaction]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

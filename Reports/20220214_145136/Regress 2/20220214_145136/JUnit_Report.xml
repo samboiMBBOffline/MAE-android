@@ -1,0 +1,2519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regress 2" time="525.689" tests="7" failures="3" errors="0">
+   <testsuite name="Regress 2" tests="7" failures="3" errors="0" time="525.689" skipped="0" timestamp="2022-02-14 14:51:45" hostname="a00139272 - 192.168.0.189" id="Test Suites/Regress 2">
+      <properties>
+         <property name="deviceName" value="samsung SM-G965F (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/a00139272/Katalon Studio/MAEAutomation2/Reports/20220214_145136/Regress 2/20220214_145136"/>
+         <property name="logFiles" value="/Users/a00139272/Katalon Studio/MAEAutomation2/Reports/20220214_145136/Regress 2/20220214_145136/execution0.log, /Users/a00139272/Katalon Studio/MAEAutomation2/Reports/20220214_145136/Regress 2/20220214_145136/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="a00139272 - 192.168.0.189"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.1&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.1"/>
+         <property name="deviceModel" value="SM-G965F"/>
+         <property name="hostAddress" value="192.168.0.189"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="2252c030550d7ece"/>
+         <property name="deviceName" value="samsung SM-G965F (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Tabung/tabung_createTabungCreatorOnly" time="161.11" classname="Test Cases/Tabung/tabung_createTabungCreatorOnly" status="PASSED">
+         <system-out><![CDATA[2022-02-14 14:51:46 - [TEST_CASE][PASSED] - Test Cases/Tabung/tabung_createTabungCreatorOnly: Test Cases/Tabung/tabung_createTabungCreatorOnly
+
+2022-02-14 14:51:46 - [TEST_STEP][PASSED] - try: Delayed 5 second(s)
+
+2022-02-14 14:51:46 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appPackage", "com.maybank2u.life.sit"): null
+
+2022-02-14 14:51:46 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appActivity", "com.maybank2u.life.MainActivity"): null
+
+2022-02-14 14:51:46 - [TEST_STEP][PASSED] - if (isApplicationOpened == false): Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-sit-universal-release-copy.apk'
+
+2022-02-14 14:51:46 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-sit-universal-release-copy.apk'
+
+2022-02-14 14:51:46 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-02-14 14:51:46 - [MESSAGE][INFO] - User set preference: ['deviceId', '2252c030550d7ece']
+
+2022-02-14 14:51:46 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.maybank2u.life.sit']
+
+2022-02-14 14:51:46 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.maybank2u.life.MainActivity']
+
+2022-02-14 14:51:48 - [MESSAGE][INFO] - Appium server started on port 52,953
+
+2022-02-14 14:52:00 - [MESSAGE][PASSED] - Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-sit-universal-release-copy.apk'
+
+2022-02-14 14:52:00 - [TEST_STEP][PASSED] - if (getDeviceManufacturer() == "samsung"): null
+
+2022-02-14 14:52:00 - [MESSAGE][PASSED] - Device manufacturer is: 'samsung'
+
+2022-02-14 14:52:00 - [TEST_STEP][PASSED] - tapAtPosition(1250, 2667): Tapped at [1,250, 2,667]
+
+2022-02-14 14:52:03 - [MESSAGE][PASSED] - Tapped at [1,250, 2,667]
+
+2022-02-14 14:52:03 - [TEST_STEP][PASSED] - tapAtPosition(1250, 2667): Tapped at [1,250, 2,667]
+
+2022-02-14 14:52:03 - [MESSAGE][PASSED] - Tapped at [1,250, 2,667]
+
+2022-02-14 14:52:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Settings/new_settings_moreMainBtn"), 0): Tapped on element 'Object Repository/Settings/new_settings_moreMainBtn'
+
+2022-02-14 14:52:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Settings/new_settings_moreMainBtn'
+
+2022-02-14 14:52:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Tabung/moreTabungIconSelect"), 0): Element 'Object Repository/Tabung/moreTabungIconSelect' is present
+
+2022-02-14 14:52:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:07 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/moreTabungIconSelect' is present
+
+2022-02-14 14:52:07 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/moreTabungIconSelect"), 0): Tapped on element 'Object Repository/Tabung/moreTabungIconSelect'
+
+2022-02-14 14:52:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/moreTabungIconSelect'
+
+2022-02-14 14:52:10 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): null
+
+2022-02-14 14:52:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:10 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainEnterPINMessage' is visible
+
+2022-02-14 14:52:10 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-14 14:52:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-14 14:52:10 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-14 14:52:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-14 14:52:12 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-14 14:52:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-14 14:52:14 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-14 14:52:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-14 14:52:16 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-14 14:52:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-14 14:52:18 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN2"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-02-14 14:52:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-02-14 14:52:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:52:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:52:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Tabung/tabungCreateTabungBtn"), 0): Element 'Object Repository/Tabung/tabungCreateTabungBtn' is present
+
+2022-02-14 14:52:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:27 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungCreateTabungBtn' is present
+
+2022-02-14 14:52:27 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungCreateTabungBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungCreateTabungBtn'
+
+2022-02-14 14:52:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungCreateTabungBtn'
+
+2022-02-14 14:52:28 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungCreateTravelSelect"), 0): Tapped on element 'Object Repository/Tabung/tabungCreateTravelSelect'
+
+2022-02-14 14:52:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungCreateTravelSelect'
+
+2022-02-14 14:52:30 - [TEST_STEP][PASSED] - setText(findTestObject("Tabung/tabungNameInputField"), tabungName, 0): Text 'Switzerland' has been set to element 'Object Repository/Tabung/tabungNameInputField'
+
+2022-02-14 14:52:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:34 - [MESSAGE][PASSED] - Text 'Switzerland' has been set to element 'Object Repository/Tabung/tabungNameInputField'
+
+2022-02-14 14:52:34 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-02-14 14:52:34 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-02-14 14:52:34 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-02-14 14:52:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-02-14 14:52:35 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-14 14:52:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-14 14:52:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:52:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:52:39 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungAmountTickBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungAmountTickBtn'
+
+2022-02-14 14:52:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungAmountTickBtn'
+
+2022-02-14 14:52:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:52:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:52:41 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-02-14 14:52:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-02-14 14:52:42 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-02-14 14:52:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-02-14 14:52:43 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-02-14 14:52:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-02-14 14:52:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:52:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:52:46 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungCreateAmountTickBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungCreateAmountTickBtn'
+
+2022-02-14 14:52:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungCreateAmountTickBtn'
+
+2022-02-14 14:52:46 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungSelectStartDateField"), 0): Tapped on element 'Object Repository/Tabung/tabungSelectStartDateField'
+
+2022-02-14 14:52:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungSelectStartDateField'
+
+2022-02-14 14:52:48 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungDatePickerSelect"), 0): Tapped on element 'Object Repository/Tabung/tabungDatePickerSelect'
+
+2022-02-14 14:52:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungDatePickerSelect'
+
+2022-02-14 14:52:51 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-02-14 14:52:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-02-14 14:52:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:52:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:52:53 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungContinueBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-02-14 14:52:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-02-14 14:52:54 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungSelectEndDateField"), 0): Tapped on element 'Object Repository/Tabung/tabungSelectEndDateField'
+
+2022-02-14 14:52:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungSelectEndDateField'
+
+2022-02-14 14:52:56 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungCalendarPickerNextBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungCalendarPickerNextBtn'
+
+2022-02-14 14:52:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungCalendarPickerNextBtn'
+
+2022-02-14 14:52:58 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungDatePickerSelect"), 0): Tapped on element 'Object Repository/Tabung/tabungDatePickerSelect'
+
+2022-02-14 14:52:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:52:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungDatePickerSelect'
+
+2022-02-14 14:52:59 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-02-14 14:52:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-02-14 14:53:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:53:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:53:02 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungContinueBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-02-14 14:53:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-02-14 14:53:03 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Tabung/tabungEnterPasswordTxt"), 0, OPTIONAL)): null
+
+2022-02-14 14:53:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:08 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungEnterPasswordTxt' is visible
+
+2022-02-14 14:53:08 - [TEST_STEP][PASSED] - setText(findTestObject("Tabung/tabungSignInInputPasswordField"), Password, 0): Text 'Sanjay@49' has been set to element 'Object Repository/Tabung/tabungSignInInputPasswordField'
+
+2022-02-14 14:53:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:09 - [MESSAGE][PASSED] - Text 'Sanjay@49' has been set to element 'Object Repository/Tabung/tabungSignInInputPasswordField'
+
+2022-02-14 14:53:09 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-02-14 14:53:10 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-02-14 14:53:10 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungSignInContinueBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungSignInContinueBtn'
+
+2022-02-14 14:53:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungSignInContinueBtn'
+
+2022-02-14 14:53:11 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-14 14:53:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-14 14:53:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Tabung/tabungSelectAccountDropdownBox"), 0): Element 'Object Repository/Tabung/tabungSelectAccountDropdownBox' is visible
+
+2022-02-14 14:53:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:21 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungSelectAccountDropdownBox' is visible
+
+2022-02-14 14:53:21 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungSelectAccountTxt"), 0): Tapped on element 'Object Repository/Tabung/tabungSelectAccountTxt'
+
+2022-02-14 14:53:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungSelectAccountTxt'
+
+2022-02-14 14:53:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:53:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:53:24 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabunCreateFirstAccountSelect"), 0): Tapped on element 'Object Repository/Tabung/tabunCreateFirstAccountSelect'
+
+2022-02-14 14:53:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabunCreateFirstAccountSelect'
+
+2022-02-14 14:53:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-14 14:53:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-14 14:53:29 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-02-14 14:53:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-02-14 14:53:30 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2022-02-14 14:53:34 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-02-14 14:53:34 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungContinueBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-02-14 14:53:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-02-14 14:53:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-14 14:53:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-14 14:53:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Tabung/tabungConfirmationTxt"), 0): Element 'Object Repository/Tabung/tabungConfirmationTxt' is visible
+
+2022-02-14 14:53:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:40 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungConfirmationTxt' is visible
+
+2022-02-14 14:53:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Tabung/tabungAutoDeductionText"), 0): Element 'Object Repository/Tabung/tabungAutoDeductionText' is visible
+
+2022-02-14 14:53:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:40 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungAutoDeductionText' is visible
+
+2022-02-14 14:53:40 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungConfirmationSelectFrequencyDropdown"), 0): Tapped on element 'Object Repository/Tabung/tabungConfirmationSelectFrequencyDropdown'
+
+2022-02-14 14:53:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungConfirmationSelectFrequencyDropdown'
+
+2022-02-14 14:53:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-14 14:53:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-14 14:53:46 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungConfirmationFirstFreqDropdownSelect"), 0): Tapped on element 'Object Repository/Tabung/tabungConfirmationFirstFreqDropdownSelect'
+
+2022-02-14 14:53:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungConfirmationFirstFreqDropdownSelect'
+
+2022-02-14 14:53:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-14 14:53:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-14 14:53:51 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-02-14 14:53:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-02-14 14:53:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:53:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:53:53 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungDisableESIRadioBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungDisableESIRadioBtn'
+
+2022-02-14 14:53:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungDisableESIRadioBtn'
+
+2022-02-14 14:53:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:53:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:53:56 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungConfirmationCreateTabungBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungConfirmationCreateTabungBtn'
+
+2022-02-14 14:53:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:53:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungConfirmationCreateTabungBtn'
+
+2022-02-14 14:53:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-14 14:54:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-14 14:54:00 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/Tabung/tabung_otpNumberPresentTxt"), 0, OPTIONAL)): null
+
+2022-02-14 14:54:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:54:00 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabung_otpNumberPresentTxt' is visible
+
+2022-02-14 14:54:00 - [TEST_STEP][PASSED] - OTP = getText(findTestObject("Object Repository/Tabung/tabung_otpNumberTxt"), 0): Text of element 'Object Repository/Tabung/tabung_otpNumberTxt' is: 'Your Otp no. is 964903'
+
+2022-02-14 14:54:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:54:01 - [MESSAGE][PASSED] - Text of element 'Object Repository/Tabung/tabung_otpNumberTxt' is: 'Your Otp no. is 964903'
+
+2022-02-14 14:54:01 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): null
+
+2022-02-14 14:54:01 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:54:01 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:54:01 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:54:01 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:54:01 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:54:01 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:54:01 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 14:54:01 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:54:01 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:54:01 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-14 14:54:01 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN9"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-14 14:54:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:54:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-14 14:54:02 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:54:02 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:54:02 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:54:02 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:54:02 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:54:02 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:54:02 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:54:02 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN6"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:54:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:54:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:54:04 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:54:04 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:54:04 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:54:04 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:54:04 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:54:04 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:54:04 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:54:04 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-02-14 14:54:04 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN4"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-02-14 14:54:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:54:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-02-14 14:54:07 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:54:07 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 14:54:07 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:54:07 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:54:07 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:54:07 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:54:07 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:54:07 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:54:07 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:54:07 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:54:07 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:54:07 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 14:54:07 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:54:07 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:54:07 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-14 14:54:07 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN9"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-14 14:54:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:54:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-14 14:54:09 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-02-14 14:54:09 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-02-14 14:54:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:54:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-02-14 14:54:11 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:54:11 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:54:11 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:54:11 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:54:11 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:54:11 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 14:54:11 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:54:11 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:54:11 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:54:11 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:54:11 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:54:11 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:54:11 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-02-14 14:54:11 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN3"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-02-14 14:54:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:54:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-02-14 14:54:13 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:54:13 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:54:13 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 14:54:13 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:54:13 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:54:13 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:54:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-14 14:54:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-14 14:54:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Tabung/tabung_otpTacTickButton"), 0): Tapped on element 'Object Repository/Tabung/tabung_otpTacTickButton'
+
+2022-02-14 14:54:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:54:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabung_otpTacTickButton'
+
+2022-02-14 14:54:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-02-14 14:54:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:54:21 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-02-14 14:54:21 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-02-14 14:54:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:54:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-02-14 14:54:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-14 14:54:27 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tabung/tabung_fundTabungCreatorOnly" time="105.647" classname="Test Cases/Tabung/tabung_fundTabungCreatorOnly" status="PASSED">
+         <system-out><![CDATA[2022-02-14 14:54:27 - [TEST_CASE][PASSED] - Test Cases/Tabung/tabung_fundTabungCreatorOnly: Test Cases/Tabung/tabung_fundTabungCreatorOnly
+
+2022-02-14 14:54:27 - [TEST_STEP][PASSED] - try: Delayed 5 second(s)
+
+2022-02-14 14:54:27 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-02-14 14:54:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:54:47 - [MESSAGE][WARNING] - Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-02-14 14:54:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:54:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:54:49 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungNameSelection", ["text":tabungName]), 10): Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-02-14 14:54:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-02-14 14:54:51 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungThreeDotsBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-02-14 14:54:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:54:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-02-14 14:54:53 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungThreeDotsFundBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungThreeDotsFundBtn'
+
+2022-02-14 14:54:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:54:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungThreeDotsFundBtn'
+
+2022-02-14 14:54:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:54:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:54:57 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN2"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-02-14 14:54:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:54:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-02-14 14:54:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:54:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:54:59 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungFundAmountTickBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungFundAmountTickBtn'
+
+2022-02-14 14:54:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:55:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungFundAmountTickBtn'
+
+2022-02-14 14:55:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:55:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:55:02 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Tabung/tabungEnterPasswordTxt"), 0, OPTIONAL)): Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-02-14 14:55:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:55:22 - [MESSAGE][WARNING] - Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-02-14 14:55:22 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-14 14:55:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-14 14:55:32 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungFundTabungBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungFundTabungBtn'
+
+2022-02-14 14:55:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:55:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungFundTabungBtn'
+
+2022-02-14 14:55:32 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt"), 0, OPTIONAL)): null
+
+2022-02-14 14:55:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:55:37 - [MESSAGE][PASSED] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' is visible
+
+2022-02-14 14:55:37 - [TEST_STEP][PASSED] - OTP = getText(findTestObject("Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt"), 0): Text of element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' is: 'Your TAC no. is 646866'
+
+2022-02-14 14:55:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:55:38 - [MESSAGE][PASSED] - Text of element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' is: 'Your TAC no. is 646866'
+
+2022-02-14 14:55:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:55:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:55:40 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): null
+
+2022-02-14 14:55:40 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:55:40 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:55:40 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:55:40 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:55:40 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:55:40 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:55:40 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:55:40 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN6"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:55:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:55:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:55:42 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:55:42 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:55:42 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:55:42 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:55:42 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:55:42 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:55:42 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:55:42 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-02-14 14:55:42 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN4"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-02-14 14:55:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:55:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-02-14 14:55:44 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:55:44 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 14:55:44 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:55:44 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:55:44 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:55:44 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:55:44 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:55:44 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:55:44 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:55:44 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:55:44 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:55:44 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:55:44 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN6"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:55:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:55:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:55:46 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:55:46 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:55:46 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:55:46 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:55:46 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:55:46 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:55:46 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:55:46 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:55:46 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:55:46 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 14:55:46 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:55:46 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-02-14 14:55:46 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN8"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-02-14 14:55:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:55:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-02-14 14:55:48 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:55:48 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:55:48 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:55:48 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:55:48 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:55:48 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:55:48 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:55:48 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:55:48 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN6"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:55:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:55:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:55:50 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:55:50 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:55:50 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:55:50 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:55:50 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:55:50 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:55:50 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:55:50 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:55:50 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:55:50 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:55:50 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN6"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:55:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:55:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:55:52 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:55:52 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:55:52 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:55:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-14 14:55:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-14 14:55:55 - [TEST_STEP][PASSED] - tap(findTestObject("Festive Season/festiveReturnAngpaoTickBtn"), 0): Tapped on element 'Object Repository/Festive Season/festiveReturnAngpaoTickBtn'
+
+2022-02-14 14:55:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:55:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Festive Season/festiveReturnAngpaoTickBtn'
+
+2022-02-14 14:55:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-14 14:55:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-14 14:55:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Tabung/tabungFundSummaryTopupSuccesfullTxt"), "Topup Successful"): Actual text and expected text of test object 'Object Repository/Tabung/tabungFundSummaryTopupSuccesfullTxt' are matched.
+
+2022-02-14 14:56:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Tabung/tabungFundSummaryTopupSuccesfullTxt' are matched.
+
+2022-02-14 14:56:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-14 14:56:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-14 14:56:05 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is exist
+
+2022-02-14 14:56:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:56:07 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is exist
+
+2022-02-14 14:56:07 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-02-14 14:56:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:56:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-02-14 14:56:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-14 14:56:12 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tabung/tabung_withdrawTabung" time="98.643" classname="Test Cases/Tabung/tabung_withdrawTabung" status="PASSED">
+         <system-out><![CDATA[2022-02-14 14:56:12 - [TEST_CASE][PASSED] - Test Cases/Tabung/tabung_withdrawTabung: Test Cases/Tabung/tabung_withdrawTabung
+
+2022-02-14 14:56:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-14 14:56:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-14 14:56:16 - [TEST_STEP][PASSED] - if (getDeviceManufacturer() == "samsung"): null
+
+2022-02-14 14:56:16 - [MESSAGE][PASSED] - Device manufacturer is: 'samsung'
+
+2022-02-14 14:56:16 - [TEST_STEP][PASSED] - tapAtPosition(1250, 2667): Tapped at [1,250, 2,667]
+
+2022-02-14 14:56:16 - [MESSAGE][PASSED] - Tapped at [1,250, 2,667]
+
+2022-02-14 14:56:16 - [TEST_STEP][PASSED] - tapAtPosition(1250, 2667): Tapped at [1,250, 2,667]
+
+2022-02-14 14:56:16 - [MESSAGE][PASSED] - Tapped at [1,250, 2,667]
+
+2022-02-14 14:56:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Tabung/moreTabungIconSelect"), 0): Element 'Object Repository/Tabung/moreTabungIconSelect' is present
+
+2022-02-14 14:56:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:56:16 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/moreTabungIconSelect' is present
+
+2022-02-14 14:56:16 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/moreTabungIconSelect"), 0): Tapped on element 'Object Repository/Tabung/moreTabungIconSelect'
+
+2022-02-14 14:56:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:56:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/moreTabungIconSelect'
+
+2022-02-14 14:56:17 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-02-14 14:56:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:56:37 - [MESSAGE][WARNING] - Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-02-14 14:56:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:56:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:56:39 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungNameSelection", ["text":"Switzerland"]), 10): Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-02-14 14:56:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-02-14 14:56:40 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungThreeDotsBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-02-14 14:56:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:56:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-02-14 14:56:40 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungWithdrawFundBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungWithdrawFundBtn'
+
+2022-02-14 14:56:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:56:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungWithdrawFundBtn'
+
+2022-02-14 14:56:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:56:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:56:44 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungWithdrawConfirmBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungWithdrawConfirmBtn'
+
+2022-02-14 14:56:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:56:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungWithdrawConfirmBtn'
+
+2022-02-14 14:56:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:56:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:56:46 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-14 14:56:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:56:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-14 14:56:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:56:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:56:49 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungFundAmountTickBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungFundAmountTickBtn'
+
+2022-02-14 14:56:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:56:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungFundAmountTickBtn'
+
+2022-02-14 14:56:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:56:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:56:51 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Tabung/tabungEnterPasswordTxt"), 0, OPTIONAL)): Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-02-14 14:56:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:57:11 - [MESSAGE][WARNING] - Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-02-14 14:57:11 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungWithdrawFundBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungWithdrawFundBtn'
+
+2022-02-14 14:57:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:57:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungWithdrawFundBtn'
+
+2022-02-14 14:57:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-14 14:57:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-14 14:57:15 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt"), 0, OPTIONAL)): null
+
+2022-02-14 14:57:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:57:17 - [MESSAGE][PASSED] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' is visible
+
+2022-02-14 14:57:17 - [TEST_STEP][PASSED] - OTP = getText(findTestObject("Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt"), 0): Text of element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' is: 'Your TAC no. is 299876'
+
+2022-02-14 14:57:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:57:17 - [MESSAGE][PASSED] - Text of element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' is: 'Your TAC no. is 299876'
+
+2022-02-14 14:57:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:57:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:57:19 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): null
+
+2022-02-14 14:57:19 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:57:19 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:57:19 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-02-14 14:57:19 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN2"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-02-14 14:57:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:57:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-14 14:57:20 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN9"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-14 14:57:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:57:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-14 14:57:23 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:57:23 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:57:23 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:57:23 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:57:23 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:57:23 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:57:23 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 14:57:23 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:57:23 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:57:23 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-14 14:57:23 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN9"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-14 14:57:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:57:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-14 14:57:25 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:57:25 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:57:25 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:57:25 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:57:25 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:57:25 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:57:25 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 14:57:25 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:57:25 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-02-14 14:57:25 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN8"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-02-14 14:57:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:57:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-02-14 14:57:27 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:57:27 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:57:27 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:57:27 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:57:27 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:57:27 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:57:27 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:57:27 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 14:57:27 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): Tapped on element 'Object Repository/Login Onboarding/PIN7'
+
+2022-02-14 14:57:27 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN7"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN7'
+
+2022-02-14 14:57:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:57:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN7'
+
+2022-02-14 14:57:29 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:57:29 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:57:29 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:57:29 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:57:29 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:57:29 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:57:29 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:57:29 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:57:29 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:57:29 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN6"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:57:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:57:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:57:31 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:57:31 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:57:31 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:57:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-14 14:57:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-14 14:57:34 - [TEST_STEP][PASSED] - tap(findTestObject("Festive Season/festiveReturnAngpaoTickBtn"), 0): Tapped on element 'Object Repository/Festive Season/festiveReturnAngpaoTickBtn'
+
+2022-02-14 14:57:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:57:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Festive Season/festiveReturnAngpaoTickBtn'
+
+2022-02-14 14:57:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-14 14:57:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-14 14:57:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Tabung/tabungWithdrawalSummarySuccessTxt"), 0): Element 'Object Repository/Tabung/tabungWithdrawalSummarySuccessTxt' is visible
+
+2022-02-14 14:57:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:57:41 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungWithdrawalSummarySuccessTxt' is visible
+
+2022-02-14 14:57:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Tabung/tabungWithdrawalSummarySuccessTxt"), "Withdrawal Successful"): Actual text and expected text of test object 'Object Repository/Tabung/tabungWithdrawalSummarySuccessTxt' are matched.
+
+2022-02-14 14:57:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Tabung/tabungWithdrawalSummarySuccessTxt' are matched.
+
+2022-02-14 14:57:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-14 14:57:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-14 14:57:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-02-14 14:57:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:57:46 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-02-14 14:57:46 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-02-14 14:57:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:57:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-02-14 14:57:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-14 14:57:51 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tabung/tabung_enableESITabung" time="79.673" classname="Test Cases/Tabung/tabung_enableESITabung" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Tabung/tabung_enableESITabung FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Tabung/tabungSummaryAutoDecuctSuccessEnableTxt' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1896)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at tabung_enableESITabung.run(tabung_enableESITabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+"/>
+         <system-out><![CDATA[2022-02-14 14:57:51 - [TEST_CASE][FAILED] - Test Cases/Tabung/tabung_enableESITabung: Test Cases/Tabung/tabung_enableESITabung FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Tabung/tabungSummaryAutoDecuctSuccessEnableTxt' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1896)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at tabung_enableESITabung.run(tabung_enableESITabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+
+
+2022-02-14 14:57:51 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungNameSelection", ["text":"Switzerland"]), 10): Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-02-14 14:57:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-02-14 14:57:52 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungViewMoreDetailsBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungViewMoreDetailsBtn'
+
+2022-02-14 14:57:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:57:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungViewMoreDetailsBtn'
+
+2022-02-14 14:57:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:57:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:57:55 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungESIOnToggle"), 0): Tapped on element 'Object Repository/Tabung/tabungESIOnToggle'
+
+2022-02-14 14:57:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:57:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungESIOnToggle'
+
+2022-02-14 14:57:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:57:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:57:58 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Tabung/tabungEnterPasswordTxt"), 0, OPTIONAL)): Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-02-14 14:57:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:58:18 - [MESSAGE][WARNING] - Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-02-14 14:58:18 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-14 14:58:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-14 14:58:28 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungConfirmBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungConfirmBtn'
+
+2022-02-14 14:58:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:58:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungConfirmBtn'
+
+2022-02-14 14:58:28 - [TEST_STEP][PASSED] - OTP = getText(findTestObject("Tabung/tabungOTPNumberTxt"), 0): Text of element 'Object Repository/Tabung/tabungOTPNumberTxt' is: 'Your Otp no. is 636353'
+
+2022-02-14 14:58:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:58:31 - [MESSAGE][PASSED] - Text of element 'Object Repository/Tabung/tabungOTPNumberTxt' is: 'Your Otp no. is 636353'
+
+2022-02-14 14:58:31 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): null
+
+2022-02-14 14:58:31 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:58:31 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:58:31 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:58:31 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:58:31 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:58:31 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:58:31 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:58:31 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN6"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:58:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:58:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:58:33 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:58:33 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:58:33 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:58:33 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:58:33 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:58:33 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:58:33 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-02-14 14:58:33 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN3"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-02-14 14:58:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:58:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-02-14 14:58:34 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:58:34 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:58:34 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 14:58:34 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:58:34 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:58:34 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:58:34 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:58:34 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:58:34 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:58:34 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:58:34 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:58:34 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:58:34 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:58:34 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN6"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:58:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:58:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 14:58:37 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:58:37 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:58:37 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:58:37 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:58:37 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:58:37 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:58:37 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-02-14 14:58:37 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN3"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-02-14 14:58:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:58:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-02-14 14:58:39 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:58:39 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:58:39 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 14:58:39 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:58:39 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:58:39 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:58:39 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:58:39 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:58:39 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:58:39 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 14:58:39 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:58:39 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-02-14 14:58:39 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN5"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-02-14 14:58:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:58:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-02-14 14:58:41 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 14:58:41 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:58:41 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:58:41 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:58:41 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 14:58:41 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 14:58:41 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 14:58:41 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-02-14 14:58:41 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN3"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-02-14 14:58:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:58:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-02-14 14:58:43 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 14:58:43 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 14:58:43 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 14:58:43 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 14:58:43 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 14:58:43 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 14:58:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-14 14:58:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-14 14:58:46 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungTACTickBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungTACTickBtn'
+
+2022-02-14 14:58:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:58:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungTACTickBtn'
+
+2022-02-14 14:58:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-14 14:58:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-14 14:58:50 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Tabung/tabungSummaryAutoDecuctSuccessEnableTxt"), 0): Failed to check for element 'Object Repository/Tabung/tabungSummaryAutoDecuctSuccessEnableTxt' visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Tabung/tabungSummaryAutoDecuctSuccessEnableTxt' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1896)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at tabung_enableESITabung.run(tabung_enableESITabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+)
+
+2022-02-14 14:58:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:59:11 - [MESSAGE][FAILED] - Element 'Object Repository/Tabung/tabungSummaryAutoDecuctSuccessEnableTxt' not found
+
+2022-02-14 14:59:11 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/Tabung/tabungSummaryAutoDecuctSuccessEnableTxt' visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Tabung/tabungSummaryAutoDecuctSuccessEnableTxt' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1896)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at tabung_enableESITabung.run(tabung_enableESITabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-02-14 14:57:51 - [TEST_CASE][FAILED] - Test Cases/Tabung/tabung_enableESITabung: Test Cases/Tabung/tabung_enableESITabung FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Tabung/tabungSummaryAutoDecuctSuccessEnableTxt' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1896)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at tabung_enableESITabung.run(tabung_enableESITabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tabung/tabung_disableESITabung" time="10.322" classname="Test Cases/Tabung/tabung_disableESITabung" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Tabung/tabung_disableESITabung FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Tabung/tabungNameSelection not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at tabung_disableESITabung.run(tabung_disableESITabung:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+"/>
+         <system-out><![CDATA[2022-02-14 14:59:11 - [TEST_CASE][FAILED] - Test Cases/Tabung/tabung_disableESITabung: Test Cases/Tabung/tabung_disableESITabung FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Tabung/tabungNameSelection not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at tabung_disableESITabung.run(tabung_disableESITabung:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+
+
+2022-02-14 14:59:11 - [TEST_STEP][FAILED] - tap(findTestObject("Tabung/tabungNameSelection", ["text":"Switzerland"]), 10): Failed to tap on element 'Object Repository/Tabung/tabungNameSelection' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Tabung/tabungNameSelection not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at tabung_disableESITabung.run(tabung_disableESITabung:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+)
+
+2022-02-14 14:59:21 - [MESSAGE][FAILED] - Object Object Repository/Tabung/tabungNameSelection not found
+
+2022-02-14 14:59:21 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Tabung/tabungNameSelection' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Tabung/tabungNameSelection not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at tabung_disableESITabung.run(tabung_disableESITabung:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-02-14 14:59:11 - [TEST_CASE][FAILED] - Test Cases/Tabung/tabung_disableESITabung: Test Cases/Tabung/tabung_disableESITabung FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Tabung/tabungNameSelection not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at tabung_disableESITabung.run(tabung_disableESITabung:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tabung/tabung_renameTabung" time="19.18" classname="Test Cases/Tabung/tabung_renameTabung" status="PASSED">
+         <system-out><![CDATA[2022-02-14 14:59:21 - [TEST_CASE][PASSED] - Test Cases/Tabung/tabung_renameTabung: Test Cases/Tabung/tabung_renameTabung
+
+2022-02-14 14:59:21 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungNameSelection", ["text":"Switzerland"]), 10): Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-02-14 14:59:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-02-14 14:59:27 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungThreeDotsBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-02-14 14:59:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:59:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-02-14 14:59:27 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungThreeDotsRenameBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungThreeDotsRenameBtn'
+
+2022-02-14 14:59:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:59:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungThreeDotsRenameBtn'
+
+2022-02-14 14:59:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:59:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:59:31 - [TEST_STEP][PASSED] - clearText(findTestObject("Tabung/tabungRenameInputField"), 10): Element 'Object Repository/Tabung/tabungRenameInputField' text is cleared
+
+2022-02-14 14:59:32 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungRenameInputField' text is cleared
+
+2022-02-14 14:59:32 - [TEST_STEP][PASSED] - setText(findTestObject("Tabung/tabungRenameInputField"), "Singapore", 0): Text 'Singapore' has been set to element 'Object Repository/Tabung/tabungRenameInputField'
+
+2022-02-14 14:59:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:59:33 - [MESSAGE][PASSED] - Text 'Singapore' has been set to element 'Object Repository/Tabung/tabungRenameInputField'
+
+2022-02-14 14:59:33 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-02-14 14:59:34 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-02-14 14:59:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Tabung/tabungConfirmBtn"), 0): Element 'Object Repository/Tabung/tabungConfirmBtn' is visible
+
+2022-02-14 14:59:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:59:35 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungConfirmBtn' is visible
+
+2022-02-14 14:59:35 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungConfirmBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungConfirmBtn'
+
+2022-02-14 14:59:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:59:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungConfirmBtn'
+
+2022-02-14 14:59:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-14 14:59:40 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tabung/tabung_removeTabung" time="50.872" classname="Test Cases/Tabung/tabung_removeTabung" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Tabung/tabung_removeTabung FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Login Onboarding/PIN9' (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@class = 'android.widget.TextView' and (@text = '9' or . = '9')]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.0.189', ip: 'fe80:0:0:0:144e:6e58:7c48:2790%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, deviceId: 2252c030550d7ece, deviceName: samsung SM-G965F (Android 10), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 10, systemPort: 52952, udid: 2252c030550d7ece}, deviceApiLevel: 29, deviceId: 2252c030550d7ece, deviceManufacturer: samsung, deviceModel: SM-G965F, deviceName: 2252c030550d7ece, deviceScreenDensity: 560, deviceScreenSize: 1440x2960, deviceUDID: 2252c030550d7ece, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 3.5, platform: ANDROID, platformName: Android, platformVersion: 10, statBarHeight: 84, systemPort: 52952, takesScreenshot: true, udid: 2252c030550d7ece, viewportRect: {height: 2708, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d4fbea34-8670-4880-9d27-8881493443dc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.access$1(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at tabung_removeTabung.run(tabung_removeTabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at tabung_removeTabung.run(tabung_removeTabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@class = 'android.widget.TextView' and (@text = '9' or . = '9')]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.0.189', ip: 'fe80:0:0:0:144e:6e58:7c48:2790%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, deviceId: 2252c030550d7ece, deviceName: samsung SM-G965F (Android 10), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 10, systemPort: 52952, udid: 2252c030550d7ece}, deviceApiLevel: 29, deviceId: 2252c030550d7ece, deviceManufacturer: samsung, deviceModel: SM-G965F, deviceName: 2252c030550d7ece, deviceScreenDensity: 560, deviceScreenSize: 1440x2960, deviceUDID: 2252c030550d7ece, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 3.5, platform: ANDROID, platformName: Android, platformVersion: 10, statBarHeight: 84, systemPort: 52952, takesScreenshot: true, udid: 2252c030550d7ece, viewportRect: {height: 2708, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d4fbea34-8670-4880-9d27-8881493443dc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.access$1(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-02-14 14:59:40 - [TEST_CASE][FAILED] - Test Cases/Tabung/tabung_removeTabung: Test Cases/Tabung/tabung_removeTabung FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Login Onboarding/PIN9' (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@class = 'android.widget.TextView' and (@text = '9' or . = '9')]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.0.189', ip: 'fe80:0:0:0:144e:6e58:7c48:2790%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, deviceId: 2252c030550d7ece, deviceName: samsung SM-G965F (Android 10), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 10, systemPort: 52952, udid: 2252c030550d7ece}, deviceApiLevel: 29, deviceId: 2252c030550d7ece, deviceManufacturer: samsung, deviceModel: SM-G965F, deviceName: 2252c030550d7ece, deviceScreenDensity: 560, deviceScreenSize: 1440x2960, deviceUDID: 2252c030550d7ece, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 3.5, platform: ANDROID, platformName: Android, platformVersion: 10, statBarHeight: 84, systemPort: 52952, takesScreenshot: true, udid: 2252c030550d7ece, viewportRect: {height: 2708, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d4fbea34-8670-4880-9d27-8881493443dc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.access$1(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at tabung_removeTabung.run(tabung_removeTabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at tabung_removeTabung.run(tabung_removeTabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@class = 'android.widget.TextView' and (@text = '9' or . = '9')]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.0.189', ip: 'fe80:0:0:0:144e:6e58:7c48:2790%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, deviceId: 2252c030550d7ece, deviceName: samsung SM-G965F (Android 10), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 10, systemPort: 52952, udid: 2252c030550d7ece}, deviceApiLevel: 29, deviceId: 2252c030550d7ece, deviceManufacturer: samsung, deviceModel: SM-G965F, deviceName: 2252c030550d7ece, deviceScreenDensity: 560, deviceScreenSize: 1440x2960, deviceUDID: 2252c030550d7ece, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 3.5, platform: ANDROID, platformName: Android, platformVersion: 10, statBarHeight: 84, systemPort: 52952, takesScreenshot: true, udid: 2252c030550d7ece, viewportRect: {height: 2708, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d4fbea34-8670-4880-9d27-8881493443dc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.access$1(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more
+
+
+2022-02-14 14:59:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:59:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:59:42 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungThreeDotsBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-02-14 14:59:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:59:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-02-14 14:59:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:59:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:59:45 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungThreeDtosRemoveBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungThreeDtosRemoveBtn'
+
+2022-02-14 14:59:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:59:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungThreeDtosRemoveBtn'
+
+2022-02-14 14:59:46 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungRemoveConfirmBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungRemoveConfirmBtn'
+
+2022-02-14 14:59:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:59:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungRemoveConfirmBtn'
+
+2022-02-14 14:59:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:59:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:59:49 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungContinueBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-02-14 14:59:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 14:59:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-02-14 14:59:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 14:59:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 14:59:52 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Tabung/tabungEnterPasswordTxt"), 0, OPTIONAL)): Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-02-14 14:59:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 15:00:12 - [MESSAGE][WARNING] - Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-02-14 15:00:12 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungWithdrawFundBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungWithdrawFundBtn'
+
+2022-02-14 15:00:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 15:00:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungWithdrawFundBtn'
+
+2022-02-14 15:00:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 15:00:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 15:00:14 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt"), 0, OPTIONAL)): null
+
+2022-02-14 15:00:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 15:00:19 - [MESSAGE][PASSED] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' is visible
+
+2022-02-14 15:00:19 - [TEST_STEP][PASSED] - OTP = getText(findTestObject("Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt"), 0): Text of element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' is: 'Your TAC no. is 539694'
+
+2022-02-14 15:00:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 15:00:19 - [MESSAGE][PASSED] - Text of element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' is: 'Your TAC no. is 539694'
+
+2022-02-14 15:00:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-14 15:00:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-14 15:00:21 - [TEST_STEP][FAILED] - for ([i = 16, i <= 21, (i++)]): Failed to tap on element 'Object Repository/Login Onboarding/PIN9' (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@class = 'android.widget.TextView' and (@text = '9' or . = '9')]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.0.189', ip: 'fe80:0:0:0:144e:6e58:7c48:2790%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, deviceId: 2252c030550d7ece, deviceName: samsung SM-G965F (Android 10), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 10, systemPort: 52952, udid: 2252c030550d7ece}, deviceApiLevel: 29, deviceId: 2252c030550d7ece, deviceManufacturer: samsung, deviceModel: SM-G965F, deviceName: 2252c030550d7ece, deviceScreenDensity: 560, deviceScreenSize: 1440x2960, deviceUDID: 2252c030550d7ece, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 3.5, platform: ANDROID, platformName: Android, platformVersion: 10, statBarHeight: 84, systemPort: 52952, takesScreenshot: true, udid: 2252c030550d7ece, viewportRect: {height: 2708, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d4fbea34-8670-4880-9d27-8881493443dc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.access$1(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at tabung_removeTabung.run(tabung_removeTabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+)
+
+2022-02-14 15:00:21 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 15:00:21 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 15:00:21 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 15:00:21 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 15:00:21 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 15:00:21 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-02-14 15:00:21 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN5"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-02-14 15:00:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 15:00:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-02-14 15:00:22 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 15:00:22 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 15:00:22 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 15:00:22 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 15:00:22 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 15:00:22 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 15:00:22 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 15:00:22 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-02-14 15:00:22 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN3"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-02-14 15:00:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 15:00:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN3'
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-14 15:00:25 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN9"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-14 15:00:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 15:00:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-14 15:00:27 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 15:00:27 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 15:00:27 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 15:00:27 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 15:00:27 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 15:00:27 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 15:00:27 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 15:00:27 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN6"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 15:00:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 15:00:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-14 15:00:29 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 15:00:29 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 15:00:29 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-14 15:00:29 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-14 15:00:29 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-14 15:00:29 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-14 15:00:29 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-14 15:00:29 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-14 15:00:29 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-14 15:00:29 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-14 15:00:29 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-14 15:00:29 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-14 15:00:29 - [TEST_STEP][FAILED] - if (OTP[i] == "9"): Failed to tap on element 'Object Repository/Login Onboarding/PIN9' (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@class = 'android.widget.TextView' and (@text = '9' or . = '9')]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.0.189', ip: 'fe80:0:0:0:144e:6e58:7c48:2790%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, deviceId: 2252c030550d7ece, deviceName: samsung SM-G965F (Android 10), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 10, systemPort: 52952, udid: 2252c030550d7ece}, deviceApiLevel: 29, deviceId: 2252c030550d7ece, deviceManufacturer: samsung, deviceModel: SM-G965F, deviceName: 2252c030550d7ece, deviceScreenDensity: 560, deviceScreenSize: 1440x2960, deviceUDID: 2252c030550d7ece, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 3.5, platform: ANDROID, platformName: Android, platformVersion: 10, statBarHeight: 84, systemPort: 52952, takesScreenshot: true, udid: 2252c030550d7ece, viewportRect: {height: 2708, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d4fbea34-8670-4880-9d27-8881493443dc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.access$1(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at tabung_removeTabung.run(tabung_removeTabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+)
+
+2022-02-14 15:00:29 - [TEST_STEP][FAILED] - tap(findTestObject("Login Onboarding/PIN9"), 0): Failed to tap on element 'Object Repository/Login Onboarding/PIN9' (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@class = 'android.widget.TextView' and (@text = '9' or . = '9')]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.0.189', ip: 'fe80:0:0:0:144e:6e58:7c48:2790%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, deviceId: 2252c030550d7ece, deviceName: samsung SM-G965F (Android 10), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 10, systemPort: 52952, udid: 2252c030550d7ece}, deviceApiLevel: 29, deviceId: 2252c030550d7ece, deviceManufacturer: samsung, deviceModel: SM-G965F, deviceName: 2252c030550d7ece, deviceScreenDensity: 560, deviceScreenSize: 1440x2960, deviceUDID: 2252c030550d7ece, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 3.5, platform: ANDROID, platformName: Android, platformVersion: 10, statBarHeight: 84, systemPort: 52952, takesScreenshot: true, udid: 2252c030550d7ece, viewportRect: {height: 2708, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d4fbea34-8670-4880-9d27-8881493443dc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.access$1(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at tabung_removeTabung.run(tabung_removeTabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+)
+
+2022-02-14 15:00:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-14 15:00:31 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Login Onboarding/PIN9' (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@class = 'android.widget.TextView' and (@text = '9' or . = '9')]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.0.189', ip: 'fe80:0:0:0:144e:6e58:7c48:2790%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, deviceId: 2252c030550d7ece, deviceName: samsung SM-G965F (Android 10), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 10, systemPort: 52952, udid: 2252c030550d7ece}, deviceApiLevel: 29, deviceId: 2252c030550d7ece, deviceManufacturer: samsung, deviceModel: SM-G965F, deviceName: 2252c030550d7ece, deviceScreenDensity: 560, deviceScreenSize: 1440x2960, deviceUDID: 2252c030550d7ece, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 3.5, platform: ANDROID, platformName: Android, platformVersion: 10, statBarHeight: 84, systemPort: 52952, takesScreenshot: true, udid: 2252c030550d7ece, viewportRect: {height: 2708, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d4fbea34-8670-4880-9d27-8881493443dc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.access$1(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at tabung_removeTabung.run(tabung_removeTabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-02-14 14:59:40 - [TEST_CASE][FAILED] - Test Cases/Tabung/tabung_removeTabung: Test Cases/Tabung/tabung_removeTabung FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Login Onboarding/PIN9' (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@class = 'android.widget.TextView' and (@text = '9' or . = '9')]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.0.189', ip: 'fe80:0:0:0:144e:6e58:7c48:2790%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, deviceId: 2252c030550d7ece, deviceName: samsung SM-G965F (Android 10), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 10, systemPort: 52952, udid: 2252c030550d7ece}, deviceApiLevel: 29, deviceId: 2252c030550d7ece, deviceManufacturer: samsung, deviceModel: SM-G965F, deviceName: 2252c030550d7ece, deviceScreenDensity: 560, deviceScreenSize: 1440x2960, deviceUDID: 2252c030550d7ece, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 3.5, platform: ANDROID, platformName: Android, platformVersion: 10, statBarHeight: 84, systemPort: 52952, takesScreenshot: true, udid: 2252c030550d7ece, viewportRect: {height: 2708, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d4fbea34-8670-4880-9d27-8881493443dc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.access$1(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at tabung_removeTabung.run(tabung_removeTabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at tabung_removeTabung.run(tabung_removeTabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@class = 'android.widget.TextView' and (@text = '9' or . = '9')]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '192.168.0.189', ip: 'fe80:0:0:0:144e:6e58:7c48:2790%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.sit, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 52954, deviceId: 2252c030550d7ece, deviceName: samsung SM-G965F (Android 10), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 10, systemPort: 52952, udid: 2252c030550d7ece}, deviceApiLevel: 29, deviceId: 2252c030550d7ece, deviceManufacturer: samsung, deviceModel: SM-G965F, deviceName: 2252c030550d7ece, deviceScreenDensity: 560, deviceScreenSize: 1440x2960, deviceUDID: 2252c030550d7ece, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 3.5, platform: ANDROID, platformName: Android, platformVersion: 10, statBarHeight: 84, systemPort: 52952, takesScreenshot: true, udid: 2252c030550d7ece, viewportRect: {height: 2708, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d4fbea34-8670-4880-9d27-8881493443dc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.access$1(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-14 14:51:45 - [TEST_SUITE][FAILED] - Regress 2: Test Cases/Tabung/tabung_enableESITabung FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Tabung/tabungSummaryAutoDecuctSuccessEnableTxt' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1896)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at tabung_enableESITabung.run(tabung_enableESITabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-02-14 14:51:45 - [TEST_SUITE][FAILED] - Regress 2: Test Cases/Tabung/tabung_enableESITabung FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Tabung/tabungSummaryAutoDecuctSuccessEnableTxt' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:1896)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$7.call(Unknown Source)
+	at tabung_enableESITabung.run(tabung_enableESITabung:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644821496270.run(TempTestSuite1644821496270.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

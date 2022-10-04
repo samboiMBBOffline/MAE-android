@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Issue,,,,2022-04-06 12:00:41,2022-04-06 12:01:01,20.066s,PASSED
+,,,,,,,
+Test Cases/Performance test/Launch,,,,2022-04-06 12:00:41,2022-04-06 12:01:01,19.848s,PASSED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.sit"")",,,,2022-04-06 12:00:42,2022-04-06 12:00:42,0.001s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.MainActivity"")",,,,2022-04-06 12:00:42,2022-04-06 12:00:42,0.001s,PASSED
+if (isApplicationOpened == false),,,,2022-04-06 12:00:42,2022-04-06 12:00:56,14.752s,PASSED
+"verifyElementVisible(findTestObject(""Dashboard/dashboardWalletTopSelect""), 20)",,,,2022-04-06 12:00:56,2022-04-06 12:01:01,4.157s,PASSED
+manu = getDeviceManufacturer(),,,,2022-04-06 12:01:01,2022-04-06 12:01:01,0.009s,PASSED
+os = getDeviceOS(),,,,2022-04-06 12:01:01,2022-04-06 12:01:01,0.008s,PASSED
+osVersion = getDeviceOSVersion(),,,,2022-04-06 12:01:01,2022-04-06 12:01:01,0.008s,PASSED
+println(manu),,,,2022-04-06 12:01:01,2022-04-06 12:01:01,0.002s,PASSED
+println(os),,,,2022-04-06 12:01:01,2022-04-06 12:01:01,0.001s,PASSED
+println(osVersion),,,,2022-04-06 12:01:01,2022-04-06 12:01:01,0.000s,PASSED
+test = dataFolder,,,,2022-04-06 12:01:01,2022-04-06 12:01:01,0.001s,PASSED
+"sheetName = ""Sheet1""",,,,2022-04-06 12:01:01,2022-04-06 12:01:01,0.000s,PASSED
+file1 = new java.io.File(test),,,,2022-04-06 12:01:01,2022-04-06 12:01:01,0.001s,PASSED
+assert file1.exists() == true,,,,2022-04-06 12:01:01,2022-04-06 12:01:01,0.002s,PASSED
+woorkbook1 = getWorkbook(test),,,,2022-04-06 12:01:01,2022-04-06 12:01:01,0.478s,PASSED
+"sheet1 = getExcelSheet(woorkbook1, sheetName)",,,,2022-04-06 12:01:01,2022-04-06 12:01:01,0.001s,PASSED
+"setValueToCellByIndex(sheet1, 0, 0, manu)",,,,2022-04-06 12:01:01,2022-04-06 12:01:01,0.014s,PASSED
+"setValueToCellByIndex(sheet1, 0, 1, os)",,,,2022-04-06 12:01:01,2022-04-06 12:01:01,0.001s,PASSED
+"setValueToCellByIndex(sheet1, 0, 2, osVersion)",,,,2022-04-06 12:01:01,2022-04-06 12:01:01,0.001s,PASSED
+"saveWorkbook(test, woorkbook1)",,,,2022-04-06 12:01:01,2022-04-06 12:01:01,0.094s,PASSED

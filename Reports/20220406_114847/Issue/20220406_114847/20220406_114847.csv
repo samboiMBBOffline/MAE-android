@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Issue,,,,2022-04-06 11:48:57,2022-04-06 11:49:17,20.802s,FAILED
+,,,,,,,
+Test Cases/Performance test/Launch,,,,2022-04-06 11:48:57,2022-04-06 11:49:17,20.566s,FAILED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.sit"")",,,,2022-04-06 11:48:57,2022-04-06 11:48:57,0.001s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.MainActivity"")",,,,2022-04-06 11:48:57,2022-04-06 11:48:57,0.000s,PASSED
+if (isApplicationOpened == false),,,,2022-04-06 11:48:57,2022-04-06 11:49:14,16.292s,PASSED
+"verifyElementVisible(findTestObject(""Dashboard/dashboardWalletTopSelect""), 20)",,,,2022-04-06 11:49:14,2022-04-06 11:49:17,3.920s,PASSED
+manu = getDeviceManufacturer(),,,,2022-04-06 11:49:17,2022-04-06 11:49:17,0.009s,PASSED
+os = getDeviceOS(),,,,2022-04-06 11:49:17,2022-04-06 11:49:17,0.009s,PASSED
+osVersion = getDeviceOSVersion(),,,,2022-04-06 11:49:17,2022-04-06 11:49:17,0.008s,PASSED
+println(manu),,,,2022-04-06 11:49:17,2022-04-06 11:49:17,0.003s,PASSED
+println(os),,,,2022-04-06 11:49:17,2022-04-06 11:49:17,0.001s,PASSED
+println(osVersion),,,,2022-04-06 11:49:17,2022-04-06 11:49:17,0.000s,PASSED
+test = dataFolder,,,,2022-04-06 11:49:17,2022-04-06 11:49:17,0.000s,PASSED
+"sheetName = ""Sheet1""",,,,2022-04-06 11:49:17,2022-04-06 11:49:17,0.001s,PASSED
+file1 = new java.io.File(test),,,,2022-04-06 11:49:17,2022-04-06 11:49:17,0.001s,PASSED
+assert file1.exists() == true,,,,2022-04-06 11:49:17,2022-04-06 11:49:17,0.014s,FAILED

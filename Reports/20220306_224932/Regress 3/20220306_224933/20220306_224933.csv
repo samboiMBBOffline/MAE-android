@@ -1,0 +1,236 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regress 3,,,,2022-03-06 22:49:43,2022-03-06 23:25:05,35m - 22.111s,ERROR
+,,,,,,,
+Test Cases/Transfer/transfer_moneyTransferMaybank,,,,2022-03-06 22:49:43,2022-03-06 22:56:18,6m - 34.451s,PASSED
+try,,,,2022-03-06 22:49:44,2022-03-06 22:56:18,6m - 34.039s,PASSED
+,,,,,,,
+Test Cases/Transfer/transfer_moneyTransferMaybankFuture,,,,2022-03-06 22:56:18,2022-03-06 22:58:23,2m - 4.942s,PASSED
+"start = ""Starts""",,,,2022-03-06 22:56:18,2022-03-06 22:56:18,0.000s,PASSED
+println(start),,,,2022-03-06 22:56:18,2022-03-06 22:56:18,0.000s,PASSED
+delay(5),,,,2022-03-06 22:56:18,2022-03-06 22:56:23,5.009s,PASSED
+"verifyElementVisible(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-03-06 22:56:23,2022-03-06 22:56:23,0.343s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-03-06 22:56:23,2022-03-06 22:56:34,10.488s,PASSED
+delay(5),,,,2022-03-06 22:56:34,2022-03-06 22:56:39,5.002s,PASSED
+"tap(findTestObject(""Banking/transferBanksIconSelect""), 0)",,,,2022-03-06 22:56:39,2022-03-06 22:57:32,53.056s,PASSED
+"tap(findTestObject(""Banking/transferToMaybankSelect""), 0)",,,,2022-03-06 22:57:32,2022-03-06 22:57:33,0.789s,PASSED
+"setText(findTestObject(""Banking/transferAccountNoInputField""), ""514012082699"", 0)",,,,2022-03-06 22:57:33,2022-03-06 22:57:35,2.369s,PASSED
+hideKeyboard(),,,,2022-03-06 22:57:35,2022-03-06 22:57:39,4.146s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-06 22:57:39,2022-03-06 22:57:40,0.404s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-03-06 22:57:40,2022-03-06 22:57:44,4.444s,PASSED
+delay(3),,,,2022-03-06 22:57:44,2022-03-06 22:57:47,3.006s,PASSED
+"tap(findTestObject(""Login Onboarding/loginPinTickBtn""), 0)",,,,2022-03-06 22:57:47,2022-03-06 22:57:48,0.466s,PASSED
+"setText(findTestObject(""Banking/transferReferenceInputField""), ""AmountTranser"", 0)",,,,2022-03-06 22:57:48,2022-03-06 22:57:50,2.368s,PASSED
+hideKeyboard(),,,,2022-03-06 22:57:50,2022-03-06 22:57:52,1.751s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-06 22:57:52,2022-03-06 22:57:52,0.405s,PASSED
+"tap(findTestObject(""Main/mainDatePickerTodaySelect""), 0)",,,,2022-03-06 22:57:52,2022-03-06 22:57:56,3.459s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerNextBtn""), 0)",,,,2022-03-06 22:57:56,2022-03-06 22:57:58,2.010s,PASSED
+delay(3),,,,2022-03-06 22:57:58,2022-03-06 22:58:01,3.005s,PASSED
+"tap(findTestObject(""Main/mainDatePicker1""), 0)",,,,2022-03-06 22:58:01,2022-03-06 22:58:01,0.440s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-06 22:58:01,2022-03-06 22:58:02,0.766s,PASSED
+"date = getText(findTestObject(""Main/mainGetTransactionDateTxt""), 10)",,,,2022-03-06 22:58:02,2022-03-06 22:58:03,0.773s,PASSED
+"println(""Date is "" + date)",,,,2022-03-06 22:58:03,2022-03-06 22:58:03,0.001s,PASSED
+"tap(findTestObject(""Main/mainTransferNowBtn""), 0)",,,,2022-03-06 22:58:03,2022-03-06 22:58:03,0.416s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/seasonalGreetingAngpaoTACNoTxt""), 5, OPTIONAL))",,,,2022-03-06 22:58:03,2022-03-06 22:58:08,5.026s,PASSED
+else,,,,2022-03-06 22:58:08,2022-03-06 22:58:14,5.530s,PASSED
+delay(2),,,,2022-03-06 22:58:14,2022-03-06 22:58:16,2.010s,PASSED
+"RefID = getText(findTestObject(""Transfer/transferTransactionRefIDTxt""), 10)",,,,2022-03-06 22:58:16,2022-03-06 22:58:17,1.586s,PASSED
+"println(""Reference ID is"" + RefID)",,,,2022-03-06 22:58:17,2022-03-06 22:58:17,0.000s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 3)",,,,2022-03-06 22:58:17,2022-03-06 22:58:17,0.221s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-06 22:58:17,2022-03-06 22:58:18,0.363s,PASSED
+"println(""Payment Scheduled Test Case Completed"")",,,,2022-03-06 22:58:18,2022-03-06 22:58:18,0.000s,PASSED
+delay(5),,,,2022-03-06 22:58:18,2022-03-06 22:58:23,5.008s,PASSED
+,,,,,,,
+Test Cases/Transfer/transfer_moneyTransferThirdParty,,,,2022-03-06 22:58:23,2022-03-06 23:01:09,2m - 46.387s,PASSED
+"start = ""Starts""",,,,2022-03-06 22:58:23,2022-03-06 22:58:23,0.000s,PASSED
+println(start),,,,2022-03-06 22:58:23,2022-03-06 22:58:23,0.000s,PASSED
+delay(5),,,,2022-03-06 22:58:23,2022-03-06 22:58:28,5.011s,PASSED
+"verifyElementVisible(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-03-06 22:58:28,2022-03-06 22:58:28,0.364s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-03-06 22:58:28,2022-03-06 22:58:39,10.568s,PASSED
+delay(5),,,,2022-03-06 22:58:39,2022-03-06 22:58:44,5.010s,PASSED
+"println(""InterBank Test Case Started"")",,,,2022-03-06 22:58:44,2022-03-06 22:58:44,0.000s,PASSED
+"tap(findTestObject(""Banking/transferBanksIconSelect""), 0)",,,,2022-03-06 22:58:44,2022-03-06 22:59:37,52.852s,PASSED
+"scrollToText(""PUBLIC BANK"", STOP_ON_FAILURE)",,,,2022-03-06 22:59:37,2022-03-06 22:59:49,11.839s,PASSED
+"tap(findTestObject(""Banking/transferBankSelection"", [""text"":""PUBLIC BANK""]), 10)",,,,2022-03-06 22:59:49,2022-03-06 22:59:49,0.519s,PASSED
+"setText(findTestObject(""Banking/transferAccountNoInputField""), accountNum, 0)",,,,2022-03-06 22:59:49,2022-03-06 22:59:52,2.433s,PASSED
+hideKeyboard(),,,,2022-03-06 22:59:52,2022-03-06 22:59:56,4.753s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-06 22:59:56,2022-03-06 22:59:57,0.417s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-03-06 22:59:57,2022-03-06 22:59:58,1.771s,PASSED
+delay(3),,,,2022-03-06 22:59:58,2022-03-06 23:00:01,3.002s,PASSED
+"tap(findTestObject(""Login Onboarding/loginPinTickBtn""), 0)",,,,2022-03-06 23:00:01,2022-03-06 23:00:02,0.476s,PASSED
+"setText(findTestObject(""Banking/transferReferenceInputField""), ""AmountTransfer"", 0)",,,,2022-03-06 23:00:02,2022-03-06 23:00:04,2.431s,PASSED
+hideKeyboard(),,,,2022-03-06 23:00:04,2022-03-06 23:00:07,2.165s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-06 23:00:07,2022-03-06 23:00:07,0.494s,PASSED
+delay(5),,,,2022-03-06 23:00:07,2022-03-06 23:00:12,5.002s,PASSED
+"tap(findTestObject(""Banking/transferTypeDropdownSelection""), 0)",,,,2022-03-06 23:00:12,2022-03-06 23:00:12,0.309s,PASSED
+"scrollToText(""Fund Transfer"", STOP_ON_FAILURE)",,,,2022-03-06 23:00:12,2022-03-06 23:00:16,3.793s,PASSED
+"tap(findTestObject(""Banking/tansferTypeFundDropdownSelection""), 0)",,,,2022-03-06 23:00:16,2022-03-06 23:00:17,0.397s,PASSED
+"tap(findTestObject(""Banking/transferModeDropdownDoneBtn""), 0)",,,,2022-03-06 23:00:17,2022-03-06 23:00:17,0.339s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-06 23:00:17,2022-03-06 23:00:18,0.836s,PASSED
+delay(5),,,,2022-03-06 23:00:18,2022-03-06 23:00:23,5.010s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainTransferNowBtn""), 0)",,,,2022-03-06 23:00:23,2022-03-06 23:00:44,21.077s,PASSED
+"tap(findTestObject(""Main/mainTransferNowBtn""), 0)",,,,2022-03-06 23:00:44,2022-03-06 23:00:44,0.411s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/seasonalGreetingAngpaoTACNoTxt""), 5, OPTIONAL))",,,,2022-03-06 23:00:44,2022-03-06 23:00:49,5.055s,PASSED
+else,,,,2022-03-06 23:00:49,2022-03-06 23:00:55,5.531s,PASSED
+"println(""Interbank Test Case Completed"")",,,,2022-03-06 23:00:55,2022-03-06 23:00:55,0.000s,PASSED
+delay(5),,,,2022-03-06 23:00:55,2022-03-06 23:01:00,5.010s,PASSED
+"referenceID = getText(findTestObject(""Send Request Money/requestMoneyPaySummaryRefIDTxt""), 0)",,,,2022-03-06 23:01:00,2022-03-06 23:01:00,0.703s,PASSED
+println(referenceID),,,,2022-03-06 23:01:00,2022-03-06 23:01:00,0.001s,PASSED
+test = dataFolder,,,,2022-03-06 23:01:00,2022-03-06 23:01:00,0.000s,PASSED
+"sheetName = ""Sheet1""",,,,2022-03-06 23:01:00,2022-03-06 23:01:00,0.001s,PASSED
+file1 = new java.io.File(test),,,,2022-03-06 23:01:00,2022-03-06 23:01:00,0.000s,PASSED
+assert file1.exists() == true,,,,2022-03-06 23:01:00,2022-03-06 23:01:00,0.001s,PASSED
+woorkbook1 = getWorkbook(test),,,,2022-03-06 23:01:00,2022-03-06 23:01:01,0.022s,PASSED
+"sheet1 = getExcelSheet(woorkbook1, sheetName)",,,,2022-03-06 23:01:01,2022-03-06 23:01:01,0.000s,PASSED
+"setValueToCellByIndex(sheet1, 2, 1, referenceID)",,,,2022-03-06 23:01:01,2022-03-06 23:01:01,0.001s,PASSED
+"saveWorkbook(test, woorkbook1)",,,,2022-03-06 23:01:01,2022-03-06 23:01:01,0.016s,PASSED
+delay(3),,,,2022-03-06 23:01:01,2022-03-06 23:01:04,3.003s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 3)",,,,2022-03-06 23:01:04,2022-03-06 23:01:04,0.240s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-06 23:01:04,2022-03-06 23:01:04,0.396s,PASSED
+delay(5),,,,2022-03-06 23:01:04,2022-03-06 23:01:09,5.005s,PASSED
+,,,,,,,
+Test Cases/Transfer/asnb_asnbTransfer,,,,2022-03-06 23:01:09,2022-03-06 23:10:23,9m - 13.325s,FAILED
+delay(5),,,,2022-03-06 23:01:09,2022-03-06 23:01:14,5.011s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-03-06 23:01:14,2022-03-06 23:01:25,10.610s,PASSED
+delay(3),,,,2022-03-06 23:01:25,2022-03-06 23:01:28,3.010s,PASSED
+"tap(findTestObject(""ASNB/transferASNBTopBtn""), 0)",,,,2022-03-06 23:01:28,2022-03-06 23:02:29,1m - 0.703s,PASSED
+"tap(findTestObject(""ASNB/asnbTransferBtn""), 0)",,,,2022-03-06 23:02:29,2022-03-06 23:02:43,14.046s,FAILED
+"tap(findTestObject(""ASNB/asnbSelectProductDropdown""), 0)",,,,2022-03-06 23:02:43,2022-03-06 23:03:03,20.069s,FAILED
+"tap(findTestObject(""ASNB/asnbProductEquity3DropdownSelection""), 0)",,,,2022-03-06 23:03:03,2022-03-06 23:03:23,20.040s,FAILED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-06 23:03:23,2022-03-06 23:03:43,20.104s,FAILED
+"tap(findTestObject(""Object Repository/ASNB/SelectASNBMember""), 0)",,,,2022-03-06 23:03:43,2022-03-06 23:04:03,20.111s,FAILED
+"tap(findTestObject(""ASNB/asnbIDTypeDropdown""), 0)",,,,2022-03-06 23:04:03,2022-03-06 23:04:23,20.146s,FAILED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-06 23:04:23,2022-03-06 23:04:43,20.091s,FAILED
+"setText(findTestObject(""ASNB/asnbIDNumberInputField""), ""060225010993"", 0)",,,,2022-03-06 23:04:43,2022-03-06 23:05:03,20.124s,FAILED
+hideKeyboard(),,,,2022-03-06 23:05:03,2022-03-06 23:05:04,0.835s,PASSED
+"setText(findTestObject(""ASNB/asnbMembershipNoInputField""), ""000010023320"", 0)",,,,2022-03-06 23:05:04,2022-03-06 23:05:24,20.046s,FAILED
+hideKeyboard(),,,,2022-03-06 23:05:24,2022-03-06 23:05:25,0.587s,PASSED
+"tap(findTestObject(""ASNB/asnbRelationshipDropdownSelection""), 0)",,,,2022-03-06 23:05:25,2022-03-06 23:05:45,20.074s,FAILED
+"tap(findTestObject(""ASNB/asnbRelationParentDropdownSelection""), 0)",,,,2022-03-06 23:05:45,2022-03-06 23:06:05,20.048s,FAILED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-06 23:06:05,2022-03-06 23:06:27,21.904s,FAILED
+"tap(findTestObject(""ASNB/asnbPurposeDropdownSelection""), 0)",,,,2022-03-06 23:06:27,2022-03-06 23:06:47,20.171s,FAILED
+"tap(findTestObject(""ASNB/asnbPurposeSavingDropdownSelection""), 0)",,,,2022-03-06 23:06:47,2022-03-06 23:07:08,20.614s,FAILED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-06 23:07:08,2022-03-06 23:07:28,20.592s,FAILED
+"tap(findTestObject(""ASNB/asnbContinueBtn""), 0)",,,,2022-03-06 23:07:28,2022-03-06 23:07:48,20.141s,FAILED
+delay(2),,,,2022-03-06 23:07:48,2022-03-06 23:07:50,2.004s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-03-06 23:07:50,2022-03-06 23:08:11,20.087s,FAILED
+delay(2),,,,2022-03-06 23:08:11,2022-03-06 23:08:13,2.004s,PASSED
+"tap(findTestObject(""ASNB/asnbAmountTickBtn""), 0)",,,,2022-03-06 23:08:13,2022-03-06 23:08:33,20.211s,FAILED
+delay(2),,,,2022-03-06 23:08:33,2022-03-06 23:08:35,2.007s,PASSED
+"tap(findTestObject(""ASNB/asnbTransferNowBtn""), 0)",,,,2022-03-06 23:08:35,2022-03-06 23:08:55,20.181s,FAILED
+"if (verifyElementVisible(findTestObject(""Main/mainTACNumberTxt""), 10, OPTIONAL))",,,,2022-03-06 23:08:55,2022-03-06 23:09:06,10.655s,PASSED
+else,,,,2022-03-06 23:09:06,2022-03-06 23:09:41,35.357s,FAILED
+delay(3),,,,2022-03-06 23:09:41,2022-03-06 23:09:44,3.004s,PASSED
+"verifyElementExist(findTestObject(""Main/mainDoneBtn""), 10)",,,,2022-03-06 23:09:44,2022-03-06 23:09:54,10.133s,FAILED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-06 23:09:54,2022-03-06 23:10:14,20.112s,FAILED
+delay(5),,,,2022-03-06 23:10:14,2022-03-06 23:10:19,5.002s,PASSED
+"tap(findTestObject(""Object Repository/Main/mainTopLeftBackButton""), 0)",,,,2022-03-06 23:10:19,2022-03-06 23:10:19,0.282s,PASSED
+delay(3),,,,2022-03-06 23:10:19,2022-03-06 23:10:22,3.003s,PASSED
+,,,,,,,
+Test Cases/DuitNow/duitNow_mobileNumberTransaction,,,,2022-03-06 23:10:23,2022-03-06 23:15:17,4m - 54.135s,PASSED
+try,,,,2022-03-06 23:10:23,2022-03-06 23:15:17,4m - 53.975s,PASSED
+,,,,,,,
+Test Cases/DuitNow/duitNow_businessRegNumberTransaction,,,,2022-03-06 23:15:17,2022-03-06 23:18:41,3m - 24.564s,PASSED
+delay(5),,,,2022-03-06 23:15:17,2022-03-06 23:15:22,5.005s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-03-06 23:15:22,2022-03-06 23:15:32,10.602s,PASSED
+"tap(findTestObject(""Banking/transferDuitNowTopMenuSelect""), 10)",,,,2022-03-06 23:15:32,2022-03-06 23:16:33,1m - 0.801s,PASSED
+"tap(findTestObject(""Banking/duitNowOtherIconSelect""), 10)",,,,2022-03-06 23:16:33,2022-03-06 23:17:26,52.594s,PASSED
+delay(3),,,,2022-03-06 23:17:26,2022-03-06 23:17:29,3.003s,PASSED
+"tap(findTestObject(""Banking/duitNowIDTypeDropdownSelect""), 0)",,,,2022-03-06 23:17:29,2022-03-06 23:17:29,0.364s,PASSED
+"scrollToText(""Business Registration Number"", STOP_ON_FAILURE)",,,,2022-03-06 23:17:29,2022-03-06 23:17:33,3.698s,PASSED
+"tap(findTestObject(""Banking/duitNowBusinessRegIDTypeDropdown""), 0)",,,,2022-03-06 23:17:33,2022-03-06 23:17:33,0.314s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-06 23:17:33,2022-03-06 23:17:34,0.327s,PASSED
+"setText(findTestObject(""Banking/duitNowBusinessRegNoInputField""), ""aa9876543a"", 0)",,,,2022-03-06 23:17:34,2022-03-06 23:17:36,2.783s,PASSED
+hideKeyboard(),,,,2022-03-06 23:17:36,2022-03-06 23:17:39,2.253s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-06 23:17:39,2022-03-06 23:17:39,0.319s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-03-06 23:17:39,2022-03-06 23:17:42,3.106s,PASSED
+delay(5),,,,2022-03-06 23:17:42,2022-03-06 23:17:47,5.006s,PASSED
+"tap(findTestObject(""Login Onboarding/loginPinTickBtn""), 0)",,,,2022-03-06 23:17:47,2022-03-06 23:17:47,0.387s,PASSED
+"setText(findTestObject(""Banking/duitNowReferenceInputField""), ""Duit 0n off Transer"", 0)",,,,2022-03-06 23:17:47,2022-03-06 23:17:50,2.386s,PASSED
+hideKeyboard(),,,,2022-03-06 23:17:50,2022-03-06 23:17:52,2.278s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-06 23:17:52,2022-03-06 23:17:52,0.273s,PASSED
+"tap(findTestObject(""Banking/duitNowSummaryAmountTxt""), 0)",,,,2022-03-06 23:17:52,2022-03-06 23:17:56,3.264s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-06 23:17:56,2022-03-06 23:17:57,1.454s,PASSED
+"tap(findTestObject(""Login Onboarding/loginPinTickBtn""), 0)",,,,2022-03-06 23:17:57,2022-03-06 23:17:58,0.831s,PASSED
+delay(2),,,,2022-03-06 23:17:58,2022-03-06 23:18:00,2.005s,PASSED
+"tap(findTestObject(""Main/mainTransferNowBtn""), 0)",,,,2022-03-06 23:18:00,2022-03-06 23:18:01,0.658s,PASSED
+delay(2),,,,2022-03-06 23:18:01,2022-03-06 23:18:03,2.007s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainTACNumberTxt""), 0, OPTIONAL))",,,,2022-03-06 23:18:03,2022-03-06 23:18:23,20.131s,PASSED
+else,,,,2022-03-06 23:18:23,2022-03-06 23:18:28,5.483s,PASSED
+"Trasnferstatus1 = getText(findTestObject(""Main/mainTransactionStatusMessageTxt""), 10)",,,,2022-03-06 23:18:28,2022-03-06 23:18:33,4.465s,PASSED
+"println(""Transaction Status"" + Trasnferstatus1)",,,,2022-03-06 23:18:33,2022-03-06 23:18:33,0.001s,PASSED
+delay(5),,,,2022-03-06 23:18:33,2022-03-06 23:18:38,5.005s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-06 23:18:38,2022-03-06 23:18:38,0.147s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-06 23:18:38,2022-03-06 23:18:38,0.384s,PASSED
+delay(3),,,,2022-03-06 23:18:38,2022-03-06 23:18:41,3.006s,PASSED
+,,,,,,,
+Test Cases/DuitNow/duitNow_recurringTransferTransaction,,,,2022-03-06 23:18:41,2022-03-06 23:21:41,2m - 59.809s,PASSED
+delay(3),,,,2022-03-06 23:18:41,2022-03-06 23:18:44,3.003s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-03-06 23:18:44,2022-03-06 23:18:55,10.578s,PASSED
+"tap(findTestObject(""Banking/transferDuitNowTopMenuSelect""), 10)",,,,2022-03-06 23:18:55,2022-03-06 23:19:56,1m - 0.753s,PASSED
+"tap(findTestObject(""Banking/duitNowOtherIconSelect""), 10)",,,,2022-03-06 23:19:56,2022-03-06 23:20:49,52.796s,PASSED
+"setText(findTestObject(""Banking/duitNowMobileInputField""), ""01122334455"", 0)",,,,2022-03-06 23:20:49,2022-03-06 23:20:49,0.741s,PASSED
+hideKeyboard(),,,,2022-03-06 23:20:49,2022-03-06 23:20:50,0.775s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-06 23:20:50,2022-03-06 23:20:50,0.380s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-03-06 23:20:50,2022-03-06 23:20:54,3.363s,PASSED
+delay(2),,,,2022-03-06 23:20:54,2022-03-06 23:20:56,2.002s,PASSED
+"tap(findTestObject(""Login Onboarding/loginPinTickBtn""), 0)",,,,2022-03-06 23:20:56,2022-03-06 23:20:56,0.293s,PASSED
+"setText(findTestObject(""Banking/duitNowReferenceInputField""), ""DuitTransferTranser"", 0)",,,,2022-03-06 23:20:56,2022-03-06 23:20:58,2.368s,PASSED
+hideKeyboard(),,,,2022-03-06 23:20:58,2022-03-06 23:21:00,1.721s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-06 23:21:00,2022-03-06 23:21:01,0.375s,PASSED
+"tap(findTestObject(""Banking/duitNowSummaryOneOffTxt""), 0)",,,,2022-03-06 23:21:01,2022-03-06 23:21:04,3.274s,PASSED
+"tap(findTestObject(""Banking/duitNowRecurringDropdownSelection""), 0)",,,,2022-03-06 23:21:04,2022-03-06 23:21:05,1.206s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-06 23:21:05,2022-03-06 23:21:06,0.991s,PASSED
+delay(2),,,,2022-03-06 23:21:06,2022-03-06 23:21:08,2.002s,PASSED
+"tap(findTestObject(""Main/mainTransferNowBtn""), 0)",,,,2022-03-06 23:21:08,2022-03-06 23:21:09,0.497s,PASSED
+delay(2),,,,2022-03-06 23:21:09,2022-03-06 23:21:11,2.003s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainTACNumberTxt""), 0, OPTIONAL))",,,,2022-03-06 23:21:11,2022-03-06 23:21:32,21.816s,PASSED
+delay(3),,,,2022-03-06 23:21:32,2022-03-06 23:21:35,3.005s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-06 23:21:35,2022-03-06 23:21:36,0.265s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-06 23:21:36,2022-03-06 23:21:36,0.361s,PASSED
+delay(5),,,,2022-03-06 23:21:36,2022-03-06 23:21:41,5.006s,PASSED
+,,,,,,,
+Test Cases/DuitNow/duitNow_addFavoriteTransaction,,,,2022-03-06 23:21:41,2022-03-06 23:24:55,3m - 13.764s,PASSED
+delay(3),,,,2022-03-06 23:21:41,2022-03-06 23:21:44,3.009s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-03-06 23:21:44,2022-03-06 23:21:55,10.542s,PASSED
+"tap(findTestObject(""Banking/transferDuitNowTopMenuSelect""), 10)",,,,2022-03-06 23:21:55,2022-03-06 23:22:56,1m - 0.764s,PASSED
+"tap(findTestObject(""Banking/duitNowOtherIconSelect""), 10)",,,,2022-03-06 23:22:56,2022-03-06 23:23:48,52.636s,PASSED
+"tap(findTestObject(""Banking/duitNowIDTypeDropdownSelect""), 0)",,,,2022-03-06 23:23:48,2022-03-06 23:23:49,0.339s,PASSED
+"scrollToText(""Business Registration Number"", STOP_ON_FAILURE)",,,,2022-03-06 23:23:49,2022-03-06 23:23:52,3.659s,PASSED
+"tap(findTestObject(""Banking/duitNowBusinessRegIDTypeDropdown""), 0)",,,,2022-03-06 23:23:52,2022-03-06 23:23:53,0.323s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-06 23:23:53,2022-03-06 23:23:53,0.320s,PASSED
+"setText(findTestObject(""Banking/duitNowBusinessRegNoInputField""), ""aa9876543a"", 0)",,,,2022-03-06 23:23:53,2022-03-06 23:23:56,2.786s,PASSED
+hideKeyboard(),,,,2022-03-06 23:23:56,2022-03-06 23:23:57,1.860s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-06 23:23:57,2022-03-06 23:23:58,0.347s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-03-06 23:23:58,2022-03-06 23:24:01,3.120s,PASSED
+delay(2),,,,2022-03-06 23:24:01,2022-03-06 23:24:03,2.004s,PASSED
+"tap(findTestObject(""Login Onboarding/loginPinTickBtn""), 0)",,,,2022-03-06 23:24:03,2022-03-06 23:24:03,0.442s,PASSED
+"setText(findTestObject(""Banking/duitNowReferenceInputField""), ""Duit 0n off Transer"", 0)",,,,2022-03-06 23:24:03,2022-03-06 23:24:06,2.411s,PASSED
+hideKeyboard(),,,,2022-03-06 23:24:06,2022-03-06 23:24:08,1.974s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-06 23:24:08,2022-03-06 23:24:09,0.965s,PASSED
+"tap(findTestObject(""Banking/duitNowSummaryAmountTxt""), 0)",,,,2022-03-06 23:24:09,2022-03-06 23:24:11,2.543s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-06 23:24:11,2022-03-06 23:24:13,1.346s,PASSED
+"tap(findTestObject(""Login Onboarding/loginPinTickBtn""), 0)",,,,2022-03-06 23:24:13,2022-03-06 23:24:14,0.989s,PASSED
+delay(2),,,,2022-03-06 23:24:14,2022-03-06 23:24:16,2.005s,PASSED
+"tap(findTestObject(""Main/mainTransferNowBtn""), 0)",,,,2022-03-06 23:24:16,2022-03-06 23:24:16,0.458s,PASSED
+delay(2),,,,2022-03-06 23:24:16,2022-03-06 23:24:18,2.009s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainTACNumberTxt""), 10, OPTIONAL))",,,,2022-03-06 23:24:18,2022-03-06 23:24:28,10.072s,PASSED
+else,,,,2022-03-06 23:24:28,2022-03-06 23:24:34,5.465s,PASSED
+delay(5),,,,2022-03-06 23:24:34,2022-03-06 23:24:39,5.006s,PASSED
+"Trasnferstatus1 = getText(findTestObject(""Main/mainTransactionStatusMessageTxt""), 10)",,,,2022-03-06 23:24:39,2022-03-06 23:24:39,0.172s,PASSED
+"println(""Transaction Status"" + Trasnferstatus1)",,,,2022-03-06 23:24:39,2022-03-06 23:24:39,0.001s,PASSED
+delay(2),,,,2022-03-06 23:24:39,2022-03-06 23:24:41,2.003s,PASSED
+"tap(findTestObject(""Main/mainAddToFavBtn""), 0)",,,,2022-03-06 23:24:41,2022-03-06 23:24:41,0.375s,PASSED
+delay(2),,,,2022-03-06 23:24:41,2022-03-06 23:24:43,2.009s,PASSED
+"tap(findTestObject(""Main/mainAddToFavBtn""), 0)",,,,2022-03-06 23:24:43,2022-03-06 23:24:44,0.449s,PASSED
+delay(2),,,,2022-03-06 23:24:44,2022-03-06 23:24:46,2.009s,PASSED
+"tap(findTestObject(""Main/mainCloseFavPopUpBtn""), 0)",,,,2022-03-06 23:24:46,2022-03-06 23:24:46,0.530s,PASSED
+delay(3),,,,2022-03-06 23:24:46,2022-03-06 23:24:49,3.011s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-06 23:24:49,2022-03-06 23:24:49,0.252s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-06 23:24:49,2022-03-06 23:24:50,0.341s,PASSED
+delay(5),,,,2022-03-06 23:24:50,2022-03-06 23:24:55,5.007s,PASSED
+,,,,,,,
+Test Cases/Settings/settings_qrRegistration,,,,2022-03-06 23:24:55,2022-03-06 23:25:05,10.483s,ERROR
+delay(5),,,,2022-03-06 23:24:55,2022-03-06 23:25:00,5.006s,PASSED
+"tap(findTestObject(""Banking/m2uAccountsScanPayIconSelect""), 0)",,,,2022-03-06 23:25:00,2022-03-06 23:25:02,2.336s,PASSED
+delay(3),,,,2022-03-06 23:25:02,2022-03-06 23:25:05,3.009s,PASSED
+"if (verifyElementVisible(findTestObject(""Tabung/tabungEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-03-06 23:25:05,2022-03-06 23:25:05,0.036s,ERROR

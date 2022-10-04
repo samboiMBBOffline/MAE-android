@@ -1,0 +1,1939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regress 2" time="835.431" tests="8" failures="1" errors="0">
+   <testsuite name="Regress 2" tests="8" failures="1" errors="0" time="835.431" skipped="0" timestamp="2022-03-04 08:10:07" hostname="a00139272 - 192.168.0.189" id="Test Suites/Regress 2">
+      <properties>
+         <property name="deviceName" value="Xiaomi 21061119AG (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/a00139272/git/MAE-BAU/Reports/20220304_080957/Regress 2/20220304_080957"/>
+         <property name="logFiles" value="/Users/a00139272/git/MAE-BAU/Reports/20220304_080957/Regress 2/20220304_080957/execution0.log, /Users/a00139272/git/MAE-BAU/Reports/20220304_080957/Regress 2/20220304_080957/appium.log"/>
+         <property name="attachments" value="/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 1.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 1.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 2.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 2.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 3.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 3.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 4.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 4.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 5.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 5.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 6.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 6.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 7.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 7.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 8.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 8.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 9.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 9.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 10.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 10.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 11.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 11.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 12.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 12.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 13.png, /Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 13.png, /Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 2.png, /Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 2.png, /Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 3.png, /Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 3.png, /Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 4.png, /Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 4.png, /Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 5.png, /Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 5.png, /Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 7.png, /Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 7.png, /Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 8.png, /Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 8.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 3.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 3.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 4.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 4.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 5.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 5.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 6.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 6.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 7.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 7.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 9.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 9.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 10.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 10.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 2.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 2.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 3.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 3.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 4.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 4.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 5.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 5.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 7.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 7.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 8.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 8.png"/>
+         <property name="hostName" value="a00139272 - 192.168.0.189"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.1&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.1"/>
+         <property name="deviceModel" value="21061119AG"/>
+         <property name="hostAddress" value="192.168.0.189"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="002b9cc60508"/>
+         <property name="deviceName" value="Xiaomi 21061119AG (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Others/ticketing_buyKLIATicket" time="151.491" classname="Test Cases/Others/ticketing_buyKLIATicket" status="PASSED">
+         <system-out><![CDATA[2022-03-04 08:10:07 - [TEST_CASE][PASSED] - Test Cases/Others/ticketing_buyKLIATicket: Test Cases/Others/ticketing_buyKLIATicket
+
+2022-03-04 08:10:08 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-sit-universal-release-copy.apk'
+
+2022-03-04 08:10:08 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-03-04 08:10:08 - [MESSAGE][INFO] - User set preference: ['deviceId', '002b9cc60508']
+
+2022-03-04 08:10:09 - [MESSAGE][INFO] - Appium server started on port 51,239
+
+2022-03-04 08:10:22 - [MESSAGE][PASSED] - Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-sit-universal-release-copy.apk'
+
+2022-03-04 08:10:22 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appPackage", "com.maybank2u.life.sit"): null
+
+2022-03-04 08:10:22 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appActivity", "com.maybank2u.life.MainActivity"): null
+
+2022-03-04 08:10:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:10:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:10:27 - [TEST_STEP][PASSED] - if (getDeviceManufacturer() == "samsung"): Device manufacturer is: 'Xiaomi'
+
+2022-03-04 08:10:27 - [MESSAGE][PASSED] - Device manufacturer is: 'Xiaomi'
+
+2022-03-04 08:10:27 - [TEST_STEP][PASSED] - else: Tapped at [355, 2,147]
+
+2022-03-04 08:10:27 - [TEST_STEP][PASSED] - tapAtPosition(355, 2147): Tapped at [355, 2,147]
+
+2022-03-04 08:10:27 - [MESSAGE][PASSED] - Tapped at [355, 2,147]
+
+2022-03-04 08:10:27 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): null
+
+2022-03-04 08:10:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:10:28 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainEnterPINMessage' is visible
+
+2022-03-04 08:10:28 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:10:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:10:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:10:29 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:10:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:10:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:10:31 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:10:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:10:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:10:33 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:10:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:10:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:10:35 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:10:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:10:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:10:36 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN2"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-03-04 08:10:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:10:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-03-04 08:10:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:10:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:10:40 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountTypeSelection", ["text":"MAE"]), 10): Tapped on element 'Object Repository/Banking/m2uAccountTypeSelection'
+
+2022-03-04 08:10:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountTypeSelection'
+
+2022-03-04 08:10:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:10:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:10:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Banking/m2uAccountPayBillsIconSelect"), 0): Element 'Object Repository/Banking/m2uAccountPayBillsIconSelect' is present
+
+2022-03-04 08:10:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:10:51 - [MESSAGE][PASSED] - Element 'Object Repository/Banking/m2uAccountPayBillsIconSelect' is present
+
+2022-03-04 08:10:51 - [TEST_STEP][PASSED] - if (getDeviceManufacturer() == "samsung"): Device manufacturer is: 'Xiaomi'
+
+2022-03-04 08:10:51 - [MESSAGE][PASSED] - Device manufacturer is: 'Xiaomi'
+
+2022-03-04 08:10:51 - [TEST_STEP][PASSED] - else: Swiped from 900,1,245 to 300,1,245
+
+2022-03-04 08:10:51 - [TEST_STEP][PASSED] - swipe(900, 1245, 300, 1245): Swiped from 900,1,245 to 300,1,245
+
+2022-03-04 08:10:52 - [MESSAGE][PASSED] - Swiped from 900,1,245 to 300,1,245
+
+2022-03-04 08:10:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Banking/m2uAccountERLIconSelect"), 0): Element 'Object Repository/Banking/m2uAccountERLIconSelect' is present
+
+2022-03-04 08:10:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:10:52 - [MESSAGE][PASSED] - Element 'Object Repository/Banking/m2uAccountERLIconSelect' is present
+
+2022-03-04 08:10:52 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountERLIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountERLIconSelect'
+
+2022-03-04 08:10:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:10:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountERLIconSelect'
+
+2022-03-04 08:10:54 - [TEST_STEP][PASSED] - delay(3, CONTINUE_ON_FAILURE): Delayed 3 second(s)
+
+2022-03-04 08:10:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:10:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("KLIA/kliaExpressBuyTicketBtn"), 0): Element 'Object Repository/KLIA/kliaExpressBuyTicketBtn' is present
+
+2022-03-04 08:10:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:10:58 - [MESSAGE][PASSED] - Element 'Object Repository/KLIA/kliaExpressBuyTicketBtn' is present
+
+2022-03-04 08:10:58 - [TEST_STEP][PASSED] - tap(findTestObject("KLIA/kliaExpressBuyTicketBtn"), 0): Tapped on element 'Object Repository/KLIA/kliaExpressBuyTicketBtn'
+
+2022-03-04 08:10:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:10:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KLIA/kliaExpressBuyTicketBtn'
+
+2022-03-04 08:10:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("KLIA/kliaExpressFromDropdownSelect"), 0): Element 'Object Repository/KLIA/kliaExpressFromDropdownSelect' is present
+
+2022-03-04 08:10:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:10:59 - [MESSAGE][PASSED] - Element 'Object Repository/KLIA/kliaExpressFromDropdownSelect' is present
+
+2022-03-04 08:10:59 - [TEST_STEP][PASSED] - tap(findTestObject("KLIA/kliaExpressFromDropdownSelect"), 0): Tapped on element 'Object Repository/KLIA/kliaExpressFromDropdownSelect'
+
+2022-03-04 08:10:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KLIA/kliaExpressFromDropdownSelect'
+
+2022-03-04 08:11:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("KLIA/kliaExpressFromDropdownSelectKLIA"), 0): Element 'Object Repository/KLIA/kliaExpressFromDropdownSelectKLIA' is present
+
+2022-03-04 08:11:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:01 - [MESSAGE][PASSED] - Element 'Object Repository/KLIA/kliaExpressFromDropdownSelectKLIA' is present
+
+2022-03-04 08:11:01 - [TEST_STEP][PASSED] - tap(findTestObject("KLIA/kliaExpressFromDropdownSelectKLIA"), 0): Tapped on element 'Object Repository/KLIA/kliaExpressFromDropdownSelectKLIA'
+
+2022-03-04 08:11:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KLIA/kliaExpressFromDropdownSelectKLIA'
+
+2022-03-04 08:11:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Element 'Object Repository/Main/mainCalenderPickerDoneBtn' is present
+
+2022-03-04 08:11:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:02 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainCalenderPickerDoneBtn' is present
+
+2022-03-04 08:11:02 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 10): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:11:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:11:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("KLIA/kliaExpressToDropdownSelect"), 0): Element 'Object Repository/KLIA/kliaExpressToDropdownSelect' is present
+
+2022-03-04 08:11:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:04 - [MESSAGE][PASSED] - Element 'Object Repository/KLIA/kliaExpressToDropdownSelect' is present
+
+2022-03-04 08:11:04 - [TEST_STEP][PASSED] - tap(findTestObject("KLIA/kliaExpressToDropdownSelect"), 0): Tapped on element 'Object Repository/KLIA/kliaExpressToDropdownSelect'
+
+2022-03-04 08:11:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KLIA/kliaExpressToDropdownSelect'
+
+2022-03-04 08:11:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:11:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:11:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("KLIA/kliaExpressToDropdownSelectKLSentral"), 0): Element 'Object Repository/KLIA/kliaExpressToDropdownSelectKLSentral' is present
+
+2022-03-04 08:11:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:07 - [MESSAGE][PASSED] - Element 'Object Repository/KLIA/kliaExpressToDropdownSelectKLSentral' is present
+
+2022-03-04 08:11:07 - [TEST_STEP][PASSED] - tap(findTestObject("KLIA/kliaExpressToDropdownSelectKLSentral"), 0): Tapped on element 'Object Repository/KLIA/kliaExpressToDropdownSelectKLSentral'
+
+2022-03-04 08:11:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KLIA/kliaExpressToDropdownSelectKLSentral'
+
+2022-03-04 08:11:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Element 'Object Repository/Main/mainCalenderPickerDoneBtn' is present
+
+2022-03-04 08:11:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:08 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainCalenderPickerDoneBtn' is present
+
+2022-03-04 08:11:08 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 10): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:11:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:11:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Element 'Object Repository/Login Onboarding/loginExistingContinueBtn' is present
+
+2022-03-04 08:11:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:09 - [MESSAGE][PASSED] - Element 'Object Repository/Login Onboarding/loginExistingContinueBtn' is present
+
+2022-03-04 08:11:09 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:11:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:11:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("KLIA/kliaExpressEnterDateSelectField"), 0): Element 'Object Repository/KLIA/kliaExpressEnterDateSelectField' is present
+
+2022-03-04 08:11:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:11 - [MESSAGE][PASSED] - Element 'Object Repository/KLIA/kliaExpressEnterDateSelectField' is present
+
+2022-03-04 08:11:11 - [TEST_STEP][PASSED] - tap(findTestObject("KLIA/kliaExpressEnterDateSelectField"), 10): Tapped on element 'Object Repository/KLIA/kliaExpressEnterDateSelectField'
+
+2022-03-04 08:11:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KLIA/kliaExpressEnterDateSelectField'
+
+2022-03-04 08:11:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Main/mainCalenderPickerNextBtn"), 0): Element 'Object Repository/Main/mainCalenderPickerNextBtn' is present
+
+2022-03-04 08:11:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:13 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainCalenderPickerNextBtn' is present
+
+2022-03-04 08:11:13 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerNextBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerNextBtn'
+
+2022-03-04 08:11:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerNextBtn'
+
+2022-03-04 08:11:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:11:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:11:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Main/mainDatePicker1"), 0): Element 'Object Repository/Main/mainDatePicker1' is present
+
+2022-03-04 08:11:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:17 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDatePicker1' is present
+
+2022-03-04 08:11:17 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDatePicker1"), 0): Tapped on element 'Object Repository/Main/mainDatePicker1'
+
+2022-03-04 08:11:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDatePicker1'
+
+2022-03-04 08:11:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Element 'Object Repository/Main/mainCalenderPickerDoneBtn' is present
+
+2022-03-04 08:11:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:18 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainCalenderPickerDoneBtn' is present
+
+2022-03-04 08:11:18 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:11:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:11:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:11:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:11:22 - [TEST_STEP][PASSED] - scrollToText("Return Trip", STOP_ON_FAILURE): Scrolling to text 'Return Trip' successfully
+
+2022-03-04 08:11:26 - [MESSAGE][PASSED] - Scrolling to text 'Return Trip' successfully
+
+2022-03-04 08:11:26 - [TEST_STEP][PASSED] - tap(findTestObject("KLIA/kliaExpressSingleTripSelect"), 0): Tapped on element 'Object Repository/KLIA/kliaExpressSingleTripSelect'
+
+2022-03-04 08:11:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KLIA/kliaExpressSingleTripSelect'
+
+2022-03-04 08:11:26 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:11:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:11:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:11:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:11:30 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:11:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:11:31 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("KLIA/ticketingEnterPasswordTxt"), 0, OPTIONAL)): null
+
+2022-03-04 08:11:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:35 - [MESSAGE][PASSED] - Element 'Object Repository/KLIA/ticketingEnterPasswordTxt' is visible
+
+2022-03-04 08:11:35 - [TEST_STEP][PASSED] - setText(findTestObject("KLIA/ticketingInputPaswordField"), Password, 0): Text 'Sanjay@49' has been set to element 'Object Repository/KLIA/ticketingInputPaswordField'
+
+2022-03-04 08:11:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:36 - [MESSAGE][PASSED] - Text 'Sanjay@49' has been set to element 'Object Repository/KLIA/ticketingInputPaswordField'
+
+2022-03-04 08:11:36 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-04 08:11:41 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-04 08:11:41 - [TEST_STEP][PASSED] - tap(findTestObject("KLIA/ticketingKLIASignInContinueBtn"), 0): Tapped on element 'Object Repository/KLIA/ticketingKLIASignInContinueBtn'
+
+2022-03-04 08:11:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KLIA/ticketingKLIASignInContinueBtn'
+
+2022-03-04 08:11:41 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-03-04 08:11:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-03-04 08:11:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("KLIA/kliaExpressPayNowBtn"), 0): Element 'Object Repository/KLIA/kliaExpressPayNowBtn' is present
+
+2022-03-04 08:11:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:51 - [MESSAGE][PASSED] - Element 'Object Repository/KLIA/kliaExpressPayNowBtn' is present
+
+2022-03-04 08:11:51 - [TEST_STEP][PASSED] - tap(findTestObject("KLIA/kliaExpressPayNowBtn"), 0): Tapped on element 'Object Repository/KLIA/kliaExpressPayNowBtn'
+
+2022-03-04 08:11:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:11:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/KLIA/kliaExpressPayNowBtn'
+
+2022-03-04 08:11:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:11:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:11:54 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Festive Season/festiveReturnAngpaoTACNoTxt"), 0, OPTIONAL)): Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 08:11:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:12:14 - [MESSAGE][WARNING] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 08:12:14 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:12:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:12:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:12:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainS2UApproveBtn"), 10): Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 08:12:19 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 08:12:19 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainS2UApproveBtn"), 0): Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:12:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:12:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:12:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:12:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:12:21 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:12:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:12:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:12:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:12:39 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tabung/tabung_createTabungCreatorOnly" time="179.198" classname="Test Cases/Tabung/tabung_createTabungCreatorOnly" status="PASSED">
+         <system-out><![CDATA[2022-03-04 08:12:39 - [TEST_CASE][PASSED] - Test Cases/Tabung/tabung_createTabungCreatorOnly: Test Cases/Tabung/tabung_createTabungCreatorOnly
+
+2022-03-04 08:12:39 - [TEST_STEP][PASSED] - try: Screenshot is taken
+
+2022-03-04 08:12:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:12:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:12:42 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 1.png"): Screenshot is taken
+
+2022-03-04 08:12:43 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 1.png]]
+
+2022-03-04 08:12:43 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 1.png]]
+
+2022-03-04 08:12:43 - [TEST_STEP][PASSED] - if (getDeviceManufacturer() == "samsung"): Device manufacturer is: 'Xiaomi'
+
+2022-03-04 08:12:43 - [MESSAGE][PASSED] - Device manufacturer is: 'Xiaomi'
+
+2022-03-04 08:12:43 - [TEST_STEP][PASSED] - else: Tapped at [953, 2,147]
+
+2022-03-04 08:12:43 - [TEST_STEP][PASSED] - tapAtPosition(953, 2147): Tapped at [953, 2,147]
+
+2022-03-04 08:12:44 - [MESSAGE][PASSED] - Tapped at [953, 2,147]
+
+2022-03-04 08:12:44 - [TEST_STEP][PASSED] - tapAtPosition(953, 2147): Tapped at [953, 2,147]
+
+2022-03-04 08:12:46 - [MESSAGE][PASSED] - Tapped at [953, 2,147]
+
+2022-03-04 08:12:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Settings/new_settings_moreMainBtn"), 0): Tapped on element 'Object Repository/Settings/new_settings_moreMainBtn'
+
+2022-03-04 08:12:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:12:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Settings/new_settings_moreMainBtn'
+
+2022-03-04 08:12:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Tabung/moreTabungIconSelect"), 0): Element 'Object Repository/Tabung/moreTabungIconSelect' is present
+
+2022-03-04 08:12:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:12:46 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/moreTabungIconSelect' is present
+
+2022-03-04 08:12:46 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 2.png"): Screenshot is taken
+
+2022-03-04 08:12:47 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 2.png]]
+
+2022-03-04 08:12:47 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 2.png]]
+
+2022-03-04 08:12:47 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/moreTabungIconSelect"), 0): Tapped on element 'Object Repository/Tabung/moreTabungIconSelect'
+
+2022-03-04 08:12:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:12:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/moreTabungIconSelect'
+
+2022-03-04 08:12:53 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-03-04 08:12:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:13 - [MESSAGE][WARNING] - Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-03-04 08:13:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Tabung/tabungCreateTabungBtn"), 0): Element 'Object Repository/Tabung/tabungCreateTabungBtn' is present
+
+2022-03-04 08:13:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:13 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungCreateTabungBtn' is present
+
+2022-03-04 08:13:13 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 3.png"): Screenshot is taken
+
+2022-03-04 08:13:15 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 3.png]]
+
+2022-03-04 08:13:15 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 3.png]]
+
+2022-03-04 08:13:15 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungCreateTabungBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungCreateTabungBtn'
+
+2022-03-04 08:13:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungCreateTabungBtn'
+
+2022-03-04 08:13:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:13:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:13:18 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 4.png"): Screenshot is taken
+
+2022-03-04 08:13:19 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 4.png]]
+
+2022-03-04 08:13:19 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 4.png]]
+
+2022-03-04 08:13:19 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungCreateTravelSelect"), 0): Tapped on element 'Object Repository/Tabung/tabungCreateTravelSelect'
+
+2022-03-04 08:13:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungCreateTravelSelect'
+
+2022-03-04 08:13:19 - [TEST_STEP][PASSED] - setText(findTestObject("Tabung/tabungNameInputField"), tabungName, 0): Text 'Switzerland' has been set to element 'Object Repository/Tabung/tabungNameInputField'
+
+2022-03-04 08:13:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:24 - [MESSAGE][PASSED] - Text 'Switzerland' has been set to element 'Object Repository/Tabung/tabungNameInputField'
+
+2022-03-04 08:13:24 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-04 08:13:25 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-04 08:13:25 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 5.png"): Screenshot is taken
+
+2022-03-04 08:13:25 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 5.png]]
+
+2022-03-04 08:13:25 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 5.png]]
+
+2022-03-04 08:13:25 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:13:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-03-04 08:13:26 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:13:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:13:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:13:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:13:30 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungAmountTickBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungAmountTickBtn'
+
+2022-03-04 08:13:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungAmountTickBtn'
+
+2022-03-04 08:13:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:13:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:13:32 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 08:13:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 08:13:32 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 08:13:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 08:13:33 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN0"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 08:13:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN0'
+
+2022-03-04 08:13:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:13:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:13:37 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 6.png"): Screenshot is taken
+
+2022-03-04 08:13:37 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 6.png]]
+
+2022-03-04 08:13:37 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 6.png]]
+
+2022-03-04 08:13:37 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungCreateAmountTickBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungCreateAmountTickBtn'
+
+2022-03-04 08:13:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungCreateAmountTickBtn'
+
+2022-03-04 08:13:38 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungSelectStartDateField"), 0): Tapped on element 'Object Repository/Tabung/tabungSelectStartDateField'
+
+2022-03-04 08:13:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungSelectStartDateField'
+
+2022-03-04 08:13:40 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungDatePickerSelect"), 0): Tapped on element 'Object Repository/Tabung/tabungDatePickerSelect'
+
+2022-03-04 08:13:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungDatePickerSelect'
+
+2022-03-04 08:13:42 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:13:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:13:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:13:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:13:45 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 7.png"): Screenshot is taken
+
+2022-03-04 08:13:45 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 7.png]]
+
+2022-03-04 08:13:45 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 7.png]]
+
+2022-03-04 08:13:45 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungContinueBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-03-04 08:13:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-03-04 08:13:46 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungSelectEndDateField"), 0): Tapped on element 'Object Repository/Tabung/tabungSelectEndDateField'
+
+2022-03-04 08:13:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungSelectEndDateField'
+
+2022-03-04 08:13:48 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungCalendarPickerNextBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungCalendarPickerNextBtn'
+
+2022-03-04 08:13:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungCalendarPickerNextBtn'
+
+2022-03-04 08:13:50 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungDatePickerSelect"), 0): Tapped on element 'Object Repository/Tabung/tabungDatePickerSelect'
+
+2022-03-04 08:13:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungDatePickerSelect'
+
+2022-03-04 08:13:51 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:13:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:13:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:13:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:13:54 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 8.png"): Screenshot is taken
+
+2022-03-04 08:13:55 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 8.png]]
+
+2022-03-04 08:13:55 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 8.png]]
+
+2022-03-04 08:13:55 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungContinueBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-03-04 08:13:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:13:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-03-04 08:13:56 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Tabung/tabungEnterPasswordTxt"), 0, OPTIONAL)): Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-03-04 08:13:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:14:16 - [MESSAGE][WARNING] - Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-03-04 08:14:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:14:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:14:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Tabung/tabungSelectAccountDropdownBox"), 0): Element 'Object Repository/Tabung/tabungSelectAccountDropdownBox' is visible
+
+2022-03-04 08:14:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:14:19 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungSelectAccountDropdownBox' is visible
+
+2022-03-04 08:14:19 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungSelectAccountTxt"), 0): Tapped on element 'Object Repository/Tabung/tabungSelectAccountTxt'
+
+2022-03-04 08:14:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:14:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungSelectAccountTxt'
+
+2022-03-04 08:14:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:14:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:14:22 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabunCreateFirstAccountSelect"), 0): Tapped on element 'Object Repository/Tabung/tabunCreateFirstAccountSelect'
+
+2022-03-04 08:14:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:14:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabunCreateFirstAccountSelect'
+
+2022-03-04 08:14:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:14:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:14:27 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:14:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:14:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:14:27 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2022-03-04 08:14:31 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-03-04 08:14:31 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 9.png"): Screenshot is taken
+
+2022-03-04 08:14:32 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 9.png]]
+
+2022-03-04 08:14:32 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 9.png]]
+
+2022-03-04 08:14:32 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungContinueBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-03-04 08:14:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:14:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-03-04 08:14:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:14:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:14:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Tabung/tabungConfirmationTxt"), 0): Element 'Object Repository/Tabung/tabungConfirmationTxt' is visible
+
+2022-03-04 08:14:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:14:38 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungConfirmationTxt' is visible
+
+2022-03-04 08:14:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Tabung/tabungAutoDeductionText"), 0): Element 'Object Repository/Tabung/tabungAutoDeductionText' is visible
+
+2022-03-04 08:14:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:14:38 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungAutoDeductionText' is visible
+
+2022-03-04 08:14:38 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungConfirmationSelectFrequencyDropdown"), 0): Tapped on element 'Object Repository/Tabung/tabungConfirmationSelectFrequencyDropdown'
+
+2022-03-04 08:14:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:14:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungConfirmationSelectFrequencyDropdown'
+
+2022-03-04 08:14:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:14:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:14:44 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungConfirmationFirstFreqDropdownSelect"), 0): Tapped on element 'Object Repository/Tabung/tabungConfirmationFirstFreqDropdownSelect'
+
+2022-03-04 08:14:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:14:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungConfirmationFirstFreqDropdownSelect'
+
+2022-03-04 08:14:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:14:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:14:49 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:14:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:14:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-03-04 08:14:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:14:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:14:52 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungDisableESIRadioBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungDisableESIRadioBtn'
+
+2022-03-04 08:14:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:14:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungDisableESIRadioBtn'
+
+2022-03-04 08:14:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:14:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:14:54 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 10.png"): Screenshot is taken
+
+2022-03-04 08:14:55 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 10.png]]
+
+2022-03-04 08:14:55 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 10.png]]
+
+2022-03-04 08:14:55 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungConfirmationCreateTabungBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungConfirmationCreateTabungBtn'
+
+2022-03-04 08:14:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:14:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungConfirmationCreateTabungBtn'
+
+2022-03-04 08:14:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:14:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:14:58 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 11.png"): Screenshot is taken
+
+2022-03-04 08:14:59 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 11.png]]
+
+2022-03-04 08:14:59 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 11.png]]
+
+2022-03-04 08:14:59 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/Tabung/tabung_otpNumberPresentTxt"), 0, OPTIONAL)): Element 'Object Repository/Tabung/tabung_otpNumberPresentTxt' not found
+
+2022-03-04 08:14:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:15:19 - [MESSAGE][WARNING] - Element 'Object Repository/Tabung/tabung_otpNumberPresentTxt' not found
+
+2022-03-04 08:15:19 - [TEST_STEP][PASSED] - else: Delayed 10 second(s)
+
+2022-03-04 08:15:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainS2UApproveBtn"), 0): Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 08:15:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:15:19 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 08:15:19 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainS2UApproveBtn"), 0): Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:15:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:15:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:15:19 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-03-04 08:15:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-03-04 08:15:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:15:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:15:30 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:15:30 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 12.png"): Screenshot is taken
+
+2022-03-04 08:15:30 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 12.png]]
+
+2022-03-04 08:15:30 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 12.png]]
+
+2022-03-04 08:15:30 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:15:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:15:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:15:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:15:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:15:36 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 13.png"): Screenshot is taken
+
+2022-03-04 08:15:38 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 13.png]]
+
+2022-03-04 08:15:38 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/create/Screenshot 13.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tabung/tabung_fundTabungCreatorOnly" time="121.191" classname="Test Cases/Tabung/tabung_fundTabungCreatorOnly" status="PASSED">
+         <system-out><![CDATA[2022-03-04 08:15:38 - [TEST_CASE][PASSED] - Test Cases/Tabung/tabung_fundTabungCreatorOnly: Test Cases/Tabung/tabung_fundTabungCreatorOnly
+
+2022-03-04 08:15:38 - [TEST_STEP][PASSED] - try: Screenshot is taken
+
+2022-03-04 08:15:38 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-03-04 08:15:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:15:59 - [MESSAGE][WARNING] - Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-03-04 08:15:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:16:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:16:04 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 2.png"): Screenshot is taken
+
+2022-03-04 08:16:05 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 2.png]]
+
+2022-03-04 08:16:05 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 2.png]]
+
+2022-03-04 08:16:05 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungNameSelection", ["text":tabungName]), 10): Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-03-04 08:16:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-03-04 08:16:07 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungThreeDotsBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-03-04 08:16:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:16:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-03-04 08:16:09 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 3.png"): Screenshot is taken
+
+2022-03-04 08:16:10 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 3.png]]
+
+2022-03-04 08:16:10 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 3.png]]
+
+2022-03-04 08:16:10 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungThreeDotsFundBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungThreeDotsFundBtn'
+
+2022-03-04 08:16:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:16:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungThreeDotsFundBtn'
+
+2022-03-04 08:16:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:16:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:16:13 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN2"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-03-04 08:16:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:16:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-03-04 08:16:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:16:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:16:15 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 4.png"): Screenshot is taken
+
+2022-03-04 08:16:16 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 4.png]]
+
+2022-03-04 08:16:16 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 4.png]]
+
+2022-03-04 08:16:16 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungFundAmountTickBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungFundAmountTickBtn'
+
+2022-03-04 08:16:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:16:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungFundAmountTickBtn'
+
+2022-03-04 08:16:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:16:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:16:19 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Tabung/tabungEnterPasswordTxt"), 0, OPTIONAL)): Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-03-04 08:16:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:16:39 - [MESSAGE][WARNING] - Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-03-04 08:16:39 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2022-03-04 08:16:54 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2022-03-04 08:16:54 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 5.png"): Screenshot is taken
+
+2022-03-04 08:16:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 5.png]]
+
+2022-03-04 08:16:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 5.png]]
+
+2022-03-04 08:16:54 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungFundTabungBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungFundTabungBtn'
+
+2022-03-04 08:16:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:16:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungFundTabungBtn'
+
+2022-03-04 08:16:55 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt"), 0, OPTIONAL)): Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 08:16:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:17:15 - [MESSAGE][WARNING] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 08:17:15 - [TEST_STEP][PASSED] - else: Delayed 10 second(s)
+
+2022-03-04 08:17:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainS2UApproveBtn"), 0): Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 08:17:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:17:15 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 08:17:15 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainS2UApproveBtn"), 0): Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:17:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:17:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:17:16 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-03-04 08:17:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-03-04 08:17:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:17:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:17:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Tabung/tabungFundSummaryTopupSuccesfullTxt"), "Topup Successful"): Actual text and expected text of test object 'Object Repository/Tabung/tabungFundSummaryTopupSuccesfullTxt' are matched.
+
+2022-03-04 08:17:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Tabung/tabungFundSummaryTopupSuccesfullTxt' are matched.
+
+2022-03-04 08:17:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:17:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:17:32 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 7.png"): Screenshot is taken
+
+2022-03-04 08:17:33 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 7.png]]
+
+2022-03-04 08:17:33 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 7.png]]
+
+2022-03-04 08:17:33 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is exist
+
+2022-03-04 08:17:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:17:33 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is exist
+
+2022-03-04 08:17:33 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:17:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:17:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:17:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:17:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:17:38 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 8.png"): Screenshot is taken
+
+2022-03-04 08:17:39 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 8.png]]
+
+2022-03-04 08:17:39 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/Fund/Screenshot 8.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tabung/tabung_withdrawTabung" time="125.613" classname="Test Cases/Tabung/tabung_withdrawTabung" status="PASSED">
+         <system-out><![CDATA[2022-03-04 08:17:39 - [TEST_CASE][PASSED] - Test Cases/Tabung/tabung_withdrawTabung: Test Cases/Tabung/tabung_withdrawTabung
+
+2022-03-04 08:17:39 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-03-04 08:17:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:18:00 - [MESSAGE][WARNING] - Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-03-04 08:18:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:18:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:18:05 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 3.png"): Screenshot is taken
+
+2022-03-04 08:18:05 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 3.png]]
+
+2022-03-04 08:18:05 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 3.png]]
+
+2022-03-04 08:18:05 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungThreeDotsBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-03-04 08:18:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:18:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-03-04 08:18:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:18:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:18:08 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 4.png"): Screenshot is taken
+
+2022-03-04 08:18:09 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 4.png]]
+
+2022-03-04 08:18:09 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 4.png]]
+
+2022-03-04 08:18:09 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungWithdrawFundBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungWithdrawFundBtn'
+
+2022-03-04 08:18:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:18:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungWithdrawFundBtn'
+
+2022-03-04 08:18:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:18:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:18:11 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 5.png"): Screenshot is taken
+
+2022-03-04 08:18:12 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 5.png]]
+
+2022-03-04 08:18:12 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 5.png]]
+
+2022-03-04 08:18:12 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungWithdrawConfirmBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungWithdrawConfirmBtn'
+
+2022-03-04 08:18:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:18:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungWithdrawConfirmBtn'
+
+2022-03-04 08:18:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:18:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:18:15 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:18:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:18:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:18:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:18:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:18:18 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 6.png"): Screenshot is taken
+
+2022-03-04 08:18:19 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 6.png]]
+
+2022-03-04 08:18:19 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 6.png]]
+
+2022-03-04 08:18:19 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungFundAmountTickBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungFundAmountTickBtn'
+
+2022-03-04 08:18:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:18:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungFundAmountTickBtn'
+
+2022-03-04 08:18:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:18:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:18:21 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Tabung/tabungEnterPasswordTxt"), 0, OPTIONAL)): Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-03-04 08:18:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:18:41 - [MESSAGE][WARNING] - Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-03-04 08:18:41 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2022-03-04 08:18:56 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2022-03-04 08:18:56 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 7.png"): Screenshot is taken
+
+2022-03-04 08:18:57 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 7.png]]
+
+2022-03-04 08:18:57 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 7.png]]
+
+2022-03-04 08:18:57 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungWithdrawFundBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungWithdrawFundBtn'
+
+2022-03-04 08:18:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:18:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungWithdrawFundBtn'
+
+2022-03-04 08:18:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:19:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:19:00 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt"), 0, OPTIONAL)): Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 08:19:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:19:20 - [MESSAGE][WARNING] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 08:19:20 - [TEST_STEP][PASSED] - else: Delayed 10 second(s)
+
+2022-03-04 08:19:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainS2UApproveBtn"), 0): Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 08:19:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:19:21 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 08:19:21 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainS2UApproveBtn"), 0): Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:19:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:19:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:19:21 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-03-04 08:19:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-03-04 08:19:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:19:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:19:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Tabung/tabungWithdrawalSummarySuccessTxt"), 0): Element 'Object Repository/Tabung/tabungWithdrawalSummarySuccessTxt' is visible
+
+2022-03-04 08:19:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:19:34 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungWithdrawalSummarySuccessTxt' is visible
+
+2022-03-04 08:19:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Tabung/tabungWithdrawalSummarySuccessTxt"), "Withdrawal Successful"): Actual text and expected text of test object 'Object Repository/Tabung/tabungWithdrawalSummarySuccessTxt' are matched.
+
+2022-03-04 08:19:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Tabung/tabungWithdrawalSummarySuccessTxt' are matched.
+
+2022-03-04 08:19:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:19:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:19:37 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 9.png"): Screenshot is taken
+
+2022-03-04 08:19:38 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 9.png]]
+
+2022-03-04 08:19:38 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 9.png]]
+
+2022-03-04 08:19:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:19:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:19:39 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:19:39 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:19:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:19:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:19:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:19:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:19:44 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 10.png"): Screenshot is taken
+
+2022-03-04 08:19:45 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 10.png]]
+
+2022-03-04 08:19:45 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 10.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tabung/tabung_enableESITabung" time="63.247" classname="Test Cases/Tabung/tabung_enableESITabung" status="PASSED">
+         <system-out><![CDATA[2022-03-04 08:19:45 - [TEST_CASE][PASSED] - Test Cases/Tabung/tabung_enableESITabung: Test Cases/Tabung/tabung_enableESITabung
+
+2022-03-04 08:19:45 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungNameSelection", ["text":"Switzerland"]), 10): Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-03-04 08:19:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-03-04 08:19:46 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungViewMoreDetailsBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungViewMoreDetailsBtn'
+
+2022-03-04 08:19:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:19:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungViewMoreDetailsBtn'
+
+2022-03-04 08:19:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:19:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:19:48 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungESIOnToggle"), 0): Tapped on element 'Object Repository/Tabung/tabungESIOnToggle'
+
+2022-03-04 08:19:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:19:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungESIOnToggle'
+
+2022-03-04 08:19:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:19:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:19:50 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Tabung/tabungEnterPasswordTxt"), 0, OPTIONAL)): Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-03-04 08:19:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:20:11 - [MESSAGE][WARNING] - Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-03-04 08:20:11 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-03-04 08:20:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-03-04 08:20:21 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungConfirmBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungConfirmBtn'
+
+2022-03-04 08:20:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:20:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungConfirmBtn'
+
+2022-03-04 08:20:21 - [TEST_STEP][PASSED] - OTP = getText(findTestObject("Tabung/tabungOTPNumberTxt"), 0): Text of element 'Object Repository/Tabung/tabungOTPNumberTxt' is: 'Your Otp no. is 418966'
+
+2022-03-04 08:20:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:20:23 - [MESSAGE][PASSED] - Text of element 'Object Repository/Tabung/tabungOTPNumberTxt' is: 'Your Otp no. is 418966'
+
+2022-03-04 08:20:23 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): null
+
+2022-03-04 08:20:23 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 08:20:23 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-03-04 08:20:23 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 08:20:23 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 08:20:23 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-03-04 08:20:23 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN4"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-03-04 08:20:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:20:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-03-04 08:20:24 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 08:20:24 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-03-04 08:20:24 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 08:20:24 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-03-04 08:20:24 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-03-04 08:20:24 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 08:20:24 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:20:24 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:20:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:20:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-03-04 08:20:26 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN8"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-03-04 08:20:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:20:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-03-04 08:20:28 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-03-04 08:20:28 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 08:20:28 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-03-04 08:20:28 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 08:20:28 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 08:20:28 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 08:20:28 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 08:20:28 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-03-04 08:20:28 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 08:20:28 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-03-04 08:20:28 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-03-04 08:20:28 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN9"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-03-04 08:20:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:20:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-03-04 08:20:30 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 08:20:30 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-03-04 08:20:30 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 08:20:30 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 08:20:30 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 08:20:30 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 08:20:30 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-03-04 08:20:30 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN6"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-03-04 08:20:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:20:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-03-04 08:20:32 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 08:20:32 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-03-04 08:20:32 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-03-04 08:20:32 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-03-04 08:20:32 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-03-04 08:20:32 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-03-04 08:20:32 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-03-04 08:20:32 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-03-04 08:20:32 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-03-04 08:20:32 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-03-04 08:20:32 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN6"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-03-04 08:20:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:20:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-03-04 08:20:34 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-03-04 08:20:34 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-03-04 08:20:34 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-03-04 08:20:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:20:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:20:37 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungTACTickBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungTACTickBtn'
+
+2022-03-04 08:20:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:20:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungTACTickBtn'
+
+2022-03-04 08:20:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:20:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:20:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Tabung/tabungSummaryAutoDecuctSuccessEnableTxt"), 0): Element 'Object Repository/Tabung/tabungSummaryAutoDecuctSuccessEnableTxt' is visible
+
+2022-03-04 08:20:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:20:44 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungSummaryAutoDecuctSuccessEnableTxt' is visible
+
+2022-03-04 08:20:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Tabung/tabungSummaryAutoDecuctSuccessEnableTxt"), "Auto deduction successfully enabled."): Actual text and expected text of test object 'Object Repository/Tabung/tabungSummaryAutoDecuctSuccessEnableTxt' are matched.
+
+2022-03-04 08:20:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Tabung/tabungSummaryAutoDecuctSuccessEnableTxt' are matched.
+
+2022-03-04 08:20:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-03-04 08:20:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-03-04 08:20:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:20:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:20:48 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:20:48 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:20:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:20:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tabung/tabung_disableESITabung" time="58.072" classname="Test Cases/Tabung/tabung_disableESITabung" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Tabung/tabung_disableESITabung FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Tabung/tabungOTPNumberTxt not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1237)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$13.call(Unknown Source)
+	at tabung_disableESITabung.run(tabung_disableESITabung:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1646352597360.run(TempTestSuite1646352597360.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-04 08:20:48 - [TEST_CASE][FAILED] - Test Cases/Tabung/tabung_disableESITabung: Test Cases/Tabung/tabung_disableESITabung FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Tabung/tabungOTPNumberTxt not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1237)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$13.call(Unknown Source)
+	at tabung_disableESITabung.run(tabung_disableESITabung:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1646352597360.run(TempTestSuite1646352597360.groovy:36)
+
+
+2022-03-04 08:20:48 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungNameSelection", ["text":"Switzerland"]), 10): Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-03-04 08:20:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-03-04 08:20:51 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungViewMoreDetailsBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungViewMoreDetailsBtn'
+
+2022-03-04 08:20:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:20:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungViewMoreDetailsBtn'
+
+2022-03-04 08:20:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:20:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:20:53 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungESIOffToggle"), 0): Tapped on element 'Object Repository/Tabung/tabungESIOffToggle'
+
+2022-03-04 08:20:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:20:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungESIOffToggle'
+
+2022-03-04 08:20:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:20:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:20:56 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Tabung/tabungEnterPasswordTxt"), 0, OPTIONAL)): Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-03-04 08:20:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:21:16 - [MESSAGE][WARNING] - Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-03-04 08:21:16 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-03-04 08:21:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-03-04 08:21:26 - [TEST_STEP][FAILED] - OTP1 = getText(findTestObject("Tabung/tabungOTPNumberTxt"), 0): Object Object Repository/Tabung/tabungOTPNumberTxt not found
+
+2022-03-04 08:21:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:21:46 - [MESSAGE][FAILED] - Object Object Repository/Tabung/tabungOTPNumberTxt not found
+
+2022-03-04 08:21:46 - [TEST_STEP][ERROR] - for ([i = 16, i <= 21, (i++)]): Test Cases/Tabung/tabung_disableESITabung FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method getAt() on null object
+	at tabung_disableESITabung.run(tabung_disableESITabung:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1646352597360.run(TempTestSuite1646352597360.groovy:36)
+
+
+2022-03-04 08:21:46 - [TEST_STEP][ERROR] - if (OTP1[i] == "0"): Test Cases/Tabung/tabung_disableESITabung FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method getAt() on null object
+	at tabung_disableESITabung.run(tabung_disableESITabung:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1646352597360.run(TempTestSuite1646352597360.groovy:36)
+
+
+2022-03-04 08:21:46 - [MESSAGE][ERROR] - Test Cases/Tabung/tabung_disableESITabung FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method getAt() on null object
+	at tabung_disableESITabung.run(tabung_disableESITabung:79)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1646352597360.run(TempTestSuite1646352597360.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-03-04 08:20:48 - [TEST_CASE][FAILED] - Test Cases/Tabung/tabung_disableESITabung: Test Cases/Tabung/tabung_disableESITabung FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Tabung/tabungOTPNumberTxt not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1237)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$13.call(Unknown Source)
+	at tabung_disableESITabung.run(tabung_disableESITabung:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1646352597360.run(TempTestSuite1646352597360.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tabung/tabung_renameTabung" time="17.674" classname="Test Cases/Tabung/tabung_renameTabung" status="PASSED">
+         <system-out><![CDATA[2022-03-04 08:21:46 - [TEST_CASE][PASSED] - Test Cases/Tabung/tabung_renameTabung: Test Cases/Tabung/tabung_renameTabung
+
+2022-03-04 08:21:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:21:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:21:48 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungThreeDotsBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-03-04 08:21:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:21:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-03-04 08:21:51 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungThreeDotsRenameBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungThreeDotsRenameBtn'
+
+2022-03-04 08:21:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:21:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungThreeDotsRenameBtn'
+
+2022-03-04 08:21:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:21:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:21:54 - [TEST_STEP][PASSED] - clearText(findTestObject("Tabung/tabungRenameInputField"), 10): Element 'Object Repository/Tabung/tabungRenameInputField' text is cleared
+
+2022-03-04 08:21:54 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungRenameInputField' text is cleared
+
+2022-03-04 08:21:54 - [TEST_STEP][PASSED] - setText(findTestObject("Tabung/tabungRenameInputField"), "Singapore", 0): Text 'Singapore' has been set to element 'Object Repository/Tabung/tabungRenameInputField'
+
+2022-03-04 08:21:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:21:56 - [MESSAGE][PASSED] - Text 'Singapore' has been set to element 'Object Repository/Tabung/tabungRenameInputField'
+
+2022-03-04 08:21:56 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-03-04 08:21:58 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-03-04 08:21:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Tabung/tabungConfirmBtn"), 0): Element 'Object Repository/Tabung/tabungConfirmBtn' is visible
+
+2022-03-04 08:21:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:21:58 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungConfirmBtn' is visible
+
+2022-03-04 08:21:58 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungConfirmBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungConfirmBtn'
+
+2022-03-04 08:21:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:21:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungConfirmBtn'
+
+2022-03-04 08:21:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:22:04 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tabung/tabung_removeTabung" time="118.649" classname="Test Cases/Tabung/tabung_removeTabung" status="PASSED">
+         <system-out><![CDATA[2022-03-04 08:22:04 - [TEST_CASE][PASSED] - Test Cases/Tabung/tabung_removeTabung: Test Cases/Tabung/tabung_removeTabung
+
+2022-03-04 08:22:04 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-03-04 08:22:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:22:24 - [MESSAGE][WARNING] - Element 'Object Repository/Main/mainEnterPINMessage' not found
+
+2022-03-04 08:22:24 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungNameSelection", ["text":"Switzerland"]), 10): Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-03-04 08:22:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-03-04 08:22:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:22:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:22:27 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 2.png"): Screenshot is taken
+
+2022-03-04 08:22:28 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 2.png]]
+
+2022-03-04 08:22:28 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 2.png]]
+
+2022-03-04 08:22:28 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungThreeDotsBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-03-04 08:22:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:22:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-03-04 08:22:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:22:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:22:31 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungThreeDtosRemoveBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungThreeDtosRemoveBtn'
+
+2022-03-04 08:22:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:22:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungThreeDtosRemoveBtn'
+
+2022-03-04 08:22:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:22:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:22:33 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 3.png"): Screenshot is taken
+
+2022-03-04 08:22:34 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 3.png]]
+
+2022-03-04 08:22:34 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 3.png]]
+
+2022-03-04 08:22:34 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungRemoveConfirmBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungRemoveConfirmBtn'
+
+2022-03-04 08:22:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:22:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungRemoveConfirmBtn'
+
+2022-03-04 08:22:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:22:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:22:39 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 4.png"): Screenshot is taken
+
+2022-03-04 08:22:40 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 4.png]]
+
+2022-03-04 08:22:40 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 4.png]]
+
+2022-03-04 08:22:40 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungContinueBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-03-04 08:22:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:22:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-03-04 08:22:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:22:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:22:43 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Tabung/tabungEnterPasswordTxt"), 0, OPTIONAL)): Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-03-04 08:22:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:23:03 - [MESSAGE][WARNING] - Element 'Object Repository/Tabung/tabungEnterPasswordTxt' not found
+
+2022-03-04 08:23:03 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2022-03-04 08:23:18 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2022-03-04 08:23:18 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 5.png"): Screenshot is taken
+
+2022-03-04 08:23:18 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 5.png]]
+
+2022-03-04 08:23:18 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 5.png]]
+
+2022-03-04 08:23:18 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungWithdrawFundBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungWithdrawFundBtn'
+
+2022-03-04 08:23:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:23:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungWithdrawFundBtn'
+
+2022-03-04 08:23:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:23:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:23:21 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt"), 0, OPTIONAL)): Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 08:23:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:23:41 - [MESSAGE][WARNING] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' not found
+
+2022-03-04 08:23:41 - [TEST_STEP][PASSED] - else: Delayed 10 second(s)
+
+2022-03-04 08:23:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainS2UApproveBtn"), 0): Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 08:23:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:23:41 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-03-04 08:23:41 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainS2UApproveBtn"), 0): Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:23:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:23:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-03-04 08:23:41 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-03-04 08:23:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-03-04 08:23:51 - [TEST_STEP][PASSED] - message = getText(findTestObject("Tabung/tabungRemoveSummaryTransferTxt"), 10): Text of element 'Object Repository/Tabung/tabungRemoveSummaryTransferTxt' is: 'You've successfully removed the Switzerland Tabung. RM 0.01 has been transferred back into your account.'
+
+2022-03-04 08:23:52 - [MESSAGE][PASSED] - Text of element 'Object Repository/Tabung/tabungRemoveSummaryTransferTxt' is: 'You've successfully removed the Switzerland Tabung. RM 0.01 has been transferred back into your account.'
+
+2022-03-04 08:23:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-04 08:23:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-04 08:23:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Tabung/tabungRemoveSummaryTransferTxt"), "You've successfully removed the Switzerland Tabung. RM 0.01 has been transferred back into your account."): Actual text and expected text of test object 'Object Repository/Tabung/tabungRemoveSummaryTransferTxt' are matched.
+
+2022-03-04 08:23:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Tabung/tabungRemoveSummaryTransferTxt' are matched.
+
+2022-03-04 08:23:54 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 7.png"): Screenshot is taken
+
+2022-03-04 08:23:55 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 7.png]]
+
+2022-03-04 08:23:55 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 7.png]]
+
+2022-03-04 08:23:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:23:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:23:55 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-03-04 08:23:55 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:23:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-03-04 08:23:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-03-04 08:23:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-04 08:24:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-04 08:24:01 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 8.png"): Screenshot is taken
+
+2022-03-04 08:24:02 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 8.png]]
+
+2022-03-04 08:24:02 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 8.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-04 08:10:07 - [TEST_SUITE][FAILED] - Regress 2: Test Cases/Tabung/tabung_disableESITabung FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Tabung/tabungOTPNumberTxt not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1237)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$13.call(Unknown Source)
+	at tabung_disableESITabung.run(tabung_disableESITabung:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1646352597360.run(TempTestSuite1646352597360.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-03-04 08:10:07 - [TEST_SUITE][FAILED] - Regress 2: Test Cases/Tabung/tabung_disableESITabung FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Tabung/tabungOTPNumberTxt not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1237)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$13.call(Unknown Source)
+	at tabung_disableESITabung.run(tabung_disableESITabung:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1646352597360.run(TempTestSuite1646352597360.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

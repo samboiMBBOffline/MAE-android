@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Issue,,,,2022-04-06 12:24:09,2022-04-06 12:24:30,20.084s,PASSED
+,,,,,,,
+Test Cases/Performance test/Launch,,,,2022-04-06 12:24:10,2022-04-06 12:24:30,19.867s,PASSED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.sit"")",,,,2022-04-06 12:24:10,2022-04-06 12:24:10,0.001s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.MainActivity"")",,,,2022-04-06 12:24:10,2022-04-06 12:24:10,0.001s,PASSED
+if (isApplicationOpened == false),,,,2022-04-06 12:24:10,2022-04-06 12:24:24,13.960s,PASSED
+start = System.currentTimeMillis(),,,,2022-04-06 12:24:24,2022-04-06 12:24:24,0.001s,PASSED
+"verifyElementVisible(findTestObject(""Dashboard/dashboardWalletTopSelect""), 20)",,,,2022-04-06 12:24:24,2022-04-06 12:24:29,4.978s,PASSED
+end = System.currentTimeMillis(),,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.000s,PASSED
+loadintime = end - start,,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.000s,PASSED
+newLoad = MILLISECONDS.toSeconds(loadintime),,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.004s,PASSED
+manu = getDeviceManufacturer(),,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.009s,PASSED
+os = getDeviceOS(),,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.009s,PASSED
+osVersion = getDeviceOSVersion(),,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.009s,PASSED
+println(manu),,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.003s,PASSED
+println(os),,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.001s,PASSED
+println(osVersion),,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.001s,PASSED
+test = dataFolder,,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.001s,PASSED
+"sheetName = ""Sheet1""",,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.001s,PASSED
+file1 = new java.io.File(test),,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.000s,PASSED
+assert file1.exists() == true,,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.002s,PASSED
+woorkbook1 = getWorkbook(test),,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.468s,PASSED
+"sheet1 = getExcelSheet(woorkbook1, sheetName)",,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.001s,PASSED
+"setValueToCellByIndex(sheet1, 0, 0, manu)",,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.006s,PASSED
+"setValueToCellByIndex(sheet1, 0, 1, os)",,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.000s,PASSED
+"setValueToCellByIndex(sheet1, 0, 2, osVersion)",,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.001s,PASSED
+"setValueToCellByIndex(sheet1, 0, 3, newLoad)",,,,2022-04-06 12:24:29,2022-04-06 12:24:29,0.001s,PASSED
+"saveWorkbook(test, woorkbook1)",,,,2022-04-06 12:24:29,2022-04-06 12:24:30,0.076s,PASSED

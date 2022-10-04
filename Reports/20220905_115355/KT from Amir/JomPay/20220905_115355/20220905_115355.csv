@@ -1,0 +1,175 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+JomPay,,,,2022-09-05 11:53:58,2022-09-05 11:59:15,5m - 16.639s,PASSED
+,,,,,,,
+Test Cases/JomPay/JomPay Add Favorite,,,,2022-09-05 11:53:58,2022-09-05 11:55:43,1m - 44.167s,PASSED
+"startExistingApplication(""com.maybank2u.life.sit"")",,,,2022-09-05 11:53:59,2022-09-05 11:54:17,18.206s,PASSED
+delay(5),,,,2022-09-05 11:54:17,2022-09-05 11:54:22,5.053s,PASSED
+"verifyElementVisible(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-09-05 11:54:22,2022-09-05 11:54:23,0.841s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-09-05 11:54:23,2022-09-05 11:54:26,3.225s,PASSED
+"if (verifyElementVisible(findTestObject(""Paybill/payBillsEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-09-05 11:54:26,2022-09-05 11:54:32,5.619s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 40)",,,,2022-09-05 11:54:32,2022-09-05 11:54:36,4.193s,PASSED
+"tap(findTestObject(""JomPay/payBillsJomPayTopMenuSelect""), 0)",,,,2022-09-05 11:54:36,2022-09-05 11:54:37,1.069s,PASSED
+"tap(findTestObject(""JomPay/jomPayIconSelect""), 0)",,,,2022-09-05 11:54:37,2022-09-05 11:54:38,1.052s,PASSED
+"setText(findTestObject(""JomPay/jomPayBillerInputField""), findTestData(""TestData"").getValue(8, 1), 0)",,,,2022-09-05 11:54:38,2022-09-05 11:54:40,1.710s,PASSED
+"setText(findTestObject(""JomPay/jomPayBillerRefInputField""), findTestData(""TestData"").getValue(9, 1), 0)",,,,2022-09-05 11:54:40,2022-09-05 11:54:42,1.620s,PASSED
+hideKeyboard(),,,,2022-09-05 11:54:42,2022-09-05 11:54:42,0.680s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-09-05 11:54:42,2022-09-05 11:54:43,0.459s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-09-05 11:54:43,2022-09-05 11:54:45,2.390s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-09-05 11:54:45,2022-09-05 11:54:46,0.461s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-09-05 11:54:46,2022-09-05 11:54:46,0.494s,PASSED
+"tap(findTestObject(""JomPay/jomPayAmountTickBtn""), 0)",,,,2022-09-05 11:54:46,2022-09-05 11:54:47,0.494s,PASSED
+delay(10),,,,2022-09-05 11:54:47,2022-09-05 11:54:57,10.004s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccTypeTxt"", [""accType"":accType]), accType)",,,,2022-09-05 11:54:57,2022-09-05 11:54:57,0.438s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccNoTxt"", [""accNoFrom"":accNoFrom]), accNoFrom)",,,,2022-09-05 11:54:57,2022-09-05 11:54:57,0.340s,PASSED
+"verifyElementExist(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-09-05 11:54:57,2022-09-05 11:54:58,0.368s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-09-05 11:54:58,2022-09-05 11:54:58,0.525s,PASSED
+delay(3),,,,2022-09-05 11:54:58,2022-09-05 11:55:01,3.006s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 10, OPTIONAL))",,,,2022-09-05 11:55:01,2022-09-05 11:55:12,10.960s,PASSED
+else,,,,2022-09-05 11:55:12,2022-09-05 11:55:18,6.214s,PASSED
+delay(3),,,,2022-09-05 11:55:18,2022-09-05 11:55:21,3.022s,PASSED
+"verifyElementText(findTestObject(""JomPay/jomPaySummarySuccesfulTxt""), findTestData(""TestData"").getValue(7, 1))",,,,2022-09-05 11:55:21,2022-09-05 11:55:22,0.501s,PASSED
+"tap(findTestObject(""Main/mainAddToFavBtn""), 0)",,,,2022-09-05 11:55:22,2022-09-05 11:55:22,0.477s,PASSED
+delay(5),,,,2022-09-05 11:55:22,2022-09-05 11:55:27,5.004s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainAddToFavBtn""), 0)",,,,2022-09-05 11:55:27,2022-09-05 11:55:28,0.781s,PASSED
+"tap(findTestObject(""Main/mainAddToFavBtn""), 0)",,,,2022-09-05 11:55:28,2022-09-05 11:55:29,0.991s,PASSED
+delay(2),,,,2022-09-05 11:55:29,2022-09-05 11:55:31,2.012s,PASSED
+"tap(findTestObject(""Main/mainCloseFavPopUpBtn""), 0)",,,,2022-09-05 11:55:31,2022-09-05 11:55:32,0.672s,PASSED
+delay(2),,,,2022-09-05 11:55:32,2022-09-05 11:55:34,2.003s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/jomPayAddFav.png"")",,,,2022-09-05 11:55:34,2022-09-05 11:55:36,2.093s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-09-05 11:55:36,2022-09-05 11:55:36,0.342s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-09-05 11:55:36,2022-09-05 11:55:38,1.164s,PASSED
+delay(5),,,,2022-09-05 11:55:38,2022-09-05 11:55:43,5.013s,PASSED
+,,,,,,,
+Test Cases/JomPay/JomPay Favorite Transaction,,,,2022-09-05 11:55:43,2022-09-05 11:56:34,51.294s,PASSED
+delay(5),,,,2022-09-05 11:55:43,2022-09-05 11:55:48,5.010s,PASSED
+"startExistingApplication(""com.maybank2u.life.sit"")",,,,2022-09-05 11:55:48,2022-09-05 11:56:03,14.386s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-09-05 11:56:03,2022-09-05 11:56:06,3.159s,PASSED
+"println(""JOMPAY Fav Transaction"")",,,,2022-09-05 11:56:06,2022-09-05 11:56:06,0.004s,PASSED
+"tap(findTestObject(""JomPay/payBillsJomPayTopMenuSelect""), 40)",,,,2022-09-05 11:56:06,2022-09-05 11:56:07,0.642s,PASSED
+"tap(findTestObject(""Main/mainFavBodySelect""), 0)",,,,2022-09-05 11:56:07,2022-09-05 11:56:08,0.993s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-09-05 11:56:08,2022-09-05 11:56:09,1.807s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-09-05 11:56:09,2022-09-05 11:56:10,0.530s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-09-05 11:56:10,2022-09-05 11:56:10,0.510s,PASSED
+"tap(findTestObject(""JomPay/jomPayAmountTickBtn""), 0)",,,,2022-09-05 11:56:10,2022-09-05 11:56:11,0.475s,PASSED
+delay(5),,,,2022-09-05 11:56:11,2022-09-05 11:56:16,5.010s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccTypeTxt"", [""accType"":accType]), accType)",,,,2022-09-05 11:56:16,2022-09-05 11:56:16,0.425s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccNoTxt"", [""accNoFrom"":accNoFrom]), accNoFrom)",,,,2022-09-05 11:56:16,2022-09-05 11:56:17,0.382s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-09-05 11:56:17,2022-09-05 11:56:18,1.457s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-09-05 11:56:18,2022-09-05 11:56:20,1.329s,PASSED
+delay(5),,,,2022-09-05 11:56:20,2022-09-05 11:56:25,5.004s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Transfer/transferSummaryShareReceiptBtn""), 0)",,,,2022-09-05 11:56:25,2022-09-05 11:56:25,0.320s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-09-05 11:56:25,2022-09-05 11:56:26,0.821s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/jomPayFav.png"")",,,,2022-09-05 11:56:26,2022-09-05 11:56:27,0.877s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-09-05 11:56:27,2022-09-05 11:56:29,2.293s,PASSED
+delay(5),,,,2022-09-05 11:56:29,2022-09-05 11:56:34,5.005s,PASSED
+,,,,,,,
+Test Cases/JomPay/jomPay_scheduleTransaction,,,,2022-09-05 11:56:34,2022-09-05 11:57:49,1m - 14.820s,PASSED
+device_Height = getDeviceHeight(),,,,2022-09-05 11:56:35,2022-09-05 11:56:35,0.008s,NOT_RUN
+device_Width = getDeviceWidth(),,,,2022-09-05 11:56:35,2022-09-05 11:56:35,0.005s,NOT_RUN
+startX = device_Width / 3,,,,2022-09-05 11:56:35,2022-09-05 11:56:35,0.002s,NOT_RUN
+startY = device_Height * 0.97,,,,2022-09-05 11:56:35,2022-09-05 11:56:35,0.007s,NOT_RUN
+"startExistingApplication(""com.maybank2u.life.sit"")",,,,2022-09-05 11:56:35,2022-09-05 11:56:48,13.090s,PASSED
+"verifyElementExist(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-09-05 11:56:48,2022-09-05 11:56:50,1.449s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-09-05 11:56:50,2022-09-05 11:56:52,2.094s,PASSED
+"println(""JOMPAY Future Transaction"")",,,,2022-09-05 11:56:52,2022-09-05 11:56:52,0.000s,PASSED
+"tap(findTestObject(""JomPay/payBillsJomPayTopMenuSelect""), 30)",,,,2022-09-05 11:56:52,2022-09-05 11:56:52,0.549s,PASSED
+"tap(findTestObject(""JomPay/jomPayIconSelect""), 0)",,,,2022-09-05 11:56:52,2022-09-05 11:56:54,2.272s,PASSED
+"setText(findTestObject(""JomPay/jomPayBillerInputField""), findTestData(""TestData"").getValue(8, 1), 0)",,,,2022-09-05 11:56:54,2022-09-05 11:56:56,1.212s,PASSED
+"setText(findTestObject(""JomPay/jomPayBillerRefInputField""), findTestData(""TestData"").getValue(9, 1), 0)",,,,2022-09-05 11:56:56,2022-09-05 11:56:57,1.303s,PASSED
+hideKeyboard(),,,,2022-09-05 11:56:57,2022-09-05 11:56:58,0.823s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-09-05 11:56:58,2022-09-05 11:56:58,0.484s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-09-05 11:56:58,2022-09-05 11:57:00,2.216s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-09-05 11:57:00,2022-09-05 11:57:01,0.590s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-09-05 11:57:01,2022-09-05 11:57:02,0.922s,PASSED
+"tap(findTestObject(""JomPay/jomPayAmountTickBtn""), 0)",,,,2022-09-05 11:57:02,2022-09-05 11:57:02,0.411s,PASSED
+"tap(findTestObject(""Main/mainDatePickerTodaySelect""), 0)",,,,2022-09-05 11:57:02,2022-09-05 11:57:06,3.823s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerNextBtn""), 0)",,,,2022-09-05 11:57:06,2022-09-05 11:57:08,2.127s,PASSED
+delay(3),,,,2022-09-05 11:57:08,2022-09-05 11:57:11,3.011s,PASSED
+"tap(findTestObject(""Main/mainDatePicker1""), 0)",,,,2022-09-05 11:57:11,2022-09-05 11:57:12,0.647s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-09-05 11:57:12,2022-09-05 11:57:13,0.623s,PASSED
+delay(3),,,,2022-09-05 11:57:13,2022-09-05 11:57:16,3.018s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-09-05 11:57:16,2022-09-05 11:57:16,0.578s,PASSED
+delay(5),,,,2022-09-05 11:57:16,2022-09-05 11:57:21,5.005s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 10, OPTIONAL))",,,,2022-09-05 11:57:21,2022-09-05 11:57:32,10.818s,PASSED
+else,,,,2022-09-05 11:57:32,2022-09-05 11:57:39,6.763s,PASSED
+delay(3),,,,2022-09-05 11:57:39,2022-09-05 11:57:42,3.017s,PASSED
+"verifyElementText(findTestObject(""JomPay/jomPaySummaryScheduledTxt""), findTestData(""TestData"").getValue(7, 2))",,,,2022-09-05 11:57:42,2022-09-05 11:57:42,0.340s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/jomPaySchedule.png"")",,,,2022-09-05 11:57:42,2022-09-05 11:57:43,0.709s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-09-05 11:57:43,2022-09-05 11:57:43,0.264s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-09-05 11:57:43,2022-09-05 11:57:44,0.503s,PASSED
+delay(5),,,,2022-09-05 11:57:44,2022-09-05 11:57:49,5.010s,PASSED
+,,,,,,,
+Test Cases/JomPay/jomPay_todayTransaction,,,,2022-09-05 11:57:49,2022-09-05 11:59:15,1m - 26.065s,PASSED
+"startExistingApplication(""com.maybank2u.life.sit"")",,,,2022-09-05 11:57:49,2022-09-05 11:58:01,11.606s,PASSED
+device_Height = getDeviceHeight(),,,,2022-09-05 11:58:01,2022-09-05 11:58:01,0.325s,PASSED
+device_Width = getDeviceWidth(),,,,2022-09-05 11:58:01,2022-09-05 11:58:01,0.262s,PASSED
+startX = device_Width / 3,,,,2022-09-05 11:58:01,2022-09-05 11:58:01,0.003s,PASSED
+startY = device_Height * 0.97,,,,2022-09-05 11:58:01,2022-09-05 11:58:01,0.002s,PASSED
+"verifyElementExist(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-09-05 11:58:01,2022-09-05 11:58:02,0.618s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-09-05 11:58:02,2022-09-05 11:58:04,2.196s,PASSED
+"println(""JOMPAY OFF US"")",,,,2022-09-05 11:58:04,2022-09-05 11:58:04,0.001s,PASSED
+"verifyElementExist(findTestObject(""JomPay/payBillsJomPayTopMenuSelect""), 0)",,,,2022-09-05 11:58:04,2022-09-05 11:58:04,0.251s,PASSED
+"tap(findTestObject(""JomPay/payBillsJomPayTopMenuSelect""), 0)",,,,2022-09-05 11:58:04,2022-09-05 11:58:05,0.955s,PASSED
+"verifyElementExist(findTestObject(""JomPay/jomPayIconSelect""), 0)",,,,2022-09-05 11:58:05,2022-09-05 11:58:06,0.881s,PASSED
+"tap(findTestObject(""JomPay/jomPayIconSelect""), 0)",,,,2022-09-05 11:58:06,2022-09-05 11:58:07,0.441s,PASSED
+delay(3),,,,2022-09-05 11:58:07,2022-09-05 11:58:10,3.009s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/JomPay/jomPayHeaderTxt""), 0)",,,,2022-09-05 11:58:10,2022-09-05 11:58:10,0.563s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/JomPay/jomPayBillerCodeTitleTxt""), 0)",,,,2022-09-05 11:58:10,2022-09-05 11:58:10,0.229s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/JomPay/jomPayReference1TitleTxt""), 0)",,,,2022-09-05 11:58:10,2022-09-05 11:58:11,0.228s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/JomPay/jomPayReference2TitleTxt""), 0)",,,,2022-09-05 11:58:11,2022-09-05 11:58:11,0.186s,PASSED
+"setText(findTestObject(""JomPay/jomPayBillerInputField""), findTestData(""TestData"").getValue(8, 1), 0)",,,,2022-09-05 11:58:11,2022-09-05 11:58:12,0.846s,PASSED
+"setText(findTestObject(""JomPay/jomPayBillerRefInputField""), findTestData(""TestData"").getValue(9, 1), 0)",,,,2022-09-05 11:58:12,2022-09-05 11:58:13,1.258s,PASSED
+hideKeyboard(),,,,2022-09-05 11:58:13,2022-09-05 11:58:14,0.594s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-09-05 11:58:14,2022-09-05 11:58:14,0.770s,PASSED
+"verifyElementExist(findTestObject(""JomPay/jomPayBillerCodeTxt"", [""billerCode"":findTestData(""TestData"").getValue(8, 1)]), 0)",,,,2022-09-05 11:58:14,2022-09-05 11:58:16,1.692s,PASSED
+"verifyElementExist(findTestObject(""JomPay/jomPayBillerRefTxt"", [""refNum"":findTestData(""TestData"").getValue(9, 1)]), 0)",,,,2022-09-05 11:58:16,2022-09-05 11:58:16,0.289s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/JomPay/jomPayAmountEnterAmountTitleTxt""), 0)",,,,2022-09-05 11:58:16,2022-09-05 11:58:17,0.258s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/JomPay/jomPayAmountInitialTxt""), 0)",,,,2022-09-05 11:58:17,2022-09-05 11:58:17,0.261s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/JomPay/jomPayAmountEnterAmountTitleTxt""), 0)",,,,2022-09-05 11:58:17,2022-09-05 11:58:17,0.272s,PASSED
+"trxAmount = findTestData(""TestData"").getValue(3, 1)",,,,2022-09-05 11:58:17,2022-09-05 11:58:17,0.047s,PASSED
+length = trxAmount.length(),,,,2022-09-05 11:58:17,2022-09-05 11:58:17,0.002s,PASSED
+delay(5),,,,2022-09-05 11:58:17,2022-09-05 11:58:22,5.015s,PASSED
+"tapAtPosition(startX, startY)",,,,2022-09-05 11:58:22,2022-09-05 11:58:23,0.526s,PASSED
+"for ([i = 0, i < length, (i++)])",,,,2022-09-05 11:58:23,2022-09-05 11:58:24,1.407s,PASSED
+delay(5),,,,2022-09-05 11:58:24,2022-09-05 11:58:29,5.003s,PASSED
+"tap(findTestObject(""JomPay/jomPayAmountTickBtn""), 0)",,,,2022-09-05 11:58:29,2022-09-05 11:58:30,0.438s,PASSED
+"verifyElementExist(findTestObject(""JomPay/jomPayConfirmationAmountTxt"", [""amount"":findTestData(""TestData"").getValue(4, 1)]), 0)",,,,2022-09-05 11:58:30,2022-09-05 11:58:33,3.208s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/JomPay/jomPayConfirmationBillerCodeTxt"", [""billerCode"":findTestData(""TestData"").getValue(8, 2)]), 0)",,,,2022-09-05 11:58:33,2022-09-05 11:58:33,0.306s,PASSED
+"verifyElementExist(findTestObject(""JomPay/jomPayConfirmationBillerRefTxt"", [""billRef"":findTestData(""TestData"").getValue(10, 1)]), 0)",,,,2022-09-05 11:58:33,2022-09-05 11:58:33,0.368s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/JomPay/jomPayConfirmationDateTxt""), 0)",,,,2022-09-05 11:58:33,2022-09-05 11:58:34,0.810s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/JomPay/jomPayConfirmationDateTitleTxt""), 0)",,,,2022-09-05 11:58:34,2022-09-05 11:58:35,0.262s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/JomPay/jomPayConfirmationDeclarationTitleTxt""), 0)",,,,2022-09-05 11:58:35,2022-09-05 11:58:35,0.227s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/JomPay/jomPayConfirmationDeclarationNotesTxt""), 0)",,,,2022-09-05 11:58:35,2022-09-05 11:58:35,0.240s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/JomPay/jomPayConfirmationRef2TitleTxt""), 0)",,,,2022-09-05 11:58:35,2022-09-05 11:58:35,0.230s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/JomPay/jomPayConfirmationTnCTitleTxt""), 0)",,,,2022-09-05 11:58:35,2022-09-05 11:58:35,0.274s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccTypeTxt"", [""accType"":findTestData(""TestData"").getValue(5, 1)]), findTestData(""TestData"").getValue(5, 1))",,,,2022-09-05 11:58:35,2022-09-05 11:58:36,0.392s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccNoTxt"", [""accNoFrom"":findTestData(""TestData"").getValue(6, 1)]), findTestData(""TestData"").getValue(6, 1))",,,,2022-09-05 11:58:36,2022-09-05 11:58:36,0.391s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationFromAccBalanceTxt""), 0)",,,,2022-09-05 11:58:36,2022-09-05 11:58:37,0.301s,PASSED
+"accountBalance = getText(findTestObject(""Transfer/transferConfirmationFromAccBalanceTxt""), 0)",,,,2022-09-05 11:58:37,2022-09-05 11:58:37,0.264s,PASSED
+println(accountBalance),,,,2022-09-05 11:58:37,2022-09-05 11:58:37,0.000s,PASSED
+"verifyElementExist(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-09-05 11:58:37,2022-09-05 11:58:37,0.293s,PASSED
+"verifyElementExist(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-09-05 11:58:37,2022-09-05 11:58:37,0.261s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-09-05 11:58:37,2022-09-05 11:58:38,0.955s,PASSED
+delay(3),,,,2022-09-05 11:58:38,2022-09-05 11:58:41,3.006s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 10, OPTIONAL))",,,,2022-09-05 11:58:41,2022-09-05 11:58:52,10.767s,PASSED
+else,,,,2022-09-05 11:58:52,2022-09-05 11:58:59,6.478s,PASSED
+delay(5),,,,2022-09-05 11:58:59,2022-09-05 11:59:04,5.014s,PASSED
+"verifyElementText(findTestObject(""JomPay/jomPaySummarySuccesfulTxt""), findTestData(""TestData"").getValue(7, 1))",,,,2022-09-05 11:59:04,2022-09-05 11:59:04,0.306s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/JomPay/jomPaySummaryDateTimeTitleTxt""), 0)",,,,2022-09-05 11:59:04,2022-09-05 11:59:04,0.232s,PASSED
+"verifyElementExist(findTestObject(""Duit Now/duitNowSummaryRefernceIDTitleTxt""), 0)",,,,2022-09-05 11:59:04,2022-09-05 11:59:04,0.231s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferSummaryShareReceiptBtn""), 0)",,,,2022-09-05 11:59:04,2022-09-05 11:59:05,0.230s,PASSED
+"referenceID = getText(findTestObject(""Send Request Money/requestMoneyPaySummaryRefIDTxt""), 0)",,,,2022-09-05 11:59:05,2022-09-05 11:59:05,0.244s,PASSED
+println(referenceID),,,,2022-09-05 11:59:05,2022-09-05 11:59:05,0.000s,PASSED
+test = dataFolder,,,,2022-09-05 11:59:05,2022-09-05 11:59:05,0.001s,NOT_RUN
+"sheetName = ""Sheet1""",,,,2022-09-05 11:59:05,2022-09-05 11:59:05,0.000s,NOT_RUN
+file1 = new java.io.File(test),,,,2022-09-05 11:59:05,2022-09-05 11:59:05,0.001s,NOT_RUN
+assert file1.exists() == true,,,,2022-09-05 11:59:05,2022-09-05 11:59:05,0.000s,NOT_RUN
+woorkbook1 = ExcelKeywords.getWorkbook(test),,,,2022-09-05 11:59:05,2022-09-05 11:59:05,0.001s,NOT_RUN
+"sheet1 = ExcelKeywords.getExcelSheet(woorkbook1, sheetName)",,,,2022-09-05 11:59:05,2022-09-05 11:59:05,0.000s,NOT_RUN
+"ExcelKeywords.setValueToCellByIndex(sheet1, 4, 1, referenceID)",,,,2022-09-05 11:59:05,2022-09-05 11:59:05,0.000s,NOT_RUN
+"ExcelKeywords.saveWorkbook(test, woorkbook1)",,,,2022-09-05 11:59:05,2022-09-05 11:59:05,0.001s,NOT_RUN
+delay(3),,,,2022-09-05 11:59:05,2022-09-05 11:59:08,3.004s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/jomPayInstant.png"")",,,,2022-09-05 11:59:08,2022-09-05 11:59:09,0.672s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-09-05 11:59:09,2022-09-05 11:59:09,0.738s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-09-05 11:59:09,2022-09-05 11:59:10,0.434s,PASSED
+delay(5),,,,2022-09-05 11:59:10,2022-09-05 11:59:15,5.008s,PASSED

@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MAE,,,,2022-02-08 20:14:27,2022-02-08 20:16:59,2m - 31.884s,FAILED
+,,,,,,,
+Test Cases/PayBill/payBills_todayTransaction,,,,2022-02-08 20:14:27,2022-02-08 20:16:17,1m - 49.650s,PASSED
+"startApplication(appPath, false)",,,,2022-02-08 20:14:28,2022-02-08 20:14:42,14.183s,PASSED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.dev"")",,,,2022-02-08 20:14:42,2022-02-08 20:14:42,0.001s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.MainActivity"")",,,,2022-02-08 20:14:42,2022-02-08 20:14:42,0.000s,PASSED
+delay(5),,,,2022-02-08 20:14:42,2022-02-08 20:14:47,5.023s,PASSED
+"if (getDeviceManufacturer() == ""samsung"")",,,,2022-02-08 20:14:47,2022-02-08 20:14:47,0.330s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-02-08 20:14:47,2022-02-08 20:15:01,13.628s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTypeSelection"", [""text"":""Personal Current Account""]), 10)",,,,2022-02-08 20:15:01,2022-02-08 20:15:04,3.698s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-02-08 20:15:04,2022-02-08 20:15:08,3.955s,PASSED
+"if (verifyElementVisible(findTestObject(""Login Onboarding/loginEnterPasswordMessage""), 0, OPTIONAL))",,,,2022-02-08 20:15:08,2022-02-08 20:15:12,3.359s,PASSED
+"waitForElementPresent(findTestObject(""Paybill/payBillsIconSelect""), 0)",,,,2022-02-08 20:15:12,2022-02-08 20:15:16,4.562s,PASSED
+"tap(findTestObject(""Paybill/payBillsIconSelect""), 0)",,,,2022-02-08 20:15:16,2022-02-08 20:15:17,0.492s,PASSED
+"tap(findTestObject(""Paybill/payBillSearchBillerInputField""), 0)",,,,2022-02-08 20:15:17,2022-02-08 20:15:20,3.471s,PASSED
+"setText(findTestObject(""Paybill/payBillBillerNameInputField""), ""Maxis"", 0)",,,,2022-02-08 20:15:20,2022-02-08 20:15:22,2.026s,PASSED
+delay(3),,,,2022-02-08 20:15:22,2022-02-08 20:15:25,3.007s,PASSED
+"tap(findTestObject(""Paybill/payBillBillerSelect"", [""text"":""Maxis Mobile Sdn Bhd""]), 10)",,,,2022-02-08 20:15:25,2022-02-08 20:15:26,0.580s,PASSED
+"tap(findTestObject(""Paybill/payBillBillerSelect"", [""text"":""Maxis Mobile Sdn Bhd""]), 10)",,,,2022-02-08 20:15:26,2022-02-08 20:15:27,1.197s,PASSED
+"setText(findTestObject(""Paybill/PayBillAccountNumberInputField""), ""1544054651"", 0)",,,,2022-02-08 20:15:27,2022-02-08 20:15:29,2.330s,PASSED
+hideKeyboard(),,,,2022-02-08 20:15:29,2022-02-08 20:15:30,1.039s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-02-08 20:15:30,2022-02-08 20:15:31,0.512s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-02-08 20:15:31,2022-02-08 20:15:33,2.372s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-02-08 20:15:33,2022-02-08 20:15:34,0.608s,PASSED
+delay(3),,,,2022-02-08 20:15:34,2022-02-08 20:15:37,3.003s,PASSED
+"tap(findTestObject(""Main/mainAmountTickBtn""), 0)",,,,2022-02-08 20:15:37,2022-02-08 20:15:38,0.715s,PASSED
+delay(5),,,,2022-02-08 20:15:38,2022-02-08 20:15:43,5.006s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainPayNowBtn""), 5)",,,,2022-02-08 20:15:43,2022-02-08 20:15:44,0.913s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-02-08 20:15:44,2022-02-08 20:15:44,0.539s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-02-08 20:15:44,2022-02-08 20:16:06,21.496s,PASSED
+"message = getText(findTestObject(""Main/mainTransactionStatusMessageTxt""), 10)",,,,2022-02-08 20:16:06,2022-02-08 20:16:11,5.381s,PASSED
+println(message),,,,2022-02-08 20:16:11,2022-02-08 20:16:11,0.003s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-02-08 20:16:11,2022-02-08 20:16:11,0.335s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-02-08 20:16:11,2022-02-08 20:16:12,0.451s,PASSED
+delay(5),,,,2022-02-08 20:16:12,2022-02-08 20:16:17,5.006s,PASSED
+,,,,,,,
+Test Cases/Others/ticketing_buyKLIATicket,,,,2022-02-08 20:16:17,2022-02-08 20:16:59,42.014s,FAILED
+"waitForElementPresent(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-02-08 20:16:17,2022-02-08 20:16:17,0.431s,PASSED
+"if (getDeviceManufacturer() == ""samsung"")",,,,2022-02-08 20:16:17,2022-02-08 20:16:19,1.182s,PASSED
+"waitForElementPresent(findTestObject(""Banking/m2uAccountERLIconSelect""), 0)",,,,2022-02-08 20:16:19,2022-02-08 20:16:39,20.067s,PASSED
+"tap(findTestObject(""Banking/m2uAccountERLIconSelect""), 0)",,,,2022-02-08 20:16:39,2022-02-08 20:16:59,20.085s,FAILED

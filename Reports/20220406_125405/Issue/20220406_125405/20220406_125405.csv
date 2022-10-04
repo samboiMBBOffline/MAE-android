@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Issue,,,,2022-04-06 12:54:16,2022-04-06 12:55:01,44.309s,PASSED
+,,,,,,,
+Test Cases/Performance test/Launch,,,,2022-04-06 12:54:17,2022-04-06 12:55:01,43.834s,PASSED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.sit"")",,,,2022-04-06 12:54:18,2022-04-06 12:54:18,0.002s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.MainActivity"")",,,,2022-04-06 12:54:18,2022-04-06 12:54:18,0.001s,PASSED
+if (isApplicationOpened == false),,,,2022-04-06 12:54:18,2022-04-06 12:54:34,16.333s,PASSED
+start = System.currentTimeMillis(),,,,2022-04-06 12:54:34,2022-04-06 12:54:34,0.000s,PASSED
+"verifyElementVisible(findTestObject(""Dashboard/dashboardWalletTopSelect""), 20)",,,,2022-04-06 12:54:34,2022-04-06 12:54:38,4.469s,PASSED
+end = System.currentTimeMillis(),,,,2022-04-06 12:54:38,2022-04-06 12:54:38,0.001s,PASSED
+loadintime = end - start,,,,2022-04-06 12:54:38,2022-04-06 12:54:38,0.000s,PASSED
+newLoad = MILLISECONDS.toSeconds(loadintime),,,,2022-04-06 12:54:38,2022-04-06 12:54:38,0.003s,PASSED
+manu = getDeviceManufacturer(),,,,2022-04-06 12:54:38,2022-04-06 12:54:38,0.010s,PASSED
+os = getDeviceOS(),,,,2022-04-06 12:54:38,2022-04-06 12:54:38,0.008s,PASSED
+osVersion = getDeviceOSVersion(),,,,2022-04-06 12:54:38,2022-04-06 12:54:38,0.008s,PASSED
+println(manu),,,,2022-04-06 12:54:38,2022-04-06 12:54:38,0.002s,PASSED
+println(os),,,,2022-04-06 12:54:38,2022-04-06 12:54:38,0.001s,PASSED
+println(osVersion),,,,2022-04-06 12:54:38,2022-04-06 12:54:38,0.001s,PASSED
+test = dataFolder,,,,2022-04-06 12:54:38,2022-04-06 12:54:38,0.001s,PASSED
+"sheetName = ""Sheet1""",,,,2022-04-06 12:54:38,2022-04-06 12:54:38,0.000s,PASSED
+file1 = new java.io.File(test),,,,2022-04-06 12:54:38,2022-04-06 12:54:38,0.000s,PASSED
+assert file1.exists() == true,,,,2022-04-06 12:54:38,2022-04-06 12:54:38,0.001s,PASSED
+woorkbook1 = getWorkbook(test),,,,2022-04-06 12:54:38,2022-04-06 12:54:39,0.441s,PASSED
+"sheet1 = getExcelSheet(woorkbook1, sheetName)",,,,2022-04-06 12:54:39,2022-04-06 12:54:39,0.001s,PASSED
+"setValueToCellByIndex(sheet1, 0, 0, manu)",,,,2022-04-06 12:54:39,2022-04-06 12:54:39,0.005s,PASSED
+"setValueToCellByIndex(sheet1, 0, 1, os)",,,,2022-04-06 12:54:39,2022-04-06 12:54:39,0.001s,PASSED
+"setValueToCellByIndex(sheet1, 0, 2, osVersion)",,,,2022-04-06 12:54:39,2022-04-06 12:54:39,0.001s,PASSED
+"setValueToCellByIndex(sheet1, 0, 3, newLoad)",,,,2022-04-06 12:54:39,2022-04-06 12:54:39,0.001s,PASSED
+"saveWorkbook(test, woorkbook1)",,,,2022-04-06 12:54:39,2022-04-06 12:54:39,0.081s,PASSED
+device_Height = getDeviceHeight(),,,,2022-04-06 12:54:39,2022-04-06 12:54:39,0.161s,PASSED
+device_Width = getDeviceWidth(),,,,2022-04-06 12:54:39,2022-04-06 12:54:39,0.174s,PASSED
+startX = device_Width / 3,,,,2022-04-06 12:54:39,2022-04-06 12:54:39,0.001s,PASSED
+startY = device_Height * 0.97,,,,2022-04-06 12:54:39,2022-04-06 12:54:39,0.001s,PASSED
+"tapAtPosition(startX, startY)",,,,2022-04-06 12:54:39,2022-04-06 12:54:39,0.238s,PASSED
+start1 = System.currentTimeMillis(),,,,2022-04-06 12:54:39,2022-04-06 12:54:39,0.001s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-04-06 12:54:39,2022-04-06 12:54:51,11.691s,PASSED
+start2 = System.currentTimeMillis(),,,,2022-04-06 12:54:51,2022-04-06 12:54:51,0.001s,PASSED
+"verifyElementVisible(findTestObject(""Banking/m2uAccountTypeSelection"", [""text"":findTestData(""PerfTestData"").getValue(1, 1)]), 20)",,,,2022-04-06 12:54:51,2022-04-06 12:55:01,9.424s,PASSED
+end2 = System.currentTimeMillis(),,,,2022-04-06 12:55:01,2022-04-06 12:55:01,0.001s,PASSED
+loadintime2 = end2 - start2,,,,2022-04-06 12:55:01,2022-04-06 12:55:01,0.000s,PASSED
+newLoad2 = MILLISECONDS.toSeconds(loadintime2),,,,2022-04-06 12:55:01,2022-04-06 12:55:01,0.000s,PASSED
+"setValueToCellByIndex(sheet1, 0, 5, newLoad2)",,,,2022-04-06 12:55:01,2022-04-06 12:55:01,0.000s,PASSED
+"saveWorkbook(test, woorkbook1)",,,,2022-04-06 12:55:01,2022-04-06 12:55:01,0.018s,PASSED

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Issue" time="25.818" tests="1" failures="0" errors="1">
+   <testsuite name="Issue" tests="1" failures="0" errors="1" time="25.818" skipped="0" timestamp="2022-04-06 12:41:02" hostname="a00139272 - localhost" id="Test Suites/Issue">
+      <properties>
+         <property name="deviceName" value="Xiaomi 21061119AG (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/a00139272/git/MAE-BAU/Reports/20220406_124052/Issue/20220406_124052"/>
+         <property name="logFiles" value="/Users/a00139272/git/MAE-BAU/Reports/20220406_124052/Issue/20220406_124052/execution0.log, /Users/a00139272/git/MAE-BAU/Reports/20220406_124052/Issue/20220406_124052/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="a00139272 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.1&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.1"/>
+         <property name="deviceModel" value="21061119AG"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="002b9cc60508"/>
+         <property name="deviceName" value="Xiaomi 21061119AG (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Performance test/Launch" time="25.597" classname="Test Cases/Performance test/Launch" status="ERROR">
+         <error type="ERROR" message="Test Cases/Performance test/Launch FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: account for class: Script1649214839796
+	at Launch.run(Launch:108)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649220052375.run(TempTestSuite1649220052375.groovy:36)
+"/>
+         <system-out><![CDATA[2022-04-06 12:41:02 - [TEST_CASE][ERROR] - Test Cases/Performance test/Launch: Test Cases/Performance test/Launch FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: account for class: Script1649214839796
+	at Launch.run(Launch:108)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649220052375.run(TempTestSuite1649220052375.groovy:36)
+
+
+2022-04-06 12:41:02 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appPackage", "com.maybank2u.life.sit"): null
+
+2022-04-06 12:41:02 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appActivity", "com.maybank2u.life.MainActivity"): null
+
+2022-04-06 12:41:02 - [TEST_STEP][PASSED] - if (isApplicationOpened == false): Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release (1).apk'
+
+2022-04-06 12:41:02 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release (1).apk'
+
+2022-04-06 12:41:02 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-04-06 12:41:02 - [MESSAGE][INFO] - User set preference: ['deviceId', '002b9cc60508']
+
+2022-04-06 12:41:02 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.maybank2u.life.sit']
+
+2022-04-06 12:41:02 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.maybank2u.life.MainActivity']
+
+2022-04-06 12:41:03 - [MESSAGE][INFO] - Appium server started on port 57,895
+
+2022-04-06 12:41:11 - [MESSAGE][PASSED] - Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release (1).apk'
+
+2022-04-06 12:41:11 - [TEST_STEP][PASSED] - start = System.currentTimeMillis(): null
+
+2022-04-06 12:41:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Dashboard/dashboardWalletTopSelect"), 20): Element 'Object Repository/Dashboard/dashboardWalletTopSelect' is visible
+
+2022-04-06 12:41:15 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/dashboardWalletTopSelect' is visible
+
+2022-04-06 12:41:15 - [TEST_STEP][PASSED] - end = System.currentTimeMillis(): null
+
+2022-04-06 12:41:15 - [TEST_STEP][PASSED] - loadintime = end - start: null
+
+2022-04-06 12:41:15 - [TEST_STEP][PASSED] - newLoad = MILLISECONDS.toSeconds(loadintime): null
+
+2022-04-06 12:41:15 - [TEST_STEP][PASSED] - manu = getDeviceManufacturer(): Device manufacturer is: 'Xiaomi'
+
+2022-04-06 12:41:15 - [MESSAGE][PASSED] - Device manufacturer is: 'Xiaomi'
+
+2022-04-06 12:41:15 - [TEST_STEP][PASSED] - os = getDeviceOS(): Device OS name is: 'Android'
+
+2022-04-06 12:41:15 - [MESSAGE][PASSED] - Device OS name is: 'Android'
+
+2022-04-06 12:41:15 - [TEST_STEP][PASSED] - osVersion = getDeviceOSVersion(): Device OS version is: '11'
+
+2022-04-06 12:41:15 - [MESSAGE][PASSED] - Device OS version is: '11'
+
+2022-04-06 12:41:15 - [TEST_STEP][PASSED] - println(manu): null
+
+2022-04-06 12:41:15 - [TEST_STEP][PASSED] - println(os): null
+
+2022-04-06 12:41:15 - [TEST_STEP][PASSED] - println(osVersion): null
+
+2022-04-06 12:41:15 - [TEST_STEP][PASSED] - test = dataFolder: null
+
+2022-04-06 12:41:15 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2022-04-06 12:41:15 - [TEST_STEP][PASSED] - file1 = new java.io.File(test): null
+
+2022-04-06 12:41:15 - [TEST_STEP][PASSED] - assert file1.exists() == true: null
+
+2022-04-06 12:41:15 - [TEST_STEP][PASSED] - woorkbook1 = getWorkbook(test): null
+
+2022-04-06 12:41:16 - [TEST_STEP][PASSED] - sheet1 = getExcelSheet(woorkbook1, sheetName): null
+
+2022-04-06 12:41:16 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 0, 0, manu): null
+
+2022-04-06 12:41:16 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 0, 1, os): null
+
+2022-04-06 12:41:16 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 0, 2, osVersion): null
+
+2022-04-06 12:41:16 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 0, 3, newLoad): null
+
+2022-04-06 12:41:16 - [TEST_STEP][PASSED] - saveWorkbook(test, woorkbook1): null
+
+2022-04-06 12:41:16 - [TEST_STEP][PASSED] - device_Height = getDeviceHeight(): Current device physical height is 2167
+
+2022-04-06 12:41:16 - [MESSAGE][PASSED] - Current device physical height is 2167
+
+2022-04-06 12:41:16 - [TEST_STEP][PASSED] - device_Width = getDeviceWidth(): Current device physical width is 1080
+
+2022-04-06 12:41:16 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2022-04-06 12:41:16 - [TEST_STEP][PASSED] - startX = device_Width / 3: null
+
+2022-04-06 12:41:16 - [TEST_STEP][PASSED] - startY = device_Height * 0.97: null
+
+2022-04-06 12:41:16 - [TEST_STEP][PASSED] - tapAtPosition(startX, startY): Tapped at [360, 2,101]
+
+2022-04-06 12:41:16 - [MESSAGE][PASSED] - Tapped at [360, 2,101]
+
+2022-04-06 12:41:16 - [TEST_STEP][PASSED] - start1 = System.currentTimeMillis(): null
+
+2022-04-06 12:41:16 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): null
+
+2022-04-06 12:41:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-04-06 12:41:18 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainEnterPINMessage' is visible
+
+2022-04-06 12:41:18 - [TEST_STEP][PASSED] - end1 = System.currentTimeMillis(): null
+
+2022-04-06 12:41:18 - [TEST_STEP][PASSED] - loadintime1 = end1 - start1: null
+
+2022-04-06 12:41:18 - [TEST_STEP][PASSED] - newLoad1 = MILLISECONDS.toSeconds(loadintime1): null
+
+2022-04-06 12:41:18 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 0, 4, newLoad1): null
+
+2022-04-06 12:41:18 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:41:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-04-06 12:41:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:41:18 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:41:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-04-06 12:41:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:41:20 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:41:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-04-06 12:41:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:41:22 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:41:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-04-06 12:41:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:41:24 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:41:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-04-06 12:41:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-04-06 12:41:26 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN2"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-04-06 12:41:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-04-06 12:41:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-04-06 12:41:27 - [TEST_STEP][PASSED] - start2 = System.currentTimeMillis(): null
+
+2022-04-06 12:41:27 - [TEST_STEP][ERROR] - verifyElementVisible(findTestObject("Banking/m2uAccountTypeSelection", ["text":account]), 20): Test Cases/Performance test/Launch FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: account for class: Script1649214839796
+	at Launch.run(Launch:108)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649220052375.run(TempTestSuite1649220052375.groovy:36)
+
+
+2022-04-06 12:41:27 - [MESSAGE][ERROR] - Test Cases/Performance test/Launch FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: account for class: Script1649214839796
+	at Launch.run(Launch:108)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649220052375.run(TempTestSuite1649220052375.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-04-06 12:41:02 - [TEST_CASE][ERROR] - Test Cases/Performance test/Launch: Test Cases/Performance test/Launch FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: account for class: Script1649214839796
+	at Launch.run(Launch:108)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649220052375.run(TempTestSuite1649220052375.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-06 12:41:02 - [TEST_SUITE][ERROR] - Issue: Test Cases/Performance test/Launch FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: account for class: Script1649214839796
+	at Launch.run(Launch:108)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649220052375.run(TempTestSuite1649220052375.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-04-06 12:41:02 - [TEST_SUITE][ERROR] - Issue: Test Cases/Performance test/Launch FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: account for class: Script1649214839796
+	at Launch.run(Launch:108)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649220052375.run(TempTestSuite1649220052375.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,217 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regress 4,,,,2022-06-22 13:52:06,2022-06-22 14:31:39,39m - 32.729s,FAILED
+,,,,,,,
+Test Cases/Send Request Money/sendMoney,,,,2022-06-22 13:52:07,2022-06-22 14:07:08,15m - 1.824s,FAILED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.sit"")",,,,2022-06-22 13:52:07,2022-06-22 13:52:07,0.002s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.MainActivity"")",,,,2022-06-22 13:52:07,2022-06-22 13:52:07,0.000s,PASSED
+if (isApplicationOpened == false),,,,2022-06-22 13:52:07,2022-06-22 13:52:23,15.512s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Dashboard/dashboardWalletTopSelect""), 0)",,,,2022-06-22 13:52:23,2022-06-22 13:52:28,5.074s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Dashboard/dashboardQuickActionsTitleTxt""), 0)",,,,2022-06-22 13:52:28,2022-06-22 13:52:28,0.470s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Dashboard/dashboardSSLTitleTxt""), 0)",,,,2022-06-22 13:52:28,2022-06-22 13:52:29,1.020s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Dashboard/mainBottomMenuMaybank2uBtn""), 0)",,,,2022-06-22 13:52:29,2022-06-22 13:53:09,40.127s,PASSED
+device_Height = getDeviceHeight(),,,,2022-06-22 13:53:09,2022-06-22 13:53:09,0.196s,PASSED
+device_Width = getDeviceWidth(),,,,2022-06-22 13:53:09,2022-06-22 13:53:10,0.151s,PASSED
+startX = device_Width / 3,,,,2022-06-22 13:53:10,2022-06-22 13:53:10,0.001s,PASSED
+startY = device_Height * 0.97,,,,2022-06-22 13:53:10,2022-06-22 13:53:10,0.001s,PASSED
+"tapAtPosition(startX, startY)",,,,2022-06-22 13:53:10,2022-06-22 13:53:10,0.229s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-06-22 13:53:10,2022-06-22 13:53:22,12.428s,PASSED
+"verifyElementVisible(findTestObject(""Banking/m2uAccountTypeSelection"", [""text"":""MAE""]), 10)",,,,2022-06-22 13:53:22,2022-06-22 13:53:32,9.323s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTypeSelection"", [""text"":""MAE""]), 10)",,,,2022-06-22 13:53:32,2022-06-22 13:53:32,0.413s,PASSED
+delay(3),,,,2022-06-22 13:53:32,2022-06-22 13:53:35,3.002s,PASSED
+"verifyElementVisible(findTestObject(""Banking/m2uAccountSendReqIconSelect""), 0)",,,,2022-06-22 13:53:35,2022-06-22 13:53:40,5.447s,PASSED
+"tap(findTestObject(""Banking/m2uAccountSendReqIconSelect""), 0)",,,,2022-06-22 13:53:40,2022-06-22 13:53:41,0.374s,PASSED
+delay(3),,,,2022-06-22 13:53:41,2022-06-22 13:53:44,3.005s,PASSED
+"verifyElementVisible(findTestObject(""Send Request Money/sendMoneyIconSelect""), 0)",,,,2022-06-22 13:53:44,2022-06-22 13:54:34,50.534s,PASSED
+"tap(findTestObject(""Send Request Money/sendMoneyIconSelect""), 0)",,,,2022-06-22 13:54:34,2022-06-22 13:55:35,1m - 0.843s,PASSED
+delay(3),,,,2022-06-22 13:55:35,2022-06-22 13:55:38,3.003s,PASSED
+"if (verifyElementVisible(findTestObject(""Tabung/tabungEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-06-22 13:55:38,2022-06-22 13:59:25,3m - 46.468s,PASSED
+delay(5),,,,2022-06-22 13:59:25,2022-06-22 13:59:30,5.005s,PASSED
+"waitForElementPresent(findTestObject(""Send Request Money/sendMoneyContactIconSelect""), 0)",,,,2022-06-22 13:59:30,2022-06-22 14:00:10,40.653s,PASSED
+"tap(findTestObject(""Send Request Money/sendMoneyContactIconSelect""), 0)",,,,2022-06-22 14:00:10,2022-06-22 14:01:11,1m - 0.709s,PASSED
+delay(5),,,,2022-06-22 14:01:11,2022-06-22 14:01:16,5.006s,PASSED
+"setText(findTestObject(""Send Request Money/sendMoneyContactSearchInputField""), contactName, 0)",,,,2022-06-22 14:01:16,2022-06-22 14:02:47,1m - 30.770s,PASSED
+delay(3),,,,2022-06-22 14:02:47,2022-06-22 14:02:50,3.006s,PASSED
+hideKeyboard(),,,,2022-06-22 14:02:50,2022-06-22 14:02:52,2.253s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyContactSelect"", [""contactName"":contactName]), 0)",,,,2022-06-22 14:02:52,2022-06-22 14:03:53,1m - 0.762s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyContactSelect"", [""contactName"":contactName]), 0)",,,,2022-06-22 14:03:53,2022-06-22 14:04:52,59.492s,PASSED
+delay(3),,,,2022-06-22 14:04:52,2022-06-22 14:04:55,3.005s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-06-22 14:04:55,2022-06-22 14:04:56,0.406s,PASSED
+delay(3),,,,2022-06-22 14:04:56,2022-06-22 14:04:59,3.007s,PASSED
+"tap(findTestObject(""Main/mainAmountTickBtn""), 0)",,,,2022-06-22 14:04:59,2022-06-22 14:04:59,0.483s,PASSED
+delay(3),,,,2022-06-22 14:04:59,2022-06-22 14:05:02,3.005s,PASSED
+"tap(findTestObject(""Send Request Money/payMoneyConfirmationRequestSendNowBtn""), 0)",,,,2022-06-22 14:05:02,2022-06-22 14:05:03,0.307s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 10, OPTIONAL))",,,,2022-06-22 14:05:03,2022-06-22 14:05:13,10.088s,PASSED
+else,,,,2022-06-22 14:05:13,2022-06-22 14:06:08,55.254s,FAILED
+delay(5),,,,2022-06-22 14:06:08,2022-06-22 14:06:13,5.006s,PASSED
+"referenceID = getText(findTestObject(""Send Request Money/requestMoneyPaySummaryRefIDTxt""), 0)",,,,2022-06-22 14:06:13,2022-06-22 14:06:13,0.250s,PASSED
+println(referenceID),,,,2022-06-22 14:06:13,2022-06-22 14:06:13,0.002s,PASSED
+test = dataFolder,,,,2022-06-22 14:06:13,2022-06-22 14:06:13,0.001s,PASSED
+"sheetName = ""Sheet1""",,,,2022-06-22 14:06:13,2022-06-22 14:06:13,0.000s,PASSED
+file1 = new java.io.File(test),,,,2022-06-22 14:06:13,2022-06-22 14:06:13,0.000s,PASSED
+assert file1.exists() == true,,,,2022-06-22 14:06:13,2022-06-22 14:06:13,0.001s,PASSED
+woorkbook1 = getWorkbook(test),,,,2022-06-22 14:06:13,2022-06-22 14:06:14,0.361s,PASSED
+"sheet1 = getExcelSheet(woorkbook1, sheetName)",,,,2022-06-22 14:06:14,2022-06-22 14:06:14,0.001s,PASSED
+"setValueToCellByIndex(sheet1, 0, 1, referenceID)",,,,2022-06-22 14:06:14,2022-06-22 14:06:14,0.005s,PASSED
+"saveWorkbook(test, woorkbook1)",,,,2022-06-22 14:06:14,2022-06-22 14:06:14,0.074s,PASSED
+"message = getText(findTestObject(""Main/mainTransactionStatusMessageTxt""), 10)",,,,2022-06-22 14:06:14,2022-06-22 14:06:14,0.265s,PASSED
+println(message),,,,2022-06-22 14:06:14,2022-06-22 14:06:14,0.000s,PASSED
+"verifyElementExist(findTestObject(""Main/mainDoneBtn""), 10)",,,,2022-06-22 14:06:14,2022-06-22 14:06:24,10.129s,FAILED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/sendMoney.png"")",,,,2022-06-22 14:06:24,2022-06-22 14:06:25,1.385s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-22 14:06:25,2022-06-22 14:07:05,40.065s,FAILED
+delay(3),,,,2022-06-22 14:07:05,2022-06-22 14:07:08,3.004s,PASSED
+,,,,,,,
+Test Cases/Send Request Money/requestMoney,,,,2022-06-22 14:07:08,2022-06-22 14:13:36,6m - 27.501s,FAILED
+device_Height = getDeviceHeight(),,,,2022-06-22 14:07:09,2022-06-22 14:07:09,0.139s,PASSED
+device_Width = getDeviceWidth(),,,,2022-06-22 14:07:09,2022-06-22 14:07:09,0.146s,PASSED
+startX = device_Width / 3,,,,2022-06-22 14:07:09,2022-06-22 14:07:09,0.001s,PASSED
+startY = device_Height * 0.97,,,,2022-06-22 14:07:09,2022-06-22 14:07:09,0.000s,PASSED
+"verifyElementVisible(findTestObject(""Send Request Money/requestMoneyIconSelect""), 10)",,,,2022-06-22 14:07:09,2022-06-22 14:07:19,10.062s,FAILED
+"tap(findTestObject(""Send Request Money/requestMoneyIconSelect""), 0)",,,,2022-06-22 14:07:19,2022-06-22 14:08:02,42.547s,FAILED
+delay(5),,,,2022-06-22 14:08:02,2022-06-22 14:08:07,5.002s,PASSED
+"verifyElementVisible(findTestObject(""Send Request Money/sendRequestContactSearchIconSelect""), 10)",,,,2022-06-22 14:08:07,2022-06-22 14:08:17,10.050s,FAILED
+"tap(findTestObject(""Send Request Money/sendRequestContactSearchIconSelect""), 0)",,,,2022-06-22 14:08:17,2022-06-22 14:09:37,1m - 19.968s,PASSED
+delay(3),,,,2022-06-22 14:09:37,2022-06-22 14:09:40,3.004s,PASSED
+"setText(findTestObject(""Send Request Money/requestMoneyContactInputField""), contactName, 0)",,,,2022-06-22 14:09:40,2022-06-22 14:11:10,1m - 30.745s,PASSED
+delay(3),,,,2022-06-22 14:11:10,2022-06-22 14:11:13,3.003s,PASSED
+hideKeyboard(),,,,2022-06-22 14:11:13,2022-06-22 14:11:16,2.151s,PASSED
+delay(3),,,,2022-06-22 14:11:16,2022-06-22 14:11:19,3.004s,PASSED
+"verifyElementVisible(findTestObject(""Send Request Money/requestMoneyContactSelect"", [""contactName"":contactName]), 0)",,,,2022-06-22 14:11:19,2022-06-22 14:12:09,50.424s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyContactSelect"", [""contactName"":contactName]), 0)",,,,2022-06-22 14:12:09,2022-06-22 14:13:04,55.207s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyContactSelect"", [""contactName"":contactName]), 0)",,,,2022-06-22 14:13:04,2022-06-22 14:13:05,0.591s,PASSED
+delay(5),,,,2022-06-22 14:13:05,2022-06-22 14:13:10,5.006s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-06-22 14:13:10,2022-06-22 14:13:10,0.204s,PASSED
+delay(3),,,,2022-06-22 14:13:10,2022-06-22 14:13:13,3.003s,PASSED
+"tap(findTestObject(""Main/mainAmountTickBtn""), 0)",,,,2022-06-22 14:13:13,2022-06-22 14:13:13,0.283s,PASSED
+delay(3),,,,2022-06-22 14:13:13,2022-06-22 14:13:16,3.011s,PASSED
+"verifyElementText(findTestObject(""Send Request Money/requestMoneyConfirmationContactNameTxt"", [""contactName"":contactName]), contactName)",,,,2022-06-22 14:13:16,2022-06-22 14:13:16,0.194s,PASSED
+"verifyElementText(findTestObject(""Send Request Money/requestMoneyConfirmationAmountBtn""), ""RM 0.04"")",,,,2022-06-22 14:13:16,2022-06-22 14:13:17,0.148s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyNotesSelect""), 0)",,,,2022-06-22 14:13:17,2022-06-22 14:13:17,0.191s,PASSED
+"setText(findTestObject(""Send Request Money/requestMoneyNotesSelect""), ""Send Request Test"", 0)",,,,2022-06-22 14:13:17,2022-06-22 14:13:20,3.020s,PASSED
+delay(3),,,,2022-06-22 14:13:20,2022-06-22 14:13:23,3.003s,PASSED
+hideKeyboard(),,,,2022-06-22 14:13:23,2022-06-22 14:13:26,2.717s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyConfirmationSendRequestBtn""), 0)",,,,2022-06-22 14:13:26,2022-06-22 14:13:26,0.188s,PASSED
+delay(5),,,,2022-06-22 14:13:26,2022-06-22 14:13:31,5.004s,PASSED
+"verifyElementText(findTestObject(""Send Request Money/requestMoneySummaryNameTxt"", [""contactName"":contactName]), contactName)",,,,2022-06-22 14:13:31,2022-06-22 14:13:31,0.613s,PASSED
+"verifyElementVisible(findTestObject(""Send Request Money/requestMoneySummaryDoneBtn""), 0)",,,,2022-06-22 14:13:31,2022-06-22 14:13:34,3.149s,PASSED
+"verifyElementText(findTestObject(""Send Request Money/requestMoneySummarySuccessMessageTxt""), ""Request successful"")",,,,2022-06-22 14:13:34,2022-06-22 14:13:35,0.128s,PASSED
+"verifyElementText(findTestObject(""Send Request Money/requestMoneySummaryAmountTxt""), ""RM 0.04"")",,,,2022-06-22 14:13:35,2022-06-22 14:13:35,0.144s,PASSED
+"verifyElementVisible(findTestObject(""Send Request Money/requestMoneySummaryDoneBtn""), 10)",,,,2022-06-22 14:13:35,2022-06-22 14:13:35,0.139s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/requestMoney.png"")",,,,2022-06-22 14:13:35,2022-06-22 14:13:36,0.893s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneySummaryDoneBtn""), 0)",,,,2022-06-22 14:13:36,2022-06-22 14:13:36,0.171s,PASSED
+,,,,,,,
+Test Cases/Send Request Money/requestMoney_cancelRequest,,,,2022-06-22 14:13:36,2022-06-22 14:15:24,1m - 48.089s,FAILED
+delay(3),,,,2022-06-22 14:13:36,2022-06-22 14:13:39,3.002s,PASSED
+delay(3),,,,2022-06-22 14:13:39,2022-06-22 14:13:42,3.004s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyListStatusTxt""), 0)",,,,2022-06-22 14:13:42,2022-06-22 14:14:34,51.731s,PASSED
+delay(3),,,,2022-06-22 14:14:34,2022-06-22 14:14:37,3.007s,PASSED
+"verifyElementText(findTestObject(""Send Request Money/requestMoneyDetailsNameTxt""), ""Icrpptwo"")",,,,2022-06-22 14:14:37,2022-06-22 14:14:37,0.158s,FAILED
+"verifyElementText(findTestObject(""Send Request Money/requestMoneyDetailsAmountTxt""), ""RM 0.04"")",,,,2022-06-22 14:14:37,2022-06-22 14:14:37,0.149s,PASSED
+"verifyElementText(findTestObject(""Send Request Money/requestMoneyDetailsNotesTxt""), ""Send Request Test"")",,,,2022-06-22 14:14:37,2022-06-22 14:14:37,0.154s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyDetailsThreeDotsBtn""), 0)",,,,2022-06-22 14:14:37,2022-06-22 14:14:38,0.174s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyThreeDotsCancelRequestBtn""), 0)",,,,2022-06-22 14:14:38,2022-06-22 14:14:39,1.917s,PASSED
+delay(3),,,,2022-06-22 14:14:39,2022-06-22 14:14:42,3.004s,PASSED
+"verifyElementNotVisible(findTestObject(""Send Request Money/requestMoneyListStatusTxt""), 0)",,,,2022-06-22 14:14:42,2022-06-22 14:15:23,40.614s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/cancelRequest.png"")",,,,2022-06-22 14:15:23,2022-06-22 14:15:24,1.001s,PASSED
+,,,,,,,
+Test Cases/Send Request Money/requestMoney,,,,2022-06-22 14:15:24,2022-06-22 14:24:03,8m - 38.799s,PASSED
+device_Height = getDeviceHeight(),,,,2022-06-22 14:15:24,2022-06-22 14:15:24,0.132s,PASSED
+device_Width = getDeviceWidth(),,,,2022-06-22 14:15:24,2022-06-22 14:15:24,0.118s,PASSED
+startX = device_Width / 3,,,,2022-06-22 14:15:24,2022-06-22 14:15:24,0.000s,PASSED
+startY = device_Height * 0.97,,,,2022-06-22 14:15:24,2022-06-22 14:15:24,0.000s,PASSED
+"verifyElementVisible(findTestObject(""Send Request Money/requestMoneyIconSelect""), 10)",,,,2022-06-22 14:15:24,2022-06-22 14:16:15,50.431s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyIconSelect""), 0)",,,,2022-06-22 14:16:15,2022-06-22 14:17:15,1m - 0.536s,PASSED
+delay(5),,,,2022-06-22 14:17:15,2022-06-22 14:17:20,5.003s,PASSED
+"verifyElementVisible(findTestObject(""Send Request Money/sendRequestContactSearchIconSelect""), 10)",,,,2022-06-22 14:17:20,2022-06-22 14:18:11,50.398s,PASSED
+"tap(findTestObject(""Send Request Money/sendRequestContactSearchIconSelect""), 0)",,,,2022-06-22 14:18:11,2022-06-22 14:19:11,1m - 0.608s,PASSED
+delay(3),,,,2022-06-22 14:19:11,2022-06-22 14:19:14,3.006s,PASSED
+"setText(findTestObject(""Send Request Money/requestMoneyContactInputField""), contactName, 0)",,,,2022-06-22 14:19:14,2022-06-22 14:20:45,1m - 30.555s,PASSED
+delay(3),,,,2022-06-22 14:20:45,2022-06-22 14:20:48,3.002s,PASSED
+hideKeyboard(),,,,2022-06-22 14:20:48,2022-06-22 14:20:50,2.037s,PASSED
+delay(3),,,,2022-06-22 14:20:50,2022-06-22 14:20:53,3.006s,PASSED
+"verifyElementVisible(findTestObject(""Send Request Money/requestMoneyContactSelect"", [""contactName"":contactName]), 0)",,,,2022-06-22 14:20:53,2022-06-22 14:21:43,50.369s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyContactSelect"", [""contactName"":contactName]), 0)",,,,2022-06-22 14:21:43,2022-06-22 14:22:44,1m - 0.612s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyContactSelect"", [""contactName"":contactName]), 0)",,,,2022-06-22 14:22:44,2022-06-22 14:23:36,52.040s,PASSED
+delay(5),,,,2022-06-22 14:23:36,2022-06-22 14:23:41,5.003s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-06-22 14:23:41,2022-06-22 14:23:41,0.238s,PASSED
+delay(3),,,,2022-06-22 14:23:41,2022-06-22 14:23:44,3.006s,PASSED
+"tap(findTestObject(""Main/mainAmountTickBtn""), 0)",,,,2022-06-22 14:23:44,2022-06-22 14:23:44,0.278s,PASSED
+delay(3),,,,2022-06-22 14:23:44,2022-06-22 14:23:47,3.004s,PASSED
+"verifyElementText(findTestObject(""Send Request Money/requestMoneyConfirmationContactNameTxt"", [""contactName"":contactName]), contactName)",,,,2022-06-22 14:23:47,2022-06-22 14:23:48,0.189s,PASSED
+"verifyElementText(findTestObject(""Send Request Money/requestMoneyConfirmationAmountBtn""), ""RM 0.04"")",,,,2022-06-22 14:23:48,2022-06-22 14:23:48,0.158s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyNotesSelect""), 0)",,,,2022-06-22 14:23:48,2022-06-22 14:23:48,0.207s,PASSED
+"setText(findTestObject(""Send Request Money/requestMoneyNotesSelect""), ""Send Request Test"", 0)",,,,2022-06-22 14:23:48,2022-06-22 14:23:51,2.721s,PASSED
+delay(3),,,,2022-06-22 14:23:51,2022-06-22 14:23:54,3.002s,PASSED
+hideKeyboard(),,,,2022-06-22 14:23:54,2022-06-22 14:23:56,1.927s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyConfirmationSendRequestBtn""), 0)",,,,2022-06-22 14:23:56,2022-06-22 14:23:56,0.203s,PASSED
+delay(5),,,,2022-06-22 14:23:56,2022-06-22 14:24:01,5.002s,PASSED
+"verifyElementText(findTestObject(""Send Request Money/requestMoneySummaryNameTxt"", [""contactName"":contactName]), contactName)",,,,2022-06-22 14:24:01,2022-06-22 14:24:02,0.651s,PASSED
+"verifyElementVisible(findTestObject(""Send Request Money/requestMoneySummaryDoneBtn""), 0)",,,,2022-06-22 14:24:02,2022-06-22 14:24:02,0.122s,PASSED
+"verifyElementText(findTestObject(""Send Request Money/requestMoneySummarySuccessMessageTxt""), ""Request successful"")",,,,2022-06-22 14:24:02,2022-06-22 14:24:02,0.121s,PASSED
+"verifyElementText(findTestObject(""Send Request Money/requestMoneySummaryAmountTxt""), ""RM 0.04"")",,,,2022-06-22 14:24:02,2022-06-22 14:24:02,0.122s,PASSED
+"verifyElementVisible(findTestObject(""Send Request Money/requestMoneySummaryDoneBtn""), 10)",,,,2022-06-22 14:24:02,2022-06-22 14:24:02,0.145s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/requestMoney.png"")",,,,2022-06-22 14:24:02,2022-06-22 14:24:03,0.644s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneySummaryDoneBtn""), 0)",,,,2022-06-22 14:24:03,2022-06-22 14:24:03,0.179s,PASSED
+,,,,,,,
+Test Cases/Send Request Money/requestMoney_markAsPaid,,,,2022-06-22 14:24:03,2022-06-22 14:27:01,2m - 58.181s,FAILED
+delay(5),,,,2022-06-22 14:24:03,2022-06-22 14:24:08,5.006s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyListStatusTxt""), 0)",,,,2022-06-22 14:24:08,2022-06-22 14:25:00,51.665s,PASSED
+delay(3),,,,2022-06-22 14:25:00,2022-06-22 14:25:03,3.005s,PASSED
+"verifyElementText(findTestObject(""Send Request Money/requestMoneyDetailsNameTxt""), ""Icrpptwo"")",,,,2022-06-22 14:25:03,2022-06-22 14:25:03,0.167s,FAILED
+"verifyElementText(findTestObject(""Send Request Money/requestMoneyDetailsAmountTxt""), ""RM 0.04"")",,,,2022-06-22 14:25:03,2022-06-22 14:25:03,0.139s,PASSED
+"verifyElementText(findTestObject(""Send Request Money/requestMoneyDetailsNotesTxt""), ""Send Request Test"")",,,,2022-06-22 14:25:03,2022-06-22 14:25:03,0.157s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyDetailsThreeDotsBtn""), 0)",,,,2022-06-22 14:25:03,2022-06-22 14:25:03,0.170s,PASSED
+"tap(findTestObject(""Send Request Money/requestMoneyThreeDotsMarksPaidBtn""), 0)",,,,2022-06-22 14:25:03,2022-06-22 14:25:05,1.351s,PASSED
+delay(3),,,,2022-06-22 14:25:05,2022-06-22 14:25:08,3.004s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/markAsPaidRequestMoney.png"")",,,,2022-06-22 14:25:08,2022-06-22 14:25:08,0.615s,PASSED
+"verifyElementNotVisible(findTestObject(""Send Request Money/requestMoneyListStatusTxt""), 0)",,,,2022-06-22 14:25:08,2022-06-22 14:25:49,40.898s,PASSED
+delay(10),,,,2022-06-22 14:25:49,2022-06-22 14:25:59,10.003s,PASSED
+"tap(findTestObject(""Main/mainTopLeftBackButton""), 0)",,,,2022-06-22 14:25:59,2022-06-22 14:26:51,51.454s,PASSED
+"tap(findTestObject(""Main/mainTopLeftBackButton""), 0)",,,,2022-06-22 14:26:51,2022-06-22 14:26:51,0.168s,PASSED
+delay(5),,,,2022-06-22 14:26:51,2022-06-22 14:26:56,5.002s,PASSED
+"tap(findTestObject(""Main/mainTopLeftBackButton""), 0)",,,,2022-06-22 14:26:56,2022-06-22 14:26:56,0.167s,PASSED
+delay(5),,,,2022-06-22 14:26:56,2022-06-22 14:27:01,5.004s,PASSED
+,,,,,,,
+Test Cases/Split Bill/splitBill_createSplitBillComplete,,,,2022-06-22 14:27:01,2022-06-22 14:28:45,1m - 43.988s,PASSED
+try,,,,2022-06-22 14:27:01,2022-06-22 14:28:45,1m - 43.761s,PASSED
+,,,,,,,
+Test Cases/Split Bill/splitBill_createSplitBillThreeFriends_Paid,,,,2022-06-22 14:28:45,2022-06-22 14:30:48,2m - 2.998s,PASSED
+try,,,,2022-06-22 14:28:45,2022-06-22 14:30:48,2m - 2.792s,PASSED
+,,,,,,,
+Test Cases/Split Bill/splitBill_markAsPaid,,,,2022-06-22 14:30:48,2022-06-22 14:31:12,23.953s,PASSED
+delay(3),,,,2022-06-22 14:30:48,2022-06-22 14:30:51,3.005s,PASSED
+"waitForElementPresent(findTestObject(""SplitBill/splitBillToCollectListBillNameTxt"", [""name"":""Lunch""]), 0)",,,,2022-06-22 14:30:51,2022-06-22 14:30:52,0.333s,PASSED
+"tap(findTestObject(""SplitBill/splitBillToCollectListBillNameTxt"", [""name"":""Lunch""]), 0)",,,,2022-06-22 14:30:52,2022-06-22 14:30:52,0.340s,PASSED
+delay(3),,,,2022-06-22 14:30:52,2022-06-22 14:30:55,3.003s,PASSED
+"waitForElementPresent(findTestObject(""SplitBill/splitBillDetailsParticipantMoreBtn""), 0)",,,,2022-06-22 14:30:55,2022-06-22 14:30:55,0.130s,PASSED
+"tap(findTestObject(""SplitBill/splitBillDetailsParticipantMoreBtn""), 0)",,,,2022-06-22 14:30:55,2022-06-22 14:30:55,0.189s,PASSED
+"waitForElementPresent(findTestObject(""SplitBill/splitBillDetailsParticipantMarkCollectedDropdownSelect""), 0)",,,,2022-06-22 14:30:55,2022-06-22 14:30:56,1.144s,PASSED
+"tap(findTestObject(""SplitBill/splitBillDetailsParticipantMarkCollectedDropdownSelect""), 0)",,,,2022-06-22 14:30:56,2022-06-22 14:30:57,0.167s,PASSED
+"waitForElementPresent(findTestObject(""SplitBill/splitBillDetailsParticipantDoneBtn""), 0)",,,,2022-06-22 14:30:57,2022-06-22 14:30:57,0.088s,PASSED
+"tap(findTestObject(""SplitBill/splitBillDetailsParticipantDoneBtn""), 0)",,,,2022-06-22 14:30:57,2022-06-22 14:30:57,0.140s,PASSED
+delay(3),,,,2022-06-22 14:30:57,2022-06-22 14:31:00,3.007s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/markPaidSplitBill.png"")",,,,2022-06-22 14:31:00,2022-06-22 14:31:01,0.798s,PASSED
+"verifyElementExist(findTestObject(""SplitBill/splitBillDetailsParticipantPaidStatusTxt""), 0)",,,,2022-06-22 14:31:01,2022-06-22 14:31:02,1.025s,PASSED
+delay(5),,,,2022-06-22 14:31:02,2022-06-22 14:31:07,5.003s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainTopLeftBackButton""), 0)",,,,2022-06-22 14:31:07,2022-06-22 14:31:07,0.207s,PASSED
+"tap(findTestObject(""Main/mainTopLeftBackButton""), 0)",,,,2022-06-22 14:31:07,2022-06-22 14:31:07,0.186s,PASSED
+delay(5),,,,2022-06-22 14:31:07,2022-06-22 14:31:12,5.005s,PASSED
+,,,,,,,
+Test Cases/Split Bill/splitBill_removePastSplitBill,,,,2022-06-22 14:31:12,2022-06-22 14:31:39,27.136s,FAILED
+delay(3),,,,2022-06-22 14:31:12,2022-06-22 14:31:15,3.003s,PASSED
+"swipe(900, 1245, 300, 1245)",,,,2022-06-22 14:31:15,2022-06-22 14:31:16,1.162s,PASSED
+delay(3),,,,2022-06-22 14:31:16,2022-06-22 14:31:19,3.004s,PASSED
+"swipe(900, 1245, 300, 1245)",,,,2022-06-22 14:31:19,2022-06-22 14:31:20,1.118s,PASSED
+delay(3),,,,2022-06-22 14:31:20,2022-06-22 14:31:23,3.006s,PASSED
+"waitForElementPresent(findTestObject(""SplitBill/splitBillToCollectListBillNameTxt"", [""name"":""Lunch""]), 0)",,,,2022-06-22 14:31:23,2022-06-22 14:31:24,0.276s,PASSED
+"tap(findTestObject(""SplitBill/splitBillToCollectListBillNameTxt"", [""name"":""Lunch""]), 0)",,,,2022-06-22 14:31:24,2022-06-22 14:31:24,0.331s,PASSED
+delay(3),,,,2022-06-22 14:31:24,2022-06-22 14:31:27,3.004s,PASSED
+"waitForElementPresent(findTestObject(""SplitBill/splitBillDetailsThreeDotsBtn""), 0)",,,,2022-06-22 14:31:27,2022-06-22 14:31:27,0.163s,PASSED
+"tap(findTestObject(""SplitBill/splitBillDetailsThreeDotsBtn""), 0)",,,,2022-06-22 14:31:27,2022-06-22 14:31:27,0.216s,PASSED
+"waitForElementPresent(findTestObject(""SplitBill/splitBillDetailsThreeDotsRemoveBillBtn""), 0)",,,,2022-06-22 14:31:27,2022-06-22 14:31:29,1.307s,PASSED
+"tap(findTestObject(""SplitBill/splitBillDetailsThreeDotsRemoveBillBtn""), 0)",,,,2022-06-22 14:31:29,2022-06-22 14:31:29,0.231s,PASSED
+"waitForElementPresent(findTestObject(""SplitBill/splitBillRemoveConfirmBtn""), 0)",,,,2022-06-22 14:31:29,2022-06-22 14:31:30,1.029s,PASSED
+"tap(findTestObject(""SplitBill/splitBillRemoveConfirmBtn""), 0)",,,,2022-06-22 14:31:30,2022-06-22 14:31:30,0.134s,PASSED
+delay(3),,,,2022-06-22 14:31:30,2022-06-22 14:31:33,3.002s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/removePastSplit.png"")",,,,2022-06-22 14:31:33,2022-06-22 14:31:34,0.701s,PASSED
+"verifyElementNotExist(findTestObject(""SplitBill/splitBillToCollectListBillNameTxt"", [""name"":""Lunch""]), 0)",,,,2022-06-22 14:31:34,2022-06-22 14:31:34,0.250s,FAILED
+delay(5),,,,2022-06-22 14:31:34,2022-06-22 14:31:39,5.002s,PASSED

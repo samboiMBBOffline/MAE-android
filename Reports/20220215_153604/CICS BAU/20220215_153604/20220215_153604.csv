@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CICS BAU,,,,2022-02-15 15:36:14,2022-02-15 15:38:24,2m - 9.372s,PASSED
+,,,,,,,
+Test Cases/Tabung/tabung_withdrawTabung,,,,2022-02-15 15:36:15,2022-02-15 15:38:24,2m - 9.174s,PASSED
+"startApplication(""/Users/a00139272/Katalon Studio/MAE/androidapp/app-sit-universal-release-copy.apk"", false)",,,,2022-02-15 15:36:15,2022-02-15 15:36:28,13.453s,PASSED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.sit"")",,,,2022-02-15 15:36:28,2022-02-15 15:36:28,0.001s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.sit.MainActivity"")",,,,2022-02-15 15:36:28,2022-02-15 15:36:28,0.001s,PASSED
+delay(3),,,,2022-02-15 15:36:28,2022-02-15 15:36:31,3.025s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 1.png"")",,,,2022-02-15 15:36:31,2022-02-15 15:36:33,1.262s,PASSED
+"if (getDeviceManufacturer() == ""samsung"")",,,,2022-02-15 15:36:33,2022-02-15 15:36:35,2.240s,PASSED
+"waitForElementPresent(findTestObject(""Tabung/moreTabungIconSelect""), 0)",,,,2022-02-15 15:36:35,2022-02-15 15:36:36,0.909s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 2.png"")",,,,2022-02-15 15:36:36,2022-02-15 15:36:37,0.711s,PASSED
+"tap(findTestObject(""Tabung/moreTabungIconSelect""), 0)",,,,2022-02-15 15:36:37,2022-02-15 15:36:39,2.805s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-02-15 15:36:39,2022-02-15 15:36:52,12.376s,PASSED
+delay(2),,Withdraw Tabung,,2022-02-15 15:36:52,2022-02-15 15:36:54,2.006s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 2.png"")",,,,2022-02-15 15:36:54,2022-02-15 15:36:54,0.658s,PASSED
+"tap(findTestObject(""Tabung/tabungNameSelection"", [""text"":""Test Brazil""]), 10)",,,,2022-02-15 15:36:54,2022-02-15 15:36:58,3.886s,PASSED
+delay(5),,,,2022-02-15 15:36:58,2022-02-15 15:37:03,5.003s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 3.png"")",,,,2022-02-15 15:37:03,2022-02-15 15:37:04,0.741s,PASSED
+"tap(findTestObject(""Tabung/tabungThreeDotsBtn""), 0)",,,,2022-02-15 15:37:04,2022-02-15 15:37:05,0.709s,PASSED
+delay(2),,,,2022-02-15 15:37:05,2022-02-15 15:37:07,2.008s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 4.png"")",,,,2022-02-15 15:37:07,2022-02-15 15:37:08,0.783s,PASSED
+"tap(findTestObject(""Tabung/tabungWithdrawFundBtn""), 0)",,,,2022-02-15 15:37:08,2022-02-15 15:37:08,0.851s,PASSED
+delay(2),,,,2022-02-15 15:37:08,2022-02-15 15:37:10,2.004s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 5.png"")",,,,2022-02-15 15:37:10,2022-02-15 15:37:11,0.736s,PASSED
+"tap(findTestObject(""Tabung/tabungWithdrawConfirmBtn""), 0)",,,,2022-02-15 15:37:11,2022-02-15 15:37:12,0.456s,PASSED
+delay(2),,,,2022-02-15 15:37:12,2022-02-15 15:37:14,2.004s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-02-15 15:37:14,2022-02-15 15:37:14,0.738s,PASSED
+delay(2),,,,2022-02-15 15:37:14,2022-02-15 15:37:16,2.006s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 6.png"")",,,,2022-02-15 15:37:16,2022-02-15 15:37:17,0.752s,PASSED
+"tap(findTestObject(""Tabung/tabungFundAmountTickBtn""), 0)",,,,2022-02-15 15:37:17,2022-02-15 15:37:18,0.648s,PASSED
+delay(2),,,,2022-02-15 15:37:18,2022-02-15 15:37:20,2.004s,PASSED
+"if (verifyElementVisible(findTestObject(""Tabung/tabungEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-02-15 15:37:20,2022-02-15 15:37:24,4.364s,PASSED
+delay(15),,,,2022-02-15 15:37:24,2022-02-15 15:37:39,15.004s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 7.png"")",,,,2022-02-15 15:37:39,2022-02-15 15:37:40,0.696s,PASSED
+"tap(findTestObject(""Tabung/tabungWithdrawFundBtn""), 0)",,,,2022-02-15 15:37:40,2022-02-15 15:37:40,0.589s,PASSED
+delay(3),,,,2022-02-15 15:37:40,2022-02-15 15:37:43,3.002s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-02-15 15:37:43,2022-02-15 15:38:05,21.770s,PASSED
+delay(3),,,,2022-02-15 15:38:05,2022-02-15 15:38:08,3.006s,PASSED
+"verifyElementVisible(findTestObject(""Tabung/tabungWithdrawalSummarySuccessTxt""), 0)",,,,2022-02-15 15:38:08,2022-02-15 15:38:13,5.111s,PASSED
+"verifyElementText(findTestObject(""Tabung/tabungWithdrawalSummarySuccessTxt""), ""Withdrawal Successful"")",,,,2022-02-15 15:38:13,2022-02-15 15:38:14,0.342s,PASSED
+delay(3),,,,2022-02-15 15:38:14,2022-02-15 15:38:17,3.007s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 9.png"")",,,,2022-02-15 15:38:17,2022-02-15 15:38:17,0.707s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-02-15 15:38:17,2022-02-15 15:38:18,0.332s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-02-15 15:38:18,2022-02-15 15:38:18,0.432s,PASSED
+delay(5),,,,2022-02-15 15:38:18,2022-02-15 15:38:23,5.008s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 10.png"")",,,,2022-02-15 15:38:23,2022-02-15 15:38:24,0.659s,PASSED

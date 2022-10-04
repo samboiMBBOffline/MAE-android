@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Issue" time="20.066" tests="1" failures="0" errors="0">
+   <testsuite name="Issue" tests="1" failures="0" errors="0" time="20.066" skipped="0" timestamp="2022-04-06 12:00:41" hostname="a00139272 - 192.168.0.176" id="Test Suites/Issue">
+      <properties>
+         <property name="deviceName" value="Xiaomi 21061119AG (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/a00139272/git/MAE-BAU/Reports/20220406_120029/Issue/20220406_120030"/>
+         <property name="logFiles" value="/Users/a00139272/git/MAE-BAU/Reports/20220406_120029/Issue/20220406_120030/execution0.log, /Users/a00139272/git/MAE-BAU/Reports/20220406_120029/Issue/20220406_120030/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="a00139272 - 192.168.0.176"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.1&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.1"/>
+         <property name="deviceModel" value="21061119AG"/>
+         <property name="hostAddress" value="192.168.0.176"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="002b9cc60508"/>
+         <property name="deviceName" value="Xiaomi 21061119AG (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Performance test/Launch" time="19.848" classname="Test Cases/Performance test/Launch" status="PASSED">
+         <system-out><![CDATA[2022-04-06 12:00:41 - [TEST_CASE][PASSED] - Test Cases/Performance test/Launch: Test Cases/Performance test/Launch
+
+2022-04-06 12:00:42 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appPackage", "com.maybank2u.life.sit"): null
+
+2022-04-06 12:00:42 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appActivity", "com.maybank2u.life.MainActivity"): null
+
+2022-04-06 12:00:42 - [TEST_STEP][PASSED] - if (isApplicationOpened == false): Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release (1).apk'
+
+2022-04-06 12:00:42 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release (1).apk'
+
+2022-04-06 12:00:42 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-04-06 12:00:42 - [MESSAGE][INFO] - User set preference: ['deviceId', '002b9cc60508']
+
+2022-04-06 12:00:42 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.maybank2u.life.sit']
+
+2022-04-06 12:00:42 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.maybank2u.life.MainActivity']
+
+2022-04-06 12:00:43 - [MESSAGE][INFO] - Appium server started on port 55,983
+
+2022-04-06 12:00:56 - [MESSAGE][PASSED] - Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release (1).apk'
+
+2022-04-06 12:00:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Dashboard/dashboardWalletTopSelect"), 20): Element 'Object Repository/Dashboard/dashboardWalletTopSelect' is visible
+
+2022-04-06 12:01:01 - [MESSAGE][PASSED] - Element 'Object Repository/Dashboard/dashboardWalletTopSelect' is visible
+
+2022-04-06 12:01:01 - [TEST_STEP][PASSED] - manu = getDeviceManufacturer(): Device manufacturer is: 'Xiaomi'
+
+2022-04-06 12:01:01 - [MESSAGE][PASSED] - Device manufacturer is: 'Xiaomi'
+
+2022-04-06 12:01:01 - [TEST_STEP][PASSED] - os = getDeviceOS(): Device OS name is: 'Android'
+
+2022-04-06 12:01:01 - [MESSAGE][PASSED] - Device OS name is: 'Android'
+
+2022-04-06 12:01:01 - [TEST_STEP][PASSED] - osVersion = getDeviceOSVersion(): Device OS version is: '11'
+
+2022-04-06 12:01:01 - [MESSAGE][PASSED] - Device OS version is: '11'
+
+2022-04-06 12:01:01 - [TEST_STEP][PASSED] - println(manu): null
+
+2022-04-06 12:01:01 - [TEST_STEP][PASSED] - println(os): null
+
+2022-04-06 12:01:01 - [TEST_STEP][PASSED] - println(osVersion): null
+
+2022-04-06 12:01:01 - [TEST_STEP][PASSED] - test = dataFolder: null
+
+2022-04-06 12:01:01 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2022-04-06 12:01:01 - [TEST_STEP][PASSED] - file1 = new java.io.File(test): null
+
+2022-04-06 12:01:01 - [TEST_STEP][PASSED] - assert file1.exists() == true: null
+
+2022-04-06 12:01:01 - [TEST_STEP][PASSED] - woorkbook1 = getWorkbook(test): null
+
+2022-04-06 12:01:01 - [TEST_STEP][PASSED] - sheet1 = getExcelSheet(woorkbook1, sheetName): null
+
+2022-04-06 12:01:01 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 0, 0, manu): null
+
+2022-04-06 12:01:01 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 0, 1, os): null
+
+2022-04-06 12:01:01 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 0, 2, osVersion): null
+
+2022-04-06 12:01:01 - [TEST_STEP][PASSED] - saveWorkbook(test, woorkbook1): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-06 12:00:41 - [TEST_SUITE][PASSED] - Issue: Test Cases/Performance test/Launch]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

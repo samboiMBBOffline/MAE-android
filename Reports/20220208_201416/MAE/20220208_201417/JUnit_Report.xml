@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MAE" time="151.884" tests="2" failures="1" errors="0">
+   <testsuite name="MAE" tests="2" failures="1" errors="0" time="151.884" skipped="0" timestamp="2022-02-08 20:14:27" hostname="a00139272 - 192.168.0.189" id="Test Suites/MAE">
+      <properties>
+         <property name="deviceName" value="samsung SM-G965F (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/a00139272/Katalon Studio/MAEAutomation2/Reports/20220208_201416/MAE/20220208_201417"/>
+         <property name="logFiles" value="/Users/a00139272/Katalon Studio/MAEAutomation2/Reports/20220208_201416/MAE/20220208_201417/execution0.log, /Users/a00139272/Katalon Studio/MAEAutomation2/Reports/20220208_201416/MAE/20220208_201417/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="a00139272 - 192.168.0.189"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.1&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.1"/>
+         <property name="deviceModel" value="SM-G965F"/>
+         <property name="hostAddress" value="192.168.0.189"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="2252c030550d7ece"/>
+         <property name="deviceName" value="samsung SM-G965F (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/PayBill/payBills_todayTransaction" time="109.65" classname="Test Cases/PayBill/payBills_todayTransaction" status="PASSED">
+         <system-out><![CDATA[2022-02-08 20:14:27 - [TEST_CASE][PASSED] - Test Cases/PayBill/payBills_todayTransaction: Test Cases/PayBill/payBills_todayTransaction
+
+2022-02-08 20:14:28 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release.apk'
+
+2022-02-08 20:14:28 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-02-08 20:14:28 - [MESSAGE][INFO] - User set preference: ['deviceId', '2252c030550d7ece']
+
+2022-02-08 20:14:29 - [MESSAGE][INFO] - Appium server started on port 60,116
+
+2022-02-08 20:14:42 - [MESSAGE][PASSED] - Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release.apk'
+
+2022-02-08 20:14:42 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appPackage", "com.maybank2u.life.dev"): null
+
+2022-02-08 20:14:42 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appActivity", "com.maybank2u.life.MainActivity"): null
+
+2022-02-08 20:14:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-08 20:14:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-08 20:14:47 - [TEST_STEP][PASSED] - if (getDeviceManufacturer() == "samsung"): null
+
+2022-02-08 20:14:47 - [MESSAGE][PASSED] - Device manufacturer is: 'samsung'
+
+2022-02-08 20:14:47 - [TEST_STEP][PASSED] - tapAtPosition(470, 2694): Tapped at [470, 2,694]
+
+2022-02-08 20:14:47 - [MESSAGE][PASSED] - Tapped at [470, 2,694]
+
+2022-02-08 20:14:47 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): null
+
+2022-02-08 20:14:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:14:49 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainEnterPINMessage' is visible
+
+2022-02-08 20:14:49 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:14:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:14:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:14:49 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:14:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:14:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:14:51 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:14:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:14:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:14:53 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:14:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:14:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:14:55 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:14:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:14:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:14:57 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN2"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-02-08 20:14:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:14:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-02-08 20:14:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-08 20:15:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-08 20:15:01 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountTypeSelection", ["text":"Personal Current Account"]), 10): Tapped on element 'Object Repository/Banking/m2uAccountTypeSelection'
+
+2022-02-08 20:15:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountTypeSelection'
+
+2022-02-08 20:15:04 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountPayBillsIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-02-08 20:15:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountPayBillsIconSelect'
+
+2022-02-08 20:15:08 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Login Onboarding/loginEnterPasswordMessage"), 0, OPTIONAL)): null
+
+2022-02-08 20:15:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:09 - [MESSAGE][PASSED] - Element 'Object Repository/Login Onboarding/loginEnterPasswordMessage' is visible
+
+2022-02-08 20:15:09 - [TEST_STEP][PASSED] - setText(findTestObject("Login Onboarding/loginPasswordInputField"), Password, 0): Text 'Maybank@1' has been set to element 'Object Repository/Login Onboarding/loginPasswordInputField'
+
+2022-02-08 20:15:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:10 - [MESSAGE][PASSED] - Text 'Maybank@1' has been set to element 'Object Repository/Login Onboarding/loginPasswordInputField'
+
+2022-02-08 20:15:10 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-02-08 20:15:11 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-02-08 20:15:11 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-02-08 20:15:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-02-08 20:15:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Paybill/payBillsIconSelect"), 0): Element 'Object Repository/Paybill/payBillsIconSelect' is present
+
+2022-02-08 20:15:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:16 - [MESSAGE][PASSED] - Element 'Object Repository/Paybill/payBillsIconSelect' is present
+
+2022-02-08 20:15:16 - [TEST_STEP][PASSED] - tap(findTestObject("Paybill/payBillsIconSelect"), 0): Tapped on element 'Object Repository/Paybill/payBillsIconSelect'
+
+2022-02-08 20:15:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Paybill/payBillsIconSelect'
+
+2022-02-08 20:15:17 - [TEST_STEP][PASSED] - tap(findTestObject("Paybill/payBillSearchBillerInputField"), 0): Tapped on element 'Object Repository/Paybill/payBillSearchBillerInputField'
+
+2022-02-08 20:15:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Paybill/payBillSearchBillerInputField'
+
+2022-02-08 20:15:20 - [TEST_STEP][PASSED] - setText(findTestObject("Paybill/payBillBillerNameInputField"), "Maxis", 0): Text 'Maxis' has been set to element 'Object Repository/Paybill/payBillBillerNameInputField'
+
+2022-02-08 20:15:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:22 - [MESSAGE][PASSED] - Text 'Maxis' has been set to element 'Object Repository/Paybill/payBillBillerNameInputField'
+
+2022-02-08 20:15:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-08 20:15:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-08 20:15:25 - [TEST_STEP][PASSED] - tap(findTestObject("Paybill/payBillBillerSelect", ["text":"Maxis Mobile Sdn Bhd"]), 10): Tapped on element 'Object Repository/Paybill/payBillBillerSelect'
+
+2022-02-08 20:15:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Paybill/payBillBillerSelect'
+
+2022-02-08 20:15:26 - [TEST_STEP][PASSED] - tap(findTestObject("Paybill/payBillBillerSelect", ["text":"Maxis Mobile Sdn Bhd"]), 10): Tapped on element 'Object Repository/Paybill/payBillBillerSelect'
+
+2022-02-08 20:15:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Paybill/payBillBillerSelect'
+
+2022-02-08 20:15:27 - [TEST_STEP][PASSED] - setText(findTestObject("Paybill/PayBillAccountNumberInputField"), "1544054651", 0): Text '1544054651' has been set to element 'Object Repository/Paybill/PayBillAccountNumberInputField'
+
+2022-02-08 20:15:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:29 - [MESSAGE][PASSED] - Text '1544054651' has been set to element 'Object Repository/Paybill/PayBillAccountNumberInputField'
+
+2022-02-08 20:15:29 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-02-08 20:15:30 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-02-08 20:15:30 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-02-08 20:15:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-02-08 20:15:31 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:15:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:15:33 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN4"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-02-08 20:15:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-02-08 20:15:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-08 20:15:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-08 20:15:37 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainAmountTickBtn"), 0): Tapped on element 'Object Repository/Main/mainAmountTickBtn'
+
+2022-02-08 20:15:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainAmountTickBtn'
+
+2022-02-08 20:15:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-08 20:15:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-08 20:15:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Main/mainPayNowBtn"), 5): Element 'Object Repository/Main/mainPayNowBtn' is present
+
+2022-02-08 20:15:44 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainPayNowBtn' is present
+
+2022-02-08 20:15:44 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainPayNowBtn"), 0): Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-02-08 20:15:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainPayNowBtn'
+
+2022-02-08 20:15:44 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Festive Season/festiveReturnAngpaoTACNoTxt"), 0, OPTIONAL)): null
+
+2022-02-08 20:15:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:49 - [MESSAGE][PASSED] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' is visible
+
+2022-02-08 20:15:49 - [TEST_STEP][PASSED] - OTP = getText(findTestObject("Festive Season/festiveReturnAngpaoTACNoTxt"), 0): Text of element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' is: 'Your TAC no. is 529181'
+
+2022-02-08 20:15:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:49 - [MESSAGE][PASSED] - Text of element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' is: 'Your TAC no. is 529181'
+
+2022-02-08 20:15:49 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): null
+
+2022-02-08 20:15:49 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-08 20:15:49 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-08 20:15:49 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-08 20:15:49 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-08 20:15:49 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-08 20:15:49 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-02-08 20:15:49 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN5"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-02-08 20:15:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-02-08 20:15:50 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-08 20:15:50 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-08 20:15:50 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-08 20:15:50 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-08 20:15:50 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-08 20:15:50 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-08 20:15:50 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-02-08 20:15:50 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN2"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-02-08 20:15:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-08 20:15:52 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN9"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-08 20:15:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-08 20:15:55 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-08 20:15:55 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:15:55 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:15:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:15:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-02-08 20:15:57 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN8"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-02-08 20:15:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:16:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-02-08 20:16:01 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-08 20:16:01 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-08 20:16:01 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:16:01 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:16:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:16:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-08 20:16:02 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-08 20:16:02 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-08 20:16:02 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-08 20:16:02 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-08 20:16:02 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-08 20:16:02 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-08 20:16:02 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-08 20:16:02 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-08 20:16:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-08 20:16:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-08 20:16:05 - [TEST_STEP][PASSED] - tap(findTestObject("Festive Season/festiveReturnAngpaoTickBtn"), 0): Tapped on element 'Object Repository/Festive Season/festiveReturnAngpaoTickBtn'
+
+2022-02-08 20:16:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:16:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Festive Season/festiveReturnAngpaoTickBtn'
+
+2022-02-08 20:16:06 - [TEST_STEP][PASSED] - message = getText(findTestObject("Main/mainTransactionStatusMessageTxt"), 10): Text of element 'Object Repository/Main/mainTransactionStatusMessageTxt' is: 'Payment successful'
+
+2022-02-08 20:16:11 - [MESSAGE][PASSED] - Text of element 'Object Repository/Main/mainTransactionStatusMessageTxt' is: 'Payment successful'
+
+2022-02-08 20:16:11 - [TEST_STEP][PASSED] - println(message): null
+
+2022-02-08 20:16:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-02-08 20:16:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:16:11 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-02-08 20:16:11 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-02-08 20:16:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:16:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-02-08 20:16:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-08 20:16:17 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Others/ticketing_buyKLIATicket" time="42.014" classname="Test Cases/Others/ticketing_buyKLIATicket" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Others/ticketing_buyKLIATicket FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Banking/m2uAccountERLIconSelect not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$3.call(Unknown Source)
+	at ticketing_buyKLIATicket.run(ticketing_buyKLIATicket:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644322457640.run(TempTestSuite1644322457640.groovy:36)
+"/>
+         <system-out><![CDATA[2022-02-08 20:16:17 - [TEST_CASE][FAILED] - Test Cases/Others/ticketing_buyKLIATicket: Test Cases/Others/ticketing_buyKLIATicket FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Banking/m2uAccountERLIconSelect not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$3.call(Unknown Source)
+	at ticketing_buyKLIATicket.run(ticketing_buyKLIATicket:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644322457640.run(TempTestSuite1644322457640.groovy:36)
+
+
+2022-02-08 20:16:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Banking/m2uAccountPayBillsIconSelect"), 0): Element 'Object Repository/Banking/m2uAccountPayBillsIconSelect' is present
+
+2022-02-08 20:16:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:16:17 - [MESSAGE][PASSED] - Element 'Object Repository/Banking/m2uAccountPayBillsIconSelect' is present
+
+2022-02-08 20:16:17 - [TEST_STEP][PASSED] - if (getDeviceManufacturer() == "samsung"): null
+
+2022-02-08 20:16:17 - [MESSAGE][PASSED] - Device manufacturer is: 'samsung'
+
+2022-02-08 20:16:17 - [TEST_STEP][PASSED] - swipe(900, 1245, 300, 1245): Swiped from 900,1,245 to 300,1,245
+
+2022-02-08 20:16:19 - [MESSAGE][PASSED] - Swiped from 900,1,245 to 300,1,245
+
+2022-02-08 20:16:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Banking/m2uAccountERLIconSelect"), 0): Object Object Repository/Banking/m2uAccountERLIconSelect not found
+
+2022-02-08 20:16:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:16:39 - [MESSAGE][WARNING] - Object Object Repository/Banking/m2uAccountERLIconSelect not found
+
+2022-02-08 20:16:39 - [TEST_STEP][FAILED] - tap(findTestObject("Banking/m2uAccountERLIconSelect"), 0): Failed to tap on element 'Object Repository/Banking/m2uAccountERLIconSelect' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Banking/m2uAccountERLIconSelect not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$3.call(Unknown Source)
+	at ticketing_buyKLIATicket.run(ticketing_buyKLIATicket:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644322457640.run(TempTestSuite1644322457640.groovy:36)
+)
+
+2022-02-08 20:16:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-08 20:16:59 - [MESSAGE][FAILED] - Object Object Repository/Banking/m2uAccountERLIconSelect not found
+
+2022-02-08 20:16:59 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Banking/m2uAccountERLIconSelect' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Banking/m2uAccountERLIconSelect not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$3.call(Unknown Source)
+	at ticketing_buyKLIATicket.run(ticketing_buyKLIATicket:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644322457640.run(TempTestSuite1644322457640.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-02-08 20:16:17 - [TEST_CASE][FAILED] - Test Cases/Others/ticketing_buyKLIATicket: Test Cases/Others/ticketing_buyKLIATicket FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Banking/m2uAccountERLIconSelect not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$3.call(Unknown Source)
+	at ticketing_buyKLIATicket.run(ticketing_buyKLIATicket:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644322457640.run(TempTestSuite1644322457640.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-08 20:14:27 - [TEST_SUITE][FAILED] - MAE: Test Cases/Others/ticketing_buyKLIATicket FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Banking/m2uAccountERLIconSelect not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$3.call(Unknown Source)
+	at ticketing_buyKLIATicket.run(ticketing_buyKLIATicket:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644322457640.run(TempTestSuite1644322457640.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-02-08 20:14:27 - [TEST_SUITE][FAILED] - MAE: Test Cases/Others/ticketing_buyKLIATicket FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Banking/m2uAccountERLIconSelect not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$3.call(Unknown Source)
+	at ticketing_buyKLIATicket.run(ticketing_buyKLIATicket:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644322457640.run(TempTestSuite1644322457640.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

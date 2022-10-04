@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Festive Season</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient>amirsafwan23@gmail.com;</mailRecipient>
+   <numberOfRerun>2</numberOfRerun>
+   <pageLoadTimeout>5</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>44593056-fbee-4e93-9fff-d6d93fc4ccf9</testSuiteGuid>
+   <testCaseLink>
+      <guid>853d386d-6b5a-4718-a8f8-122ca3d2ddf6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Festive Season/festive_sendGreeting</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bfd42430-b1e1-45a8-b9a6-65ac92b2a1ab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ae65bcef-724d-4206-a1a9-2d1cc7dc2d84</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f12e845f-e70b-4506-8007-e90d6e538ebe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Festive Season/festive_sendGreetingWithAngpao</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bfd42430-b1e1-45a8-b9a6-65ac92b2a1ab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ae65bcef-724d-4206-a1a9-2d1cc7dc2d84</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a2052c52-81dd-464d-9189-da289fbb68bf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Festive Season/festive_returnGreeting</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ae65bcef-724d-4206-a1a9-2d1cc7dc2d84</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5584e694-2348-4b8e-9730-97520961f1bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Festive Season/festive_sendFestiveMoney</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bfd42430-b1e1-45a8-b9a6-65ac92b2a1ab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ae65bcef-724d-4206-a1a9-2d1cc7dc2d84</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8691457d-a37a-4ca1-8920-d17eedb1f302</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Festive Season/festive_returnSendFestiveMoney</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d1e138ee-9fb6-43c8-9a22-b587b3e537e6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bf21283d-cf5f-4246-aa12-5967e8a82d34</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ae65bcef-724d-4206-a1a9-2d1cc7dc2d84</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

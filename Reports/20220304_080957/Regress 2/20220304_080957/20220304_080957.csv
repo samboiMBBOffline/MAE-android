@@ -1,0 +1,175 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regress 2,,,,2022-03-04 08:10:07,2022-03-04 08:24:02,13m - 55.431s,FAILED
+,,,,,,,
+Test Cases/Others/ticketing_buyKLIATicket,,,,2022-03-04 08:10:07,2022-03-04 08:12:39,2m - 31.491s,PASSED
+"startApplication(appPath, false)",,,,2022-03-04 08:10:08,2022-03-04 08:10:22,13.502s,PASSED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.sit"")",,,,2022-03-04 08:10:22,2022-03-04 08:10:22,0.001s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.MainActivity"")",,,,2022-03-04 08:10:22,2022-03-04 08:10:22,0.000s,PASSED
+delay(5),,,,2022-03-04 08:10:22,2022-03-04 08:10:27,5.022s,PASSED
+"if (getDeviceManufacturer() == ""samsung"")",,,,2022-03-04 08:10:27,2022-03-04 08:10:27,0.011s,PASSED
+else,,,,2022-03-04 08:10:27,2022-03-04 08:10:27,0.237s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-03-04 08:10:27,2022-03-04 08:10:40,13.594s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTypeSelection"", [""text"":""MAE""]), 10)",,,,2022-03-04 08:10:40,2022-03-04 08:10:45,4.756s,PASSED
+delay(5),,,,2022-03-04 08:10:45,2022-03-04 08:10:50,5.003s,PASSED
+"waitForElementPresent(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-03-04 08:10:50,2022-03-04 08:10:51,0.410s,PASSED
+"if (getDeviceManufacturer() == ""samsung"")",,,,2022-03-04 08:10:51,2022-03-04 08:10:51,0.002s,PASSED
+else,,,,2022-03-04 08:10:51,2022-03-04 08:10:52,1.159s,PASSED
+"waitForElementPresent(findTestObject(""Banking/m2uAccountERLIconSelect""), 0)",,,,2022-03-04 08:10:52,2022-03-04 08:10:52,0.272s,PASSED
+"tap(findTestObject(""Banking/m2uAccountERLIconSelect""), 0)",,,,2022-03-04 08:10:52,2022-03-04 08:10:54,2.130s,PASSED
+"delay(3, CONTINUE_ON_FAILURE)",,,,2022-03-04 08:10:54,2022-03-04 08:10:57,3.006s,PASSED
+"waitForElementPresent(findTestObject(""KLIA/kliaExpressBuyTicketBtn""), 0)",,,,2022-03-04 08:10:57,2022-03-04 08:10:58,0.460s,PASSED
+"tap(findTestObject(""KLIA/kliaExpressBuyTicketBtn""), 0)",,,,2022-03-04 08:10:58,2022-03-04 08:10:58,0.507s,PASSED
+"waitForElementPresent(findTestObject(""KLIA/kliaExpressFromDropdownSelect""), 0)",,,,2022-03-04 08:10:58,2022-03-04 08:10:59,1.221s,PASSED
+"tap(findTestObject(""KLIA/kliaExpressFromDropdownSelect""), 0)",,,,2022-03-04 08:10:59,2022-03-04 08:11:01,1.375s,PASSED
+"waitForElementPresent(findTestObject(""KLIA/kliaExpressFromDropdownSelectKLIA""), 0)",,,,2022-03-04 08:11:01,2022-03-04 08:11:01,0.219s,PASSED
+"tap(findTestObject(""KLIA/kliaExpressFromDropdownSelectKLIA""), 0)",,,,2022-03-04 08:11:01,2022-03-04 08:11:01,0.386s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-04 08:11:01,2022-03-04 08:11:02,0.967s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 10)",,,,2022-03-04 08:11:02,2022-03-04 08:11:03,0.464s,PASSED
+"waitForElementPresent(findTestObject(""KLIA/kliaExpressToDropdownSelect""), 0)",,,,2022-03-04 08:11:03,2022-03-04 08:11:04,0.846s,PASSED
+"tap(findTestObject(""KLIA/kliaExpressToDropdownSelect""), 0)",,,,2022-03-04 08:11:04,2022-03-04 08:11:04,0.456s,PASSED
+delay(3),,,,2022-03-04 08:11:04,2022-03-04 08:11:07,3.006s,PASSED
+"waitForElementPresent(findTestObject(""KLIA/kliaExpressToDropdownSelectKLSentral""), 0)",,,,2022-03-04 08:11:07,2022-03-04 08:11:07,0.225s,PASSED
+"tap(findTestObject(""KLIA/kliaExpressToDropdownSelectKLSentral""), 0)",,,,2022-03-04 08:11:07,2022-03-04 08:11:08,0.374s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-04 08:11:08,2022-03-04 08:11:08,0.225s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 10)",,,,2022-03-04 08:11:08,2022-03-04 08:11:08,0.415s,PASSED
+"waitForElementPresent(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 08:11:08,2022-03-04 08:11:09,0.849s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 08:11:09,2022-03-04 08:11:10,0.414s,PASSED
+"waitForElementPresent(findTestObject(""KLIA/kliaExpressEnterDateSelectField""), 0)",,,,2022-03-04 08:11:10,2022-03-04 08:11:11,1.499s,PASSED
+"tap(findTestObject(""KLIA/kliaExpressEnterDateSelectField""), 10)",,,,2022-03-04 08:11:11,2022-03-04 08:11:11,0.367s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainCalenderPickerNextBtn""), 0)",,,,2022-03-04 08:11:11,2022-03-04 08:11:13,2.053s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerNextBtn""), 0)",,,,2022-03-04 08:11:13,2022-03-04 08:11:14,0.553s,PASSED
+delay(3),,,,2022-03-04 08:11:14,2022-03-04 08:11:17,3.002s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainDatePicker1""), 0)",,,,2022-03-04 08:11:17,2022-03-04 08:11:17,0.337s,PASSED
+"tap(findTestObject(""Main/mainDatePicker1""), 0)",,,,2022-03-04 08:11:17,2022-03-04 08:11:18,0.460s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-04 08:11:18,2022-03-04 08:11:18,0.560s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-04 08:11:18,2022-03-04 08:11:19,0.732s,PASSED
+delay(3),,,,2022-03-04 08:11:19,2022-03-04 08:11:22,3.007s,PASSED
+"scrollToText(""Return Trip"", STOP_ON_FAILURE)",,,,2022-03-04 08:11:22,2022-03-04 08:11:26,3.546s,PASSED
+"tap(findTestObject(""KLIA/kliaExpressSingleTripSelect""), 0)",,,,2022-03-04 08:11:26,2022-03-04 08:11:26,0.442s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 08:11:26,2022-03-04 08:11:27,1.015s,PASSED
+delay(3),,,,2022-03-04 08:11:27,2022-03-04 08:11:30,3.007s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 08:11:30,2022-03-04 08:11:31,0.489s,PASSED
+"if (verifyElementVisible(findTestObject(""KLIA/ticketingEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-03-04 08:11:31,2022-03-04 08:11:41,10.430s,PASSED
+delay(10),,,,2022-03-04 08:11:41,2022-03-04 08:11:51,10.007s,PASSED
+"waitForElementPresent(findTestObject(""KLIA/kliaExpressPayNowBtn""), 0)",,,,2022-03-04 08:11:51,2022-03-04 08:11:51,0.195s,PASSED
+"tap(findTestObject(""KLIA/kliaExpressPayNowBtn""), 0)",,,,2022-03-04 08:11:51,2022-03-04 08:11:52,0.403s,PASSED
+delay(2),,,,2022-03-04 08:11:52,2022-03-04 08:11:54,2.007s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-03-04 08:11:54,2022-03-04 08:12:14,20.102s,PASSED
+else,,,,2022-03-04 08:12:14,2022-03-04 08:12:19,5.540s,PASSED
+delay(2),,,,2022-03-04 08:12:19,2022-03-04 08:12:21,2.004s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:12:21,2022-03-04 08:12:34,12.507s,PASSED
+delay(5),,,,2022-03-04 08:12:34,2022-03-04 08:12:39,5.007s,PASSED
+,,,,,,,
+Test Cases/Tabung/tabung_createTabungCreatorOnly,,,,2022-03-04 08:12:39,2022-03-04 08:15:38,2m - 59.198s,PASSED
+try,,,,2022-03-04 08:12:39,2022-03-04 08:15:38,2m - 58.928s,PASSED
+,,,,,,,
+Test Cases/Tabung/tabung_fundTabungCreatorOnly,,,,2022-03-04 08:15:38,2022-03-04 08:17:39,2m - 1.191s,PASSED
+try,,,,2022-03-04 08:15:38,2022-03-04 08:17:39,2m - 0.994s,PASSED
+,,,,,,,
+Test Cases/Tabung/tabung_withdrawTabung,,,,2022-03-04 08:17:39,2022-03-04 08:19:45,2m - 5.613s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-03-04 08:17:39,2022-03-04 08:18:00,20.190s,PASSED
+delay(5),,Withdraw Tabung,,2022-03-04 08:18:00,2022-03-04 08:18:05,5.004s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 3.png"")",,,,2022-03-04 08:18:05,2022-03-04 08:18:05,0.862s,PASSED
+"tap(findTestObject(""Tabung/tabungThreeDotsBtn""), 0)",,,,2022-03-04 08:18:05,2022-03-04 08:18:06,0.470s,PASSED
+delay(2),,,,2022-03-04 08:18:06,2022-03-04 08:18:08,2.006s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 4.png"")",,,,2022-03-04 08:18:08,2022-03-04 08:18:09,0.790s,PASSED
+"tap(findTestObject(""Tabung/tabungWithdrawFundBtn""), 0)",,,,2022-03-04 08:18:09,2022-03-04 08:18:09,0.599s,PASSED
+delay(2),,,,2022-03-04 08:18:09,2022-03-04 08:18:11,2.004s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 5.png"")",,,,2022-03-04 08:18:11,2022-03-04 08:18:12,0.959s,PASSED
+"tap(findTestObject(""Tabung/tabungWithdrawConfirmBtn""), 0)",,,,2022-03-04 08:18:12,2022-03-04 08:18:13,0.973s,PASSED
+delay(2),,,,2022-03-04 08:18:13,2022-03-04 08:18:15,2.002s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 08:18:15,2022-03-04 08:18:16,0.544s,PASSED
+delay(2),,,,2022-03-04 08:18:16,2022-03-04 08:18:18,2.003s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 6.png"")",,,,2022-03-04 08:18:18,2022-03-04 08:18:19,0.851s,PASSED
+"tap(findTestObject(""Tabung/tabungFundAmountTickBtn""), 0)",,,,2022-03-04 08:18:19,2022-03-04 08:18:19,0.301s,PASSED
+delay(2),,,,2022-03-04 08:18:19,2022-03-04 08:18:21,2.004s,PASSED
+"if (verifyElementVisible(findTestObject(""Tabung/tabungEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-03-04 08:18:21,2022-03-04 08:18:41,20.134s,PASSED
+delay(15),,,,2022-03-04 08:18:41,2022-03-04 08:18:56,15.003s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 7.png"")",,,,2022-03-04 08:18:56,2022-03-04 08:18:57,0.763s,PASSED
+"tap(findTestObject(""Tabung/tabungWithdrawFundBtn""), 0)",,,,2022-03-04 08:18:57,2022-03-04 08:18:57,0.477s,PASSED
+delay(3),,,,2022-03-04 08:18:57,2022-03-04 08:19:00,3.004s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-03-04 08:19:00,2022-03-04 08:19:20,20.091s,PASSED
+else,,,,2022-03-04 08:19:20,2022-03-04 08:19:31,10.473s,PASSED
+delay(3),,,,2022-03-04 08:19:31,2022-03-04 08:19:34,3.007s,PASSED
+"verifyElementVisible(findTestObject(""Tabung/tabungWithdrawalSummarySuccessTxt""), 0)",,,,2022-03-04 08:19:34,2022-03-04 08:19:34,0.322s,PASSED
+"verifyElementText(findTestObject(""Tabung/tabungWithdrawalSummarySuccessTxt""), ""Withdrawal Successful"")",,,,2022-03-04 08:19:34,2022-03-04 08:19:34,0.232s,PASSED
+delay(3),,,,2022-03-04 08:19:34,2022-03-04 08:19:37,3.002s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 9.png"")",,,,2022-03-04 08:19:37,2022-03-04 08:19:38,0.810s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:19:38,2022-03-04 08:19:39,0.305s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:19:39,2022-03-04 08:19:39,0.435s,PASSED
+delay(5),,,,2022-03-04 08:19:39,2022-03-04 08:19:44,5.005s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Withdraw/Screenshot 10.png"")",,,,2022-03-04 08:19:44,2022-03-04 08:19:45,0.778s,PASSED
+,,,,,,,
+Test Cases/Tabung/tabung_enableESITabung,,,,2022-03-04 08:19:45,2022-03-04 08:20:48,1m - 3.247s,PASSED
+"tap(findTestObject(""Tabung/tabungNameSelection"", [""text"":""Switzerland""]), 10)",,ESI ENABLE,,2022-03-04 08:19:45,2022-03-04 08:19:46,0.483s,PASSED
+"tap(findTestObject(""Tabung/tabungViewMoreDetailsBtn""), 0)",,,,2022-03-04 08:19:46,2022-03-04 08:19:46,0.549s,PASSED
+delay(2),,,,2022-03-04 08:19:46,2022-03-04 08:19:48,2.006s,PASSED
+"tap(findTestObject(""Tabung/tabungESIOnToggle""), 0)",,,,2022-03-04 08:19:48,2022-03-04 08:19:48,0.440s,PASSED
+delay(2),,,,2022-03-04 08:19:48,2022-03-04 08:19:50,2.003s,PASSED
+"if (verifyElementVisible(findTestObject(""Tabung/tabungEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-03-04 08:19:50,2022-03-04 08:20:11,20.061s,PASSED
+delay(10),,,,2022-03-04 08:20:11,2022-03-04 08:20:21,10.002s,PASSED
+"tap(findTestObject(""Tabung/tabungConfirmBtn""), 0)",,,,2022-03-04 08:20:21,2022-03-04 08:20:21,0.453s,PASSED
+"OTP = getText(findTestObject(""Tabung/tabungOTPNumberTxt""), 0)",,,,2022-03-04 08:20:21,2022-03-04 08:20:23,2.432s,PASSED
+"for ([i = 16, i <= 21, (i++)])",,,,2022-03-04 08:20:23,2022-03-04 08:20:34,10.713s,PASSED
+delay(3),,,,2022-03-04 08:20:34,2022-03-04 08:20:37,3.006s,PASSED
+"tap(findTestObject(""Tabung/tabungTACTickBtn""), 0)",,,,2022-03-04 08:20:37,2022-03-04 08:20:38,1.126s,PASSED
+delay(3),,,,2022-03-04 08:20:38,2022-03-04 08:20:41,3.006s,PASSED
+"verifyElementVisible(findTestObject(""Tabung/tabungSummaryAutoDecuctSuccessEnableTxt""), 0)",,,,2022-03-04 08:20:41,2022-03-04 08:20:44,2.888s,PASSED
+"verifyElementText(findTestObject(""Tabung/tabungSummaryAutoDecuctSuccessEnableTxt""), ""Auto deduction successfully enabled."")",,,,2022-03-04 08:20:44,2022-03-04 08:20:44,0.255s,PASSED
+delay(3),,,,2022-03-04 08:20:44,2022-03-04 08:20:47,3.004s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:20:47,2022-03-04 08:20:48,0.263s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:20:48,2022-03-04 08:20:48,0.361s,PASSED
+,,,,,,,
+Test Cases/Tabung/tabung_disableESITabung,,,,2022-03-04 08:20:48,2022-03-04 08:21:46,58.072s,FAILED
+"tap(findTestObject(""Tabung/tabungNameSelection"", [""text"":""Switzerland""]), 10)",,ESI DISABLE,,2022-03-04 08:20:48,2022-03-04 08:20:51,2.702s,PASSED
+"tap(findTestObject(""Tabung/tabungViewMoreDetailsBtn""), 0)",,,,2022-03-04 08:20:51,2022-03-04 08:20:51,0.483s,PASSED
+delay(2),,,,2022-03-04 08:20:51,2022-03-04 08:20:53,2.008s,PASSED
+"tap(findTestObject(""Tabung/tabungESIOffToggle""), 0)",,,,2022-03-04 08:20:53,2022-03-04 08:20:54,0.489s,PASSED
+delay(2),,,,2022-03-04 08:20:54,2022-03-04 08:20:56,2.005s,PASSED
+"if (verifyElementVisible(findTestObject(""Tabung/tabungEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-03-04 08:20:56,2022-03-04 08:21:16,20.078s,PASSED
+delay(10),,,,2022-03-04 08:21:16,2022-03-04 08:21:26,10.006s,PASSED
+"OTP1 = getText(findTestObject(""Tabung/tabungOTPNumberTxt""), 0)",,,,2022-03-04 08:21:26,2022-03-04 08:21:46,20.092s,FAILED
+"for ([i = 16, i <= 21, (i++)])",,,,2022-03-04 08:21:46,2022-03-04 08:21:46,0.013s,ERROR
+,,,,,,,
+Test Cases/Tabung/tabung_renameTabung,,,,2022-03-04 08:21:46,2022-03-04 08:22:04,17.674s,PASSED
+delay(2),,Renname Tabung,,2022-03-04 08:21:46,2022-03-04 08:21:48,2.002s,PASSED
+"tap(findTestObject(""Tabung/tabungThreeDotsBtn""), 0)",,,,2022-03-04 08:21:48,2022-03-04 08:21:51,2.179s,PASSED
+"tap(findTestObject(""Tabung/tabungThreeDotsRenameBtn""), 0)",,,,2022-03-04 08:21:51,2022-03-04 08:21:52,1.652s,PASSED
+delay(2),,,,2022-03-04 08:21:52,2022-03-04 08:21:54,2.004s,PASSED
+"clearText(findTestObject(""Tabung/tabungRenameInputField""), 10)",,,,2022-03-04 08:21:54,2022-03-04 08:21:54,0.221s,PASSED
+"setText(findTestObject(""Tabung/tabungRenameInputField""), ""Singapore"", 0)",,,,2022-03-04 08:21:54,2022-03-04 08:21:56,1.800s,PASSED
+hideKeyboard(),,,,2022-03-04 08:21:56,2022-03-04 08:21:58,2.012s,PASSED
+"verifyElementVisible(findTestObject(""Tabung/tabungConfirmBtn""), 0)",,,,2022-03-04 08:21:58,2022-03-04 08:21:58,0.248s,PASSED
+"tap(findTestObject(""Tabung/tabungConfirmBtn""), 0)",,,,2022-03-04 08:21:58,2022-03-04 08:21:59,0.370s,PASSED
+delay(5),,,,2022-03-04 08:21:59,2022-03-04 08:22:04,5.004s,PASSED
+,,,,,,,
+Test Cases/Tabung/tabung_removeTabung,,,,2022-03-04 08:22:04,2022-03-04 08:24:02,1m - 58.649s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-03-04 08:22:04,2022-03-04 08:22:24,20.240s,PASSED
+"tap(findTestObject(""Tabung/tabungNameSelection"", [""text"":""Switzerland""]), 10)",,Remove Tabung,,2022-03-04 08:22:24,2022-03-04 08:22:25,1.050s,PASSED
+delay(2),,,,2022-03-04 08:22:25,2022-03-04 08:22:27,2.003s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 2.png"")",,,,2022-03-04 08:22:27,2022-03-04 08:22:28,0.808s,PASSED
+"tap(findTestObject(""Tabung/tabungThreeDotsBtn""), 0)",,,,2022-03-04 08:22:28,2022-03-04 08:22:29,0.476s,PASSED
+delay(2),,,,2022-03-04 08:22:29,2022-03-04 08:22:31,2.005s,PASSED
+"tap(findTestObject(""Tabung/tabungThreeDtosRemoveBtn""), 0)",,,,2022-03-04 08:22:31,2022-03-04 08:22:31,0.613s,PASSED
+delay(2),,,,2022-03-04 08:22:31,2022-03-04 08:22:33,2.004s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 3.png"")",,,,2022-03-04 08:22:33,2022-03-04 08:22:34,0.913s,PASSED
+"tap(findTestObject(""Tabung/tabungRemoveConfirmBtn""), 0)",,,,2022-03-04 08:22:34,2022-03-04 08:22:34,0.302s,PASSED
+delay(5),,,,2022-03-04 08:22:34,2022-03-04 08:22:39,5.007s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 4.png"")",,,,2022-03-04 08:22:39,2022-03-04 08:22:40,0.801s,PASSED
+"tap(findTestObject(""Tabung/tabungContinueBtn""), 0)",,,,2022-03-04 08:22:40,2022-03-04 08:22:41,0.399s,PASSED
+delay(2),,,,2022-03-04 08:22:41,2022-03-04 08:22:43,2.005s,PASSED
+"if (verifyElementVisible(findTestObject(""Tabung/tabungEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-03-04 08:22:43,2022-03-04 08:23:03,20.042s,PASSED
+delay(15),,,,2022-03-04 08:23:03,2022-03-04 08:23:18,15.003s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 5.png"")",,,,2022-03-04 08:23:18,2022-03-04 08:23:18,0.739s,PASSED
+"tap(findTestObject(""Tabung/tabungWithdrawFundBtn""), 0)",,,,2022-03-04 08:23:18,2022-03-04 08:23:19,0.498s,PASSED
+delay(2),,,,2022-03-04 08:23:19,2022-03-04 08:23:21,2.003s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-03-04 08:23:21,2022-03-04 08:23:41,20.057s,PASSED
+else,,,,2022-03-04 08:23:41,2022-03-04 08:23:51,10.455s,PASSED
+"message = getText(findTestObject(""Tabung/tabungRemoveSummaryTransferTxt""), 10)",,,,2022-03-04 08:23:51,2022-03-04 08:23:52,0.596s,PASSED
+delay(2),,,,2022-03-04 08:23:52,2022-03-04 08:23:54,2.006s,PASSED
+"verifyElementText(findTestObject(""Tabung/tabungRemoveSummaryTransferTxt""), ""You've successfully removed the Switzerland Tabung. RM 0.01 has been transferred back into your account."")",,,,2022-03-04 08:23:54,2022-03-04 08:23:54,0.230s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 7.png"")",,,,2022-03-04 08:23:54,2022-03-04 08:23:55,0.787s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:23:55,2022-03-04 08:23:55,0.283s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:23:55,2022-03-04 08:23:56,0.441s,PASSED
+delay(5),,,,2022-03-04 08:23:56,2022-03-04 08:24:01,5.006s,PASSED
+"takeScreenshot(""/Users/a00139272/Katalon Studio/Screenshot/s2/Remove2/Screenshot 8.png"")",,,,2022-03-04 08:24:01,2022-03-04 08:24:02,1.661s,PASSED

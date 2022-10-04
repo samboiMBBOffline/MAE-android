@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Notification Creator" time="1.118" tests="1" failures="0" errors="1">
+   <testsuite name="Notification Creator" tests="1" failures="0" errors="1" time="1.118" skipped="0" timestamp="2022-09-05 16:25:43" hostname="00139711 - L210605145W10.MAYBANK-MY.MBB.DIR" id="Test Suites/KT from Amir/Notification Creator">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Users\\00139711\\Documents\\Katalons\\MAE Android\\Reports\\20220905_162536\\KT from Amir\\Notification Creator\\20220905_162536"/>
+         <property name="logFiles" value="D:\\Users\\00139711\\Documents\\Katalons\\MAE Android\\Reports\\20220905_162536\\KT from Amir\\Notification Creator\\20220905_162536\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="00139711 - L210605145W10.MAYBANK-MY.MBB.DIR"/>
+         <property name="hostAddress" value="172.25.130.36"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Notification Creator/notiCreator_fundTabungCreatorOnly" time="0.677" classname="Test Cases/Notification Creator/notiCreator_fundTabungCreatorOnly" status="ERROR">
+         <error type="ERROR" message="Test Cases/Notification Creator/notiCreator_fundTabungCreatorOnly FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: FailureHandling for class: Script1643188907135
+	at notiCreator_fundTabungCreatorOnly.run(notiCreator_fundTabungCreatorOnly:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662366336304.run(TempTestSuite1662366336304.groovy:36)
+"/>
+         <system-out><![CDATA[2022-09-05 16:25:44 - [TEST_CASE][ERROR] - Test Cases/Notification Creator/notiCreator_fundTabungCreatorOnly: Test Cases/Notification Creator/notiCreator_fundTabungCreatorOnly FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: FailureHandling for class: Script1643188907135
+	at notiCreator_fundTabungCreatorOnly.run(notiCreator_fundTabungCreatorOnly:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662366336304.run(TempTestSuite1662366336304.groovy:36)
+
+
+2022-09-05 16:25:44 - [TEST_STEP][ERROR] - startExistingApplication("com.maybank2u.life.sit", STOP_ON_FAILURE): Test Cases/Notification Creator/notiCreator_fundTabungCreatorOnly FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: FailureHandling for class: Script1643188907135
+	at notiCreator_fundTabungCreatorOnly.run(notiCreator_fundTabungCreatorOnly:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662366336304.run(TempTestSuite1662366336304.groovy:36)
+
+
+2022-09-05 16:25:44 - [MESSAGE][ERROR] - Test Cases/Notification Creator/notiCreator_fundTabungCreatorOnly FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: FailureHandling for class: Script1643188907135
+	at notiCreator_fundTabungCreatorOnly.run(notiCreator_fundTabungCreatorOnly:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662366336304.run(TempTestSuite1662366336304.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-09-05 16:25:44 - [TEST_CASE][ERROR] - Test Cases/Notification Creator/notiCreator_fundTabungCreatorOnly: Test Cases/Notification Creator/notiCreator_fundTabungCreatorOnly FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: FailureHandling for class: Script1643188907135
+	at notiCreator_fundTabungCreatorOnly.run(notiCreator_fundTabungCreatorOnly:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662366336304.run(TempTestSuite1662366336304.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-05 16:25:43 - [TEST_SUITE][ERROR] - Notification Creator: Test Cases/Notification Creator/notiCreator_fundTabungCreatorOnly FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: FailureHandling for class: Script1643188907135
+	at notiCreator_fundTabungCreatorOnly.run(notiCreator_fundTabungCreatorOnly:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662366336304.run(TempTestSuite1662366336304.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-09-05 16:25:43 - [TEST_SUITE][ERROR] - Notification Creator: Test Cases/Notification Creator/notiCreator_fundTabungCreatorOnly FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: FailureHandling for class: Script1643188907135
+	at notiCreator_fundTabungCreatorOnly.run(notiCreator_fundTabungCreatorOnly:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1662366336304.run(TempTestSuite1662366336304.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

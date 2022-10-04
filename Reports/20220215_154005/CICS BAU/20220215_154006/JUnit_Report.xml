@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CICS BAU" time="130.252" tests="1" failures="0" errors="0">
+   <testsuite name="CICS BAU" tests="1" failures="0" errors="0" time="130.252" skipped="0" timestamp="2022-02-15 15:40:16" hostname="a00139272 - 192.168.0.189" id="Test Suites/CICS BAU">
+      <properties>
+         <property name="deviceName" value="samsung SM-G965F (Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/a00139272/Katalon Studio/MAEAutomation2/Reports/20220215_154005/CICS BAU/20220215_154006"/>
+         <property name="logFiles" value="/Users/a00139272/Katalon Studio/MAEAutomation2/Reports/20220215_154005/CICS BAU/20220215_154006/execution0.log, /Users/a00139272/Katalon Studio/MAEAutomation2/Reports/20220215_154005/CICS BAU/20220215_154006/appium.log"/>
+         <property name="attachments" value="/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 1.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 1.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 2.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 2.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 3.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 3.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 4.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 4.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 5.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 5.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 6.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 6.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 7.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 7.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 8.png, /Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 8.png"/>
+         <property name="hostName" value="a00139272 - 192.168.0.189"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.1&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.1"/>
+         <property name="deviceModel" value="SM-G965F"/>
+         <property name="hostAddress" value="192.168.0.189"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="2252c030550d7ece"/>
+         <property name="deviceName" value="samsung SM-G965F (Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Tabung/tabung_removeTabung" time="130.033" classname="Test Cases/Tabung/tabung_removeTabung" status="PASSED">
+         <system-out><![CDATA[2022-02-15 15:40:17 - [TEST_CASE][PASSED] - Test Cases/Tabung/tabung_removeTabung: Test Cases/Tabung/tabung_removeTabung
+
+2022-02-15 15:40:17 - [TEST_STEP][PASSED] - startApplication("/Users/a00139272/Katalon Studio/MAE/androidapp/app-sit-universal-release-copy.apk", false): Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-sit-universal-release-copy.apk'
+
+2022-02-15 15:40:17 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-02-15 15:40:17 - [MESSAGE][INFO] - User set preference: ['deviceId', '2252c030550d7ece']
+
+2022-02-15 15:40:18 - [MESSAGE][INFO] - Appium server started on port 62,238
+
+2022-02-15 15:40:30 - [MESSAGE][PASSED] - Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-sit-universal-release-copy.apk'
+
+2022-02-15 15:40:30 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appPackage", "com.maybank2u.life.sit"): null
+
+2022-02-15 15:40:30 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appActivity", "com.maybank2u.life.sit.MainActivity"): null
+
+2022-02-15 15:40:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-15 15:40:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-15 15:40:33 - [TEST_STEP][PASSED] - tapAtPosition(953, 2147): Tapped at [953, 2,147]
+
+2022-02-15 15:40:35 - [MESSAGE][PASSED] - Tapped at [953, 2,147]
+
+2022-02-15 15:40:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Tabung/moreTabungIconSelect"), 0): Element 'Object Repository/Tabung/moreTabungIconSelect' is present
+
+2022-02-15 15:40:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:40:40 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/moreTabungIconSelect' is present
+
+2022-02-15 15:40:40 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/moreTabungIconSelect"), 0): Tapped on element 'Object Repository/Tabung/moreTabungIconSelect'
+
+2022-02-15 15:40:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:40:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/moreTabungIconSelect'
+
+2022-02-15 15:40:43 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): null
+
+2022-02-15 15:40:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:40:43 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainEnterPINMessage' is visible
+
+2022-02-15 15:40:43 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-15 15:40:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:40:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-15 15:40:43 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-15 15:40:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:40:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-15 15:40:45 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-15 15:40:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:40:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-15 15:40:47 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-15 15:40:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:40:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-15 15:40:49 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-15 15:40:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:40:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-15 15:40:51 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN2"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-02-15 15:40:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:40:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-02-15 15:40:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-15 15:40:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-15 15:40:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-15 15:41:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-15 15:41:00 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 1.png"): Screenshot is taken
+
+2022-02-15 15:41:01 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 1.png]]
+
+2022-02-15 15:41:01 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 1.png]]
+
+2022-02-15 15:41:01 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungNameSelection", ["text":"Test Brazil"]), 10): Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-02-15 15:41:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungNameSelection'
+
+2022-02-15 15:41:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-15 15:41:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-15 15:41:05 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 2.png"): Screenshot is taken
+
+2022-02-15 15:41:06 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 2.png]]
+
+2022-02-15 15:41:06 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 2.png]]
+
+2022-02-15 15:41:06 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungThreeDotsBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-02-15 15:41:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:41:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungThreeDotsBtn'
+
+2022-02-15 15:41:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-15 15:41:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-15 15:41:08 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungThreeDtosRemoveBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungThreeDtosRemoveBtn'
+
+2022-02-15 15:41:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:41:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungThreeDtosRemoveBtn'
+
+2022-02-15 15:41:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-15 15:41:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-15 15:41:11 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 3.png"): Screenshot is taken
+
+2022-02-15 15:41:12 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 3.png]]
+
+2022-02-15 15:41:12 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 3.png]]
+
+2022-02-15 15:41:12 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungRemoveConfirmBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungRemoveConfirmBtn'
+
+2022-02-15 15:41:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:41:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungRemoveConfirmBtn'
+
+2022-02-15 15:41:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-15 15:41:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-15 15:41:17 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 4.png"): Screenshot is taken
+
+2022-02-15 15:41:18 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 4.png]]
+
+2022-02-15 15:41:18 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 4.png]]
+
+2022-02-15 15:41:18 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungContinueBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-02-15 15:41:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:41:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungContinueBtn'
+
+2022-02-15 15:41:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-15 15:41:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-15 15:41:21 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Tabung/tabungEnterPasswordTxt"), 0, OPTIONAL)): null
+
+2022-02-15 15:41:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:41:22 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungEnterPasswordTxt' is visible
+
+2022-02-15 15:41:22 - [TEST_STEP][PASSED] - setText(findTestObject("Tabung/tabungSignInInputPasswordField"), Password, 0): Text 'Sanjay@49' has been set to element 'Object Repository/Tabung/tabungSignInInputPasswordField'
+
+2022-02-15 15:41:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:41:24 - [MESSAGE][PASSED] - Text 'Sanjay@49' has been set to element 'Object Repository/Tabung/tabungSignInInputPasswordField'
+
+2022-02-15 15:41:24 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-02-15 15:41:25 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-02-15 15:41:25 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungSignInContinueBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungSignInContinueBtn'
+
+2022-02-15 15:41:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:41:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungSignInContinueBtn'
+
+2022-02-15 15:41:25 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2022-02-15 15:41:40 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2022-02-15 15:41:40 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 5.png"): Screenshot is taken
+
+2022-02-15 15:41:41 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 5.png]]
+
+2022-02-15 15:41:41 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 5.png]]
+
+2022-02-15 15:41:41 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungWithdrawFundBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungWithdrawFundBtn'
+
+2022-02-15 15:41:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:41:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungWithdrawFundBtn'
+
+2022-02-15 15:41:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-15 15:41:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-15 15:41:44 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt"), 0, OPTIONAL)): null
+
+2022-02-15 15:41:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:41:48 - [MESSAGE][PASSED] - Element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' is visible
+
+2022-02-15 15:41:48 - [TEST_STEP][PASSED] - OTP = getText(findTestObject("Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt"), 0): Text of element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' is: 'Your TAC no. is 985196'
+
+2022-02-15 15:41:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:41:49 - [MESSAGE][PASSED] - Text of element 'Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt' is: 'Your TAC no. is 985196'
+
+2022-02-15 15:41:49 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 6.png"): Screenshot is taken
+
+2022-02-15 15:41:49 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 6.png]]
+
+2022-02-15 15:41:49 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 6.png]]
+
+2022-02-15 15:41:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-15 15:41:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-15 15:41:51 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): null
+
+2022-02-15 15:41:51 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-15 15:41:51 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-15 15:41:51 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-15 15:41:51 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-15 15:41:51 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-15 15:41:51 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-15 15:41:51 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-15 15:41:51 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-15 15:41:51 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-15 15:41:51 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-15 15:41:51 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN9"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-15 15:41:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:41:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-15 15:41:52 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-15 15:41:52 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-15 15:41:52 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-15 15:41:52 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-15 15:41:52 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-15 15:41:52 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-15 15:41:52 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-15 15:41:52 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-15 15:41:52 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-02-15 15:41:52 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN8"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-02-15 15:41:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:41:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN8'
+
+2022-02-15 15:41:54 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-15 15:41:54 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-15 15:41:54 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-15 15:41:54 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-15 15:41:54 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-15 15:41:54 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-15 15:41:54 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-02-15 15:41:54 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN5"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-02-15 15:41:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:41:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN5'
+
+2022-02-15 15:41:56 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-15 15:41:56 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-15 15:41:56 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-15 15:41:56 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-15 15:41:56 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-15 15:41:56 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-15 15:41:56 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-15 15:41:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:41:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-15 15:41:58 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN9"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-15 15:41:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:42:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN9'
+
+2022-02-15 15:42:02 - [TEST_STEP][PASSED] - if (OTP[i] == "0"): null
+
+2022-02-15 15:42:02 - [TEST_STEP][PASSED] - if (OTP[i] == "1"): null
+
+2022-02-15 15:42:02 - [TEST_STEP][PASSED] - if (OTP[i] == "2"): null
+
+2022-02-15 15:42:02 - [TEST_STEP][PASSED] - if (OTP[i] == "3"): null
+
+2022-02-15 15:42:02 - [TEST_STEP][PASSED] - if (OTP[i] == "4"): null
+
+2022-02-15 15:42:02 - [TEST_STEP][PASSED] - if (OTP[i] == "5"): null
+
+2022-02-15 15:42:02 - [TEST_STEP][PASSED] - if (OTP[i] == "6"): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-15 15:42:02 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN6"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-15 15:42:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:42:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN6'
+
+2022-02-15 15:42:04 - [TEST_STEP][PASSED] - if (OTP[i] == "7"): null
+
+2022-02-15 15:42:04 - [TEST_STEP][PASSED] - if (OTP[i] == "8"): null
+
+2022-02-15 15:42:04 - [TEST_STEP][PASSED] - if (OTP[i] == "9"): null
+
+2022-02-15 15:42:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-15 15:42:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-15 15:42:07 - [TEST_STEP][PASSED] - tap(findTestObject("Festive Season/festiveReturnAngpaoTickBtn"), 0): Tapped on element 'Object Repository/Festive Season/festiveReturnAngpaoTickBtn'
+
+2022-02-15 15:42:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:42:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Festive Season/festiveReturnAngpaoTickBtn'
+
+2022-02-15 15:42:08 - [TEST_STEP][PASSED] - message = getText(findTestObject("Tabung/tabungRemoveSummaryTransferTxt"), 10): Text of element 'Object Repository/Tabung/tabungRemoveSummaryTransferTxt' is: 'You've successfully removed the Test Brazil Tabung. RM 0.01 has been transferred back into your account.'
+
+2022-02-15 15:42:15 - [MESSAGE][PASSED] - Text of element 'Object Repository/Tabung/tabungRemoveSummaryTransferTxt' is: 'You've successfully removed the Test Brazil Tabung. RM 0.01 has been transferred back into your account.'
+
+2022-02-15 15:42:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-15 15:42:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-15 15:42:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Tabung/tabungRemoveSummaryTransferTxt"), "You've successfully removed the Test Brazil Tabung. RM 0.01 has been transferred back into your account."): Actual text and expected text of test object 'Object Repository/Tabung/tabungRemoveSummaryTransferTxt' are matched.
+
+2022-02-15 15:42:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Tabung/tabungRemoveSummaryTransferTxt' are matched.
+
+2022-02-15 15:42:19 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 7.png"): Screenshot is taken
+
+2022-02-15 15:42:20 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 7.png]]
+
+2022-02-15 15:42:20 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 7.png]]
+
+2022-02-15 15:42:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-02-15 15:42:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:42:20 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-02-15 15:42:20 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-02-15 15:42:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2022-02-15 15:42:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-02-15 15:42:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-15 15:42:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-15 15:42:26 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 8.png"): Screenshot is taken
+
+2022-02-15 15:42:27 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 8.png]]
+
+2022-02-15 15:42:27 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Katalon Studio/Screenshot/s2/Remove1/Screenshot 8.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-15 15:40:16 - [TEST_SUITE][PASSED] - CICS BAU: Test Cases/Tabung/tabung_removeTabung]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

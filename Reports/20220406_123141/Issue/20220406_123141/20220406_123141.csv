@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Issue,,,,2022-04-06 12:31:50,2022-04-06 12:32:14,24.201s,PASSED
+,,,,,,,
+Test Cases/Performance test/Launch,,,,2022-04-06 12:31:50,2022-04-06 12:32:14,23.978s,PASSED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.sit"")",,,,2022-04-06 12:31:51,2022-04-06 12:31:51,0.002s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.MainActivity"")",,,,2022-04-06 12:31:51,2022-04-06 12:31:51,0.000s,PASSED
+if (isApplicationOpened == false),,,,2022-04-06 12:31:51,2022-04-06 12:32:06,15.472s,PASSED
+start = System.currentTimeMillis(),,,,2022-04-06 12:32:06,2022-04-06 12:32:06,0.001s,PASSED
+"verifyElementVisible(findTestObject(""Dashboard/dashboardWalletTopSelect""), 20)",,,,2022-04-06 12:32:06,2022-04-06 12:32:12,5.515s,PASSED
+end = System.currentTimeMillis(),,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.001s,PASSED
+loadintime = end - start,,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.000s,PASSED
+newLoad = MILLISECONDS.toSeconds(loadintime),,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.004s,PASSED
+manu = getDeviceManufacturer(),,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.009s,PASSED
+os = getDeviceOS(),,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.007s,PASSED
+osVersion = getDeviceOSVersion(),,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.007s,PASSED
+println(manu),,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.003s,PASSED
+println(os),,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.000s,PASSED
+println(osVersion),,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.002s,PASSED
+test = dataFolder,,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.000s,PASSED
+"sheetName = ""Sheet1""",,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.001s,PASSED
+file1 = new java.io.File(test),,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.000s,PASSED
+assert file1.exists() == true,,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.001s,PASSED
+woorkbook1 = getWorkbook(test),,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.474s,PASSED
+"sheet1 = getExcelSheet(woorkbook1, sheetName)",,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.001s,PASSED
+"setValueToCellByIndex(sheet1, 0, 0, manu)",,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.006s,PASSED
+"setValueToCellByIndex(sheet1, 0, 1, os)",,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.001s,PASSED
+"setValueToCellByIndex(sheet1, 0, 2, osVersion)",,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.000s,PASSED
+"setValueToCellByIndex(sheet1, 0, 3, newLoad)",,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.000s,PASSED
+"saveWorkbook(test, woorkbook1)",,,,2022-04-06 12:32:12,2022-04-06 12:32:12,0.089s,PASSED
+device_Height = getDeviceHeight(),,,,2022-04-06 12:32:12,2022-04-06 12:32:13,0.183s,PASSED
+device_Width = getDeviceWidth(),,,,2022-04-06 12:32:13,2022-04-06 12:32:13,0.131s,PASSED
+startX = device_Width / 3,,,,2022-04-06 12:32:13,2022-04-06 12:32:13,0.001s,PASSED
+startY = device_Height * 0.97,,,,2022-04-06 12:32:13,2022-04-06 12:32:13,0.001s,PASSED
+"tapAtPosition(startX, startY)",,,,2022-04-06 12:32:13,2022-04-06 12:32:13,0.221s,PASSED
+start1 = System.currentTimeMillis(),,,,2022-04-06 12:32:13,2022-04-06 12:32:13,0.001s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL)",,,,2022-04-06 12:32:13,2022-04-06 12:32:14,1.484s,PASSED
+end1 = System.currentTimeMillis(),,,,2022-04-06 12:32:14,2022-04-06 12:32:14,0.000s,PASSED
+loadintime1 = end1 - start1,,,,2022-04-06 12:32:14,2022-04-06 12:32:14,0.000s,PASSED
+newLoad1 = MILLISECONDS.toSeconds(loadintime1),,,,2022-04-06 12:32:14,2022-04-06 12:32:14,0.001s,PASSED
+"setValueToCellByIndex(sheet1, 0, 4, newLoad1)",,,,2022-04-06 12:32:14,2022-04-06 12:32:14,0.001s,PASSED
+"saveWorkbook(test, woorkbook1)",,,,2022-04-06 12:32:14,2022-04-06 12:32:14,0.023s,PASSED

@@ -1,0 +1,333 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regress 1,,,,2022-03-04 07:49:07,2022-03-04 08:05:56,16m - 48.732s,PASSED
+,,,,,,,
+Test Cases/Login Onboard/onboard_onboardIntoMAE,,,,2022-03-04 07:49:07,2022-03-04 07:51:50,2m - 43.461s,PASSED
+"startApplication(appPath, false)",,,,2022-03-04 07:49:07,2022-03-04 07:50:01,53.634s,PASSED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.dev"")",,,,2022-03-04 07:50:01,2022-03-04 07:50:01,0.001s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.MainActivity"")",,,,2022-03-04 07:50:01,2022-03-04 07:50:01,0.000s,PASSED
+"if (verifyElementVisible(findTestObject(""Login Onboarding/onboardWelcomeSkipBtn""), 0, OPTIONAL))",,,,2022-03-04 07:50:01,2022-03-04 07:50:06,5.233s,PASSED
+"tap(findTestObject(""Dashboard/dashboardSetUpWalletIcon""), 0)",,,,2022-03-04 07:50:06,2022-03-04 07:50:11,5.059s,PASSED
+"tap(findTestObject(""Login Onboarding/getStartedExistingUserBtn""), 0)",,,,2022-03-04 07:50:11,2022-03-04 07:50:13,1.564s,PASSED
+"setText(findTestObject(""Login Onboarding/loginExistingUsernameInputField""), Username, 0)",,,,2022-03-04 07:50:13,2022-03-04 07:50:14,0.788s,PASSED
+hideKeyboard(),,,,2022-03-04 07:50:14,2022-03-04 07:50:15,1.687s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 07:50:15,2022-03-04 07:50:16,0.276s,PASSED
+"waitForElementPresent(findTestObject(""Login Onboarding/loginExistingMineConfirmationBtn""), 50)",,,,2022-03-04 07:50:16,2022-03-04 07:50:17,1.580s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingMineConfirmationBtn""), 0)",,,,2022-03-04 07:50:17,2022-03-04 07:50:18,0.287s,PASSED
+"setText(findTestObject(""Login Onboarding/loginPasswordInputField""), Password, 0)",,,,2022-03-04 07:50:18,2022-03-04 07:50:20,2.154s,PASSED
+hideKeyboard(),,,,2022-03-04 07:50:20,2022-03-04 07:50:24,3.826s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 07:50:24,2022-03-04 07:50:24,0.477s,PASSED
+"if (verifyElementVisible(findTestObject(""Login Onboarding/Proceed""), 3, OPTIONAL))",,,,2022-03-04 07:50:24,2022-03-04 07:50:27,3.130s,PASSED
+else,,,,2022-03-04 07:50:27,2022-03-04 07:50:27,0.000s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 07:50:27,2022-03-04 07:50:37,9.465s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 07:50:37,2022-03-04 07:50:38,1.802s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 07:50:38,2022-03-04 07:50:40,2.036s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 07:50:40,2022-03-04 07:50:42,1.933s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 07:50:42,2022-03-04 07:50:44,1.865s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN2""), 0)",,,,2022-03-04 07:50:44,2022-03-04 07:50:46,1.850s,PASSED
+"tap(findTestObject(""Login Onboarding/loginPinTickBtn""), 0)",,,,2022-03-04 07:50:46,2022-03-04 07:50:48,1.817s,PASSED
+delay(2),,,,2022-03-04 07:50:48,2022-03-04 07:50:50,2.018s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 07:50:50,2022-03-04 07:50:50,0.369s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 07:50:50,2022-03-04 07:50:52,1.867s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 07:50:52,2022-03-04 07:50:54,1.852s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 07:50:54,2022-03-04 07:50:56,1.833s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 07:50:56,2022-03-04 07:50:58,1.922s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN2""), 0)",,,,2022-03-04 07:50:58,2022-03-04 07:51:00,2.586s,PASSED
+delay(2),,,,2022-03-04 07:51:00,2022-03-04 07:51:02,2.004s,PASSED
+"tap(findTestObject(""Login Onboarding/loginPinTickBtn""), 0)",,,,2022-03-04 07:51:02,2022-03-04 07:51:03,0.447s,PASSED
+"tap(findTestObject(""Login Onboarding/loginTouchIDSetUpLaterBtn""), 0)",,,,2022-03-04 07:51:03,2022-03-04 07:51:06,3.191s,PASSED
+"tap(findTestObject(""Login Onboarding/loginVerifyNumberYesProceedBtn""), 0)",,,,2022-03-04 07:51:06,2022-03-04 07:51:06,0.428s,PASSED
+"OTP = getText(findTestObject(""Login Onboarding/secureGetOTPTxt""), 0)",,,,2022-03-04 07:51:06,2022-03-04 07:51:10,3.035s,PASSED
+"for ([i = 16, i <= 21, (i++)])",,,,2022-03-04 07:51:10,2022-03-04 07:51:22,12.064s,PASSED
+delay(3),,,,2022-03-04 07:51:22,2022-03-04 07:51:25,3.004s,PASSED
+"tap(findTestObject(""Login Onboarding/TickOTP""), 0)",,,,2022-03-04 07:51:25,2022-03-04 07:51:26,0.980s,PASSED
+"setText(findTestObject(""Login Onboarding/onboardNameInputField""), ""Amir"", 0)",,,,2022-03-04 07:51:26,2022-03-04 07:51:30,4.578s,PASSED
+hideKeyboard(),,,,2022-03-04 07:51:30,2022-03-04 07:51:31,0.821s,PASSED
+delay(2),,,,2022-03-04 07:51:31,2022-03-04 07:51:33,2.006s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 07:51:33,2022-03-04 07:51:33,0.432s,PASSED
+delay(2),,,,2022-03-04 07:51:33,2022-03-04 07:51:35,2.002s,PASSED
+driver = getDriver(),,,,2022-03-04 07:51:35,2022-03-04 07:51:35,0.001s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 07:51:35,2022-03-04 07:51:37,1.949s,PASSED
+"tap(findTestObject(""Login Onboarding/onboardReferSkipBtn""), 0)",,,,2022-03-04 07:51:37,2022-03-04 07:51:43,5.669s,PASSED
+delay(2),,,,2022-03-04 07:51:43,2022-03-04 07:51:45,2.004s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 07:51:45,2022-03-04 07:51:45,0.467s,PASSED
+delay(5),,,,2022-03-04 07:51:45,2022-03-04 07:51:50,5.004s,PASSED
+,,,,,,,
+Test Cases/Settings/settings_secure2uRegistration,,,,2022-03-04 07:51:51,2022-03-04 07:53:04,1m - 13.497s,PASSED
+delay(3),,,,2022-03-04 07:51:51,2022-03-04 07:51:54,3.002s,PASSED
+"if (getDeviceManufacturer() == ""samsung"")",,,,2022-03-04 07:51:54,2022-03-04 07:51:54,0.008s,PASSED
+else,,,,2022-03-04 07:51:54,2022-03-04 07:51:54,0.213s,PASSED
+"tap(findTestObject(""Main/mainSettingsBtn""), 0)",,,,2022-03-04 07:51:54,2022-03-04 07:51:57,2.664s,PASSED
+"tap(findTestObject(""Settings/settingsMaybank2UBtn""), 0)",,,,2022-03-04 07:51:57,2022-03-04 07:51:59,1.938s,PASSED
+"if (verifyElementVisible(findTestObject(""Login Onboarding/loginEnterPasswordMessage""), 0, OPTIONAL))",,,,2022-03-04 07:51:59,2022-03-04 07:52:19,20.181s,PASSED
+"tap(findTestObject(""Settings/settingS2UToggle""), 0)",,,,2022-03-04 07:52:19,2022-03-04 07:52:19,0.412s,PASSED
+"tap(findTestObject(""Banking/s2UActivateNowBtn""), 0)",,,,2022-03-04 07:52:19,2022-03-04 07:52:20,1.266s,PASSED
+"tap(findTestObject(""Banking/s2UConfirmBtn""), 0)",,,,2022-03-04 07:52:20,2022-03-04 07:52:23,2.886s,PASSED
+"OTP = getText(findTestObject(""Login Onboarding/secureGetOTPTxt""), 0)",,,,2022-03-04 07:52:23,2022-03-04 07:52:28,4.215s,PASSED
+"for ([i = 16, i <= 21, (i++)])",,,,2022-03-04 07:52:28,2022-03-04 07:52:40,12.065s,PASSED
+delay(3),,,,2022-03-04 07:52:40,2022-03-04 07:52:43,3.006s,PASSED
+"tap(findTestObject(""Login Onboarding/TickOTP""), 0)",,,,2022-03-04 07:52:43,2022-03-04 07:52:44,0.964s,PASSED
+"setText(findTestObject(""Banking/s2UIDNumberInputField""), S2U_ID, 0)",,,,2022-03-04 07:52:44,2022-03-04 07:52:48,4.084s,PASSED
+hideKeyboard(),,,,2022-03-04 07:52:48,2022-03-04 07:52:50,2.205s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 07:52:50,2022-03-04 07:52:50,0.347s,PASSED
+delay(3),,,,2022-03-04 07:52:50,2022-03-04 07:52:53,3.003s,PASSED
+hideKeyboard(),,,,2022-03-04 07:52:53,2022-03-04 07:52:55,1.783s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 07:52:55,2022-03-04 07:52:55,0.352s,PASSED
+delay(3),,,,2022-03-04 07:52:55,2022-03-04 07:52:58,3.003s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 07:52:58,2022-03-04 07:53:01,2.653s,PASSED
+delay(3),,,,2022-03-04 07:53:01,2022-03-04 07:53:04,3.006s,PASSED
+,,,,,,,
+Test Cases/PayBill/payBills_todayTransaction,,,,2022-03-04 07:53:04,2022-03-04 07:55:01,1m - 57.050s,PASSED
+delay(5),,,,2022-03-04 07:53:04,2022-03-04 07:53:09,5.006s,PASSED
+"if (getDeviceManufacturer() == ""samsung"")",,,,2022-03-04 07:53:09,2022-03-04 07:53:09,0.002s,PASSED
+else,,,,2022-03-04 07:53:09,2022-03-04 07:53:10,0.208s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-03-04 07:53:10,2022-03-04 07:53:30,20.144s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTypeSelection"", [""text"":""MAE""]), 10)",,,,2022-03-04 07:53:30,2022-03-04 07:53:34,3.746s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-03-04 07:53:34,2022-03-04 07:53:36,2.138s,PASSED
+"if (verifyElementVisible(findTestObject(""Login Onboarding/loginEnterPasswordMessage""), 0, OPTIONAL))",,,,2022-03-04 07:53:36,2022-03-04 07:53:56,20.055s,PASSED
+"waitForElementPresent(findTestObject(""Paybill/payBillsIconSelect""), 0)",,,,2022-03-04 07:53:56,2022-03-04 07:53:56,0.133s,PASSED
+"tap(findTestObject(""Paybill/payBillsIconSelect""), 0)",,,,2022-03-04 07:53:56,2022-03-04 07:53:56,0.295s,PASSED
+"tap(findTestObject(""Paybill/payBillSearchBillerInputField""), 0)",,,,2022-03-04 07:53:56,2022-03-04 07:54:01,4.576s,PASSED
+"setText(findTestObject(""Paybill/payBillBillerNameInputField""), ""Maxis"", 0)",,,,2022-03-04 07:54:01,2022-03-04 07:54:02,0.841s,PASSED
+delay(3),,,,2022-03-04 07:54:02,2022-03-04 07:54:05,3.004s,PASSED
+"tap(findTestObject(""Paybill/payBillBillerSelect"", [""text"":""Maxis Mobile Sdn Bhd""]), 10)",,,,2022-03-04 07:54:05,2022-03-04 07:54:05,0.322s,PASSED
+"tap(findTestObject(""Paybill/payBillBillerSelect"", [""text"":""Maxis Mobile Sdn Bhd""]), 10)",,,,2022-03-04 07:54:05,2022-03-04 07:54:06,0.968s,PASSED
+"setText(findTestObject(""Paybill/PayBillAccountNumberInputField""), AccountNo, 0)",,,,2022-03-04 07:54:06,2022-03-04 07:54:08,2.274s,PASSED
+hideKeyboard(),,,,2022-03-04 07:54:08,2022-03-04 07:54:11,2.769s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 07:54:11,2022-03-04 07:54:11,0.411s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 07:54:11,2022-03-04 07:54:13,2.034s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-03-04 07:54:13,2022-03-04 07:54:14,0.380s,PASSED
+delay(3),,,,2022-03-04 07:54:14,2022-03-04 07:54:17,3.005s,PASSED
+"tap(findTestObject(""Main/mainAmountTickBtn""), 0)",,,,2022-03-04 07:54:17,2022-03-04 07:54:17,0.448s,PASSED
+delay(5),,,,2022-03-04 07:54:17,2022-03-04 07:54:22,5.003s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainPayNowBtn""), 5)",,,,2022-03-04 07:54:22,2022-03-04 07:54:23,0.298s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-03-04 07:54:23,2022-03-04 07:54:23,0.419s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-03-04 07:54:23,2022-03-04 07:54:43,20.130s,PASSED
+else,,,,2022-03-04 07:54:43,2022-03-04 07:54:49,5.500s,PASSED
+"message = getText(findTestObject(""Main/mainTransactionStatusMessageTxt""), 10)",,,,2022-03-04 07:54:49,2022-03-04 07:54:55,6.892s,PASSED
+println(message),,,,2022-03-04 07:54:55,2022-03-04 07:54:55,0.003s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 07:54:55,2022-03-04 07:54:56,0.218s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 07:54:56,2022-03-04 07:54:56,0.341s,PASSED
+delay(5),,,,2022-03-04 07:54:56,2022-03-04 07:55:01,5.005s,PASSED
+,,,,,,,
+Test Cases/PayBill/payBills_scheduleTransaction,,,,2022-03-04 07:55:01,2022-03-04 07:56:19,1m - 18.247s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-03-04 07:55:01,2022-03-04 07:55:04,2.481s,PASSED
+"tap(findTestObject(""Paybill/payBillsIconSelect""), 0)",,,,2022-03-04 07:55:04,2022-03-04 07:55:05,1.036s,PASSED
+"tap(findTestObject(""Paybill/payBillSearchBillerInputField""), 0)",,,,2022-03-04 07:55:05,2022-03-04 07:55:08,3.152s,PASSED
+"setText(findTestObject(""Paybill/payBillBillerNameInputField""), ""Maxis"", 0)",,,,2022-03-04 07:55:08,2022-03-04 07:55:10,1.893s,PASSED
+hideKeyboard(),,,,2022-03-04 07:55:10,2022-03-04 07:55:12,2.519s,PASSED
+delay(3),,,,2022-03-04 07:55:12,2022-03-04 07:55:15,3.006s,PASSED
+"tap(findTestObject(""Paybill/payBillBillerSelect"", [""text"":""Maxis Mobile Sdn Bhd""]), 10)",,,,2022-03-04 07:55:15,2022-03-04 07:55:16,0.438s,PASSED
+"tap(findTestObject(""Paybill/payBillBillerSelect"", [""text"":""Maxis Mobile Sdn Bhd""]), 10)",,,,2022-03-04 07:55:16,2022-03-04 07:55:17,0.884s,PASSED
+"setText(findTestObject(""Paybill/PayBillAccountNumberInputField""), ""1544054651"", 0)",,,,2022-03-04 07:55:17,2022-03-04 07:55:19,2.116s,PASSED
+hideKeyboard(),,,,2022-03-04 07:55:19,2022-03-04 07:55:21,1.853s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 07:55:21,2022-03-04 07:55:21,0.362s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 07:55:21,2022-03-04 07:55:23,1.988s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-03-04 07:55:23,2022-03-04 07:55:23,0.365s,PASSED
+delay(3),,,,2022-03-04 07:55:23,2022-03-04 07:55:26,3.005s,PASSED
+"tap(findTestObject(""Main/mainAmountTickBtn""), 0)",,,,2022-03-04 07:55:26,2022-03-04 07:55:27,0.571s,PASSED
+"tap(findTestObject(""Main/mainDatePickerTodaySelect""), 0)",,,,2022-03-04 07:55:27,2022-03-04 07:55:30,3.003s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerNextBtn""), 0)",,,,2022-03-04 07:55:30,2022-03-04 07:55:33,2.586s,PASSED
+delay(3),,,,2022-03-04 07:55:33,2022-03-04 07:55:36,3.007s,PASSED
+"tap(findTestObject(""Main/mainDatePicker1""), 0)",,,,2022-03-04 07:55:36,2022-03-04 07:55:36,0.513s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-04 07:55:36,2022-03-04 07:55:37,0.644s,PASSED
+"date = getText(findTestObject(""Main/mainGetTransactionDateTxt""), 10)",,,,2022-03-04 07:55:37,2022-03-04 07:55:37,0.776s,PASSED
+"println(""Date is "" + date)",,,,2022-03-04 07:55:37,2022-03-04 07:55:37,0.000s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-03-04 07:55:37,2022-03-04 07:55:38,0.510s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-03-04 07:55:38,2022-03-04 07:55:58,20.122s,PASSED
+else,,,,2022-03-04 07:55:58,2022-03-04 07:56:04,5.486s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 07:56:04,2022-03-04 07:56:07,3.522s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 07:56:07,2022-03-04 07:56:09,2.169s,PASSED
+delay(10),,,,2022-03-04 07:56:09,2022-03-04 07:56:19,10.004s,PASSED
+,,,,,,,
+Test Cases/JomPay/jomPay_todayTransaction,,,,2022-03-04 07:56:19,2022-03-04 07:57:41,1m - 21.900s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTypeSelection"", [""text"":""MAE""]), 10)",,,,2022-03-04 07:56:20,2022-03-04 07:56:21,1.526s,PASSED
+delay(5),,,,2022-03-04 07:56:21,2022-03-04 07:56:26,5.006s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-03-04 07:56:26,2022-03-04 07:56:29,2.688s,PASSED
+delay(10),,,,2022-03-04 07:56:29,2022-03-04 07:56:39,10.003s,PASSED
+"println(""JOMPAY OFF US"")",,,,2022-03-04 07:56:39,2022-03-04 07:56:39,0.001s,PASSED
+"tap(findTestObject(""JomPay/payBillsJomPayTopMenuSelect""), 0)",,,,2022-03-04 07:56:39,2022-03-04 07:56:39,0.487s,PASSED
+"tap(findTestObject(""JomPay/jomPayIconSelect""), 0)",,,,2022-03-04 07:56:39,2022-03-04 07:56:40,0.899s,PASSED
+"setText(findTestObject(""JomPay/jomPayBillerInputField""), ""1123"", 0)",,,,2022-03-04 07:56:40,2022-03-04 07:56:42,1.735s,PASSED
+"setText(findTestObject(""JomPay/jomPayBillerRefInputField""), ""568964"", 0)",,,,2022-03-04 07:56:42,2022-03-04 07:56:43,1.291s,PASSED
+hideKeyboard(),,,,2022-03-04 07:56:43,2022-03-04 07:56:44,0.789s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 07:56:44,2022-03-04 07:56:44,0.392s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 07:56:44,2022-03-04 07:56:48,4.102s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-03-04 07:56:48,2022-03-04 07:56:49,0.414s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-03-04 07:56:49,2022-03-04 07:56:49,0.384s,PASSED
+delay(5),,,,2022-03-04 07:56:49,2022-03-04 07:56:54,5.002s,PASSED
+"tap(findTestObject(""JomPay/jomPayAmountTickBtn""), 0)",,,,2022-03-04 07:56:54,2022-03-04 07:56:55,0.367s,PASSED
+delay(5),,,,2022-03-04 07:56:55,2022-03-04 07:57:00,5.003s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-03-04 07:57:00,2022-03-04 07:57:01,1.454s,PASSED
+delay(3),,,,2022-03-04 07:57:01,2022-03-04 07:57:04,3.005s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-03-04 07:57:04,2022-03-04 07:57:24,20.104s,PASSED
+else,,,,2022-03-04 07:57:24,2022-03-04 07:57:30,5.475s,PASSED
+delay(5),,,,2022-03-04 07:57:30,2022-03-04 07:57:35,5.005s,PASSED
+"verifyElementText(findTestObject(""JomPay/jomPaySummarySuccesfulTxt""), ""Payment successful"")",,,,2022-03-04 07:57:35,2022-03-04 07:57:36,1.014s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 07:57:36,2022-03-04 07:57:36,0.194s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 07:57:36,2022-03-04 07:57:36,0.356s,PASSED
+delay(5),,,,2022-03-04 07:57:36,2022-03-04 07:57:41,5.004s,PASSED
+,,,,,,,
+Test Cases/JomPay/jomPay_scheduleTransaction,,,,2022-03-04 07:57:41,2022-03-04 07:59:39,1m - 57.632s,PASSED
+delay(5),,,,2022-03-04 07:57:41,2022-03-04 07:57:46,5.003s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-03-04 07:57:46,2022-03-04 07:58:07,20.088s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-03-04 07:58:07,2022-03-04 07:58:09,2.338s,PASSED
+"if (verifyElementVisible(findTestObject(""Paybill/payBillsEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-03-04 07:58:09,2022-03-04 07:58:29,20.096s,PASSED
+"println(""JOMPAY Future Transaction"")",,,,2022-03-04 07:58:29,2022-03-04 07:58:29,0.001s,PASSED
+"tap(findTestObject(""JomPay/payBillsJomPayTopMenuSelect""), 0)",,,,2022-03-04 07:58:29,2022-03-04 07:58:29,0.469s,PASSED
+"tap(findTestObject(""JomPay/jomPayIconSelect""), 0)",,,,2022-03-04 07:58:29,2022-03-04 07:58:30,1.049s,PASSED
+"setText(findTestObject(""JomPay/jomPayBillerInputField""), ""9639"", 0)",,,,2022-03-04 07:58:30,2022-03-04 07:58:32,1.713s,PASSED
+"setText(findTestObject(""JomPay/jomPayBillerRefInputField""), ""0816101607"", 0)",,,,2022-03-04 07:58:32,2022-03-04 07:58:33,1.287s,PASSED
+hideKeyboard(),,,,2022-03-04 07:58:33,2022-03-04 07:58:34,0.740s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 07:58:34,2022-03-04 07:58:35,0.419s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 07:58:35,2022-03-04 07:58:39,4.122s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-03-04 07:58:39,2022-03-04 07:58:39,0.428s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-03-04 07:58:39,2022-03-04 07:58:40,0.448s,PASSED
+"tap(findTestObject(""JomPay/jomPayAmountTickBtn""), 0)",,,,2022-03-04 07:58:40,2022-03-04 07:58:40,0.385s,PASSED
+"tap(findTestObject(""Main/mainDatePickerTodaySelect""), 0)",,,,2022-03-04 07:58:40,2022-03-04 07:58:47,7.088s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerNextBtn""), 0)",,,,2022-03-04 07:58:47,2022-03-04 07:58:49,1.919s,PASSED
+delay(3),,,,2022-03-04 07:58:49,2022-03-04 07:58:52,3.003s,PASSED
+"tap(findTestObject(""Main/mainDatePicker1""), 0)",,,,2022-03-04 07:58:52,2022-03-04 07:58:53,0.550s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-04 07:58:53,2022-03-04 07:58:53,0.684s,PASSED
+delay(3),,,,2022-03-04 07:58:53,2022-03-04 07:58:56,3.004s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-03-04 07:58:56,2022-03-04 07:58:57,0.530s,PASSED
+delay(5),,,,2022-03-04 07:58:57,2022-03-04 07:59:02,5.003s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-03-04 07:59:02,2022-03-04 07:59:22,20.099s,PASSED
+else,,,,2022-03-04 07:59:22,2022-03-04 07:59:27,5.465s,PASSED
+delay(3),,,,2022-03-04 07:59:27,2022-03-04 07:59:30,3.005s,PASSED
+"verifyElementText(findTestObject(""JomPay/jomPaySummaryScheduledTxt""), ""Payment scheduled"")",,,,2022-03-04 07:59:30,2022-03-04 07:59:33,2.874s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 07:59:33,2022-03-04 07:59:33,0.234s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 07:59:33,2022-03-04 07:59:34,0.341s,PASSED
+delay(5),,,,2022-03-04 07:59:34,2022-03-04 07:59:39,5.003s,PASSED
+,,,,,,,
+Test Cases/JomPay/JomPay Add Favorite,,,,2022-03-04 07:59:39,2022-03-04 08:01:11,1m - 32.231s,PASSED
+delay(5),,,,2022-03-04 07:59:39,2022-03-04 07:59:44,5.002s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-03-04 07:59:44,2022-03-04 07:59:46,2.416s,PASSED
+delay(10),,,,2022-03-04 07:59:46,2022-03-04 07:59:56,10.007s,PASSED
+"tap(findTestObject(""JomPay/payBillsJomPayTopMenuSelect""), 0)",,,,2022-03-04 07:59:56,2022-03-04 07:59:57,0.523s,PASSED
+"tap(findTestObject(""JomPay/jomPayIconSelect""), 0)",,,,2022-03-04 07:59:57,2022-03-04 07:59:58,0.866s,PASSED
+"setText(findTestObject(""JomPay/jomPayBillerInputField""), ""9639"", 0)",,,,2022-03-04 07:59:58,2022-03-04 08:00:00,1.743s,PASSED
+"println(""JOMPAY ON US"")",,,,2022-03-04 08:00:00,2022-03-04 08:00:00,0.000s,PASSED
+"setText(findTestObject(""JomPay/jomPayBillerRefInputField""), ""0816101607"", 0)",,,,2022-03-04 08:00:00,2022-03-04 08:00:01,1.312s,PASSED
+hideKeyboard(),,,,2022-03-04 08:00:01,2022-03-04 08:00:02,0.749s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 08:00:02,2022-03-04 08:00:02,0.416s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 08:00:02,2022-03-04 08:00:06,4.023s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-03-04 08:00:06,2022-03-04 08:00:07,0.411s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-03-04 08:00:07,2022-03-04 08:00:07,0.433s,PASSED
+"tap(findTestObject(""JomPay/jomPayAmountTickBtn""), 0)",,,,2022-03-04 08:00:07,2022-03-04 08:00:07,0.369s,PASSED
+delay(10),,,,2022-03-04 08:00:07,2022-03-04 08:00:17,10.005s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-03-04 08:00:17,2022-03-04 08:00:18,0.542s,PASSED
+delay(3),,,,2022-03-04 08:00:18,2022-03-04 08:00:21,3.002s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-03-04 08:00:21,2022-03-04 08:00:41,20.056s,PASSED
+else,,,,2022-03-04 08:00:41,2022-03-04 08:00:46,5.481s,PASSED
+delay(3),,,,2022-03-04 08:00:46,2022-03-04 08:00:49,3.007s,PASSED
+"verifyElementText(findTestObject(""JomPay/jomPaySummarySuccesfulTxt""), ""Payment successful"")",,,,2022-03-04 08:00:49,2022-03-04 08:00:52,2.480s,PASSED
+"tap(findTestObject(""Main/mainAddToFavBtn""), 0)",,,,2022-03-04 08:00:52,2022-03-04 08:00:52,0.333s,PASSED
+delay(5),,,,2022-03-04 08:00:52,2022-03-04 08:00:57,5.005s,PASSED
+"tap(findTestObject(""Main/mainAddToFavBtn""), 0)",,,,2022-03-04 08:00:57,2022-03-04 08:00:58,0.384s,PASSED
+delay(2),,,,2022-03-04 08:00:58,2022-03-04 08:01:00,2.006s,PASSED
+"tap(findTestObject(""Main/mainCloseFavPopUpBtn""), 0)",,,,2022-03-04 08:01:00,2022-03-04 08:01:03,3.797s,PASSED
+delay(2),,,,2022-03-04 08:01:03,2022-03-04 08:01:05,2.006s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:01:05,2022-03-04 08:01:06,0.275s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:01:06,2022-03-04 08:01:06,0.371s,PASSED
+delay(5),,,,2022-03-04 08:01:06,2022-03-04 08:01:11,5.007s,PASSED
+,,,,,,,
+Test Cases/JomPay/JomPay Favorite Transaction,,,,2022-03-04 08:01:11,2022-03-04 08:02:02,51.376s,PASSED
+delay(5),,,,2022-03-04 08:01:11,2022-03-04 08:01:16,5.006s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-03-04 08:01:16,2022-03-04 08:01:19,2.304s,PASSED
+"if (verifyElementVisible(findTestObject(""Paybill/payBillsEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-03-04 08:01:19,2022-03-04 08:01:39,20.087s,PASSED
+"println(""JOMPAY Fav Transaction"")",,,,2022-03-04 08:01:39,2022-03-04 08:01:39,0.000s,PASSED
+"tap(findTestObject(""JomPay/payBillsJomPayTopMenuSelect""), 0)",,,,2022-03-04 08:01:39,2022-03-04 08:01:39,0.368s,PASSED
+"tap(findTestObject(""Main/mainFavBodySelect""), 0)",,,,2022-03-04 08:01:39,2022-03-04 08:01:40,1.034s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 08:01:40,2022-03-04 08:01:42,1.936s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-03-04 08:01:42,2022-03-04 08:01:42,0.398s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-03-04 08:01:42,2022-03-04 08:01:43,0.468s,PASSED
+"tap(findTestObject(""JomPay/jomPayAmountTickBtn""), 0)",,,,2022-03-04 08:01:43,2022-03-04 08:01:43,0.349s,PASSED
+delay(5),,,,2022-03-04 08:01:43,2022-03-04 08:01:48,5.006s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-03-04 08:01:48,2022-03-04 08:01:50,2.136s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:01:50,2022-03-04 08:01:56,5.156s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:01:56,2022-03-04 08:01:57,1.929s,PASSED
+delay(5),,,,2022-03-04 08:01:57,2022-03-04 08:02:02,5.005s,PASSED
+,,,,,,,
+Test Cases/Zakat/zakat_zakatPayment,,,,2022-03-04 08:02:02,2022-03-04 08:04:01,1m - 58.868s,PASSED
+delay(5),,,,2022-03-04 08:02:03,2022-03-04 08:02:08,5.007s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-03-04 08:02:08,2022-03-04 08:02:28,20.045s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-03-04 08:02:28,2022-03-04 08:02:30,2.455s,PASSED
+"if (verifyElementVisible(findTestObject(""Paybill/payBillsEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-03-04 08:02:30,2022-03-04 08:02:50,20.144s,PASSED
+"tap(findTestObject(""zakat/payBillZakatTopMenuSelect""), 0)",,,,2022-03-04 08:02:50,2022-03-04 08:02:51,0.407s,PASSED
+delay(2),,,,2022-03-04 08:02:51,2022-03-04 08:02:53,2.002s,PASSED
+"tap(findTestObject(""zakat/zakatIconSelect""), 0)",,,,2022-03-04 08:02:53,2022-03-04 08:02:54,0.868s,PASSED
+delay(2),,,,2022-03-04 08:02:54,2022-03-04 08:02:56,2.002s,PASSED
+"tap(findTestObject(""zakat/zakatBodyDropdownSelectBoxx""), 0)",,,,2022-03-04 08:02:56,2022-03-04 08:02:56,0.432s,PASSED
+"tap(findTestObject(""zakat/zakatBaitulmalPerlisDropdownSelect""), 0)",,,,2022-03-04 08:02:56,2022-03-04 08:02:57,1.250s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-04 08:02:57,2022-03-04 08:02:58,0.268s,PASSED
+delay(3),,,,2022-03-04 08:02:58,2022-03-04 08:03:01,3.005s,PASSED
+"tap(findTestObject(""zakat/zakatTypeDropdownSelectBox""), 0)",,,,2022-03-04 08:03:01,2022-03-04 08:03:01,0.381s,PASSED
+"tap(findTestObject(""zakat/zakatTypeZakatEmasDropdownSelect""), 0)",,,,2022-03-04 08:03:01,2022-03-04 08:03:02,1.451s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-04 08:03:02,2022-03-04 08:03:03,0.249s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 08:03:03,2022-03-04 08:03:03,0.835s,PASSED
+"setText(findTestObject(""zakat/zakatMobileNoInputField""), ""181610161"", 0)",,,,2022-03-04 08:03:03,2022-03-04 08:03:06,2.062s,PASSED
+hideKeyboard(),,,,2022-03-04 08:03:06,2022-03-04 08:03:10,4.355s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 08:03:10,2022-03-04 08:03:10,0.388s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 08:03:10,2022-03-04 08:03:12,2.033s,PASSED
+"tap(findTestObject(""zakat/zakatAmountTickBtn""), 0)",,,,2022-03-04 08:03:12,2022-03-04 08:03:13,0.301s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-03-04 08:03:13,2022-03-04 08:03:16,3.670s,PASSED
+delay(3),,,,2022-03-04 08:03:16,2022-03-04 08:03:19,3.004s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-03-04 08:03:19,2022-03-04 08:03:39,20.182s,PASSED
+else,,,,2022-03-04 08:03:39,2022-03-04 08:03:45,5.403s,PASSED
+delay(5),,,,2022-03-04 08:03:45,2022-03-04 08:03:50,5.006s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:03:50,2022-03-04 08:03:56,6.033s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:03:56,2022-03-04 08:03:56,0.419s,PASSED
+delay(5),,,,2022-03-04 08:03:56,2022-03-04 08:04:01,5.001s,PASSED
+,,,,,,,
+Test Cases/Zakat/zakat_zakatPaymentAddFavorite,,,,2022-03-04 08:04:01,2022-03-04 08:05:23,1m - 21.738s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-03-04 08:04:02,2022-03-04 08:04:04,2.379s,PASSED
+"tap(findTestObject(""zakat/payBillZakatTopMenuSelect""), 0)",,,,2022-03-04 08:04:04,2022-03-04 08:04:10,6.100s,PASSED
+delay(2),,,,2022-03-04 08:04:10,2022-03-04 08:04:12,2.002s,PASSED
+"tap(findTestObject(""zakat/zakatIconSelect""), 0)",,,,2022-03-04 08:04:12,2022-03-04 08:04:13,0.700s,PASSED
+delay(2),,,,2022-03-04 08:04:13,2022-03-04 08:04:15,2.004s,PASSED
+"tap(findTestObject(""zakat/zakatBodyDropdownSelectBoxx""), 0)",,,,2022-03-04 08:04:15,2022-03-04 08:04:15,0.463s,PASSED
+"tap(findTestObject(""zakat/zakatBaitulmalPerlisDropdownSelect""), 0)",,,,2022-03-04 08:04:15,2022-03-04 08:04:16,1.100s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-04 08:04:16,2022-03-04 08:04:17,0.269s,PASSED
+delay(3),,,,2022-03-04 08:04:17,2022-03-04 08:04:20,3.006s,PASSED
+"tap(findTestObject(""zakat/zakatTypeDropdownSelectBox""), 0)",,,,2022-03-04 08:04:20,2022-03-04 08:04:20,0.372s,PASSED
+"tap(findTestObject(""zakat/zakatTypeZakatEmasDropdownSelect""), 0)",,,,2022-03-04 08:04:20,2022-03-04 08:04:21,1.120s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-04 08:04:21,2022-03-04 08:04:21,0.299s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 08:04:21,2022-03-04 08:04:22,0.835s,PASSED
+"setText(findTestObject(""zakat/zakatMobileNoInputField""), ""181610161"", 0)",,,,2022-03-04 08:04:22,2022-03-04 08:04:24,2.127s,PASSED
+hideKeyboard(),,,,2022-03-04 08:04:24,2022-03-04 08:04:29,5.033s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 08:04:29,2022-03-04 08:04:30,0.378s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 08:04:30,2022-03-04 08:04:32,2.134s,PASSED
+"tap(findTestObject(""zakat/zakatAmountTickBtn""), 0)",,,,2022-03-04 08:04:32,2022-03-04 08:04:32,0.318s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-03-04 08:04:32,2022-03-04 08:04:35,3.000s,PASSED
+delay(3),,,,2022-03-04 08:04:35,2022-03-04 08:04:38,3.005s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-03-04 08:04:38,2022-03-04 08:04:58,20.126s,PASSED
+else,,,,2022-03-04 08:04:58,2022-03-04 08:05:04,5.605s,PASSED
+delay(3),,,,2022-03-04 08:05:04,2022-03-04 08:05:07,3.006s,PASSED
+"tap(findTestObject(""Main/mainAddToFavBtn""), 0)",,,,2022-03-04 08:05:07,2022-03-04 08:05:09,1.896s,PASSED
+delay(2),,,,2022-03-04 08:05:09,2022-03-04 08:05:11,2.006s,PASSED
+"tap(findTestObject(""Main/mainAddToFavBtn""), 0)",,,,2022-03-04 08:05:11,2022-03-04 08:05:12,0.871s,PASSED
+delay(2),,,,2022-03-04 08:05:12,2022-03-04 08:05:14,2.003s,PASSED
+"tap(findTestObject(""Main/mainCloseFavPopUpBtn""), 0)",,,,2022-03-04 08:05:14,2022-03-04 08:05:16,1.841s,PASSED
+delay(2),,,,2022-03-04 08:05:16,2022-03-04 08:05:18,2.005s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:05:18,2022-03-04 08:05:18,0.223s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:05:18,2022-03-04 08:05:18,0.276s,PASSED
+delay(5),,,,2022-03-04 08:05:18,2022-03-04 08:05:23,5.003s,PASSED
+,,,,,,,
+Test Cases/Zakat/zakat_zakatPaymentFavoriteTransaction,,,,2022-03-04 08:05:23,2022-03-04 08:05:56,32.454s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-03-04 08:05:23,2022-03-04 08:05:26,2.430s,PASSED
+"tap(findTestObject(""zakat/payBillZakatTopMenuSelect""), 0)",,,,2022-03-04 08:05:26,2022-03-04 08:05:27,0.966s,PASSED
+"tap(findTestObject(""Main/mainFavBodySelect""), 0)",,,,2022-03-04 08:05:27,2022-03-04 08:05:29,2.355s,PASSED
+delay(5),,,,2022-03-04 08:05:29,2022-03-04 08:05:34,5.004s,PASSED
+"tap(findTestObject(""zakat/zakatTypeDropdownSelectBox""), 0)",,,,2022-03-04 08:05:34,2022-03-04 08:05:34,0.419s,PASSED
+"tap(findTestObject(""zakat/zakatTypeZakatEmasDropdownSelect""), 0)",,,,2022-03-04 08:05:34,2022-03-04 08:05:36,1.202s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-03-04 08:05:36,2022-03-04 08:05:36,0.250s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-03-04 08:05:36,2022-03-04 08:05:37,0.952s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-03-04 08:05:37,2022-03-04 08:05:39,2.018s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-03-04 08:05:39,2022-03-04 08:05:39,0.448s,PASSED
+"tap(findTestObject(""JomPay/jomPayAmountTickBtn""), 0)",,,,2022-03-04 08:05:39,2022-03-04 08:05:40,0.317s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-03-04 08:05:40,2022-03-04 08:05:42,2.646s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-03-04 08:05:42,2022-03-04 08:05:44,1.440s,PASSED
+delay(5),,,,2022-03-04 08:05:44,2022-03-04 08:05:49,5.003s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:05:49,2022-03-04 08:05:50,1.464s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-03-04 08:05:50,2022-03-04 08:05:51,0.340s,PASSED
+delay(5),,,,2022-03-04 08:05:51,2022-03-04 08:05:56,5.004s,PASSED

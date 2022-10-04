@@ -1,0 +1,181 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regress 1,,,,2022-06-20 16:44:16,2022-06-20 16:52:49,8m - 33.091s,FAILED
+,,,,,,,
+Test Cases/JomPay/JomPay Add Favorite,,,,2022-06-20 16:44:16,2022-06-20 16:47:40,3m - 24.116s,FAILED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.uat"")",,,,2022-06-20 16:44:16,2022-06-20 16:44:16,0.002s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.MainActivity"")",,,,2022-06-20 16:44:16,2022-06-20 16:44:16,0.000s,PASSED
+"startApplication(appPath, false)",,,,2022-06-20 16:44:16,2022-06-20 16:44:32,15.417s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Dashboard/dashboardWalletTopSelect""), 0)",,,,2022-06-20 16:44:32,2022-06-20 16:44:35,3.479s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Dashboard/dashboardQuickActionsTitleTxt""), 0)",,,,2022-06-20 16:44:35,2022-06-20 16:44:36,0.318s,PASSED
+delay(5),,,,2022-06-20 16:44:36,2022-06-20 16:44:41,5.021s,PASSED
+device_Height = getDeviceHeight(),,,,2022-06-20 16:44:41,2022-06-20 16:44:41,0.561s,PASSED
+device_Width = getDeviceWidth(),,,,2022-06-20 16:44:41,2022-06-20 16:44:42,0.441s,PASSED
+startX = device_Width / 3,,,,2022-06-20 16:44:42,2022-06-20 16:44:42,0.003s,PASSED
+startY = device_Height * 0.97,,,,2022-06-20 16:44:42,2022-06-20 16:44:42,0.002s,PASSED
+"tapAtPosition(startX, startY)",,,,2022-06-20 16:44:42,2022-06-20 16:44:42,0.241s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-06-20 16:44:42,2022-06-20 16:44:55,12.780s,PASSED
+"verifyElementVisible(findTestObject(""Banking/m2uAccountTypeSelection""), 0)",,,,2022-06-20 16:44:55,2022-06-20 16:45:35,40.118s,FAILED
+"tap(findTestObject(""Banking/m2uAccountTypeSelection"", [""text"":""MAE""]), 0)",,,,2022-06-20 16:45:35,2022-06-20 16:45:35,0.510s,PASSED
+delay(5),,,,2022-06-20 16:45:35,2022-06-20 16:45:40,5.005s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-06-20 16:45:40,2022-06-20 16:45:41,0.485s,PASSED
+"if (verifyElementVisible(findTestObject(""Paybill/payBillsEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-06-20 16:45:41,2022-06-20 16:45:51,9.883s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 40)",,,,2022-06-20 16:45:51,2022-06-20 16:46:23,32.193s,PASSED
+"tap(findTestObject(""JomPay/payBillsJomPayTopMenuSelect""), 0)",,,,2022-06-20 16:46:23,2022-06-20 16:46:23,0.585s,PASSED
+"tap(findTestObject(""JomPay/jomPayIconSelect""), 0)",,,,2022-06-20 16:46:23,2022-06-20 16:46:25,1.333s,PASSED
+"setText(findTestObject(""JomPay/jomPayBillerInputField""), findTestData(""TestData"").getValue(8, 1), 0)",,,,2022-06-20 16:46:25,2022-06-20 16:46:26,1.706s,PASSED
+"setText(findTestObject(""JomPay/jomPayBillerRefInputField""), findTestData(""TestData"").getValue(9, 1), 0)",,,,2022-06-20 16:46:26,2022-06-20 16:46:28,1.284s,PASSED
+hideKeyboard(),,,,2022-06-20 16:46:28,2022-06-20 16:46:29,1.143s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-20 16:46:29,2022-06-20 16:46:29,0.340s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-06-20 16:46:29,2022-06-20 16:46:35,5.466s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-06-20 16:46:35,2022-06-20 16:46:35,0.330s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-06-20 16:46:35,2022-06-20 16:46:35,0.242s,PASSED
+"tap(findTestObject(""JomPay/jomPayAmountTickBtn""), 0)",,,,2022-06-20 16:46:35,2022-06-20 16:46:35,0.234s,PASSED
+delay(10),,,,2022-06-20 16:46:35,2022-06-20 16:46:45,10.006s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccTypeTxt"", [""accType"":accType]), accType)",,,,2022-06-20 16:46:45,2022-06-20 16:46:46,0.357s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccNoTxt"", [""accNoFrom"":accNoFrom]), accNoFrom)",,,,2022-06-20 16:46:46,2022-06-20 16:46:46,0.332s,PASSED
+"verifyElementExist(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-06-20 16:46:46,2022-06-20 16:46:46,0.366s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-06-20 16:46:46,2022-06-20 16:46:47,0.436s,PASSED
+delay(3),,,,2022-06-20 16:46:47,2022-06-20 16:46:50,3.007s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 10, OPTIONAL))",,,,2022-06-20 16:46:50,2022-06-20 16:47:00,10.115s,PASSED
+else,,,,2022-06-20 16:47:00,2022-06-20 16:47:05,5.347s,PASSED
+delay(3),,,,2022-06-20 16:47:05,2022-06-20 16:47:08,3.008s,PASSED
+"verifyElementText(findTestObject(""JomPay/jomPaySummarySuccesfulTxt""), findTestData(""TestData"").getValue(7, 1))",,,,2022-06-20 16:47:08,2022-06-20 16:47:09,0.592s,PASSED
+"tap(findTestObject(""Main/mainAddToFavBtn""), 0)",,,,2022-06-20 16:47:09,2022-06-20 16:47:10,0.741s,PASSED
+delay(5),,,,2022-06-20 16:47:10,2022-06-20 16:47:15,5.006s,PASSED
+"tap(findTestObject(""Main/mainAddToFavBtn""), 0)",,,,2022-06-20 16:47:15,2022-06-20 16:47:15,0.314s,PASSED
+delay(2),,,,2022-06-20 16:47:15,2022-06-20 16:47:17,2.007s,PASSED
+"tap(findTestObject(""Main/mainCloseFavPopUpBtn""), 0)",,,,2022-06-20 16:47:17,2022-06-20 16:47:31,14.192s,PASSED
+delay(2),,,,2022-06-20 16:47:31,2022-06-20 16:47:33,2.005s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/jomPayAddFav.png"")",,,,2022-06-20 16:47:33,2022-06-20 16:47:34,1.222s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-20 16:47:34,2022-06-20 16:47:35,0.250s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-20 16:47:35,2022-06-20 16:47:35,0.264s,PASSED
+delay(5),,,,2022-06-20 16:47:35,2022-06-20 16:47:40,5.009s,PASSED
+,,,,,,,
+Test Cases/JomPay/JomPay Favorite Transaction,,,,2022-06-20 16:47:40,2022-06-20 16:48:19,39.052s,PASSED
+device_Height = getDeviceHeight(),,,,2022-06-20 16:47:40,2022-06-20 16:47:41,0.450s,PASSED
+device_Width = getDeviceWidth(),,,,2022-06-20 16:47:41,2022-06-20 16:47:41,0.510s,PASSED
+startX = device_Width / 3,,,,2022-06-20 16:47:41,2022-06-20 16:47:41,0.001s,PASSED
+startY = device_Height * 0.97,,,,2022-06-20 16:47:41,2022-06-20 16:47:41,0.000s,PASSED
+delay(5),,,,2022-06-20 16:47:41,2022-06-20 16:47:46,5.005s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-06-20 16:47:46,2022-06-20 16:47:47,0.461s,PASSED
+"println(""JOMPAY Fav Transaction"")",,,,2022-06-20 16:47:47,2022-06-20 16:47:47,0.002s,PASSED
+"tap(findTestObject(""JomPay/payBillsJomPayTopMenuSelect""), 40)",,,,2022-06-20 16:47:47,2022-06-20 16:47:51,4.543s,PASSED
+"tap(findTestObject(""Main/mainFavBodySelect""), 0)",,,,2022-06-20 16:47:51,2022-06-20 16:47:53,1.668s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-06-20 16:47:53,2022-06-20 16:47:55,1.854s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-06-20 16:47:55,2022-06-20 16:47:55,0.319s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-06-20 16:47:55,2022-06-20 16:47:55,0.194s,PASSED
+"tap(findTestObject(""JomPay/jomPayAmountTickBtn""), 0)",,,,2022-06-20 16:47:55,2022-06-20 16:47:55,0.217s,PASSED
+delay(5),,,,2022-06-20 16:47:55,2022-06-20 16:48:00,5.004s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccTypeTxt"", [""accType"":accType]), accType)",,,,2022-06-20 16:48:00,2022-06-20 16:48:06,5.037s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccNoTxt"", [""accNoFrom"":accNoFrom]), accNoFrom)",,,,2022-06-20 16:48:06,2022-06-20 16:48:06,0.293s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-06-20 16:48:06,2022-06-20 16:48:06,0.296s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-06-20 16:48:06,2022-06-20 16:48:06,0.270s,PASSED
+delay(5),,,,2022-06-20 16:48:06,2022-06-20 16:48:11,5.003s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-20 16:48:11,2022-06-20 16:48:13,1.157s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/jomPayFav.png"")",,,,2022-06-20 16:48:13,2022-06-20 16:48:13,0.822s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-20 16:48:13,2022-06-20 16:48:14,0.689s,PASSED
+delay(5),,,,2022-06-20 16:48:14,2022-06-20 16:48:19,5.005s,PASSED
+,,,,,,,
+Test Cases/Zakat/zakat_zakatPayment,,,,2022-06-20 16:48:19,2022-06-20 16:49:52,1m - 33.424s,PASSED
+device_Height = getDeviceHeight(),,,,2022-06-20 16:48:19,2022-06-20 16:48:20,0.451s,PASSED
+device_Width = getDeviceWidth(),,,,2022-06-20 16:48:20,2022-06-20 16:48:20,0.422s,PASSED
+startX = device_Width / 3,,,,2022-06-20 16:48:20,2022-06-20 16:48:20,0.000s,PASSED
+startY = device_Height * 0.97,,,,2022-06-20 16:48:20,2022-06-20 16:48:20,0.000s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-06-20 16:48:20,2022-06-20 16:48:20,0.288s,PASSED
+"tap(findTestObject(""zakat/payBillZakatTopMenuSelect""), 40)",,,,2022-06-20 16:48:20,2022-06-20 16:48:28,7.150s,PASSED
+delay(2),,,,2022-06-20 16:48:28,2022-06-20 16:48:30,2.004s,PASSED
+"tap(findTestObject(""zakat/zakatIconSelect""), 0)",,,,2022-06-20 16:48:30,2022-06-20 16:48:30,0.425s,PASSED
+delay(2),,,,2022-06-20 16:48:30,2022-06-20 16:48:32,2.003s,PASSED
+"tap(findTestObject(""zakat/zakatBodyDropdownSelectBoxx""), 0)",,,,2022-06-20 16:48:32,2022-06-20 16:48:32,0.176s,PASSED
+"tap(findTestObject(""zakat/zakatBaitulmalPerlisDropdownSelect""), 0)",,,,2022-06-20 16:48:32,2022-06-20 16:48:33,1.105s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-06-20 16:48:33,2022-06-20 16:48:34,0.172s,PASSED
+delay(3),,,,2022-06-20 16:48:34,2022-06-20 16:48:37,3.005s,PASSED
+"tap(findTestObject(""zakat/zakatTypeDropdownSelectBox""), 0)",,,,2022-06-20 16:48:37,2022-06-20 16:48:37,0.271s,PASSED
+"tap(findTestObject(""zakat/zakatTypeZakatEmasDropdownSelect""), 0)",,,,2022-06-20 16:48:37,2022-06-20 16:48:38,1.044s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-06-20 16:48:38,2022-06-20 16:48:38,0.167s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-20 16:48:38,2022-06-20 16:48:39,0.668s,PASSED
+"setText(findTestObject(""zakat/zakatMobileNoInputField""), ""181610161"", 0)",,,,2022-06-20 16:48:39,2022-06-20 16:48:41,2.320s,PASSED
+hideKeyboard(),,,,2022-06-20 16:48:41,2022-06-20 16:48:46,4.685s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-20 16:48:46,2022-06-20 16:48:46,0.285s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-06-20 16:48:46,2022-06-20 16:48:48,1.907s,PASSED
+"tap(findTestObject(""zakat/zakatAmountTickBtn""), 0)",,,,2022-06-20 16:48:48,2022-06-20 16:48:48,0.210s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccTypeTxt"", [""accType"":accType]), accType)",,,,2022-06-20 16:48:48,2022-06-20 16:48:52,3.725s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccNoTxt"", [""accNoFrom"":accNoFrom]), accNoFrom)",,,,2022-06-20 16:48:52,2022-06-20 16:48:52,0.197s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-06-20 16:48:52,2022-06-20 16:48:52,0.399s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-06-20 16:48:52,2022-06-20 16:48:53,0.357s,PASSED
+delay(3),,,,2022-06-20 16:48:53,2022-06-20 16:48:56,3.002s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-06-20 16:48:56,2022-06-20 16:49:36,40.108s,PASSED
+else,,,,2022-06-20 16:49:36,2022-06-20 16:49:41,5.297s,PASSED
+delay(5),,,,2022-06-20 16:49:41,2022-06-20 16:49:46,5.005s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/zakatInstant.png"")",,,,2022-06-20 16:49:46,2022-06-20 16:49:47,0.986s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-20 16:49:47,2022-06-20 16:49:47,0.148s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-20 16:49:47,2022-06-20 16:49:47,0.179s,PASSED
+delay(5),,,,2022-06-20 16:49:47,2022-06-20 16:49:52,5.005s,PASSED
+,,,,,,,
+Test Cases/Zakat/zakat_zakatPaymentAddFavorite,,,,2022-06-20 16:49:52,2022-06-20 16:51:33,1m - 40.157s,PASSED
+device_Height = getDeviceHeight(),,,,2022-06-20 16:49:53,2022-06-20 16:49:53,0.423s,PASSED
+device_Width = getDeviceWidth(),,,,2022-06-20 16:49:53,2022-06-20 16:49:54,0.429s,PASSED
+startX = device_Width / 3,,,,2022-06-20 16:49:54,2022-06-20 16:49:54,0.001s,PASSED
+startY = device_Height * 0.97,,,,2022-06-20 16:49:54,2022-06-20 16:49:54,0.000s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-06-20 16:49:54,2022-06-20 16:49:54,0.294s,PASSED
+"tap(findTestObject(""zakat/payBillZakatTopMenuSelect""), 40)",,,,2022-06-20 16:49:54,2022-06-20 16:49:59,5.157s,PASSED
+delay(2),,,,2022-06-20 16:49:59,2022-06-20 16:50:01,2.005s,PASSED
+"tap(findTestObject(""zakat/zakatIconSelect""), 0)",,,,2022-06-20 16:50:01,2022-06-20 16:50:02,0.753s,PASSED
+delay(2),,,,2022-06-20 16:50:02,2022-06-20 16:50:04,2.007s,PASSED
+"tap(findTestObject(""zakat/zakatBodyDropdownSelectBoxx""), 0)",,,,2022-06-20 16:50:04,2022-06-20 16:50:04,0.151s,PASSED
+"tap(findTestObject(""zakat/zakatBaitulmalPerlisDropdownSelect""), 0)",,,,2022-06-20 16:50:04,2022-06-20 16:50:05,1.038s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-06-20 16:50:05,2022-06-20 16:50:05,0.117s,PASSED
+delay(3),,,,2022-06-20 16:50:05,2022-06-20 16:50:08,3.007s,PASSED
+"tap(findTestObject(""zakat/zakatTypeDropdownSelectBox""), 0)",,,,2022-06-20 16:50:08,2022-06-20 16:50:08,0.249s,PASSED
+"tap(findTestObject(""zakat/zakatTypeZakatEmasDropdownSelect""), 0)",,,,2022-06-20 16:50:08,2022-06-20 16:50:09,1.006s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-06-20 16:50:09,2022-06-20 16:50:10,0.147s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-20 16:50:10,2022-06-20 16:50:10,0.665s,PASSED
+"setText(findTestObject(""zakat/zakatMobileNoInputField""), ""181610161"", 0)",,,,2022-06-20 16:50:10,2022-06-20 16:50:13,2.352s,PASSED
+hideKeyboard(),,,,2022-06-20 16:50:13,2022-06-20 16:50:17,4.205s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-20 16:50:17,2022-06-20 16:50:17,0.169s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-06-20 16:50:17,2022-06-20 16:50:19,2.424s,PASSED
+"tap(findTestObject(""zakat/zakatAmountTickBtn""), 0)",,,,2022-06-20 16:50:19,2022-06-20 16:50:19,0.144s,PASSED
+delay(5),,,,2022-06-20 16:50:19,2022-06-20 16:50:24,5.004s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-06-20 16:50:24,2022-06-20 16:50:25,0.297s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-06-20 16:50:25,2022-06-20 16:50:25,0.286s,PASSED
+delay(3),,,,2022-06-20 16:50:25,2022-06-20 16:50:28,3.002s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/festiveReturnAngpaoTACNoTxt""), 0, OPTIONAL))",,,,2022-06-20 16:50:28,2022-06-20 16:51:08,40.109s,PASSED
+else,,,,2022-06-20 16:51:08,2022-06-20 16:51:13,5.270s,PASSED
+delay(3),,,,2022-06-20 16:51:13,2022-06-20 16:51:16,3.005s,PASSED
+"tap(findTestObject(""Main/mainAddToFavBtn""), 0)",,,,2022-06-20 16:51:16,2022-06-20 16:51:18,1.548s,PASSED
+delay(2),,,,2022-06-20 16:51:18,2022-06-20 16:51:20,2.005s,PASSED
+"tap(findTestObject(""Main/mainAddToFavBtn""), 0)",,,,2022-06-20 16:51:20,2022-06-20 16:51:20,0.241s,PASSED
+delay(2),,,,2022-06-20 16:51:20,2022-06-20 16:51:22,2.006s,PASSED
+"tap(findTestObject(""Main/mainCloseFavPopUpBtn""), 0)",,,,2022-06-20 16:51:22,2022-06-20 16:51:24,1.917s,PASSED
+delay(2),,,,2022-06-20 16:51:24,2022-06-20 16:51:26,2.002s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/zakatAddFav.png"")",,,,2022-06-20 16:51:26,2022-06-20 16:51:27,1.120s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-20 16:51:27,2022-06-20 16:51:27,0.165s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-20 16:51:27,2022-06-20 16:51:28,0.191s,PASSED
+delay(5),,,,2022-06-20 16:51:28,2022-06-20 16:51:33,5.005s,PASSED
+,,,,,,,
+Test Cases/Zakat/zakat_zakatPaymentFavoriteTransaction,,,,2022-06-20 16:51:33,2022-06-20 16:52:49,1m - 16.080s,PASSED
+device_Height = getDeviceHeight(),,,,2022-06-20 16:51:33,2022-06-20 16:51:33,0.409s,PASSED
+device_Width = getDeviceWidth(),,,,2022-06-20 16:51:33,2022-06-20 16:51:34,0.415s,PASSED
+startX = device_Width / 3,,,,2022-06-20 16:51:34,2022-06-20 16:51:34,0.000s,PASSED
+startY = device_Height * 0.97,,,,2022-06-20 16:51:34,2022-06-20 16:51:34,0.001s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-06-20 16:51:34,2022-06-20 16:51:34,0.281s,PASSED
+"tap(findTestObject(""zakat/payBillZakatTopMenuSelect""), 40)",,,,2022-06-20 16:51:34,2022-06-20 16:51:41,7.223s,PASSED
+delay(5),,,,2022-06-20 16:51:41,2022-06-20 16:51:46,5.000s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainFavBodySelect""), 0)",,,,2022-06-20 16:51:46,2022-06-20 16:51:46,0.185s,PASSED
+"tap(findTestObject(""Main/mainFavBodySelect""), 0)",,,,2022-06-20 16:51:46,2022-06-20 16:51:47,0.223s,PASSED
+delay(5),,,,2022-06-20 16:51:47,2022-06-20 16:51:52,5.005s,PASSED
+"tap(findTestObject(""zakat/zakatTypeDropdownSelectBox""), 0)",,,,2022-06-20 16:51:52,2022-06-20 16:51:52,0.218s,PASSED
+"tap(findTestObject(""zakat/zakatTypeZakatEmasDropdownSelect""), 0)",,,,2022-06-20 16:51:52,2022-06-20 16:52:28,35.997s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-06-20 16:52:28,2022-06-20 16:52:28,0.122s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-20 16:52:28,2022-06-20 16:52:29,0.655s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-06-20 16:52:29,2022-06-20 16:52:30,1.895s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-06-20 16:52:30,2022-06-20 16:52:31,0.279s,PASSED
+"tap(findTestObject(""JomPay/jomPayAmountTickBtn""), 0)",,,,2022-06-20 16:52:31,2022-06-20 16:52:31,0.155s,PASSED
+delay(5),,,,2022-06-20 16:52:31,2022-06-20 16:52:36,5.007s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-06-20 16:52:36,2022-06-20 16:52:36,0.256s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-06-20 16:52:36,2022-06-20 16:52:36,0.291s,PASSED
+delay(5),,,,2022-06-20 16:52:36,2022-06-20 16:52:41,5.003s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/zakatFav.png"")",,,,2022-06-20 16:52:41,2022-06-20 16:52:42,0.902s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-20 16:52:42,2022-06-20 16:52:44,1.169s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-20 16:52:44,2022-06-20 16:52:44,0.161s,PASSED
+delay(5),,,,2022-06-20 16:52:44,2022-06-20 16:52:49,5.005s,PASSED

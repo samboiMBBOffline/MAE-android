@@ -1,0 +1,2175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regress 3" time="1742.553" tests="4" failures="3" errors="0">
+   <testsuite name="Regress 3" tests="4" failures="3" errors="0" time="1742.553" skipped="0" timestamp="2022-06-15 19:12:09" hostname="a00139272 - localhost" id="Test Suites/Regress 3">
+      <properties>
+         <property name="deviceName" value="Xiaomi 21061119AG (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/a00139272/git/MAE-BAU-MY/Reports/20220615_191159/Regress 3/20220615_191159"/>
+         <property name="logFiles" value="/Users/a00139272/git/MAE-BAU-MY/Reports/20220615_191159/Regress 3/20220615_191159/execution0.log, /Users/a00139272/git/MAE-BAU-MY/Reports/20220615_191159/Regress 3/20220615_191159/appium.log"/>
+         <property name="attachments" value="/Users/a00139272/Desktop/Screenshot/instantThirdParty.png, /Users/a00139272/Desktop/Screenshot/thirdPartyFuture.png, /Users/a00139272/Desktop/Screenshot/thirdPartySetFav.png, /Users/a00139272/Desktop/Screenshot/thirdPartyFav.png"/>
+         <property name="hostName" value="a00139272 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.1&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.1"/>
+         <property name="deviceModel" value="21061119AG"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="002b9cc60508"/>
+         <property name="deviceName" value="Xiaomi 21061119AG (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Transfer/transfer_thirdPartyToday" time="479.234" classname="Test Cases/Transfer/transfer_thirdPartyToday" status="PASSED">
+         <system-out><![CDATA[2022-06-15 19:12:09 - [TEST_CASE][PASSED] - Test Cases/Transfer/transfer_thirdPartyToday: Test Cases/Transfer/transfer_thirdPartyToday
+
+2022-06-15 19:12:10 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appPackage", "com.maybank2u.life.uat"): null
+
+2022-06-15 19:12:10 - [TEST_STEP][PASSED] - setMobileDriverPreferencesProperty("appActivity", "com.maybank2u.life.MainActivity"): null
+
+2022-06-15 19:12:10 - [TEST_STEP][PASSED] - if (isApplicationOpened == false): Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release (1).apk'
+
+2022-06-15 19:12:10 - [TEST_STEP][PASSED] - startApplication(appPath, false): Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release (1).apk'
+
+2022-06-15 19:12:10 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-06-15 19:12:10 - [MESSAGE][INFO] - User set preference: ['deviceId', '002b9cc60508']
+
+2022-06-15 19:12:10 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.maybank2u.life.uat']
+
+2022-06-15 19:12:10 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.maybank2u.life.MainActivity']
+
+2022-06-15 19:12:10 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/Cellar/node/17.0.1/bin/node"
+
+2022-06-15 19:12:11 - [MESSAGE][INFO] - Appium server started on port 63,862
+
+2022-06-15 19:12:25 - [MESSAGE][PASSED] - Started app at: '/Users/a00139272/Katalon Studio/MAE/androidapp/app-dev-universal-release (1).apk'
+
+2022-06-15 19:12:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:12:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:12:30 - [TEST_STEP][PASSED] - device_Height = getDeviceHeight(): Current device physical height is 2167
+
+2022-06-15 19:12:30 - [MESSAGE][PASSED] - Current device physical height is 2167
+
+2022-06-15 19:12:30 - [TEST_STEP][PASSED] - device_Width = getDeviceWidth(): Current device physical width is 1080
+
+2022-06-15 19:12:30 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2022-06-15 19:12:30 - [TEST_STEP][PASSED] - startX = device_Width / 3: null
+
+2022-06-15 19:12:30 - [TEST_STEP][PASSED] - startY = device_Height * 0.97: null
+
+2022-06-15 19:12:31 - [TEST_STEP][PASSED] - tapAtPosition(startX, startY): Tapped at [360, 2,101]
+
+2022-06-15 19:12:31 - [MESSAGE][PASSED] - Tapped at [360, 2,101]
+
+2022-06-15 19:12:31 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Main/mainEnterPINMessage"), 0, OPTIONAL)): null
+
+2022-06-15 19:12:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:12:32 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainEnterPINMessage' is visible
+
+2022-06-15 19:12:32 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-06-15 19:12:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:12:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-06-15 19:12:33 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-06-15 19:12:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:12:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-06-15 19:12:34 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-06-15 19:12:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:12:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-06-15 19:12:36 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-06-15 19:12:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:12:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-06-15 19:12:38 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN1"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-06-15 19:12:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:12:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN1'
+
+2022-06-15 19:12:40 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN2"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-06-15 19:12:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:12:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN2'
+
+2022-06-15 19:12:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 19:12:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 19:12:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Banking/m2uAccountTypeSelection", ["text":"MAE"]), 10): Element 'Object Repository/Banking/m2uAccountTypeSelection' is visible
+
+2022-06-15 19:12:51 - [MESSAGE][PASSED] - Element 'Object Repository/Banking/m2uAccountTypeSelection' is visible
+
+2022-06-15 19:12:51 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountTypeSelection", ["text":"MAE"]), 10): Tapped on element 'Object Repository/Banking/m2uAccountTypeSelection'
+
+2022-06-15 19:12:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountTypeSelection'
+
+2022-06-15 19:12:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:12:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:12:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Banking/m2uAccountTransferIconSelect"), 0): Element 'Object Repository/Banking/m2uAccountTransferIconSelect' is visible
+
+2022-06-15 19:12:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:12:56 - [MESSAGE][PASSED] - Element 'Object Repository/Banking/m2uAccountTransferIconSelect' is visible
+
+2022-06-15 19:12:56 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountTransferIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountTransferIconSelect'
+
+2022-06-15 19:12:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:12:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountTransferIconSelect'
+
+2022-06-15 19:12:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:13:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:13:02 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Tabung/tabungEnterPasswordTxt"), 10, OPTIONAL)): null
+
+2022-06-15 19:13:52 - [MESSAGE][PASSED] - Element 'Object Repository/Tabung/tabungEnterPasswordTxt' is visible
+
+2022-06-15 19:13:52 - [TEST_STEP][PASSED] - setText(findTestObject("Tabung/tabungSignInInputPasswordField"), Password, 0): Text 'pass1234' has been set to element 'Object Repository/Tabung/tabungSignInInputPasswordField'
+
+2022-06-15 19:13:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:15:43 - [MESSAGE][PASSED] - Text 'pass1234' has been set to element 'Object Repository/Tabung/tabungSignInInputPasswordField'
+
+2022-06-15 19:15:43 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-06-15 19:15:48 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-06-15 19:15:48 - [TEST_STEP][PASSED] - tap(findTestObject("Tabung/tabungSignInContinueBtn"), 0): Tapped on element 'Object Repository/Tabung/tabungSignInContinueBtn'
+
+2022-06-15 19:15:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:16:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Tabung/tabungSignInContinueBtn'
+
+2022-06-15 19:16:49 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/transferOthersTopMenuSelect"), 0): Tapped on element 'Object Repository/Banking/transferOthersTopMenuSelect'
+
+2022-06-15 19:16:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:17:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/transferOthersTopMenuSelect'
+
+2022-06-15 19:17:50 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/transferBanksIconSelect"), 0): Tapped on element 'Object Repository/Banking/transferBanksIconSelect'
+
+2022-06-15 19:17:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:18:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/transferBanksIconSelect'
+
+2022-06-15 19:18:43 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/transferToMaybankSelect"), 0): Tapped on element 'Object Repository/Banking/transferToMaybankSelect'
+
+2022-06-15 19:18:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:18:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/transferToMaybankSelect'
+
+2022-06-15 19:18:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 19:18:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 19:18:47 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Banking/transferAccountNoInputField"), 0): Element 'Object Repository/Banking/transferAccountNoInputField' is exist
+
+2022-06-15 19:18:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:18:47 - [MESSAGE][PASSED] - Element 'Object Repository/Banking/transferAccountNoInputField' is exist
+
+2022-06-15 19:18:47 - [TEST_STEP][PASSED] - setText(findTestObject("Banking/transferAccountNoInputField"), accountNum, 0): Text '514012082699' has been set to element 'Object Repository/Banking/transferAccountNoInputField'
+
+2022-06-15 19:18:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:18:48 - [MESSAGE][PASSED] - Text '514012082699' has been set to element 'Object Repository/Banking/transferAccountNoInputField'
+
+2022-06-15 19:18:48 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-06-15 19:18:52 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-06-15 19:18:52 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-06-15 19:18:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:18:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-06-15 19:18:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferAmounttAccNameTxt", ["accName":accName]), accName): Actual text and expected text of test object 'Object Repository/Transfer/transferAmounttAccNameTxt' are matched.
+
+2022-06-15 19:18:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferAmounttAccNameTxt' are matched.
+
+2022-06-15 19:18:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferAmounttAccNoTxt", ["accNo":accNo]), accNo): Actual text and expected text of test object 'Object Repository/Transfer/transferAmounttAccNoTxt' are matched.
+
+2022-06-15 19:18:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferAmounttAccNoTxt' are matched.
+
+2022-06-15 19:18:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferAmounttAccBankTxt", ["accBank":accBank]), accBank): Actual text and expected text of test object 'Object Repository/Transfer/transferAmounttAccBankTxt' are matched.
+
+2022-06-15 19:18:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferAmounttAccBankTxt' are matched.
+
+2022-06-15 19:18:57 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferAmountRMTxt"), 0): Element 'Object Repository/Transfer/transferAmountRMTxt' is exist
+
+2022-06-15 19:18:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:18:57 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferAmountRMTxt' is exist
+
+2022-06-15 19:18:57 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferAmountEnterAmountTitleTxt"), 0): Element 'Object Repository/Transfer/transferAmountEnterAmountTitleTxt' is exist
+
+2022-06-15 19:18:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:18:58 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferAmountEnterAmountTitleTxt' is exist
+
+2022-06-15 19:18:58 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login Onboarding/PIN4"), 0): Element 'Object Repository/Login Onboarding/PIN4' is exist
+
+2022-06-15 19:18:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:18:58 - [MESSAGE][PASSED] - Element 'Object Repository/Login Onboarding/PIN4' is exist
+
+2022-06-15 19:18:58 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN4"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-06-15 19:18:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:18:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-06-15 19:18:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferAmountInputValueTxt", ["value":checkValue]), checkValue): Actual text and expected text of test object 'Object Repository/Transfer/transferAmountInputValueTxt' are matched.
+
+2022-06-15 19:18:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferAmountInputValueTxt' are matched.
+
+2022-06-15 19:18:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 19:19:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 19:19:02 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginPinTickBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginPinTickBtn'
+
+2022-06-15 19:19:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginPinTickBtn'
+
+2022-06-15 19:19:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferReferenceAccNameTxt", ["accName":accName]), accName): Actual text and expected text of test object 'Object Repository/Transfer/transferReferenceAccNameTxt' are matched.
+
+2022-06-15 19:19:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferReferenceAccNameTxt' are matched.
+
+2022-06-15 19:19:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferReferenceAccNoTxt", ["accNo":accNo]), accNo): Actual text and expected text of test object 'Object Repository/Transfer/transferReferenceAccNoTxt' are matched.
+
+2022-06-15 19:19:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferReferenceAccNoTxt' are matched.
+
+2022-06-15 19:19:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferReferenceAccBankTxt", ["accBank":accBank]), accBank): Actual text and expected text of test object 'Object Repository/Transfer/transferReferenceAccBankTxt' are matched.
+
+2022-06-15 19:19:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferReferenceAccBankTxt' are matched.
+
+2022-06-15 19:19:05 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferReferenceInputField"), 0): Element 'Object Repository/Transfer/transferReferenceInputField' is exist
+
+2022-06-15 19:19:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:05 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferReferenceInputField' is exist
+
+2022-06-15 19:19:05 - [TEST_STEP][PASSED] - setText(findTestObject("Banking/transferReferenceInputField"), reference, 0): Text 'MBBTransfer' has been set to element 'Object Repository/Banking/transferReferenceInputField'
+
+2022-06-15 19:19:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:06 - [MESSAGE][PASSED] - Text 'MBBTransfer' has been set to element 'Object Repository/Banking/transferReferenceInputField'
+
+2022-06-15 19:19:06 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-06-15 19:19:08 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-06-15 19:19:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferReferenceInputFieldAfter", ["reference":reference]), reference): Actual text and expected text of test object 'Object Repository/Transfer/transferReferenceInputFieldAfter' are matched.
+
+2022-06-15 19:19:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferReferenceInputFieldAfter' are matched.
+
+2022-06-15 19:19:08 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-06-15 19:19:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-06-15 19:19:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationAccountNameTxt", ["accName":accName]), accName): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationAccountNameTxt' are matched.
+
+2022-06-15 19:19:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationAccountNameTxt' are matched.
+
+2022-06-15 19:19:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationAccountNoTxt", ["accNo":accNo]), accNo): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationAccountNoTxt' are matched.
+
+2022-06-15 19:19:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationAccountNoTxt' are matched.
+
+2022-06-15 19:19:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationAmountTxt", ["amount":amount]), amount): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationAmountTxt' are matched.
+
+2022-06-15 19:19:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationAmountTxt' are matched.
+
+2022-06-15 19:19:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationTransactionDateTxt"), "Today"): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationTransactionDateTxt' are matched.
+
+2022-06-15 19:19:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationTransactionDateTxt' are matched.
+
+2022-06-15 19:19:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationTransactionRecRefTxt", ["reference":reference]), reference): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationTransactionRecRefTxt' are matched.
+
+2022-06-15 19:19:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationTransactionRecRefTxt' are matched.
+
+2022-06-15 19:19:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationTransactionBankTxt", ["accBank":accBank]), accBank): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationTransactionBankTxt' are matched.
+
+2022-06-15 19:19:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationTransactionBankTxt' are matched.
+
+2022-06-15 19:19:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationOptionalGreyWordTxt"), "Optional"): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationOptionalGreyWordTxt' are matched.
+
+2022-06-15 19:19:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationOptionalGreyWordTxt' are matched.
+
+2022-06-15 19:19:13 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferConfirmationBankNameTitleTxt"), 0): Element 'Object Repository/Transfer/transferConfirmationBankNameTitleTxt' is exist
+
+2022-06-15 19:19:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:13 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferConfirmationBankNameTitleTxt' is exist
+
+2022-06-15 19:19:13 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferConfirmationDateTitleTxt"), 0): Element 'Object Repository/Transfer/transferConfirmationDateTitleTxt' is exist
+
+2022-06-15 19:19:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:13 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferConfirmationDateTitleTxt' is exist
+
+2022-06-15 19:19:13 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferConfirmationFTransferFromTitleTxt"), 0): Element 'Object Repository/Transfer/transferConfirmationFTransferFromTitleTxt' is exist
+
+2022-06-15 19:19:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:14 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferConfirmationFTransferFromTitleTxt' is exist
+
+2022-06-15 19:19:14 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferConfirmationRecRefTitleTxt"), 0): Element 'Object Repository/Transfer/transferConfirmationRecRefTitleTxt' is exist
+
+2022-06-15 19:19:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:14 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferConfirmationRecRefTitleTxt' is exist
+
+2022-06-15 19:19:14 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferConfirmationPaymentDetailsTitleTxt"), 0): Element 'Object Repository/Transfer/transferConfirmationPaymentDetailsTitleTxt' is exist
+
+2022-06-15 19:19:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:14 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferConfirmationPaymentDetailsTitleTxt' is exist
+
+2022-06-15 19:19:14 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferConfirmationNoteTitleTxt"), 0): Element 'Object Repository/Transfer/transferConfirmationNoteTitleTxt' is exist
+
+2022-06-15 19:19:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:15 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferConfirmationNoteTitleTxt' is exist
+
+2022-06-15 19:19:15 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferConfirmationNoteContentTxt"), 0): Element 'Object Repository/Transfer/transferConfirmationNoteContentTxt' is exist
+
+2022-06-15 19:19:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:15 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferConfirmationNoteContentTxt' is exist
+
+2022-06-15 19:19:15 - [TEST_STEP][PASSED] - tap(findTestObject("Transfer/transferConfirmationOptionalGreyWordTxt"), 0): Tapped on element 'Object Repository/Transfer/transferConfirmationOptionalGreyWordTxt'
+
+2022-06-15 19:19:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transfer/transferConfirmationOptionalGreyWordTxt'
+
+2022-06-15 19:19:16 - [TEST_STEP][PASSED] - setText(findTestObject("Transfer/transferConfirmationDetailsInputField"), referenceC, 0): Text 'Test Transfer' has been set to element 'Object Repository/Transfer/transferConfirmationDetailsInputField'
+
+2022-06-15 19:19:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:18 - [MESSAGE][PASSED] - Text 'Test Transfer' has been set to element 'Object Repository/Transfer/transferConfirmationDetailsInputField'
+
+2022-06-15 19:19:18 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-06-15 19:19:19 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-06-15 19:19:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationOptionalGreyWordTxt"), referenceC): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationOptionalGreyWordTxt' are matched.
+
+2022-06-15 19:19:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationOptionalGreyWordTxt' are matched.
+
+2022-06-15 19:19:20 - [TEST_STEP][PASSED] - device_Height_2 = getDeviceHeight(): Current device physical height is 2167
+
+2022-06-15 19:19:20 - [MESSAGE][PASSED] - Current device physical height is 2167
+
+2022-06-15 19:19:20 - [TEST_STEP][PASSED] - device_Width_2 = getDeviceWidth(): Current device physical width is 1080
+
+2022-06-15 19:19:20 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2022-06-15 19:19:20 - [TEST_STEP][PASSED] - startX_2 = device_Width_2 / 2: null
+
+2022-06-15 19:19:20 - [TEST_STEP][PASSED] - endX_2 = startX_2: null
+
+2022-06-15 19:19:20 - [TEST_STEP][PASSED] - startY_2 = device_Height_2 * 0.30: null
+
+2022-06-15 19:19:20 - [TEST_STEP][PASSED] - endY_2 = device_Height_2 * 0.70: null
+
+2022-06-15 19:19:20 - [TEST_STEP][PASSED] - swipe(startX_2, endY_2, endX_2, startY_2): Swiped from 540,1,516 to 540,650
+
+2022-06-15 19:19:21 - [MESSAGE][PASSED] - Swiped from 540,1,516 to 540,650
+
+2022-06-15 19:19:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationFromAccTypeTxt", ["accType":accType]), accType): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationFromAccTypeTxt' are matched.
+
+2022-06-15 19:19:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationFromAccTypeTxt' are matched.
+
+2022-06-15 19:19:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationFromAccNoTxt", ["accNoFrom":accNoFrom]), accNoFrom): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationFromAccNoTxt' are matched.
+
+2022-06-15 19:19:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationFromAccNoTxt' are matched.
+
+2022-06-15 19:19:22 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferConfirmationFromAccBalanceTxt"), 0): Element 'Object Repository/Transfer/transferConfirmationFromAccBalanceTxt' is exist
+
+2022-06-15 19:19:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:22 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferConfirmationFromAccBalanceTxt' is exist
+
+2022-06-15 19:19:22 - [TEST_STEP][PASSED] - accountBalance = getText(findTestObject("Transfer/transferConfirmationFromAccBalanceTxt"), 0): Text of element 'Object Repository/Transfer/transferConfirmationFromAccBalanceTxt' is: 'RM 1,332.31'
+
+2022-06-15 19:19:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:23 - [MESSAGE][PASSED] - Text of element 'Object Repository/Transfer/transferConfirmationFromAccBalanceTxt' is: 'RM 1,332.31'
+
+2022-06-15 19:19:23 - [TEST_STEP][PASSED] - println(accountBalance): null
+
+2022-06-15 19:19:23 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainTransferNowBtn"), 0): Tapped on element 'Object Repository/Main/mainTransferNowBtn'
+
+2022-06-15 19:19:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainTransferNowBtn'
+
+2022-06-15 19:19:23 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Festive Season/seasonalGreetingAngpaoTACNoTxt"), 5, OPTIONAL)): Element 'Object Repository/Festive Season/seasonalGreetingAngpaoTACNoTxt' not found
+
+2022-06-15 19:19:28 - [MESSAGE][WARNING] - Element 'Object Repository/Festive Season/seasonalGreetingAngpaoTACNoTxt' not found
+
+2022-06-15 19:19:28 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-06-15 19:19:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:19:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:19:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainS2UApproveBtn"), 0): Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-06-15 19:19:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:33 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-06-15 19:19:33 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainS2UApproveBtn"), 0): Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-06-15 19:19:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-06-15 19:19:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:19:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:19:39 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Festive Season/returnAngpaoStatusMessageTxt"), 0): Element 'Object Repository/Festive Season/returnAngpaoStatusMessageTxt' is exist
+
+2022-06-15 19:19:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:39 - [MESSAGE][PASSED] - Element 'Object Repository/Festive Season/returnAngpaoStatusMessageTxt' is exist
+
+2022-06-15 19:19:39 - [TEST_STEP][PASSED] - message = getText(findTestObject("Festive Season/returnAngpaoStatusMessageTxt"), 10): Text of element 'Object Repository/Festive Season/returnAngpaoStatusMessageTxt' is: 'Transfer successful'
+
+2022-06-15 19:19:39 - [MESSAGE][PASSED] - Text of element 'Object Repository/Festive Season/returnAngpaoStatusMessageTxt' is: 'Transfer successful'
+
+2022-06-15 19:19:39 - [TEST_STEP][PASSED] - println(message): null
+
+2022-06-15 19:19:39 - [TEST_STEP][PASSED] - assert message == successTransactionMessage: null
+
+2022-06-15 19:19:39 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferSummaryDateTimeTitleTxt"), 0): Element 'Object Repository/Transfer/transferSummaryDateTimeTitleTxt' is exist
+
+2022-06-15 19:19:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:39 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferSummaryDateTimeTitleTxt' is exist
+
+2022-06-15 19:19:39 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferSummaryRefIDTitleTxt"), 0): Element 'Object Repository/Transfer/transferSummaryRefIDTitleTxt' is exist
+
+2022-06-15 19:19:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:39 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferSummaryRefIDTitleTxt' is exist
+
+2022-06-15 19:19:39 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferSummaryShareReceiptBtn"), 0): Element 'Object Repository/Transfer/transferSummaryShareReceiptBtn' is exist
+
+2022-06-15 19:19:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:39 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferSummaryShareReceiptBtn' is exist
+
+2022-06-15 19:19:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:19:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:19:45 - [TEST_STEP][PASSED] - referenceID = getText(findTestObject("Send Request Money/requestMoneyPaySummaryRefIDTxt"), 0): Text of element 'Object Repository/Send Request Money/requestMoneyPaySummaryRefIDTxt' is: '183469496M'
+
+2022-06-15 19:19:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:45 - [MESSAGE][PASSED] - Text of element 'Object Repository/Send Request Money/requestMoneyPaySummaryRefIDTxt' is: '183469496M'
+
+2022-06-15 19:19:45 - [TEST_STEP][PASSED] - println(referenceID): null
+
+2022-06-15 19:19:45 - [TEST_STEP][PASSED] - test = dataFolder: null
+
+2022-06-15 19:19:45 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2022-06-15 19:19:45 - [TEST_STEP][PASSED] - file1 = new java.io.File(test): null
+
+2022-06-15 19:19:45 - [TEST_STEP][PASSED] - assert file1.exists() == true: null
+
+2022-06-15 19:19:45 - [TEST_STEP][PASSED] - woorkbook1 = getWorkbook(test): null
+
+2022-06-15 19:19:45 - [TEST_STEP][PASSED] - sheet1 = getExcelSheet(woorkbook1, sheetName): null
+
+2022-06-15 19:19:45 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 3, 1, referenceID): null
+
+2022-06-15 19:19:45 - [TEST_STEP][PASSED] - saveWorkbook(test, woorkbook1): null
+
+2022-06-15 19:19:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 19:19:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 19:19:48 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Desktop/Screenshot/instantThirdParty.png"): Screenshot is taken
+
+2022-06-15 19:19:49 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Desktop/Screenshot/instantThirdParty.png]]
+
+2022-06-15 19:19:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-06-15 19:19:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:49 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-06-15 19:19:49 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-06-15 19:19:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-06-15 19:19:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:19:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:19:55 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainTopLeftBackButton"), 0): Tapped on element 'Object Repository/Main/mainTopLeftBackButton'
+
+2022-06-15 19:19:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainTopLeftBackButton'
+
+2022-06-15 19:19:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Banking/m2uAccountTypeSelection", ["text":"MAE"]), 0): Element 'Object Repository/Banking/m2uAccountTypeSelection' is visible
+
+2022-06-15 19:19:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:19:57 - [MESSAGE][PASSED] - Element 'Object Repository/Banking/m2uAccountTypeSelection' is visible
+
+2022-06-15 19:19:57 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountTypeSelection", ["text":"MAE"]), 10): Tapped on element 'Object Repository/Banking/m2uAccountTypeSelection'
+
+2022-06-15 19:19:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountTypeSelection'
+
+2022-06-15 19:19:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:20:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:20:03 - [TEST_STEP][PASSED] - afterBalance = getText(findTestObject("Main/mainAccountsBalanceTxt"), 0): Text of element 'Object Repository/Main/mainAccountsBalanceTxt' is: 'RM 1,332.27'
+
+2022-06-15 19:20:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:20:03 - [MESSAGE][PASSED] - Text of element 'Object Repository/Main/mainAccountsBalanceTxt' is: 'RM 1,332.27'
+
+2022-06-15 19:20:03 - [TEST_STEP][PASSED] - newAfterBalance = afterBalance.replaceAll("[^0-9.]", ""): null
+
+2022-06-15 19:20:03 - [TEST_STEP][PASSED] - newAccountBalance = accountBalance.replaceAll("[^0-9.]", ""): null
+
+2022-06-15 19:20:03 - [TEST_STEP][PASSED] - newAfterBalanceF = Float.parseFloat(newAfterBalance): null
+
+2022-06-15 19:20:03 - [TEST_STEP][PASSED] - newAccountBalanceF = Float.parseFloat(newAccountBalance): null
+
+2022-06-15 19:20:03 - [TEST_STEP][PASSED] - println(afterBalance): null
+
+2022-06-15 19:20:03 - [TEST_STEP][PASSED] - println(accountBalance): null
+
+2022-06-15 19:20:03 - [TEST_STEP][PASSED] - println(newAfterBalance): null
+
+2022-06-15 19:20:03 - [TEST_STEP][PASSED] - println(newAccountBalance): null
+
+2022-06-15 19:20:03 - [TEST_STEP][PASSED] - value_1 = checkValue: null
+
+2022-06-15 19:20:03 - [TEST_STEP][PASSED] - value_2 = value_1.replaceAll("[^0-9.]", ""): null
+
+2022-06-15 19:20:03 - [TEST_STEP][PASSED] - newValue = Float.parseFloat(value_2): null
+
+2022-06-15 19:20:03 - [TEST_STEP][PASSED] - newBalance = newAccountBalanceF - newValue: null
+
+2022-06-15 19:20:03 - [TEST_STEP][PASSED] - println(newBalance): null
+
+2022-06-15 19:20:03 - [TEST_STEP][PASSED] - assert newBalance.round(2) == newAfterBalanceF: null
+
+2022-06-15 19:20:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:20:08 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Transfer/transfer_thirdPartyFuture" time="283.635" classname="Test Cases/Transfer/transfer_thirdPartyFuture" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Transfer/transfer_thirdPartyFuture FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Login Onboarding/PIN4 not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$4.call(Unknown Source)
+	at transfer_thirdPartyFuture.run(transfer_thirdPartyFuture:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)
+"/>
+         <system-out><![CDATA[2022-06-15 19:20:08 - [TEST_CASE][FAILED] - Test Cases/Transfer/transfer_thirdPartyFuture: Test Cases/Transfer/transfer_thirdPartyFuture FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Login Onboarding/PIN4 not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$4.call(Unknown Source)
+	at transfer_thirdPartyFuture.run(transfer_thirdPartyFuture:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)
+
+
+2022-06-15 19:20:09 - [TEST_STEP][PASSED] - start = "Starts": null
+
+2022-06-15 19:20:09 - [TEST_STEP][PASSED] - println(start): null
+
+2022-06-15 19:20:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:20:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:20:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Banking/m2uAccountTransferIconSelect"), 0): Element 'Object Repository/Banking/m2uAccountTransferIconSelect' is visible
+
+2022-06-15 19:20:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:20:14 - [MESSAGE][PASSED] - Element 'Object Repository/Banking/m2uAccountTransferIconSelect' is visible
+
+2022-06-15 19:20:14 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountTransferIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountTransferIconSelect'
+
+2022-06-15 19:20:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:20:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountTransferIconSelect'
+
+2022-06-15 19:20:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:20:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:20:19 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/transferOthersTopMenuSelect"), 0): Tapped on element 'Object Repository/Banking/transferOthersTopMenuSelect'
+
+2022-06-15 19:20:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:21:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/transferOthersTopMenuSelect'
+
+2022-06-15 19:21:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Banking/transferBanksIconSelect"), 0): Element 'Object Repository/Banking/transferBanksIconSelect' is visible
+
+2022-06-15 19:21:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:22:11 - [MESSAGE][PASSED] - Element 'Object Repository/Banking/transferBanksIconSelect' is visible
+
+2022-06-15 19:22:11 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/transferBanksIconSelect"), 0): Tapped on element 'Object Repository/Banking/transferBanksIconSelect'
+
+2022-06-15 19:22:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:23:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/transferBanksIconSelect'
+
+2022-06-15 19:23:04 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/transferToMaybankSelect"), 0): Tapped on element 'Object Repository/Banking/transferToMaybankSelect'
+
+2022-06-15 19:23:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:23:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/transferToMaybankSelect'
+
+2022-06-15 19:23:05 - [TEST_STEP][PASSED] - setText(findTestObject("Banking/transferAccountNoInputField"), "514012082699", 0): Text '514012082699' has been set to element 'Object Repository/Banking/transferAccountNoInputField'
+
+2022-06-15 19:23:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:23:08 - [MESSAGE][PASSED] - Text '514012082699' has been set to element 'Object Repository/Banking/transferAccountNoInputField'
+
+2022-06-15 19:23:08 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-06-15 19:23:12 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-06-15 19:23:12 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-06-15 19:23:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:23:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-06-15 19:23:12 - [TEST_STEP][FAILED] - tap(findTestObject("Login Onboarding/PIN4"), 0): Object Object Repository/Login Onboarding/PIN4 not found
+
+2022-06-15 19:23:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:23:55 - [MESSAGE][FAILED] - Object Object Repository/Login Onboarding/PIN4 not found
+
+2022-06-15 19:23:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 19:23:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 19:23:58 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginPinTickBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginPinTickBtn'
+
+2022-06-15 19:23:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:24:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginPinTickBtn'
+
+2022-06-15 19:24:13 - [TEST_STEP][PASSED] - setText(findTestObject("Banking/transferReferenceInputField"), "AmountTranser", 0): Text 'AmountTranser' has been set to element 'Object Repository/Banking/transferReferenceInputField'
+
+2022-06-15 19:24:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:24:15 - [MESSAGE][PASSED] - Text 'AmountTranser' has been set to element 'Object Repository/Banking/transferReferenceInputField'
+
+2022-06-15 19:24:15 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-06-15 19:24:17 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-06-15 19:24:17 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-06-15 19:24:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:24:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-06-15 19:24:17 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDatePickerTodaySelect"), 0): Tapped on element 'Object Repository/Main/mainDatePickerTodaySelect'
+
+2022-06-15 19:24:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:24:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDatePickerTodaySelect'
+
+2022-06-15 19:24:20 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerNextBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerNextBtn'
+
+2022-06-15 19:24:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:24:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerNextBtn'
+
+2022-06-15 19:24:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 19:24:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 19:24:25 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDatePicker1"), 0): Tapped on element 'Object Repository/Main/mainDatePicker1'
+
+2022-06-15 19:24:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:24:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDatePicker1'
+
+2022-06-15 19:24:26 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCalenderPickerDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-06-15 19:24:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:24:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCalenderPickerDoneBtn'
+
+2022-06-15 19:24:26 - [TEST_STEP][PASSED] - date = getText(findTestObject("Main/mainGetTransactionDateTxt"), 10): Text of element 'Object Repository/Main/mainGetTransactionDateTxt' is: '13 Jul 2022'
+
+2022-06-15 19:24:27 - [MESSAGE][PASSED] - Text of element 'Object Repository/Main/mainGetTransactionDateTxt' is: '13 Jul 2022'
+
+2022-06-15 19:24:27 - [TEST_STEP][PASSED] - println("Date is " + date): null
+
+2022-06-15 19:24:27 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainTransferNowBtn"), 0): Tapped on element 'Object Repository/Main/mainTransferNowBtn'
+
+2022-06-15 19:24:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:24:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainTransferNowBtn'
+
+2022-06-15 19:24:27 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Festive Season/seasonalGreetingAngpaoTACNoTxt"), 10, OPTIONAL)): Element 'Object Repository/Festive Season/seasonalGreetingAngpaoTACNoTxt' not found
+
+2022-06-15 19:24:37 - [MESSAGE][WARNING] - Element 'Object Repository/Festive Season/seasonalGreetingAngpaoTACNoTxt' not found
+
+2022-06-15 19:24:37 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-06-15 19:24:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:24:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:24:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainS2UApproveBtn"), 3): Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-06-15 19:24:43 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-06-15 19:24:43 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainS2UApproveBtn"), 0): Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-06-15 19:24:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:24:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-06-15 19:24:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 19:24:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 19:24:45 - [TEST_STEP][PASSED] - RefID = getText(findTestObject("Transfer/transferTransactionRefIDTxt"), 10): Text of element 'Object Repository/Transfer/transferTransactionRefIDTxt' is: 'Date & time'
+
+2022-06-15 19:24:46 - [MESSAGE][PASSED] - Text of element 'Object Repository/Transfer/transferTransactionRefIDTxt' is: 'Date & time'
+
+2022-06-15 19:24:46 - [TEST_STEP][PASSED] - println("Reference ID is" + RefID): null
+
+2022-06-15 19:24:46 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Desktop/Screenshot/thirdPartyFuture.png"): Screenshot is taken
+
+2022-06-15 19:24:46 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Desktop/Screenshot/thirdPartyFuture.png]]
+
+2022-06-15 19:24:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 3): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-06-15 19:24:47 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-06-15 19:24:47 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-06-15 19:24:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:24:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-06-15 19:24:47 - [TEST_STEP][PASSED] - println("Payment Scheduled Test Case Completed"): null
+
+2022-06-15 19:24:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:24:52 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[2022-06-15 19:20:08 - [TEST_CASE][FAILED] - Test Cases/Transfer/transfer_thirdPartyFuture: Test Cases/Transfer/transfer_thirdPartyFuture FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Login Onboarding/PIN4 not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$4.call(Unknown Source)
+	at transfer_thirdPartyFuture.run(transfer_thirdPartyFuture:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Transfer/transfer_thirdPartySetFav" time="227.158" classname="Test Cases/Transfer/transfer_thirdPartySetFav" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Transfer/transfer_thirdPartySetFav FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Banking/transferBanksIconSelect' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at transfer_thirdPartySetFav.run(transfer_thirdPartySetFav:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)
+"/>
+         <system-out><![CDATA[2022-06-15 19:24:52 - [TEST_CASE][FAILED] - Test Cases/Transfer/transfer_thirdPartySetFav: Test Cases/Transfer/transfer_thirdPartySetFav FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Banking/transferBanksIconSelect' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at transfer_thirdPartySetFav.run(transfer_thirdPartySetFav:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)
+
+
+2022-06-15 19:24:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:24:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:24:57 - [TEST_STEP][PASSED] - device_Height = getDeviceHeight(): Current device physical height is 2167
+
+2022-06-15 19:24:57 - [MESSAGE][PASSED] - Current device physical height is 2167
+
+2022-06-15 19:24:57 - [TEST_STEP][PASSED] - device_Width = getDeviceWidth(): Current device physical width is 1080
+
+2022-06-15 19:24:57 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2022-06-15 19:24:57 - [TEST_STEP][PASSED] - startX = device_Width / 3: null
+
+2022-06-15 19:24:57 - [TEST_STEP][PASSED] - startY = device_Height * 0.97: null
+
+2022-06-15 19:24:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Banking/m2uAccountTransferIconSelect"), 0): Element 'Object Repository/Banking/m2uAccountTransferIconSelect' is visible
+
+2022-06-15 19:24:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:24:58 - [MESSAGE][PASSED] - Element 'Object Repository/Banking/m2uAccountTransferIconSelect' is visible
+
+2022-06-15 19:24:58 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountTransferIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountTransferIconSelect'
+
+2022-06-15 19:24:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:24:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountTransferIconSelect'
+
+2022-06-15 19:24:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:25:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:25:03 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/transferOthersTopMenuSelect"), 0): Tapped on element 'Object Repository/Banking/transferOthersTopMenuSelect'
+
+2022-06-15 19:25:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:26:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/transferOthersTopMenuSelect'
+
+2022-06-15 19:26:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 19:26:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 19:26:07 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/transferBanksIconSelect"), 0): Tapped on element 'Object Repository/Banking/transferBanksIconSelect'
+
+2022-06-15 19:26:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:27:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/transferBanksIconSelect'
+
+2022-06-15 19:27:01 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Banking/transferBanksIconSelect"), 0): Element 'Object Repository/Banking/transferBanksIconSelect' not found
+
+2022-06-15 19:27:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:27:41 - [MESSAGE][FAILED] - Element 'Object Repository/Banking/transferBanksIconSelect' not found
+
+2022-06-15 19:27:41 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/transferToMaybankSelect"), 0): Tapped on element 'Object Repository/Banking/transferToMaybankSelect'
+
+2022-06-15 19:27:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:27:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/transferToMaybankSelect'
+
+2022-06-15 19:27:41 - [TEST_STEP][PASSED] - setText(findTestObject("Banking/transferAccountNoInputField"), accountNumFav, 0): Text '514012987769' has been set to element 'Object Repository/Banking/transferAccountNoInputField'
+
+2022-06-15 19:27:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:27:44 - [MESSAGE][PASSED] - Text '514012987769' has been set to element 'Object Repository/Banking/transferAccountNoInputField'
+
+2022-06-15 19:27:44 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-06-15 19:27:48 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-06-15 19:27:48 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-06-15 19:27:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:27:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-06-15 19:27:49 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN4"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-06-15 19:27:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:27:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-06-15 19:27:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 19:27:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 19:27:56 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginPinTickBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginPinTickBtn'
+
+2022-06-15 19:27:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:27:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginPinTickBtn'
+
+2022-06-15 19:27:56 - [TEST_STEP][PASSED] - setText(findTestObject("Banking/transferReferenceInputField"), "MBBTransfer", 0): Text 'MBBTransfer' has been set to element 'Object Repository/Banking/transferReferenceInputField'
+
+2022-06-15 19:27:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:27:58 - [MESSAGE][PASSED] - Text 'MBBTransfer' has been set to element 'Object Repository/Banking/transferReferenceInputField'
+
+2022-06-15 19:27:58 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-06-15 19:28:00 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-06-15 19:28:00 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-06-15 19:28:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:28:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-06-15 19:28:00 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainTransferNowBtn"), 0): Tapped on element 'Object Repository/Main/mainTransferNowBtn'
+
+2022-06-15 19:28:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:28:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainTransferNowBtn'
+
+2022-06-15 19:28:04 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Festive Season/seasonalGreetingAngpaoTACNoTxt"), 5, OPTIONAL)): Element 'Object Repository/Festive Season/seasonalGreetingAngpaoTACNoTxt' not found
+
+2022-06-15 19:28:09 - [MESSAGE][WARNING] - Element 'Object Repository/Festive Season/seasonalGreetingAngpaoTACNoTxt' not found
+
+2022-06-15 19:28:09 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-06-15 19:28:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 19:28:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 19:28:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainS2UApproveBtn"), 0): Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-06-15 19:28:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:28:12 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainS2UApproveBtn' is visible
+
+2022-06-15 19:28:12 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainS2UApproveBtn"), 0): Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-06-15 19:28:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:28:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainS2UApproveBtn'
+
+2022-06-15 19:28:12 - [TEST_STEP][PASSED] - message = getText(findTestObject("Main/mainTransactionStatusMessageTxt"), 10): Text of element 'Object Repository/Main/mainTransactionStatusMessageTxt' is: 'Transfer successful'
+
+2022-06-15 19:28:16 - [MESSAGE][PASSED] - Text of element 'Object Repository/Main/mainTransactionStatusMessageTxt' is: 'Transfer successful'
+
+2022-06-15 19:28:16 - [TEST_STEP][PASSED] - println(message): null
+
+2022-06-15 19:28:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:28:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:28:21 - [TEST_STEP][PASSED] - referenceID = getText(findTestObject("Send Request Money/requestMoneyPaySummaryRefIDTxt"), 0): Text of element 'Object Repository/Send Request Money/requestMoneyPaySummaryRefIDTxt' is: '183469645M'
+
+2022-06-15 19:28:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:28:22 - [MESSAGE][PASSED] - Text of element 'Object Repository/Send Request Money/requestMoneyPaySummaryRefIDTxt' is: '183469645M'
+
+2022-06-15 19:28:22 - [TEST_STEP][PASSED] - println(referenceID): null
+
+2022-06-15 19:28:22 - [TEST_STEP][PASSED] - test = dataFolder: null
+
+2022-06-15 19:28:22 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2022-06-15 19:28:22 - [TEST_STEP][PASSED] - file1 = new java.io.File(test): null
+
+2022-06-15 19:28:22 - [TEST_STEP][PASSED] - assert file1.exists() == true: null
+
+2022-06-15 19:28:22 - [TEST_STEP][PASSED] - woorkbook1 = getWorkbook(test): null
+
+2022-06-15 19:28:22 - [TEST_STEP][PASSED] - sheet1 = getExcelSheet(woorkbook1, sheetName): null
+
+2022-06-15 19:28:22 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 3, 1, referenceID): null
+
+2022-06-15 19:28:22 - [TEST_STEP][PASSED] - saveWorkbook(test, woorkbook1): null
+
+2022-06-15 19:28:22 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainAddToFavBtn"), 0): Tapped on element 'Object Repository/Main/mainAddToFavBtn'
+
+2022-06-15 19:28:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:28:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainAddToFavBtn'
+
+2022-06-15 19:28:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 19:28:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 19:28:24 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainAddToFavBtn"), 0): Tapped on element 'Object Repository/Main/mainAddToFavBtn'
+
+2022-06-15 19:28:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:28:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainAddToFavBtn'
+
+2022-06-15 19:28:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-15 19:28:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-15 19:28:28 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainCloseFavPopUpBtn"), 0): Tapped on element 'Object Repository/Main/mainCloseFavPopUpBtn'
+
+2022-06-15 19:28:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:28:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainCloseFavPopUpBtn'
+
+2022-06-15 19:28:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 19:28:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 19:28:33 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Desktop/Screenshot/thirdPartySetFav.png"): Screenshot is taken
+
+2022-06-15 19:28:34 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Desktop/Screenshot/thirdPartySetFav.png]]
+
+2022-06-15 19:28:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-06-15 19:28:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:28:34 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-06-15 19:28:34 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-06-15 19:28:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:28:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-06-15 19:28:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:28:39 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[2022-06-15 19:24:52 - [TEST_CASE][FAILED] - Test Cases/Transfer/transfer_thirdPartySetFav: Test Cases/Transfer/transfer_thirdPartySetFav FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Banking/transferBanksIconSelect' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at transfer_thirdPartySetFav.run(transfer_thirdPartySetFav:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Transfer/transfer_thirdPartyFav" time="752.298" classname="Test Cases/Transfer/transfer_thirdPartyFav" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Transfer/transfer_thirdPartyFav FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to text 'JSJSJDJDJJDJDJDNDNDN' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '00139272s-MacBook-Pro.local', ip: '2001:d08:e4:6521:80dd:b348:ad54:77%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, deviceId: 002b9cc60508, deviceName: Xiaomi 21061119AG (Android 11), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 63861, udid: 002b9cc60508}, deviceApiLevel: 30, deviceId: 002b9cc60508, deviceManufacturer: Xiaomi, deviceModel: 21061119AG, deviceName: 002b9cc60508, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 002b9cc60508, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 103, systemPort: 63861, takesScreenshot: true, udid: 002b9cc60508, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e3b54900-0b77-4716-aae3-fdea2ce868c5
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(&quot;JSJSJDJDJJDJDJDNDNDN&quot;))}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at io.appium.java_client.FindsByAndroidUIAutomator$findElementByAndroidUIAutomator.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword$_scrollToText_closure1.doCall(ScrollToTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword$_scrollToText_closure1.doCall(ScrollToTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword.scrollToText(ScrollToTextKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword.execute(ScrollToTextKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.scrollToText(MobileBuiltInKeywords.groovy:1998)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$scrollToText$13.call(Unknown Source)
+	at transfer_thirdPartyFav.run(transfer_thirdPartyFav:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword.scrollToText(ScrollToTextKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword.execute(ScrollToTextKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.scrollToText(MobileBuiltInKeywords.groovy:1998)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$scrollToText$13.call(Unknown Source)
+	at transfer_thirdPartyFav.run(transfer_thirdPartyFav:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '00139272s-MacBook-Pro.local', ip: '2001:d08:e4:6521:80dd:b348:ad54:77%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, deviceId: 002b9cc60508, deviceName: Xiaomi 21061119AG (Android 11), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 63861, udid: 002b9cc60508}, deviceApiLevel: 30, deviceId: 002b9cc60508, deviceManufacturer: Xiaomi, deviceModel: 21061119AG, deviceName: 002b9cc60508, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 002b9cc60508, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 103, systemPort: 63861, takesScreenshot: true, udid: 002b9cc60508, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e3b54900-0b77-4716-aae3-fdea2ce868c5
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(&quot;JSJSJDJDJJDJDJDNDNDN&quot;))}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at io.appium.java_client.FindsByAndroidUIAutomator$findElementByAndroidUIAutomator.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword$_scrollToText_closure1.doCall(ScrollToTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword$_scrollToText_closure1.doCall(ScrollToTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more
+"/>
+         <system-out><![CDATA[2022-06-15 19:28:39 - [TEST_CASE][FAILED] - Test Cases/Transfer/transfer_thirdPartyFav: Test Cases/Transfer/transfer_thirdPartyFav FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to text 'JSJSJDJDJJDJDJDNDNDN' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '00139272s-MacBook-Pro.local', ip: '2001:d08:e4:6521:80dd:b348:ad54:77%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, deviceId: 002b9cc60508, deviceName: Xiaomi 21061119AG (Android 11), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 63861, udid: 002b9cc60508}, deviceApiLevel: 30, deviceId: 002b9cc60508, deviceManufacturer: Xiaomi, deviceModel: 21061119AG, deviceName: 002b9cc60508, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 002b9cc60508, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 103, systemPort: 63861, takesScreenshot: true, udid: 002b9cc60508, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e3b54900-0b77-4716-aae3-fdea2ce868c5
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("JSJSJDJDJJDJDJDNDNDN"))}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at io.appium.java_client.FindsByAndroidUIAutomator$findElementByAndroidUIAutomator.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword$_scrollToText_closure1.doCall(ScrollToTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword$_scrollToText_closure1.doCall(ScrollToTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword.scrollToText(ScrollToTextKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword.execute(ScrollToTextKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.scrollToText(MobileBuiltInKeywords.groovy:1998)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$scrollToText$13.call(Unknown Source)
+	at transfer_thirdPartyFav.run(transfer_thirdPartyFav:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword.scrollToText(ScrollToTextKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword.execute(ScrollToTextKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.scrollToText(MobileBuiltInKeywords.groovy:1998)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$scrollToText$13.call(Unknown Source)
+	at transfer_thirdPartyFav.run(transfer_thirdPartyFav:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '00139272s-MacBook-Pro.local', ip: '2001:d08:e4:6521:80dd:b348:ad54:77%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, deviceId: 002b9cc60508, deviceName: Xiaomi 21061119AG (Android 11), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 63861, udid: 002b9cc60508}, deviceApiLevel: 30, deviceId: 002b9cc60508, deviceManufacturer: Xiaomi, deviceModel: 21061119AG, deviceName: 002b9cc60508, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 002b9cc60508, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 103, systemPort: 63861, takesScreenshot: true, udid: 002b9cc60508, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e3b54900-0b77-4716-aae3-fdea2ce868c5
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("JSJSJDJDJJDJDJDNDNDN"))}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at io.appium.java_client.FindsByAndroidUIAutomator$findElementByAndroidUIAutomator.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword$_scrollToText_closure1.doCall(ScrollToTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword$_scrollToText_closure1.doCall(ScrollToTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more
+
+
+2022-06-15 19:28:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:28:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:28:44 - [TEST_STEP][PASSED] - device_Height = getDeviceHeight(): Current device physical height is 2167
+
+2022-06-15 19:28:45 - [MESSAGE][PASSED] - Current device physical height is 2167
+
+2022-06-15 19:28:45 - [TEST_STEP][PASSED] - device_Width = getDeviceWidth(): Current device physical width is 1080
+
+2022-06-15 19:28:45 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2022-06-15 19:28:45 - [TEST_STEP][PASSED] - startX = device_Width / 3: null
+
+2022-06-15 19:28:45 - [TEST_STEP][PASSED] - startY = device_Height * 0.97: null
+
+2022-06-15 19:28:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Banking/m2uAccountTransferIconSelect"), 0): Element 'Object Repository/Banking/m2uAccountTransferIconSelect' is visible
+
+2022-06-15 19:28:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:28:45 - [MESSAGE][PASSED] - Element 'Object Repository/Banking/m2uAccountTransferIconSelect' is visible
+
+2022-06-15 19:28:45 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountTransferIconSelect"), 0): Tapped on element 'Object Repository/Banking/m2uAccountTransferIconSelect'
+
+2022-06-15 19:28:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:28:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountTransferIconSelect'
+
+2022-06-15 19:28:45 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/transferOthersTopMenuSelect"), 0): Tapped on element 'Object Repository/Banking/transferOthersTopMenuSelect'
+
+2022-06-15 19:28:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:29:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/transferOthersTopMenuSelect'
+
+2022-06-15 19:29:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 19:29:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 19:29:50 - [TEST_STEP][FAILED] - scrollToText(accName): Unable to scroll to text 'JSJSJDJDJJDJDJDNDNDN' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '00139272s-MacBook-Pro.local', ip: '2001:d08:e4:6521:80dd:b348:ad54:77%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, deviceId: 002b9cc60508, deviceName: Xiaomi 21061119AG (Android 11), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 63861, udid: 002b9cc60508}, deviceApiLevel: 30, deviceId: 002b9cc60508, deviceManufacturer: Xiaomi, deviceModel: 21061119AG, deviceName: 002b9cc60508, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 002b9cc60508, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 103, systemPort: 63861, takesScreenshot: true, udid: 002b9cc60508, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e3b54900-0b77-4716-aae3-fdea2ce868c5
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("JSJSJDJDJJDJDJDNDNDN"))}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at io.appium.java_client.FindsByAndroidUIAutomator$findElementByAndroidUIAutomator.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword$_scrollToText_closure1.doCall(ScrollToTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword$_scrollToText_closure1.doCall(ScrollToTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword.scrollToText(ScrollToTextKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword.execute(ScrollToTextKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.scrollToText(MobileBuiltInKeywords.groovy:1998)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$scrollToText$13.call(Unknown Source)
+	at transfer_thirdPartyFav.run(transfer_thirdPartyFav:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)
+)
+
+2022-06-15 19:30:34 - [MESSAGE][FAILED] - Unable to scroll to text 'JSJSJDJDJJDJDJDNDNDN' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '00139272s-MacBook-Pro.local', ip: '2001:d08:e4:6521:80dd:b348:ad54:77%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, deviceId: 002b9cc60508, deviceName: Xiaomi 21061119AG (Android 11), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 63861, udid: 002b9cc60508}, deviceApiLevel: 30, deviceId: 002b9cc60508, deviceManufacturer: Xiaomi, deviceModel: 21061119AG, deviceName: 002b9cc60508, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 002b9cc60508, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 103, systemPort: 63861, takesScreenshot: true, udid: 002b9cc60508, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e3b54900-0b77-4716-aae3-fdea2ce868c5
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("JSJSJDJDJJDJDJDNDNDN"))}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at io.appium.java_client.FindsByAndroidUIAutomator$findElementByAndroidUIAutomator.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword$_scrollToText_closure1.doCall(ScrollToTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword$_scrollToText_closure1.doCall(ScrollToTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword.scrollToText(ScrollToTextKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword.execute(ScrollToTextKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.scrollToText(MobileBuiltInKeywords.groovy:1998)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$scrollToText$13.call(Unknown Source)
+	at transfer_thirdPartyFav.run(transfer_thirdPartyFav:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)
+)
+
+2022-06-15 19:30:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferFavListAccNameTxt", ["accName":accName]), accName): Actual text and expected text of test object 'Object Repository/Transfer/transferFavListAccNameTxt' are matched.
+
+2022-06-15 19:31:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferFavListAccNameTxt' are matched.
+
+2022-06-15 19:31:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferFavListAccNoTxt", ["accNo":accNo]), accNo): Actual text and expected text of test object 'Object Repository/Transfer/transferFavListAccNoTxt' are matched.
+
+2022-06-15 19:32:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferFavListAccNoTxt' are matched.
+
+2022-06-15 19:32:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferFavListAccBankTxt", ["accBank":accBank]), accBank): Actual text and expected text of test object 'Object Repository/Transfer/transferFavListAccBankTxt' are matched.
+
+2022-06-15 19:33:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferFavListAccBankTxt' are matched.
+
+2022-06-15 19:33:07 - [TEST_STEP][PASSED] - tap(findTestObject("Transfer/transferFavListAccNameTxt", ["accName":accName]), 0): Tapped on element 'Object Repository/Transfer/transferFavListAccNameTxt'
+
+2022-06-15 19:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:34:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transfer/transferFavListAccNameTxt'
+
+2022-06-15 19:34:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 19:34:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 19:34:03 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Transfer/transferAmounttAccNameTxt"), accName): Element 'Object Repository/Transfer/transferAmounttAccNameTxt' not found
+
+2022-06-15 19:34:43 - [MESSAGE][FAILED] - Element 'Object Repository/Transfer/transferAmounttAccNameTxt' not found
+
+2022-06-15 19:34:43 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Transfer/transferAmounttAccNoTxt"), accNo): Element 'Object Repository/Transfer/transferAmounttAccNoTxt' not found
+
+2022-06-15 19:35:24 - [MESSAGE][FAILED] - Element 'Object Repository/Transfer/transferAmounttAccNoTxt' not found
+
+2022-06-15 19:35:24 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Transfer/transferAmounttAccBankTxt"), accBank): Element 'Object Repository/Transfer/transferAmounttAccBankTxt' not found
+
+2022-06-15 19:36:04 - [MESSAGE][FAILED] - Element 'Object Repository/Transfer/transferAmounttAccBankTxt' not found
+
+2022-06-15 19:36:04 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferAmountRMTxt"), 0): Element 'Object Repository/Transfer/transferAmountRMTxt' is exist
+
+2022-06-15 19:36:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:36:04 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferAmountRMTxt' is exist
+
+2022-06-15 19:36:04 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferAmountEnterAmountTitleTxt"), 0): Element 'Object Repository/Transfer/transferAmountEnterAmountTitleTxt' is exist
+
+2022-06-15 19:36:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:36:04 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferAmountEnterAmountTitleTxt' is exist
+
+2022-06-15 19:36:04 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login Onboarding/PIN4"), 0): Element 'Object Repository/Login Onboarding/PIN4' is exist
+
+2022-06-15 19:36:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:36:04 - [MESSAGE][PASSED] - Element 'Object Repository/Login Onboarding/PIN4' is exist
+
+2022-06-15 19:36:04 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/PIN4"), 0): Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-06-15 19:36:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:36:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/PIN4'
+
+2022-06-15 19:36:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferAmountInputValueTxt", ["value":checkValue]), checkValue): Actual text and expected text of test object 'Object Repository/Transfer/transferAmountInputValueTxt' are matched.
+
+2022-06-15 19:36:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferAmountInputValueTxt' are matched.
+
+2022-06-15 19:36:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 19:36:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 19:36:09 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginPinTickBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginPinTickBtn'
+
+2022-06-15 19:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:36:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginPinTickBtn'
+
+2022-06-15 19:36:09 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Transfer/transferReferenceAccNameTxt"), accName): Element 'Object Repository/Transfer/transferReferenceAccNameTxt' not found
+
+2022-06-15 19:36:49 - [MESSAGE][FAILED] - Element 'Object Repository/Transfer/transferReferenceAccNameTxt' not found
+
+2022-06-15 19:36:49 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Transfer/transferReferenceAccNoTxt"), accNo): Element 'Object Repository/Transfer/transferReferenceAccNoTxt' not found
+
+2022-06-15 19:37:29 - [MESSAGE][FAILED] - Element 'Object Repository/Transfer/transferReferenceAccNoTxt' not found
+
+2022-06-15 19:37:29 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Transfer/transferReferenceAccBankTxt"), accBank): Element 'Object Repository/Transfer/transferReferenceAccBankTxt' not found
+
+2022-06-15 19:38:10 - [MESSAGE][FAILED] - Element 'Object Repository/Transfer/transferReferenceAccBankTxt' not found
+
+2022-06-15 19:38:10 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferReferenceInputField"), 0): Element 'Object Repository/Transfer/transferReferenceInputField' is exist
+
+2022-06-15 19:38:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:38:10 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferReferenceInputField' is exist
+
+2022-06-15 19:38:10 - [TEST_STEP][PASSED] - setText(findTestObject("Banking/transferReferenceInputField"), reference, 0): Text 'MBBTransfer' has been set to element 'Object Repository/Banking/transferReferenceInputField'
+
+2022-06-15 19:38:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:38:12 - [MESSAGE][PASSED] - Text 'MBBTransfer' has been set to element 'Object Repository/Banking/transferReferenceInputField'
+
+2022-06-15 19:38:12 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-06-15 19:38:14 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-06-15 19:38:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferReferenceInputFieldAfter", ["reference":reference]), reference): Actual text and expected text of test object 'Object Repository/Transfer/transferReferenceInputFieldAfter' are matched.
+
+2022-06-15 19:38:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferReferenceInputFieldAfter' are matched.
+
+2022-06-15 19:38:14 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-06-15 19:38:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:38:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2022-06-15 19:38:14 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Transfer/transferConfirmationAccountNameTxt"), accName): Element 'Object Repository/Transfer/transferConfirmationAccountNameTxt' not found
+
+2022-06-15 19:38:54 - [MESSAGE][FAILED] - Element 'Object Repository/Transfer/transferConfirmationAccountNameTxt' not found
+
+2022-06-15 19:38:54 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Transfer/transferConfirmationAccountNoTxt"), accNo): Element 'Object Repository/Transfer/transferConfirmationAccountNoTxt' not found
+
+2022-06-15 19:39:34 - [MESSAGE][FAILED] - Element 'Object Repository/Transfer/transferConfirmationAccountNoTxt' not found
+
+2022-06-15 19:39:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationAmountTxt", ["amount":amount]), amount): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationAmountTxt' are matched.
+
+2022-06-15 19:39:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationAmountTxt' are matched.
+
+2022-06-15 19:39:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationTransactionDateTxt"), "Today"): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationTransactionDateTxt' are matched.
+
+2022-06-15 19:39:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationTransactionDateTxt' are matched.
+
+2022-06-15 19:39:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationTransactionRecRefTxt", ["reference":reference]), reference): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationTransactionRecRefTxt' are matched.
+
+2022-06-15 19:39:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationTransactionRecRefTxt' are matched.
+
+2022-06-15 19:39:35 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Transfer/transferConfirmationTransactionBankTxt"), accBank): Element 'Object Repository/Transfer/transferConfirmationTransactionBankTxt' not found
+
+2022-06-15 19:40:15 - [MESSAGE][FAILED] - Element 'Object Repository/Transfer/transferConfirmationTransactionBankTxt' not found
+
+2022-06-15 19:40:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationOptionalGreyWordTxt"), "Optional"): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationOptionalGreyWordTxt' are matched.
+
+2022-06-15 19:40:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationOptionalGreyWordTxt' are matched.
+
+2022-06-15 19:40:16 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferConfirmationBankNameTitleTxt"), 0): Element 'Object Repository/Transfer/transferConfirmationBankNameTitleTxt' is exist
+
+2022-06-15 19:40:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:16 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferConfirmationBankNameTitleTxt' is exist
+
+2022-06-15 19:40:16 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferConfirmationDateTitleTxt"), 0): Element 'Object Repository/Transfer/transferConfirmationDateTitleTxt' is exist
+
+2022-06-15 19:40:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:16 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferConfirmationDateTitleTxt' is exist
+
+2022-06-15 19:40:16 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferConfirmationFTransferFromTitleTxt"), 0): Element 'Object Repository/Transfer/transferConfirmationFTransferFromTitleTxt' is exist
+
+2022-06-15 19:40:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:16 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferConfirmationFTransferFromTitleTxt' is exist
+
+2022-06-15 19:40:16 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferConfirmationRecRefTitleTxt"), 0): Element 'Object Repository/Transfer/transferConfirmationRecRefTitleTxt' is exist
+
+2022-06-15 19:40:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:17 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferConfirmationRecRefTitleTxt' is exist
+
+2022-06-15 19:40:17 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferConfirmationPaymentDetailsTitleTxt"), 0): Element 'Object Repository/Transfer/transferConfirmationPaymentDetailsTitleTxt' is exist
+
+2022-06-15 19:40:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:17 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferConfirmationPaymentDetailsTitleTxt' is exist
+
+2022-06-15 19:40:17 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferConfirmationNoteTitleTxt"), 0): Element 'Object Repository/Transfer/transferConfirmationNoteTitleTxt' is exist
+
+2022-06-15 19:40:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:17 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferConfirmationNoteTitleTxt' is exist
+
+2022-06-15 19:40:17 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferConfirmationNoteContentTxt"), 0): Element 'Object Repository/Transfer/transferConfirmationNoteContentTxt' is exist
+
+2022-06-15 19:40:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:17 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferConfirmationNoteContentTxt' is exist
+
+2022-06-15 19:40:17 - [TEST_STEP][PASSED] - tap(findTestObject("Transfer/transferConfirmationOptionalGreyWordTxt"), 0): Tapped on element 'Object Repository/Transfer/transferConfirmationOptionalGreyWordTxt'
+
+2022-06-15 19:40:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transfer/transferConfirmationOptionalGreyWordTxt'
+
+2022-06-15 19:40:18 - [TEST_STEP][PASSED] - setText(findTestObject("Transfer/transferConfirmationDetailsInputField"), referenceC, 0): Text 'Test Transfer' has been set to element 'Object Repository/Transfer/transferConfirmationDetailsInputField'
+
+2022-06-15 19:40:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:20 - [MESSAGE][PASSED] - Text 'Test Transfer' has been set to element 'Object Repository/Transfer/transferConfirmationDetailsInputField'
+
+2022-06-15 19:40:20 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-06-15 19:40:22 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-06-15 19:40:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationOptionalGreyWordTxt"), referenceC): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationOptionalGreyWordTxt' are matched.
+
+2022-06-15 19:40:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationOptionalGreyWordTxt' are matched.
+
+2022-06-15 19:40:22 - [TEST_STEP][PASSED] - device_Height_2 = getDeviceHeight(): Current device physical height is 2167
+
+2022-06-15 19:40:22 - [MESSAGE][PASSED] - Current device physical height is 2167
+
+2022-06-15 19:40:22 - [TEST_STEP][PASSED] - device_Width_2 = getDeviceWidth(): Current device physical width is 1080
+
+2022-06-15 19:40:22 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2022-06-15 19:40:22 - [TEST_STEP][PASSED] - startX_2 = device_Width_2 / 2: null
+
+2022-06-15 19:40:22 - [TEST_STEP][PASSED] - endX_2 = startX_2: null
+
+2022-06-15 19:40:22 - [TEST_STEP][PASSED] - startY_2 = device_Height_2 * 0.30: null
+
+2022-06-15 19:40:22 - [TEST_STEP][PASSED] - endY_2 = device_Height_2 * 0.70: null
+
+2022-06-15 19:40:22 - [TEST_STEP][PASSED] - swipe(startX_2, endY_2, endX_2, startY_2): Swiped from 540,1,516 to 540,650
+
+2022-06-15 19:40:24 - [MESSAGE][PASSED] - Swiped from 540,1,516 to 540,650
+
+2022-06-15 19:40:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationFromAccTypeTxt", ["accType":accType]), accType): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationFromAccTypeTxt' are matched.
+
+2022-06-15 19:40:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationFromAccTypeTxt' are matched.
+
+2022-06-15 19:40:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Transfer/transferConfirmationFromAccNoTxt", ["accNoFrom":accNoFrom]), accNoFrom): Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationFromAccNoTxt' are matched.
+
+2022-06-15 19:40:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transfer/transferConfirmationFromAccNoTxt' are matched.
+
+2022-06-15 19:40:24 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferConfirmationFromAccBalanceTxt"), 0): Element 'Object Repository/Transfer/transferConfirmationFromAccBalanceTxt' is exist
+
+2022-06-15 19:40:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:24 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferConfirmationFromAccBalanceTxt' is exist
+
+2022-06-15 19:40:24 - [TEST_STEP][PASSED] - accountBalance = getText(findTestObject("Transfer/transferConfirmationFromAccBalanceTxt"), 0): Text of element 'Object Repository/Transfer/transferConfirmationFromAccBalanceTxt' is: 'RM 1,332.23'
+
+2022-06-15 19:40:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:24 - [MESSAGE][PASSED] - Text of element 'Object Repository/Transfer/transferConfirmationFromAccBalanceTxt' is: 'RM 1,332.23'
+
+2022-06-15 19:40:24 - [TEST_STEP][PASSED] - println(accountBalance): null
+
+2022-06-15 19:40:24 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainTransferNowBtn"), 0): Tapped on element 'Object Repository/Main/mainTransferNowBtn'
+
+2022-06-15 19:40:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainTransferNowBtn'
+
+2022-06-15 19:40:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:40:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:40:30 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Festive Season/returnAngpaoStatusMessageTxt"), 0): Element 'Object Repository/Festive Season/returnAngpaoStatusMessageTxt' is exist
+
+2022-06-15 19:40:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:44 - [MESSAGE][PASSED] - Element 'Object Repository/Festive Season/returnAngpaoStatusMessageTxt' is exist
+
+2022-06-15 19:40:44 - [TEST_STEP][PASSED] - message = getText(findTestObject("Festive Season/returnAngpaoStatusMessageTxt"), 10): Text of element 'Object Repository/Festive Season/returnAngpaoStatusMessageTxt' is: 'Transfer successful'
+
+2022-06-15 19:40:44 - [MESSAGE][PASSED] - Text of element 'Object Repository/Festive Season/returnAngpaoStatusMessageTxt' is: 'Transfer successful'
+
+2022-06-15 19:40:44 - [TEST_STEP][PASSED] - println(message): null
+
+2022-06-15 19:40:44 - [TEST_STEP][PASSED] - assert message == successTransactionMessage: null
+
+2022-06-15 19:40:44 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferSummaryDateTimeTitleTxt"), 0): Element 'Object Repository/Transfer/transferSummaryDateTimeTitleTxt' is exist
+
+2022-06-15 19:40:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:44 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferSummaryDateTimeTitleTxt' is exist
+
+2022-06-15 19:40:44 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferSummaryRefIDTitleTxt"), 0): Element 'Object Repository/Transfer/transferSummaryRefIDTitleTxt' is exist
+
+2022-06-15 19:40:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:44 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferSummaryRefIDTitleTxt' is exist
+
+2022-06-15 19:40:44 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Transfer/transferSummaryShareReceiptBtn"), 0): Element 'Object Repository/Transfer/transferSummaryShareReceiptBtn' is exist
+
+2022-06-15 19:40:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:44 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/transferSummaryShareReceiptBtn' is exist
+
+2022-06-15 19:40:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:40:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:40:49 - [TEST_STEP][PASSED] - referenceID = getText(findTestObject("Send Request Money/requestMoneyPaySummaryRefIDTxt"), 0): Text of element 'Object Repository/Send Request Money/requestMoneyPaySummaryRefIDTxt' is: '183469668M'
+
+2022-06-15 19:40:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:50 - [MESSAGE][PASSED] - Text of element 'Object Repository/Send Request Money/requestMoneyPaySummaryRefIDTxt' is: '183469668M'
+
+2022-06-15 19:40:50 - [TEST_STEP][PASSED] - println(referenceID): null
+
+2022-06-15 19:40:50 - [TEST_STEP][PASSED] - test = dataFolder: null
+
+2022-06-15 19:40:50 - [TEST_STEP][PASSED] - sheetName = "Sheet1": null
+
+2022-06-15 19:40:50 - [TEST_STEP][PASSED] - file1 = new java.io.File(test): null
+
+2022-06-15 19:40:50 - [TEST_STEP][PASSED] - assert file1.exists() == true: null
+
+2022-06-15 19:40:50 - [TEST_STEP][PASSED] - woorkbook1 = getWorkbook(test): null
+
+2022-06-15 19:40:50 - [TEST_STEP][PASSED] - sheet1 = getExcelSheet(woorkbook1, sheetName): null
+
+2022-06-15 19:40:50 - [TEST_STEP][PASSED] - setValueToCellByIndex(sheet1, 3, 1, referenceID): null
+
+2022-06-15 19:40:50 - [TEST_STEP][PASSED] - saveWorkbook(test, woorkbook1): null
+
+2022-06-15 19:40:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-15 19:40:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-15 19:40:53 - [TEST_STEP][PASSED] - takeScreenshot("/Users/a00139272/Desktop/Screenshot/thirdPartyFav.png"): Screenshot is taken
+
+2022-06-15 19:40:53 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/a00139272/Desktop/Screenshot/thirdPartyFav.png]]
+
+2022-06-15 19:40:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/mainDoneBtn"), 0): Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-06-15 19:40:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:54 - [MESSAGE][PASSED] - Element 'Object Repository/Main/mainDoneBtn' is visible
+
+2022-06-15 19:40:54 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainDoneBtn"), 0): Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-06-15 19:40:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainDoneBtn'
+
+2022-06-15 19:40:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:40:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:40:59 - [TEST_STEP][PASSED] - tap(findTestObject("Main/mainTopLeftBackButton"), 0): Tapped on element 'Object Repository/Main/mainTopLeftBackButton'
+
+2022-06-15 19:40:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:40:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Main/mainTopLeftBackButton'
+
+2022-06-15 19:40:59 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Banking/m2uAccountTypeSelection", ["text":accType]), 0): Failed to check for element 'Object Repository/Banking/m2uAccountTypeSelection' visible (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@class = 'android.widget.TextView' and (@text = 'MAE' or . = 'MAE')]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '00139272s-MacBook-Pro.local', ip: '2001:d08:e4:6521:80dd:b348:ad54:77%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, deviceId: 002b9cc60508, deviceName: Xiaomi 21061119AG (Android 11), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 63861, udid: 002b9cc60508}, deviceApiLevel: 30, deviceId: 002b9cc60508, deviceManufacturer: Xiaomi, deviceModel: 21061119AG, deviceName: 002b9cc60508, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 002b9cc60508, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 103, systemPort: 63861, takesScreenshot: true, udid: 002b9cc60508, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e3b54900-0b77-4716-aae3-fdea2ce868c5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.access$1(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at transfer_thirdPartyFav.run(transfer_thirdPartyFav:250)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)
+)
+
+2022-06-15 19:40:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:41:01 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/Banking/m2uAccountTypeSelection' visible (Root cause: org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //*[@class = 'android.widget.TextView' and (@text = 'MAE' or . = 'MAE')]' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '00139272s-MacBook-Pro.local', ip: '2001:d08:e4:6521:80dd:b348:ad54:77%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, deviceId: 002b9cc60508, deviceName: Xiaomi 21061119AG (Android 11), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 63861, udid: 002b9cc60508}, deviceApiLevel: 30, deviceId: 002b9cc60508, deviceManufacturer: Xiaomi, deviceModel: 21061119AG, deviceName: 002b9cc60508, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 002b9cc60508, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 103, systemPort: 63861, takesScreenshot: true, udid: 002b9cc60508, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e3b54900-0b77-4716-aae3-fdea2ce868c5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getLocation(RemoteWebElement.java:337)
+	at org.openqa.selenium.WebElement$getLocation.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.access$1(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at transfer_thirdPartyFav.run(transfer_thirdPartyFav:250)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)
+)
+
+2022-06-15 19:41:01 - [TEST_STEP][PASSED] - tap(findTestObject("Banking/m2uAccountTypeSelection", ["text":accType]), 10): Tapped on element 'Object Repository/Banking/m2uAccountTypeSelection'
+
+2022-06-15 19:41:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Banking/m2uAccountTypeSelection'
+
+2022-06-15 19:41:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:41:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-15 19:41:06 - [TEST_STEP][PASSED] - afterBalance = getText(findTestObject("Main/mainAccountsBalanceTxt"), 0): Text of element 'Object Repository/Main/mainAccountsBalanceTxt' is: 'RM 1,332.19'
+
+2022-06-15 19:41:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+2022-06-15 19:41:06 - [MESSAGE][PASSED] - Text of element 'Object Repository/Main/mainAccountsBalanceTxt' is: 'RM 1,332.19'
+
+2022-06-15 19:41:06 - [TEST_STEP][PASSED] - newAfterBalance = afterBalance.replaceAll("[^0-9.]", ""): null
+
+2022-06-15 19:41:06 - [TEST_STEP][PASSED] - newAccountBalance = accountBalance.replaceAll("[^0-9.]", ""): null
+
+2022-06-15 19:41:06 - [TEST_STEP][PASSED] - newAfterBalanceF = Float.parseFloat(newAfterBalance): null
+
+2022-06-15 19:41:06 - [TEST_STEP][PASSED] - newAccountBalanceF = Float.parseFloat(newAccountBalance): null
+
+2022-06-15 19:41:06 - [TEST_STEP][PASSED] - println(afterBalance): null
+
+2022-06-15 19:41:06 - [TEST_STEP][PASSED] - println(accountBalance): null
+
+2022-06-15 19:41:06 - [TEST_STEP][PASSED] - println(newAfterBalance): null
+
+2022-06-15 19:41:06 - [TEST_STEP][PASSED] - println(newAccountBalance): null
+
+2022-06-15 19:41:06 - [TEST_STEP][PASSED] - value_1 = checkValue: null
+
+2022-06-15 19:41:06 - [TEST_STEP][PASSED] - value_2 = value_1.replaceAll("[^0-9.]", ""): null
+
+2022-06-15 19:41:06 - [TEST_STEP][PASSED] - newValue = Float.parseFloat(value_2): null
+
+2022-06-15 19:41:06 - [TEST_STEP][PASSED] - newBalance = newAccountBalanceF - newValue: null
+
+2022-06-15 19:41:06 - [TEST_STEP][PASSED] - println(newBalance): null
+
+2022-06-15 19:41:06 - [TEST_STEP][PASSED] - assert newBalance.round(2) == newAfterBalanceF: null
+
+2022-06-15 19:41:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-15 19:41:11 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[2022-06-15 19:28:39 - [TEST_CASE][FAILED] - Test Cases/Transfer/transfer_thirdPartyFav: Test Cases/Transfer/transfer_thirdPartyFav FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to text 'JSJSJDJDJJDJDJDNDNDN' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '00139272s-MacBook-Pro.local', ip: '2001:d08:e4:6521:80dd:b348:ad54:77%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, deviceId: 002b9cc60508, deviceName: Xiaomi 21061119AG (Android 11), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 63861, udid: 002b9cc60508}, deviceApiLevel: 30, deviceId: 002b9cc60508, deviceManufacturer: Xiaomi, deviceModel: 21061119AG, deviceName: 002b9cc60508, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 002b9cc60508, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 103, systemPort: 63861, takesScreenshot: true, udid: 002b9cc60508, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e3b54900-0b77-4716-aae3-fdea2ce868c5
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("JSJSJDJDJJDJDJDNDNDN"))}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at io.appium.java_client.FindsByAndroidUIAutomator$findElementByAndroidUIAutomator.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword$_scrollToText_closure1.doCall(ScrollToTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword$_scrollToText_closure1.doCall(ScrollToTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword.scrollToText(ScrollToTextKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword.execute(ScrollToTextKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.scrollToText(MobileBuiltInKeywords.groovy:1998)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$scrollToText$13.call(Unknown Source)
+	at transfer_thirdPartyFav.run(transfer_thirdPartyFav:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword.scrollToText(ScrollToTextKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword.execute(ScrollToTextKeyword.groovy:41)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.scrollToText(MobileBuiltInKeywords.groovy:1998)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$scrollToText$13.call(Unknown Source)
+	at transfer_thirdPartyFav.run(transfer_thirdPartyFav:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '00139272s-MacBook-Pro.local', ip: '2001:d08:e4:6521:80dd:b348:ad54:77%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, databaseEnabled: false, desired: {app: /Users/a00139272/Katalon St..., appActivity: com.maybank2u.life.MainActi..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, autoGrantPermissions: true, automationName: uiautomator2, chromedriverPort: 63863, deviceId: 002b9cc60508, deviceName: Xiaomi 21061119AG (Android 11), fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: android, platformVersion: 11, systemPort: 63861, udid: 002b9cc60508}, deviceApiLevel: 30, deviceId: 002b9cc60508, deviceManufacturer: Xiaomi, deviceModel: 21061119AG, deviceName: 002b9cc60508, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 002b9cc60508, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 11, statBarHeight: 103, systemPort: 63861, takesScreenshot: true, udid: 002b9cc60508, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e3b54900-0b77-4716-aae3-fdea2ce868c5
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("JSJSJDJDJJDJDJDNDNDN"))}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at io.appium.java_client.FindsByAndroidUIAutomator$findElementByAndroidUIAutomator.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword$_scrollToText_closure1.doCall(ScrollToTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.ScrollToTextKeyword$_scrollToText_closure1.doCall(ScrollToTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-15 19:12:09 - [TEST_SUITE][FAILED] - Regress 3: Test Cases/Transfer/transfer_thirdPartyFuture FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Login Onboarding/PIN4 not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$4.call(Unknown Source)
+	at transfer_thirdPartyFuture.run(transfer_thirdPartyFuture:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-06-15 19:12:09 - [TEST_SUITE][FAILED] - Regress 3: Test Cases/Transfer/transfer_thirdPartyFuture FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Login Onboarding/PIN4 not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$4.call(Unknown Source)
+	at transfer_thirdPartyFuture.run(transfer_thirdPartyFuture:89)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655291519565.run(TempTestSuite1655291519565.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

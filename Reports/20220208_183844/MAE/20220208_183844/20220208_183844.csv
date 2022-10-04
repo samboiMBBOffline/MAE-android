@@ -1,0 +1,68 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MAE,,,,2022-02-08 18:38:54,2022-02-08 18:46:14,7m - 20.016s,FAILED
+,,,,,,,
+Test Cases/PayBill/payBills_todayTransaction,,,,2022-02-08 18:38:54,2022-02-08 18:40:49,1m - 54.443s,FAILED
+Start setup action : setupTestCase,,,,2022-02-08 18:38:54,2022-02-08 18:39:05,10.251s,PASSED
+"startApplication(appPath, false)",,,,2022-02-08 18:39:05,2022-02-08 18:39:21,15.748s,PASSED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.dev"")",,,,2022-02-08 18:39:21,2022-02-08 18:39:21,0.001s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.MainActivity"")",,,,2022-02-08 18:39:21,2022-02-08 18:39:21,0.001s,PASSED
+delay(5),,,,2022-02-08 18:39:21,2022-02-08 18:39:26,5.004s,PASSED
+"if (getDeviceManufacturer() == ""samsung"")",,,,2022-02-08 18:39:26,2022-02-08 18:39:26,0.291s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-02-08 18:39:26,2022-02-08 18:39:40,14.275s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTypeSelection"", [""text"":""Personal Current Account""]), 10)",,,,2022-02-08 18:39:40,2022-02-08 18:39:45,4.625s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-02-08 18:39:45,2022-02-08 18:39:50,4.900s,PASSED
+"if (verifyElementVisible(findTestObject(""Login Onboarding/loginEnterPasswordMessage""), 0, OPTIONAL))",,,,2022-02-08 18:39:50,2022-02-08 18:39:53,3.377s,PASSED
+"waitForElementPresent(findTestObject(""Paybill/payBillsIconSelect""), 0)",,,,2022-02-08 18:39:53,2022-02-08 18:39:58,5.094s,PASSED
+"tap(findTestObject(""Paybill/payBillsIconSelect""), 0)",,,,2022-02-08 18:39:58,2022-02-08 18:39:59,0.580s,PASSED
+"tap(findTestObject(""Paybill/payBillSearchBillerInputField""), 0)",,,,2022-02-08 18:39:59,2022-02-08 18:40:02,2.899s,PASSED
+"setText(findTestObject(""Paybill/payBillBillerNameInputField""), ""Maxis"", 0)",,,,2022-02-08 18:40:02,2022-02-08 18:40:04,2.069s,PASSED
+delay(3),,,,2022-02-08 18:40:04,2022-02-08 18:40:07,3.005s,PASSED
+"tap(findTestObject(""Paybill/payBillBillerSelect"", [""text"":""Maxis Mobile Sdn Bhd""]), 10)",,,,2022-02-08 18:40:07,2022-02-08 18:40:07,0.608s,PASSED
+"tap(findTestObject(""Paybill/payBillBillerSelect"", [""text"":""Maxis Mobile Sdn Bhd""]), 10)",,,,2022-02-08 18:40:07,2022-02-08 18:40:09,1.227s,PASSED
+"setText(findTestObject(""Paybill/PayBillAccountNumberInputField""), ""1544054651"", 0)",,,,2022-02-08 18:40:09,2022-02-08 18:40:11,2.303s,PASSED
+hideKeyboard(),,,,2022-02-08 18:40:11,2022-02-08 18:40:12,1.079s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-02-08 18:40:12,2022-02-08 18:40:12,0.451s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-02-08 18:40:12,2022-02-08 18:40:14,2.084s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-02-08 18:40:14,2022-02-08 18:40:15,0.562s,PASSED
+delay(3),,,,2022-02-08 18:40:15,2022-02-08 18:40:18,3.007s,PASSED
+"tap(findTestObject(""Main/mainAmountTickBtn""), 0)",,,,2022-02-08 18:40:18,2022-02-08 18:40:18,0.408s,PASSED
+delay(5),,,,2022-02-08 18:40:18,2022-02-08 18:40:23,5.003s,PASSED
+"waitForElementPresent(findTestObject(""Main/mainPayNowBtn""), 5)",,,,2022-02-08 18:40:23,2022-02-08 18:40:29,5.183s,PASSED
+"tap(findTestObject(""Main/mainPayNowBtn""), 0)",,,,2022-02-08 18:40:29,2022-02-08 18:40:49,20.050s,FAILED
+,,,,,,,
+Test Cases/PayBill/payBills_scheduleTransaction,,,,2022-02-08 18:40:49,2022-02-08 18:41:20,31.445s,FAILED
+Start setup action : setupTestCase,,,,2022-02-08 18:40:49,2022-02-08 18:40:59,10.008s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-02-08 18:40:59,2022-02-08 18:41:00,0.530s,PASSED
+"tap(findTestObject(""Paybill/payBillsIconSelect""), 0)",,,,2022-02-08 18:41:00,2022-02-08 18:41:20,20.620s,FAILED
+,,,,,,,
+Test Cases/JomPay/JomPay Add Favorite,,,,2022-02-08 18:41:20,2022-02-08 18:42:31,1m - 10.846s,FAILED
+Start setup action : setupTestCase,,,,2022-02-08 18:41:20,2022-02-08 18:41:30,10.004s,PASSED
+delay(30),,,,2022-02-08 18:41:30,2022-02-08 18:42:00,30.007s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-02-08 18:42:00,2022-02-08 18:42:01,0.520s,PASSED
+delay(10),,,,2022-02-08 18:42:01,2022-02-08 18:42:11,10.003s,PASSED
+"tap(findTestObject(""JomPay/payBillsJomPayTopMenuSelect""), 0)",,,,2022-02-08 18:42:11,2022-02-08 18:42:31,20.104s,FAILED
+,,,,,,,
+Test Cases/JomPay/JomPay Favorite Transaction,,,,2022-02-08 18:42:31,2022-02-08 18:43:32,1m - 1.091s,FAILED
+Start setup action : setupTestCase,,,,2022-02-08 18:42:31,2022-02-08 18:42:41,10.004s,PASSED
+delay(10),,,,2022-02-08 18:42:41,2022-02-08 18:42:51,10.004s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-02-08 18:42:51,2022-02-08 18:42:52,0.536s,PASSED
+"if (verifyElementVisible(findTestObject(""Paybill/payBillsEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-02-08 18:42:52,2022-02-08 18:43:12,20.162s,PASSED
+"println(""JOMPAY Fav Transaction"")",,,,2022-02-08 18:43:12,2022-02-08 18:43:12,0.002s,PASSED
+"tap(findTestObject(""JomPay/payBillsJomPayTopMenuSelect""), 0)",,,,2022-02-08 18:43:12,2022-02-08 18:43:32,20.159s,FAILED
+,,,,,,,
+Test Cases/JomPay/jomPay_scheduleTransaction,,,,2022-02-08 18:43:32,2022-02-08 18:44:53,1m - 21.026s,FAILED
+Start setup action : setupTestCase,,,,2022-02-08 18:43:32,2022-02-08 18:43:42,10.004s,PASSED
+delay(10),,,,2022-02-08 18:43:42,2022-02-08 18:43:52,10.004s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-02-08 18:43:52,2022-02-08 18:44:12,20.078s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-02-08 18:44:12,2022-02-08 18:44:13,0.470s,PASSED
+"if (verifyElementVisible(findTestObject(""Paybill/payBillsEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-02-08 18:44:13,2022-02-08 18:44:33,20.112s,PASSED
+"println(""JOMPAY Future Transaction"")",,,,2022-02-08 18:44:33,2022-02-08 18:44:33,0.001s,PASSED
+"tap(findTestObject(""JomPay/payBillsJomPayTopMenuSelect""), 0)",,,,2022-02-08 18:44:33,2022-02-08 18:44:53,20.145s,FAILED
+,,,,,,,
+Test Cases/Zakat/zakat_zakatPayment,,,,2022-02-08 18:44:53,2022-02-08 18:46:14,1m - 20.933s,FAILED
+Start setup action : setupTestCase,,,,2022-02-08 18:44:53,2022-02-08 18:45:03,10.007s,PASSED
+delay(10),,,,2022-02-08 18:45:03,2022-02-08 18:45:13,10.003s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-02-08 18:45:13,2022-02-08 18:45:33,20.045s,PASSED
+"tap(findTestObject(""Banking/m2uAccountPayBillsIconSelect""), 0)",,,,2022-02-08 18:45:33,2022-02-08 18:45:34,0.479s,PASSED
+"if (verifyElementVisible(findTestObject(""Paybill/payBillsEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-02-08 18:45:34,2022-02-08 18:45:54,20.148s,PASSED
+"tap(findTestObject(""zakat/payBillZakatTopMenuSelect""), 0)",,,,2022-02-08 18:45:54,2022-02-08 18:46:14,20.059s,FAILED

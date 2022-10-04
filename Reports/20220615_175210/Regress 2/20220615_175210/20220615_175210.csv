@@ -1,0 +1,184 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regress 2,,,,2022-06-15 17:52:20,2022-06-15 18:05:16,12m - 55.925s,FAILED
+,,,,,,,
+Test Cases/Tabung/tabung_createTabungCreatorOnly,,,,2022-06-15 17:52:21,2022-06-15 17:56:14,3m - 53.763s,PASSED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.uat"")",,,,2022-06-15 17:52:21,2022-06-15 17:52:21,0.001s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.MainActivity"")",,,,2022-06-15 17:52:21,2022-06-15 17:52:21,0.000s,PASSED
+"startApplication(appPath, false)",,,,2022-06-15 17:52:21,2022-06-15 17:52:37,15.920s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Dashboard/dashboardWalletTopSelect""), 0)",,,,2022-06-15 17:52:37,2022-06-15 17:52:41,4.260s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Dashboard/dashboardQuickActionsTitleTxt""), 0)",,,,2022-06-15 17:52:41,2022-06-15 17:52:42,0.617s,PASSED
+delay(5),,,,2022-06-15 17:52:42,2022-06-15 17:52:47,5.016s,PASSED
+device_Height = getDeviceHeight(),,,,2022-06-15 17:52:47,2022-06-15 17:52:47,0.124s,PASSED
+device_Width = getDeviceWidth(),,,,2022-06-15 17:52:47,2022-06-15 17:52:47,0.103s,PASSED
+startX = device_Width / 1.25,,,,2022-06-15 17:52:47,2022-06-15 17:52:47,0.002s,PASSED
+startY = device_Height * 0.97,,,,2022-06-15 17:52:47,2022-06-15 17:52:47,0.002s,PASSED
+"tapAtPosition(startX, startY)",,,,2022-06-15 17:52:47,2022-06-15 17:52:47,0.231s,PASSED
+"tap(findTestObject(""Object Repository/Settings/new_settings_moreMainBtn""), 0)",,,,2022-06-15 17:52:47,2022-06-15 17:52:50,2.863s,PASSED
+"waitForElementPresent(findTestObject(""Main/moreTabungIconSelect""), 0)",,,,2022-06-15 17:52:50,2022-06-15 17:52:51,0.517s,PASSED
+"tap(findTestObject(""Main/moreTabungIconSelect""), 0)",,,,2022-06-15 17:52:51,2022-06-15 17:52:51,0.435s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-06-15 17:52:51,2022-06-15 17:53:06,14.670s,PASSED
+"waitForElementPresent(findTestObject(""Tabung/tabungCreateTabungBtn""), 0)",,,,2022-06-15 17:53:06,2022-06-15 17:53:15,9.730s,PASSED
+"tap(findTestObject(""Tabung/tabungCreateTabungBtn""), 0)",,,,2022-06-15 17:53:15,2022-06-15 17:53:16,0.423s,PASSED
+delay(2),,,,2022-06-15 17:53:16,2022-06-15 17:53:18,2.007s,PASSED
+"tap(findTestObject(""Tabung/tabungCreateTravelSelect""), 0)",,,,2022-06-15 17:53:18,2022-06-15 17:53:18,0.452s,PASSED
+"setText(findTestObject(""Tabung/tabungNameInputField""), tabungName, 0)",,,,2022-06-15 17:53:18,2022-06-15 17:53:22,3.757s,PASSED
+hideKeyboard(),,,,2022-06-15 17:53:22,2022-06-15 17:53:23,0.946s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-15 17:53:23,2022-06-15 17:53:23,0.304s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-06-15 17:53:23,2022-06-15 17:53:25,1.835s,PASSED
+delay(2),,,,2022-06-15 17:53:25,2022-06-15 17:53:27,2.003s,PASSED
+"tap(findTestObject(""Tabung/tabungAmountTickBtn""), 0)",,,,2022-06-15 17:53:27,2022-06-15 17:53:28,0.348s,PASSED
+delay(2),,,,2022-06-15 17:53:28,2022-06-15 17:53:30,2.002s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-06-15 17:53:30,2022-06-15 17:53:30,0.374s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-06-15 17:53:30,2022-06-15 17:53:31,0.951s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN0""), 0)",,,,2022-06-15 17:53:31,2022-06-15 17:53:32,0.984s,PASSED
+delay(2),,,,2022-06-15 17:53:32,2022-06-15 17:53:34,2.004s,PASSED
+"tap(findTestObject(""Tabung/tabungCreateAmountTickBtn""), 0)",,,,2022-06-15 17:53:34,2022-06-15 17:53:34,0.363s,PASSED
+"tap(findTestObject(""Tabung/tabungSelectStartDateField""), 0)",,,,2022-06-15 17:53:34,2022-06-15 17:53:37,3.221s,PASSED
+"tap(findTestObject(""Tabung/tabungDatePickerSelect""), 0)",,,,2022-06-15 17:53:37,2022-06-15 17:53:38,0.539s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-06-15 17:53:38,2022-06-15 17:53:38,0.403s,PASSED
+delay(2),,,,2022-06-15 17:53:38,2022-06-15 17:53:40,2.003s,PASSED
+"tap(findTestObject(""Tabung/tabungContinueBtn""), 0)",,,,2022-06-15 17:53:40,2022-06-15 17:53:41,0.319s,PASSED
+"tap(findTestObject(""Tabung/tabungSelectEndDateField""), 0)",,,,2022-06-15 17:53:41,2022-06-15 17:53:45,3.900s,PASSED
+"tap(findTestObject(""Tabung/tabungCalendarPickerNextBtn""), 0)",,,,2022-06-15 17:53:45,2022-06-15 17:53:45,0.447s,PASSED
+"tap(findTestObject(""Tabung/tabungDatePickerSelect""), 0)",,,,2022-06-15 17:53:45,2022-06-15 17:53:46,0.824s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-06-15 17:53:46,2022-06-15 17:53:47,0.770s,PASSED
+delay(2),,,,2022-06-15 17:53:47,2022-06-15 17:53:49,2.006s,PASSED
+"tap(findTestObject(""Tabung/tabungContinueBtn""), 0)",,,,2022-06-15 17:53:49,2022-06-15 17:53:49,0.510s,PASSED
+"if (verifyElementVisible(findTestObject(""Tabung/tabungEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-06-15 17:53:49,2022-06-15 17:54:00,10.935s,PASSED
+delay(30),,,,2022-06-15 17:54:00,2022-06-15 17:54:30,30.006s,PASSED
+"verifyElementVisible(findTestObject(""Tabung/tabungSelectAccountDropdownBox""), 0)",,,,2022-06-15 17:54:30,2022-06-15 17:54:30,0.328s,PASSED
+"tap(findTestObject(""Tabung/tabungSelectAccountTxt""), 0)",,,,2022-06-15 17:54:30,2022-06-15 17:54:31,0.481s,PASSED
+delay(5),,,,2022-06-15 17:54:31,2022-06-15 17:54:36,5.004s,PASSED
+"verifyElementVisible(findTestObject(""Tabung/tabunCreateFirstAccountSelect""), 0)",,,,2022-06-15 17:54:36,2022-06-15 17:54:37,0.607s,PASSED
+"tap(findTestObject(""Tabung/tabunCreateFirstAccountSelect""), 0)",,,,2022-06-15 17:54:37,2022-06-15 17:54:37,0.216s,PASSED
+delay(5),,,,2022-06-15 17:54:37,2022-06-15 17:54:42,5.006s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-06-15 17:54:42,2022-06-15 17:54:42,0.222s,PASSED
+delay(4),,,,2022-06-15 17:54:42,2022-06-15 17:54:46,4.004s,PASSED
+"tap(findTestObject(""Tabung/tabungContinueBtn""), 0)",,,,2022-06-15 17:54:46,2022-06-15 17:54:46,0.305s,PASSED
+delay(5),,,,2022-06-15 17:54:46,2022-06-15 17:54:51,5.006s,PASSED
+"verifyElementVisible(findTestObject(""Tabung/tabungConfirmationTxt""), 0)",,,,2022-06-15 17:54:51,2022-06-15 17:54:51,0.175s,PASSED
+"verifyElementVisible(findTestObject(""Tabung/tabungAutoDeductionText""), 0)",,,,2022-06-15 17:54:51,2022-06-15 17:54:52,0.924s,PASSED
+"tap(findTestObject(""Tabung/tabungConfirmationSelectFrequencyDropdown""), 0)",,,,2022-06-15 17:54:52,2022-06-15 17:54:53,0.329s,PASSED
+delay(5),,,,2022-06-15 17:54:53,2022-06-15 17:54:58,5.003s,PASSED
+"tap(findTestObject(""Tabung/tabungConfirmationFirstFreqDropdownSelect""), 0)",,,,2022-06-15 17:54:58,2022-06-15 17:54:59,0.994s,PASSED
+delay(5),,,,2022-06-15 17:54:59,2022-06-15 17:55:04,5.006s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-06-15 17:55:04,2022-06-15 17:55:04,0.290s,PASSED
+delay(2),,,,2022-06-15 17:55:04,2022-06-15 17:55:06,2.008s,PASSED
+"tap(findTestObject(""Tabung/tabungDisableESIRadioBtn""), 0)",,,,2022-06-15 17:55:06,2022-06-15 17:55:06,0.416s,PASSED
+delay(2),,,,2022-06-15 17:55:06,2022-06-15 17:55:08,2.006s,PASSED
+"tap(findTestObject(""Tabung/tabungConfirmationCreateTabungBtn""), 0)",,,,2022-06-15 17:55:08,2022-06-15 17:55:09,0.287s,PASSED
+delay(3),,,,2022-06-15 17:55:09,2022-06-15 17:55:12,3.006s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/Tabung/tabung_otpNumberPresentTxt""), 0, OPTIONAL))",,,,2022-06-15 17:55:12,2022-06-15 17:55:52,40.114s,PASSED
+else,,,,2022-06-15 17:55:52,2022-06-15 17:56:02,10.279s,PASSED
+"verifyElementText(findTestObject(""Tabung/tabungSummaryStatusTxt""), ""Tabung created successfully."")",,,,2022-06-15 17:56:02,2022-06-15 17:56:02,0.299s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-15 17:56:02,2022-06-15 17:56:03,0.182s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/createTabung.png"")",,,,2022-06-15 17:56:03,2022-06-15 17:56:04,1.008s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-15 17:56:04,2022-06-15 17:56:04,0.219s,PASSED
+delay(5),,,,2022-06-15 17:56:04,2022-06-15 17:56:09,5.002s,PASSED
+"verifyElementVisible(findTestObject(""Tabung/tabungNameSelection"", [""text"":tabungName]), 10)",,,,2022-06-15 17:56:09,2022-06-15 17:56:09,0.459s,PASSED
+delay(5),,,,2022-06-15 17:56:09,2022-06-15 17:56:14,5.005s,PASSED
+,,,,,,,
+Test Cases/Tabung/tabung_fundTabungCreatorOnly,,,,2022-06-15 17:56:14,2022-06-15 17:59:10,2m - 55.689s,PASSED
+try,,,,2022-06-15 17:56:15,2022-06-15 17:59:10,2m - 55.345s,PASSED
+,,,,,,,
+Test Cases/Tabung/tabung_withdrawTabung,,,,2022-06-15 17:59:10,2022-06-15 18:00:59,1m - 49.312s,PASSED
+delay(5),,Withdraw Tabung,,2022-06-15 17:59:10,2022-06-15 17:59:15,5.007s,PASSED
+"tap(findTestObject(""Tabung/tabungThreeDotsBtn""), 0)",,,,2022-06-15 17:59:15,2022-06-15 17:59:16,0.356s,PASSED
+delay(2),,,,2022-06-15 17:59:16,2022-06-15 17:59:18,2.006s,PASSED
+"tap(findTestObject(""Tabung/tabungWithdrawFundBtn""), 0)",,,,2022-06-15 17:59:18,2022-06-15 17:59:18,0.502s,PASSED
+delay(2),,,,2022-06-15 17:59:18,2022-06-15 17:59:20,2.003s,PASSED
+"tap(findTestObject(""Tabung/tabungWithdrawConfirmBtn""), 0)",,,,2022-06-15 17:59:20,2022-06-15 17:59:20,0.198s,PASSED
+delay(2),,,,2022-06-15 17:59:20,2022-06-15 17:59:22,2.004s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN1""), 0)",,,,2022-06-15 17:59:22,2022-06-15 17:59:23,0.424s,PASSED
+delay(2),,,,2022-06-15 17:59:23,2022-06-15 17:59:25,2.004s,PASSED
+"tap(findTestObject(""Tabung/tabungFundAmountTickBtn""), 0)",,,,2022-06-15 17:59:25,2022-06-15 17:59:26,0.703s,PASSED
+delay(2),,,,2022-06-15 17:59:26,2022-06-15 17:59:28,2.006s,PASSED
+"if (verifyElementVisible(findTestObject(""Tabung/tabungEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-06-15 17:59:28,2022-06-15 18:00:08,40.089s,PASSED
+delay(15),,,,2022-06-15 18:00:08,2022-06-15 18:00:23,15.006s,PASSED
+"tap(findTestObject(""Tabung/tabungWithdrawFundBtn""), 0)",,,,2022-06-15 18:00:23,2022-06-15 18:00:23,0.482s,PASSED
+delay(3),,,,2022-06-15 18:00:23,2022-06-15 18:00:26,3.006s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt""), 10, OPTIONAL))",,,,2022-06-15 18:00:26,2022-06-15 18:00:36,10.102s,PASSED
+else,,,,2022-06-15 18:00:36,2022-06-15 18:00:47,10.310s,PASSED
+delay(3),,,,2022-06-15 18:00:47,2022-06-15 18:00:50,3.006s,PASSED
+"verifyElementVisible(findTestObject(""Tabung/tabungWithdrawalSummarySuccessTxt""), 0)",,,,2022-06-15 18:00:50,2022-06-15 18:00:50,0.282s,PASSED
+"verifyElementText(findTestObject(""Tabung/tabungWithdrawalSummarySuccessTxt""), ""Withdrawal Successful"")",,,,2022-06-15 18:00:50,2022-06-15 18:00:50,0.193s,PASSED
+delay(3),,,,2022-06-15 18:00:50,2022-06-15 18:00:53,3.005s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/withdrawTabung.png"")",,,,2022-06-15 18:00:53,2022-06-15 18:00:54,0.762s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-15 18:00:54,2022-06-15 18:00:54,0.296s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-15 18:00:54,2022-06-15 18:00:54,0.265s,PASSED
+delay(5),,,,2022-06-15 18:00:54,2022-06-15 18:00:59,5.005s,PASSED
+,,,,,,,
+Test Cases/Tabung/tabung_enableESITabung,,,,2022-06-15 18:00:59,2022-06-15 18:02:21,1m - 21.889s,PASSED
+"tap(findTestObject(""Tabung/tabungNameSelection"", [""text"":""Switzerland""]), 10)",,ESI ENABLE,,2022-06-15 18:01:00,2022-06-15 18:01:00,0.462s,PASSED
+"tap(findTestObject(""Tabung/tabungViewMoreDetailsBtn""), 0)",,,,2022-06-15 18:01:00,2022-06-15 18:01:00,0.243s,PASSED
+delay(2),,,,2022-06-15 18:01:00,2022-06-15 18:01:02,2.002s,PASSED
+"tap(findTestObject(""Tabung/tabungESIOnToggle""), 0)",,,,2022-06-15 18:01:02,2022-06-15 18:01:03,0.284s,PASSED
+delay(2),,,,2022-06-15 18:01:03,2022-06-15 18:01:05,2.006s,PASSED
+"if (verifyElementVisible(findTestObject(""Tabung/tabungEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-06-15 18:01:05,2022-06-15 18:01:45,40.095s,PASSED
+delay(10),,,,2022-06-15 18:01:45,2022-06-15 18:01:55,10.005s,PASSED
+"tap(findTestObject(""Tabung/tabungConfirmBtn""), 0)",,,,2022-06-15 18:01:55,2022-06-15 18:01:55,0.402s,PASSED
+"OTP = getText(findTestObject(""Tabung/tabungOTPNumberTxt""), 0)",,,,2022-06-15 18:01:55,2022-06-15 18:01:58,2.711s,PASSED
+"for ([i = 16, i <= 21, (i++)])",,,,2022-06-15 18:01:58,2022-06-15 18:02:08,10.719s,PASSED
+delay(3),,,,2022-06-15 18:02:08,2022-06-15 18:02:11,3.005s,PASSED
+"tap(findTestObject(""Tabung/tabungTACTickBtn""), 0)",,,,2022-06-15 18:02:11,2022-06-15 18:02:12,0.277s,PASSED
+delay(3),,,,2022-06-15 18:02:12,2022-06-15 18:02:15,3.005s,PASSED
+"verifyElementVisible(findTestObject(""Tabung/tabungSummaryAutoDecuctSuccessEnableTxt""), 0)",,,,2022-06-15 18:02:15,2022-06-15 18:02:17,2.672s,PASSED
+"verifyElementText(findTestObject(""Tabung/tabungSummaryAutoDecuctSuccessEnableTxt""), ""Auto deduction successfully enabled."")",,,,2022-06-15 18:02:17,2022-06-15 18:02:18,0.209s,PASSED
+delay(3),,,,2022-06-15 18:02:18,2022-06-15 18:02:21,3.006s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-15 18:02:21,2022-06-15 18:02:21,0.276s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-15 18:02:21,2022-06-15 18:02:21,0.281s,PASSED
+,,,,,,,
+Test Cases/Tabung/tabung_disableESITabung,,,,2022-06-15 18:02:21,2022-06-15 18:03:00,38.664s,PASSED
+"tap(findTestObject(""Tabung/tabungNameSelection"", [""text"":""Switzerland""]), 10)",,ESI DISABLE,,2022-06-15 18:02:21,2022-06-15 18:02:24,2.552s,PASSED
+"tap(findTestObject(""Tabung/tabungViewMoreDetailsBtn""), 0)",,,,2022-06-15 18:02:24,2022-06-15 18:02:24,0.356s,PASSED
+delay(2),,,,2022-06-15 18:02:24,2022-06-15 18:02:26,2.005s,PASSED
+"tap(findTestObject(""Tabung/tabungESIOffToggle""), 0)",,,,2022-06-15 18:02:26,2022-06-15 18:02:27,0.318s,PASSED
+delay(2),,,,2022-06-15 18:02:27,2022-06-15 18:02:29,2.007s,PASSED
+"OTP1 = getText(findTestObject(""Tabung/tabungOTPNumberTxt""), 0)",,,,2022-06-15 18:02:29,2022-06-15 18:02:30,1.225s,PASSED
+"for ([i = 16, i <= 21, (i++)])",,,,2022-06-15 18:02:30,2022-06-15 18:02:42,11.798s,PASSED
+delay(3),,,,2022-06-15 18:02:42,2022-06-15 18:02:45,3.001s,PASSED
+"tap(findTestObject(""Tabung/tabungTACTickBtn""), 0)",,,,2022-06-15 18:02:45,2022-06-15 18:02:46,0.918s,PASSED
+"verifyElementText(findTestObject(""Tabung/tabungSummaryAutoDeductSuccessDisableTxt""), ""Auto deduction successfully disabled."")",,,,2022-06-15 18:02:46,2022-06-15 18:02:51,4.984s,PASSED
+delay(3),,,,2022-06-15 18:02:51,2022-06-15 18:02:54,3.005s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/disableTabung.png"")",,,,2022-06-15 18:02:54,2022-06-15 18:02:54,0.716s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-15 18:02:54,2022-06-15 18:02:55,0.276s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-15 18:02:55,2022-06-15 18:02:55,0.278s,PASSED
+delay(5),,,,2022-06-15 18:02:55,2022-06-15 18:03:00,5.004s,PASSED
+,,,,,,,
+Test Cases/Tabung/tabung_renameTabung,,,,2022-06-15 18:03:00,2022-06-15 18:03:50,50.033s,FAILED
+delay(2),,Renname Tabung,,2022-06-15 18:03:00,2022-06-15 18:03:02,2.006s,PASSED
+"tap(findTestObject(""Tabung/tabungThreeDotsBtn""), 0)",,,,2022-06-15 18:03:02,2022-06-15 18:03:07,5.285s,FAILED
+"tap(findTestObject(""Tabung/tabungThreeDotsRenameBtn""), 0)",,,,2022-06-15 18:03:07,2022-06-15 18:03:37,30.081s,PASSED
+delay(2),,,,2022-06-15 18:03:37,2022-06-15 18:03:39,2.005s,PASSED
+"clearText(findTestObject(""Tabung/tabungRenameInputField""), 10)",,,,2022-06-15 18:03:39,2022-06-15 18:03:40,0.203s,PASSED
+"setText(findTestObject(""Tabung/tabungRenameInputField""), ""Singapore"", 0)",,,,2022-06-15 18:03:40,2022-06-15 18:03:41,1.454s,PASSED
+hideKeyboard(),,,,2022-06-15 18:03:41,2022-06-15 18:03:44,2.399s,PASSED
+"verifyElementVisible(findTestObject(""Tabung/tabungConfirmBtn""), 0)",,,,2022-06-15 18:03:44,2022-06-15 18:03:44,0.246s,PASSED
+"tap(findTestObject(""Tabung/tabungConfirmBtn""), 0)",,,,2022-06-15 18:03:44,2022-06-15 18:03:44,0.256s,PASSED
+delay(5),,,,2022-06-15 18:03:44,2022-06-15 18:03:49,5.003s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/renameTabung.png"")",,,,2022-06-15 18:03:49,2022-06-15 18:03:50,0.894s,PASSED
+,,,,,,,
+Test Cases/Tabung/tabung_removeTabung,,,,2022-06-15 18:03:50,2022-06-15 18:05:16,1m - 26.318s,FAILED
+"tap(findTestObject(""Tabung/tabungNameSelection"", [""text"":""Switzerland""]), 10)",,Remove Tabung,,2022-06-15 18:03:50,2022-06-15 18:04:00,10.204s,FAILED
+delay(2),,,,2022-06-15 18:04:00,2022-06-15 18:04:02,2.006s,PASSED
+"tap(findTestObject(""Tabung/tabungThreeDotsBtn""), 0)",,,,2022-06-15 18:04:02,2022-06-15 18:04:03,0.361s,PASSED
+delay(2),,,,2022-06-15 18:04:03,2022-06-15 18:04:05,2.007s,PASSED
+"tap(findTestObject(""Tabung/tabungThreeDtosRemoveBtn""), 0)",,,,2022-06-15 18:04:05,2022-06-15 18:04:05,0.477s,PASSED
+delay(2),,,,2022-06-15 18:04:05,2022-06-15 18:04:07,2.005s,PASSED
+"tap(findTestObject(""Tabung/tabungRemoveConfirmBtn""), 0)",,,,2022-06-15 18:04:07,2022-06-15 18:04:07,0.223s,PASSED
+delay(5),,,,2022-06-15 18:04:07,2022-06-15 18:04:12,5.007s,PASSED
+"tap(findTestObject(""Tabung/tabungContinueBtn""), 0)",,,,2022-06-15 18:04:12,2022-06-15 18:04:13,0.316s,PASSED
+delay(2),,,,2022-06-15 18:04:13,2022-06-15 18:04:15,2.004s,PASSED
+"if (verifyElementVisible(findTestObject(""Tabung/tabungEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-06-15 18:04:15,2022-06-15 18:04:22,7.571s,PASSED
+delay(15),,,,2022-06-15 18:04:22,2022-06-15 18:04:37,15.003s,PASSED
+"tap(findTestObject(""Tabung/tabungWithdrawFundBtn""), 0)",,,,2022-06-15 18:04:37,2022-06-15 18:04:45,7.492s,PASSED
+delay(2),,,,2022-06-15 18:04:45,2022-06-15 18:04:47,2.005s,PASSED
+"if (verifyElementVisible(findTestObject(""Object Repository/Festive Season/festiveReturnAngpaoTACNoTxt""), 10, OPTIONAL))",,,,2022-06-15 18:04:47,2022-06-15 18:04:57,10.062s,PASSED
+else,,,,2022-06-15 18:04:57,2022-06-15 18:05:07,10.377s,PASSED
+"message = getText(findTestObject(""Tabung/tabungRemoveSummaryTransferTxt""), 10)",,,,2022-06-15 18:05:07,2022-06-15 18:05:08,0.300s,PASSED
+delay(2),,,,2022-06-15 18:05:08,2022-06-15 18:05:10,2.004s,PASSED
+"verifyElementText(findTestObject(""Tabung/tabungRemoveSummaryTransferTxt""), ""You've successfully removed the Switzerland Tabung. RM 0.01 has been transferred back into your account."")",,,,2022-06-15 18:05:10,2022-06-15 18:05:10,0.259s,FAILED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/removeTabung.png"")",,,,2022-06-15 18:05:10,2022-06-15 18:05:11,0.817s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-15 18:05:11,2022-06-15 18:05:11,0.299s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-15 18:05:11,2022-06-15 18:05:11,0.317s,PASSED
+delay(5),,,,2022-06-15 18:05:11,2022-06-15 18:05:16,5.004s,PASSED

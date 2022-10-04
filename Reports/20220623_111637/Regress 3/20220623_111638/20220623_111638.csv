@@ -1,0 +1,647 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regress 3,,,,2022-06-23 11:16:48,2022-06-23 11:54:45,37m - 56.853s,FAILED
+,,,,,,,
+Test Cases/Transfer/transfer_instantTransferIBFT,,,,2022-06-23 11:16:48,2022-06-23 11:28:37,11m - 49.001s,FAILED
+"setMobileDriverPreferencesProperty(""appPackage"", ""com.maybank2u.life.sit"")",,,,2022-06-23 11:16:49,2022-06-23 11:16:49,0.002s,PASSED
+"setMobileDriverPreferencesProperty(""appActivity"", ""com.maybank2u.life.MainActivity"")",,,,2022-06-23 11:16:49,2022-06-23 11:16:49,0.000s,PASSED
+"startApplication(appPath, false)",,,,2022-06-23 11:16:49,2022-06-23 11:17:04,15.290s,PASSED
+"start = ""Starts""",,,,2022-06-23 11:17:04,2022-06-23 11:17:04,0.001s,PASSED
+println(start),,,,2022-06-23 11:17:04,2022-06-23 11:17:04,0.004s,PASSED
+delay(5),,,,2022-06-23 11:17:04,2022-06-23 11:17:09,5.020s,PASSED
+device_Height = getDeviceHeight(),,,,2022-06-23 11:17:09,2022-06-23 11:17:10,0.443s,PASSED
+device_Width = getDeviceWidth(),,,,2022-06-23 11:17:10,2022-06-23 11:17:10,0.320s,PASSED
+startX = device_Width / 3,,,,2022-06-23 11:17:10,2022-06-23 11:17:10,0.002s,PASSED
+startY = device_Height * 0.97,,,,2022-06-23 11:17:10,2022-06-23 11:17:10,0.001s,PASSED
+"tapAtPosition(startX, startY)",,,,2022-06-23 11:17:10,2022-06-23 11:17:10,0.247s,PASSED
+"if (verifyElementVisible(findTestObject(""Main/mainEnterPINMessage""), 0, OPTIONAL))",,,,2022-06-23 11:17:10,2022-06-23 11:17:24,13.934s,PASSED
+"verifyElementVisible(findTestObject(""Banking/m2uAccountTypeSelection"", [""text"":accType]), 0)",,,,2022-06-23 11:17:24,2022-06-23 11:17:33,8.409s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTypeSelection"", [""text"":accType]), 0)",,,,2022-06-23 11:17:33,2022-06-23 11:17:33,0.455s,PASSED
+delay(5),,,,2022-06-23 11:17:33,2022-06-23 11:17:38,5.008s,PASSED
+"verifyElementVisible(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-06-23 11:17:38,2022-06-23 11:17:39,0.410s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-06-23 11:17:39,2022-06-23 11:17:39,0.436s,PASSED
+delay(5),,,,2022-06-23 11:17:39,2022-06-23 11:17:44,5.004s,PASSED
+"if (verifyElementVisible(findTestObject(""Tabung/tabungEnterPasswordTxt""), 0, OPTIONAL))",,,,2022-06-23 11:17:44,2022-06-23 11:21:31,3m - 47.243s,PASSED
+"println(""InterBank Test Case Started"")",,,,2022-06-23 11:21:31,2022-06-23 11:21:31,0.000s,PASSED
+"verifyElementExist(findTestObject(""Banking/transferOthersTopMenuSelect""), 0)",,,,2022-06-23 11:21:31,2022-06-23 11:22:02,30.536s,PASSED
+"tap(findTestObject(""Banking/transferOthersTopMenuSelect""), 0)",,,,2022-06-23 11:22:02,2022-06-23 11:23:03,1m - 1.226s,PASSED
+"tap(findTestObject(""Banking/transferBanksIconSelect""), 0)",,,,2022-06-23 11:23:03,2022-06-23 11:23:56,52.792s,PASSED
+"scrollToText(accBank, STOP_ON_FAILURE)",,,,2022-06-23 11:23:56,2022-06-23 11:24:09,13.704s,PASSED
+"tap(findTestObject(""Banking/transferBankSelection"", [""text"":accBank]), 10)",,,,2022-06-23 11:24:09,2022-06-23 11:24:10,0.560s,PASSED
+"setText(findTestObject(""Banking/transferAccountNoInputField""), accountNum, 0)",,,,2022-06-23 11:24:10,2022-06-23 11:24:13,2.673s,PASSED
+hideKeyboard(),,,,2022-06-23 11:24:13,2022-06-23 11:24:19,6.032s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:24:19,2022-06-23 11:24:19,0.335s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmounttAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:24:19,2022-06-23 11:24:20,1.376s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmounttAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:24:20,2022-06-23 11:24:21,0.290s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferAmountRMTxt""), 0)",,,,2022-06-23 11:24:21,2022-06-23 11:24:21,0.327s,PASSED
+"verifyElementExist(findTestObject(""Duit Now/duitNowAmountInitialValueTxt""), 0)",,,,2022-06-23 11:24:21,2022-06-23 11:24:21,0.339s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferAmountEnterAmountTitleTxt""), 0)",,,,2022-06-23 11:24:21,2022-06-23 11:24:22,0.258s,PASSED
+trxAmount = value,,,,2022-06-23 11:24:22,2022-06-23 11:24:22,0.001s,PASSED
+length = trxAmount.length(),,,,2022-06-23 11:24:22,2022-06-23 11:24:22,0.001s,PASSED
+delay(3),,,,2022-06-23 11:24:22,2022-06-23 11:24:25,3.005s,PASSED
+"tapAtPosition(startX, startY)",,,,2022-06-23 11:24:25,2022-06-23 11:24:25,0.205s,PASSED
+"for ([i = 0, i < length, (i++)])",,,,2022-06-23 11:24:25,2022-06-23 11:24:28,2.789s,PASSED
+delay(3),,,,2022-06-23 11:24:28,2022-06-23 11:24:31,3.012s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmountInputValueTxt"", [""value"":checkValue]), checkValue)",,,,2022-06-23 11:24:31,2022-06-23 11:24:31,0.371s,PASSED
+delay(3),,,,2022-06-23 11:24:31,2022-06-23 11:24:34,3.005s,PASSED
+"tap(findTestObject(""Login Onboarding/loginPinTickBtn""), 0)",,,,2022-06-23 11:24:34,2022-06-23 11:24:34,0.265s,PASSED
+delay(3),,,,2022-06-23 11:24:34,2022-06-23 11:24:37,3.006s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:24:37,2022-06-23 11:24:38,0.298s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:24:38,2022-06-23 11:24:38,0.240s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferReferenceInputField""), 0)",,,,2022-06-23 11:24:38,2022-06-23 11:24:38,0.145s,PASSED
+"setText(findTestObject(""Banking/transferReferenceInputField""), reference, 0)",,,,2022-06-23 11:24:38,2022-06-23 11:24:39,0.821s,PASSED
+hideKeyboard(),,,,2022-06-23 11:24:39,2022-06-23 11:24:41,2.288s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceInputFieldAfter"", [""reference"":reference]), reference)",,,,2022-06-23 11:24:41,2022-06-23 11:24:41,0.258s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:24:41,2022-06-23 11:24:42,0.262s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:24:42,2022-06-23 11:24:42,0.173s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:24:42,2022-06-23 11:24:42,0.206s,PASSED
+delay(3),,,,2022-06-23 11:24:42,2022-06-23 11:24:45,3.003s,PASSED
+"tap(findTestObject(""Banking/transferTypeDropdownSelection""), 0)",,,,2022-06-23 11:24:45,2022-06-23 11:24:49,4.006s,PASSED
+"scrollToText(""Fund Transfer"", STOP_ON_FAILURE)",,,,2022-06-23 11:24:49,2022-06-23 11:24:53,3.699s,PASSED
+"tap(findTestObject(""Banking/tansferTypeFundDropdownSelection""), 0)",,,,2022-06-23 11:24:53,2022-06-23 11:24:53,0.169s,PASSED
+"tap(findTestObject(""Banking/transferModeDropdownDoneBtn""), 0)",,,,2022-06-23 11:24:53,2022-06-23 11:24:53,0.149s,PASSED
+delay(3),,,,2022-06-23 11:24:53,2022-06-23 11:24:56,3.007s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferModeDuitTxt"", [""mode"":initialMode]), 0)",,,,2022-06-23 11:24:56,2022-06-23 11:24:56,0.238s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferModeTitleTxt""), 0)",,,,2022-06-23 11:24:56,2022-06-23 11:24:57,0.209s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferTypeFundTxt""), 0)",,,,2022-06-23 11:24:57,2022-06-23 11:24:57,0.200s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferTypeTitleTxt""), 0)",,,,2022-06-23 11:24:57,2022-06-23 11:24:57,0.204s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:24:57,2022-06-23 11:24:57,0.213s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationTransactionDateTxt""), trxDate)",,Verify confirmation page,,2022-06-23 11:24:57,2022-06-23 11:25:08,10.486s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationAccountNameTxt"", [""accName"":accName]), accName)",,,,2022-06-23 11:25:08,2022-06-23 11:25:08,0.301s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationAccountNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:25:08,2022-06-23 11:25:08,0.287s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationAmountTxt"", [""amount"":amount]), amount)",,,,2022-06-23 11:25:08,2022-06-23 11:25:09,0.934s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationTransactionRecRefTxt"", [""reference"":reference]), reference)",,,,2022-06-23 11:25:09,2022-06-23 11:25:10,0.362s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationTransactionBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:25:10,2022-06-23 11:25:10,0.331s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationOptionalGreyWordTxt""), ""Optional"")",,,,2022-06-23 11:25:10,2022-06-23 11:25:10,0.282s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantTransferConfirmationTransactionTypeTxt""), trxType)",,,,2022-06-23 11:25:10,2022-06-23 11:25:10,0.295s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantTransferConfirmationTransactionModeTxt"", [""modeC"":initialMode]), initialMode)",,,,2022-06-23 11:25:10,2022-06-23 11:25:11,0.239s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantTransferConfirmationTransactionServiceTxt""), ""RM 0.00"")",,,,2022-06-23 11:25:11,2022-06-23 11:25:11,0.296s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationBankNameTitleTxt""), 0)",,,,2022-06-23 11:25:11,2022-06-23 11:25:11,0.298s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationDateTitleTxt""), 0)",,,,2022-06-23 11:25:11,2022-06-23 11:25:11,0.241s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationRecRefTitleTxt""), 0)",,,,2022-06-23 11:25:11,2022-06-23 11:25:12,0.323s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationPaymentDetailsTitleTxt""), 0)",,,,2022-06-23 11:25:12,2022-06-23 11:25:12,0.307s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationModeTitleTxt""), 0)",,,,2022-06-23 11:25:12,2022-06-23 11:25:12,0.311s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationServiceFeeTitleTxt""), 0)",,,,2022-06-23 11:25:12,2022-06-23 11:25:13,0.299s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationTypeTitleTxt""), 0)",,,,2022-06-23 11:25:13,2022-06-23 11:25:13,0.276s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationNoteTitleTxt""), 0)",,,,2022-06-23 11:25:13,2022-06-23 11:25:13,0.281s,PASSED
+"tap(findTestObject(""Transfer/transferConfirmationOptionalGreyWordTxt""), 0)",,,,2022-06-23 11:25:13,2022-06-23 11:25:14,0.270s,PASSED
+"setText(findTestObject(""Transfer/transferConfirmationDetailsInputField""), details, 0)",,,,2022-06-23 11:25:14,2022-06-23 11:25:16,2.644s,PASSED
+hideKeyboard(),,,,2022-06-23 11:25:16,2022-06-23 11:25:19,2.310s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationOptionalGreyWordTxt""), details)",,,,2022-06-23 11:25:19,2022-06-23 11:25:19,0.333s,PASSED
+device_Height_2 = getDeviceHeight(),,,,2022-06-23 11:25:19,2022-06-23 11:25:19,0.549s,PASSED
+device_Width_2 = getDeviceWidth(),,,,2022-06-23 11:25:19,2022-06-23 11:25:20,0.502s,PASSED
+startX_2 = device_Width_2 / 2,,,,2022-06-23 11:25:20,2022-06-23 11:25:20,0.000s,PASSED
+endX_2 = startX_2,,,,2022-06-23 11:25:20,2022-06-23 11:25:20,0.000s,PASSED
+startY_2 = device_Height_2 * 0.30,,,,2022-06-23 11:25:20,2022-06-23 11:25:20,0.000s,PASSED
+endY_2 = device_Height_2 * 0.70,,,,2022-06-23 11:25:20,2022-06-23 11:25:20,0.001s,PASSED
+"swipe(startX_2, endY_2, endX_2, startY_2)",,,,2022-06-23 11:25:20,2022-06-23 11:25:21,1.525s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationNotes1Txt""), 0)",,,,2022-06-23 11:25:21,2022-06-23 11:25:22,0.343s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationFTransferFromTitleTxt""), 0)",,,,2022-06-23 11:25:22,2022-06-23 11:25:22,0.351s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationNotes2Txt""), 0)",,,,2022-06-23 11:25:22,2022-06-23 11:25:22,0.342s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccTypeTxt"", [""accType"":accType]), accType)",,,,2022-06-23 11:25:22,2022-06-23 11:25:23,0.202s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccNoTxt"", [""accNoFrom"":accNoFrom]), accNoFrom)",,,,2022-06-23 11:25:23,2022-06-23 11:25:23,0.335s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationFromAccBalanceTxt""), 0)",,,,2022-06-23 11:25:23,2022-06-23 11:25:23,0.269s,PASSED
+"accountBalance = getText(findTestObject(""Transfer/transferConfirmationFromAccBalanceTxt""), 0)",,,,2022-06-23 11:25:23,2022-06-23 11:25:24,0.249s,PASSED
+println(accountBalance),,,,2022-06-23 11:25:24,2022-06-23 11:25:24,0.001s,PASSED
+"tap(findTestObject(""Main/mainTransferNowBtn""), 0)",,,,2022-06-23 11:25:24,2022-06-23 11:25:24,0.369s,PASSED
+if (value <= limit),,,,2022-06-23 11:25:24,2022-06-23 11:26:57,1m - 33.256s,FAILED
+delay(5),,,,2022-06-23 11:26:57,2022-06-23 11:27:02,5.007s,PASSED
+"verifyElementExist(findTestObject(""Festive Season/returnAngpaoStatusMessageTxt""), 0)",,,,2022-06-23 11:27:02,2022-06-23 11:27:02,0.140s,PASSED
+"message = getText(findTestObject(""Festive Season/returnAngpaoStatusMessageTxt""), 10)",,,,2022-06-23 11:27:02,2022-06-23 11:27:02,0.196s,PASSED
+println(message),,,,2022-06-23 11:27:02,2022-06-23 11:27:02,0.000s,PASSED
+delay(5),,,,2022-06-23 11:27:02,2022-06-23 11:27:07,5.007s,PASSED
+if (value > limit),,,,2022-06-23 11:27:07,2022-06-23 11:27:07,0.001s,PASSED
+else,,,,2022-06-23 11:27:07,2022-06-23 11:27:08,0.560s,PASSED
+delay(5),,,,2022-06-23 11:27:08,2022-06-23 11:27:13,5.006s,PASSED
+"referenceID = getText(findTestObject(""Send Request Money/requestMoneyPaySummaryRefIDTxt""), 0)",,,,2022-06-23 11:27:13,2022-06-23 11:27:13,0.193s,PASSED
+println(referenceID),,,,2022-06-23 11:27:13,2022-06-23 11:27:13,0.000s,PASSED
+test = dataFolder,,,,2022-06-23 11:27:13,2022-06-23 11:27:13,0.001s,PASSED
+"sheetName = ""Sheet1""",,,,2022-06-23 11:27:13,2022-06-23 11:27:13,0.000s,PASSED
+file1 = new java.io.File(test),,,,2022-06-23 11:27:13,2022-06-23 11:27:13,0.000s,PASSED
+assert file1.exists() == true,,,,2022-06-23 11:27:13,2022-06-23 11:27:13,0.001s,PASSED
+woorkbook1 = getWorkbook(test),,,,2022-06-23 11:27:13,2022-06-23 11:27:14,0.470s,PASSED
+"sheet1 = getExcelSheet(woorkbook1, sheetName)",,,,2022-06-23 11:27:14,2022-06-23 11:27:14,0.001s,PASSED
+"setValueToCellByIndex(sheet1, 3, 1, referenceID)",,,,2022-06-23 11:27:14,2022-06-23 11:27:14,0.005s,PASSED
+"saveWorkbook(test, woorkbook1)",,,,2022-06-23 11:27:14,2022-06-23 11:27:14,0.086s,PASSED
+delay(3),,,,2022-06-23 11:27:14,2022-06-23 11:27:17,3.007s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-23 11:27:17,2022-06-23 11:27:17,0.252s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/instantIBFT.png"")",,,,2022-06-23 11:27:17,2022-06-23 11:27:18,1.202s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-23 11:27:18,2022-06-23 11:27:19,0.256s,PASSED
+if (value < limit),,,,2022-06-23 11:27:19,2022-06-23 11:28:37,1m - 18.797s,FAILED
+,,,,,,,
+Test Cases/Transfer/transfer_instantTransferIBG,,,,2022-06-23 11:28:37,2022-06-23 11:34:03,5m - 25.919s,FAILED
+delay(5),,,,2022-06-23 11:28:38,2022-06-23 11:28:43,5.007s,PASSED
+device_Height = getDeviceHeight(),,,,2022-06-23 11:28:43,2022-06-23 11:28:43,0.361s,PASSED
+device_Width = getDeviceWidth(),,,,2022-06-23 11:28:43,2022-06-23 11:28:43,0.323s,PASSED
+startX = device_Width / 3,,,,2022-06-23 11:28:43,2022-06-23 11:28:43,0.000s,PASSED
+startY = device_Height * 0.97,,,,2022-06-23 11:28:43,2022-06-23 11:28:43,0.001s,PASSED
+"verifyElementVisible(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-06-23 11:28:43,2022-06-23 11:28:44,0.388s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-06-23 11:28:44,2022-06-23 11:28:44,0.392s,PASSED
+delay(5),,,,2022-06-23 11:28:44,2022-06-23 11:28:49,5.003s,PASSED
+"println(""InterBank Test Case Started"")",,,,2022-06-23 11:28:49,2022-06-23 11:28:49,0.000s,PASSED
+"verifyElementExist(findTestObject(""Banking/transferOthersTopMenuSelect""), 0)",,,,2022-06-23 11:28:49,2022-06-23 11:29:20,30.622s,PASSED
+"tap(findTestObject(""Banking/transferOthersTopMenuSelect""), 0)",,,,2022-06-23 11:29:20,2022-06-23 11:30:21,1m - 1.024s,PASSED
+"tap(findTestObject(""Banking/transferBanksIconSelect""), 0)",,,,2022-06-23 11:30:21,2022-06-23 11:31:14,52.806s,PASSED
+"scrollToText(""PUBLIC BANK"", STOP_ON_FAILURE)",,,,2022-06-23 11:31:14,2022-06-23 11:31:26,12.032s,PASSED
+"tap(findTestObject(""Banking/transferBankSelection"", [""text"":accBank]), 10)",,,,2022-06-23 11:31:26,2022-06-23 11:31:26,0.501s,PASSED
+"setText(findTestObject(""Banking/transferAccountNoInputField""), accountNum, 0)",,,,2022-06-23 11:31:26,2022-06-23 11:31:29,2.382s,PASSED
+hideKeyboard(),,,,2022-06-23 11:31:29,2022-06-23 11:31:33,4.725s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:31:33,2022-06-23 11:31:34,0.231s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmounttAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:31:34,2022-06-23 11:31:35,1.361s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmounttAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:31:35,2022-06-23 11:31:35,0.251s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferAmountRMTxt""), 0)",,,,2022-06-23 11:31:35,2022-06-23 11:31:35,0.317s,PASSED
+"verifyElementExist(findTestObject(""Duit Now/duitNowAmountInitialValueTxt""), 0)",,,,2022-06-23 11:31:35,2022-06-23 11:31:36,0.388s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferAmountEnterAmountTitleTxt""), 0)",,,,2022-06-23 11:31:36,2022-06-23 11:31:36,0.285s,PASSED
+trxAmount = value,,,,2022-06-23 11:31:36,2022-06-23 11:31:36,0.000s,PASSED
+length = trxAmount.length(),,,,2022-06-23 11:31:36,2022-06-23 11:31:36,0.001s,PASSED
+delay(5),,,,2022-06-23 11:31:36,2022-06-23 11:31:41,5.010s,PASSED
+"tapAtPosition(startX, startY)",,,,2022-06-23 11:31:41,2022-06-23 11:31:41,0.220s,PASSED
+"for ([i = 0, i < length, (i++)])",,,,2022-06-23 11:31:41,2022-06-23 11:31:44,2.752s,PASSED
+delay(3),,,,2022-06-23 11:31:44,2022-06-23 11:31:47,3.003s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmountInputValueTxt"", [""value"":checkValue]), checkValue)",,,,2022-06-23 11:31:47,2022-06-23 11:31:47,0.320s,PASSED
+delay(3),,,,2022-06-23 11:31:47,2022-06-23 11:31:50,3.008s,PASSED
+"tap(findTestObject(""Login Onboarding/loginPinTickBtn""), 0)",,,,2022-06-23 11:31:50,2022-06-23 11:31:51,0.338s,PASSED
+delay(3),,,,2022-06-23 11:31:51,2022-06-23 11:31:54,3.001s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:31:54,2022-06-23 11:31:54,0.221s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:31:54,2022-06-23 11:31:54,0.215s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferReferenceInputField""), 0)",,,,2022-06-23 11:31:54,2022-06-23 11:31:54,0.157s,PASSED
+"setText(findTestObject(""Banking/transferReferenceInputField""), reference, 0)",,,,2022-06-23 11:31:54,2022-06-23 11:31:55,0.849s,PASSED
+hideKeyboard(),,,,2022-06-23 11:31:55,2022-06-23 11:31:57,2.107s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceInputFieldAfter"", [""reference"":reference]), reference)",,,,2022-06-23 11:31:57,2022-06-23 11:31:58,0.152s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:31:58,2022-06-23 11:31:58,0.143s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:31:58,2022-06-23 11:31:58,0.100s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:31:58,2022-06-23 11:31:58,0.122s,PASSED
+"tap(findTestObject(""Banking/transferTypeDropdownSelection""), 0)",,,,2022-06-23 11:31:58,2022-06-23 11:32:02,4.382s,PASSED
+"scrollToText(""Fund Transfer"", STOP_ON_FAILURE)",,,,2022-06-23 11:32:02,2022-06-23 11:32:06,3.689s,PASSED
+"tap(findTestObject(""Banking/tansferTypeFundDropdownSelection""), 0)",,,,2022-06-23 11:32:06,2022-06-23 11:32:06,0.197s,PASSED
+"tap(findTestObject(""Banking/transferModeDropdownDoneBtn""), 0)",,,,2022-06-23 11:32:06,2022-06-23 11:32:06,0.152s,PASSED
+delay(3),,,,2022-06-23 11:32:06,2022-06-23 11:32:09,3.004s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferModeDuitTxt"", [""mode"":initialMode]), 0)",,,,2022-06-23 11:32:09,2022-06-23 11:32:10,0.245s,PASSED
+"tap(findTestObject(""Transfer/instantTransferModeDuitTxt"", [""mode"":initialMode]), 0)",,,,2022-06-23 11:32:10,2022-06-23 11:32:10,0.254s,PASSED
+delay(3),,,,2022-06-23 11:32:10,2022-06-23 11:32:13,3.005s,PASSED
+"scrollToText(selectedMode, STOP_ON_FAILURE)",,,,2022-06-23 11:32:13,2022-06-23 11:32:14,0.833s,PASSED
+"tap(findTestObject(""Transfer/instantTransferModeDropdownSelect"", [""modeS"":selectedMode]), 0)",,,,2022-06-23 11:32:14,2022-06-23 11:32:14,0.217s,PASSED
+delay(3),,,,2022-06-23 11:32:14,2022-06-23 11:32:17,3.001s,PASSED
+"tap(findTestObject(""Banking/transferModeDropdownDoneBtn""), 0)",,,,2022-06-23 11:32:17,2022-06-23 11:32:17,0.205s,PASSED
+delay(3),,,,2022-06-23 11:32:17,2022-06-23 11:32:20,3.002s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferModeDuitTxt"", [""mode"":selectedMode]), 0)",,,,2022-06-23 11:32:20,2022-06-23 11:32:20,0.259s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferModeTitleTxt""), 0)",,,,2022-06-23 11:32:20,2022-06-23 11:32:21,0.208s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferTypeFundTxt""), 0)",,,,2022-06-23 11:32:21,2022-06-23 11:32:21,0.194s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferTypeTitleTxt""), 0)",,,,2022-06-23 11:32:21,2022-06-23 11:32:21,0.182s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:32:21,2022-06-23 11:32:21,0.222s,PASSED
+delay(5),,,,2022-06-23 11:32:21,2022-06-23 11:32:26,5.003s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantIBGNameAccountNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:32:26,2022-06-23 11:32:26,0.175s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantIBGNameAccountBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:32:26,2022-06-23 11:32:26,0.162s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantIBGNameEnterNameTitleTxt""), 0)",,,,2022-06-23 11:32:26,2022-06-23 11:32:27,0.109s,PASSED
+"setText(findTestObject(""Banking/transferReferenceInputField""), accName, 0)",,,,2022-06-23 11:32:27,2022-06-23 11:32:27,0.751s,PASSED
+hideKeyboard(),,,,2022-06-23 11:32:27,2022-06-23 11:32:30,2.751s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantIBGNameInputtedNameTxt"", [""accName"":accName]), accName)",,,,2022-06-23 11:32:30,2022-06-23 11:32:30,0.141s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:32:30,2022-06-23 11:32:30,0.161s,PASSED
+delay(5),,Verify confirmation page,,2022-06-23 11:32:30,2022-06-23 11:32:35,5.004s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationTransactionDateTxt""), trxDate)",,,,2022-06-23 11:32:35,2022-06-23 11:32:36,0.212s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationAccountNameTxt"", [""accName"":accName]), accName)",,,,2022-06-23 11:32:36,2022-06-23 11:32:36,0.250s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationAccountNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:32:36,2022-06-23 11:32:36,0.280s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationAmountTxt"", [""amount"":amount]), amount)",,,,2022-06-23 11:32:36,2022-06-23 11:32:36,0.353s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationTransactionRecRefTxt"", [""reference"":reference]), reference)",,,,2022-06-23 11:32:36,2022-06-23 11:32:37,0.250s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationTransactionBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:32:37,2022-06-23 11:32:37,0.243s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationOptionalGreyWordTxt""), ""Optional"")",,,,2022-06-23 11:32:37,2022-06-23 11:32:37,0.171s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantTransferConfirmationTransactionTypeTxt""), trxType)",,,,2022-06-23 11:32:37,2022-06-23 11:32:37,0.207s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantTransferConfirmationTransactionModeTxt"", [""modeC"":selectedMode]), selectedMode)",,,,2022-06-23 11:32:37,2022-06-23 11:32:38,0.222s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantTransferConfirmationTransactionServiceTxt""), ""RM 0.00"")",,,,2022-06-23 11:32:38,2022-06-23 11:32:38,0.265s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationBankNameTitleTxt""), 0)",,,,2022-06-23 11:32:38,2022-06-23 11:32:38,0.294s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationDateTitleTxt""), 0)",,,,2022-06-23 11:32:38,2022-06-23 11:32:38,0.206s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationRecRefTitleTxt""), 0)",,,,2022-06-23 11:32:38,2022-06-23 11:32:39,0.190s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationPaymentDetailsTitleTxt""), 0)",,,,2022-06-23 11:32:39,2022-06-23 11:32:39,0.158s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationModeTitleTxt""), 0)",,,,2022-06-23 11:32:39,2022-06-23 11:32:39,0.152s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationServiceFeeTitleTxt""), 0)",,,,2022-06-23 11:32:39,2022-06-23 11:32:39,0.157s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationTypeTitleTxt""), 0)",,,,2022-06-23 11:32:39,2022-06-23 11:32:39,0.172s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationNoteTitleTxt""), 0)",,,,2022-06-23 11:32:39,2022-06-23 11:32:39,0.170s,PASSED
+"tap(findTestObject(""Transfer/transferConfirmationOptionalGreyWordTxt""), 0)",,,,2022-06-23 11:32:39,2022-06-23 11:32:41,1.423s,PASSED
+"setText(findTestObject(""Transfer/transferConfirmationDetailsInputField""), details, 0)",,,,2022-06-23 11:32:41,2022-06-23 11:32:42,1.598s,PASSED
+hideKeyboard(),,,,2022-06-23 11:32:42,2022-06-23 11:32:46,3.646s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationOptionalGreyWordTxt""), details)",,,,2022-06-23 11:32:46,2022-06-23 11:32:46,0.153s,PASSED
+device_Height_2 = getDeviceHeight(),,,,2022-06-23 11:32:46,2022-06-23 11:32:46,0.245s,PASSED
+device_Width_2 = getDeviceWidth(),,,,2022-06-23 11:32:46,2022-06-23 11:32:47,0.231s,PASSED
+startX_2 = device_Width_2 / 2,,,,2022-06-23 11:32:47,2022-06-23 11:32:47,0.000s,PASSED
+endX_2 = startX_2,,,,2022-06-23 11:32:47,2022-06-23 11:32:47,0.000s,PASSED
+startY_2 = device_Height_2 * 0.30,,,,2022-06-23 11:32:47,2022-06-23 11:32:47,0.000s,PASSED
+endY_2 = device_Height_2 * 0.70,,,,2022-06-23 11:32:47,2022-06-23 11:32:47,0.000s,PASSED
+"swipe(startX_2, endY_2, endX_2, startY_2)",,,,2022-06-23 11:32:47,2022-06-23 11:32:48,1.239s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationNotes1Txt""), 0)",,,,2022-06-23 11:32:48,2022-06-23 11:32:48,0.187s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationFTransferFromTitleTxt""), 0)",,,,2022-06-23 11:32:48,2022-06-23 11:32:48,0.227s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationNotes2Txt""), 0)",,,,2022-06-23 11:32:48,2022-06-23 11:32:49,0.202s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccTypeTxt"", [""accType"":accType]), accType)",,,,2022-06-23 11:32:49,2022-06-23 11:32:49,0.225s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccNoTxt"", [""accNoFrom"":accNoFrom]), accNoFrom)",,,,2022-06-23 11:32:49,2022-06-23 11:32:49,0.233s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationFromAccBalanceTxt""), 0)",,,,2022-06-23 11:32:49,2022-06-23 11:32:49,0.154s,PASSED
+"accountBalance = getText(findTestObject(""Transfer/transferConfirmationFromAccBalanceTxt""), 0)",,,,2022-06-23 11:32:49,2022-06-23 11:32:49,0.165s,PASSED
+println(accountBalance),,,,2022-06-23 11:32:49,2022-06-23 11:32:49,0.001s,PASSED
+"tap(findTestObject(""Main/mainTransferNowBtn""), 0)",,,,2022-06-23 11:32:49,2022-06-23 11:32:50,0.220s,PASSED
+if (value <= limit),,,,2022-06-23 11:32:50,2022-06-23 11:33:53,1m - 3.850s,PASSED
+delay(5),,,,2022-06-23 11:33:53,2022-06-23 11:33:58,5.007s,PASSED
+"verifyElementExist(findTestObject(""Festive Season/returnAngpaoStatusMessageTxt""), 0)",,,,2022-06-23 11:33:58,2022-06-23 11:34:03,4.752s,PASSED
+"message = getText(findTestObject(""Festive Season/returnAngpaoStatusMessageTxt""), 10)",,,,2022-06-23 11:34:03,2022-06-23 11:34:03,0.148s,PASSED
+println(message),,,,2022-06-23 11:34:03,2022-06-23 11:34:03,0.001s,PASSED
+assert message == successTransactionMessage,,,,2022-06-23 11:34:03,2022-06-23 11:34:03,0.002s,FAILED
+,,,,,,,
+Test Cases/Transfer/transfer_instantTransferSchedule,,,,2022-06-23 11:34:03,2022-06-23 11:38:34,4m - 30.673s,PASSED
+delay(5),,,,2022-06-23 11:34:04,2022-06-23 11:34:09,5.006s,PASSED
+device_Height = getDeviceHeight(),,,,2022-06-23 11:34:09,2022-06-23 11:34:09,0.307s,PASSED
+device_Width = getDeviceWidth(),,,,2022-06-23 11:34:09,2022-06-23 11:34:09,0.228s,PASSED
+startX = device_Width / 3,,,,2022-06-23 11:34:09,2022-06-23 11:34:09,0.000s,PASSED
+startY = device_Height * 0.97,,,,2022-06-23 11:34:09,2022-06-23 11:34:09,0.000s,PASSED
+"verifyElementVisible(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-06-23 11:34:09,2022-06-23 11:34:16,6.790s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-06-23 11:34:16,2022-06-23 11:34:16,0.345s,PASSED
+delay(5),,,,2022-06-23 11:34:16,2022-06-23 11:34:21,5.002s,PASSED
+"println(""InterBank Test Case Started"")",,,,2022-06-23 11:34:21,2022-06-23 11:34:21,0.000s,PASSED
+"tap(findTestObject(""Banking/transferOthersTopMenuSelect""), 0)",,,,2022-06-23 11:34:21,2022-06-23 11:35:22,1m - 0.779s,PASSED
+"tap(findTestObject(""Banking/transferBanksIconSelect""), 0)",,,,2022-06-23 11:35:22,2022-06-23 11:36:15,52.969s,PASSED
+"scrollToText(""PUBLIC BANK"", STOP_ON_FAILURE)",,,,2022-06-23 11:36:15,2022-06-23 11:36:27,11.803s,PASSED
+"tap(findTestObject(""Banking/transferBankSelection"", [""text"":""PUBLIC BANK""]), 10)",,,,2022-06-23 11:36:27,2022-06-23 11:36:27,0.301s,PASSED
+"setText(findTestObject(""Banking/transferAccountNoInputField""), accountNum, 0)",,,,2022-06-23 11:36:27,2022-06-23 11:36:30,2.709s,PASSED
+hideKeyboard(),,,,2022-06-23 11:36:30,2022-06-23 11:36:34,4.694s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:36:34,2022-06-23 11:36:35,0.199s,PASSED
+delay(5),,,,2022-06-23 11:36:35,2022-06-23 11:36:40,5.002s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmounttAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:36:40,2022-06-23 11:36:40,0.222s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmounttAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:36:40,2022-06-23 11:36:40,0.197s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferAmountRMTxt""), 0)",,,,2022-06-23 11:36:40,2022-06-23 11:36:40,0.170s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferAmountEnterAmountTitleTxt""), 0)",,,,2022-06-23 11:36:40,2022-06-23 11:36:40,0.166s,PASSED
+"verifyElementExist(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-06-23 11:36:40,2022-06-23 11:36:41,0.175s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-06-23 11:36:41,2022-06-23 11:36:41,0.214s,PASSED
+delay(3),,,,2022-06-23 11:36:41,2022-06-23 11:36:44,3.008s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmountInputValueTxt"", [""value"":""0.04""]), ""0.04"")",,,,2022-06-23 11:36:44,2022-06-23 11:36:44,0.192s,PASSED
+delay(3),,,,2022-06-23 11:36:44,2022-06-23 11:36:47,3.003s,PASSED
+"tap(findTestObject(""Login Onboarding/loginPinTickBtn""), 0)",,,,2022-06-23 11:36:47,2022-06-23 11:36:47,0.182s,PASSED
+delay(3),,,,2022-06-23 11:36:47,2022-06-23 11:36:50,3.002s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:36:50,2022-06-23 11:36:50,0.190s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:36:50,2022-06-23 11:36:51,0.191s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferReferenceInputField""), 0)",,,,2022-06-23 11:36:51,2022-06-23 11:36:51,0.162s,PASSED
+"setText(findTestObject(""Banking/transferReferenceInputField""), ""InstantTransferSched"", 0)",,,,2022-06-23 11:36:51,2022-06-23 11:36:52,0.795s,PASSED
+hideKeyboard(),,,,2022-06-23 11:36:52,2022-06-23 11:36:53,1.916s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceInputFieldAfter"", [""reference"":""InstantTransferSched""]), ""InstantTransferSched"")",,,,2022-06-23 11:36:53,2022-06-23 11:36:54,0.155s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:36:54,2022-06-23 11:36:54,0.210s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:36:54,2022-06-23 11:36:54,0.117s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:36:54,2022-06-23 11:36:54,0.162s,PASSED
+"tap(findTestObject(""Banking/transferTypeDropdownSelection""), 0)",,,,2022-06-23 11:36:54,2022-06-23 11:36:59,4.490s,PASSED
+"scrollToText(""Fund Transfer"", STOP_ON_FAILURE)",,,,2022-06-23 11:36:59,2022-06-23 11:37:14,15.297s,PASSED
+"tap(findTestObject(""Banking/tansferTypeFundDropdownSelection""), 0)",,,,2022-06-23 11:37:14,2022-06-23 11:37:14,0.135s,PASSED
+"tap(findTestObject(""Banking/transferModeDropdownDoneBtn""), 0)",,,,2022-06-23 11:37:14,2022-06-23 11:37:14,0.134s,PASSED
+delay(3),,,,2022-06-23 11:37:14,2022-06-23 11:37:17,3.002s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferModeDuitTxt"", [""mode"":""DuitNow Transfer""]), 0)",,,,2022-06-23 11:37:17,2022-06-23 11:37:17,0.146s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferModeTitleTxt""), 0)",,,,2022-06-23 11:37:17,2022-06-23 11:37:17,0.146s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferTypeFundTxt""), 0)",,,,2022-06-23 11:37:17,2022-06-23 11:37:18,0.126s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferTypeTitleTxt""), 0)",,,,2022-06-23 11:37:18,2022-06-23 11:37:18,0.159s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:37:18,2022-06-23 11:37:18,0.226s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationTransactionDateTxt""), ""Today"")",,Verify confirmation page,,2022-06-23 11:37:18,2022-06-23 11:37:25,6.788s,PASSED
+"tap(findTestObject(""Transfer/transferConfirmationTransactionDateTxt""), 0)",,,,2022-06-23 11:37:25,2022-06-23 11:37:25,0.195s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerNextBtn""), 0)",,,,2022-06-23 11:37:25,2022-06-23 11:37:26,1.532s,PASSED
+delay(3),,,,2022-06-23 11:37:26,2022-06-23 11:37:29,3.002s,PASSED
+"tap(findTestObject(""Main/mainDatePicker1""), 0)",,,,2022-06-23 11:37:29,2022-06-23 11:37:30,0.316s,PASSED
+"tap(findTestObject(""Main/mainCalenderPickerDoneBtn""), 0)",,,,2022-06-23 11:37:30,2022-06-23 11:37:30,0.384s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationAccountNameTxt"", [""accName"":accName]), accName)",,,,2022-06-23 11:37:30,2022-06-23 11:37:31,0.745s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationAccountNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:37:31,2022-06-23 11:37:31,0.234s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationAmountTxt"", [""amount"":""RM 0.04""]), ""RM 0.04"")",,,,2022-06-23 11:37:31,2022-06-23 11:37:31,0.189s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationTransactionRecRefTxt"", [""reference"":""InstantTransferSched""]), ""InstantTransferSched"")",,,,2022-06-23 11:37:31,2022-06-23 11:37:32,0.186s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationTransactionBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:37:32,2022-06-23 11:37:32,0.221s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationOptionalGreyWordTxt""), ""Optional"")",,,,2022-06-23 11:37:32,2022-06-23 11:37:32,0.165s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantTransferConfirmationTransactionTypeTxt""), ""Fund Transfer"")",,,,2022-06-23 11:37:32,2022-06-23 11:37:32,0.182s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantTransferConfirmationTransactionModeTxt"", [""modeC"":""DuitNow Transfer""]), ""DuitNow Transfer"")",,,,2022-06-23 11:37:32,2022-06-23 11:37:32,0.231s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantTransferConfirmationTransactionServiceTxt""), ""RM 0.00"")",,,,2022-06-23 11:37:32,2022-06-23 11:37:33,0.187s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationBankNameTitleTxt""), 0)",,,,2022-06-23 11:37:33,2022-06-23 11:37:33,0.172s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationDateTitleTxt""), 0)",,,,2022-06-23 11:37:33,2022-06-23 11:37:33,0.195s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationRecRefTitleTxt""), 0)",,,,2022-06-23 11:37:33,2022-06-23 11:37:33,0.171s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationPaymentDetailsTitleTxt""), 0)",,,,2022-06-23 11:37:33,2022-06-23 11:37:33,0.162s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationModeTitleTxt""), 0)",,,,2022-06-23 11:37:33,2022-06-23 11:37:33,0.210s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationServiceFeeTitleTxt""), 0)",,,,2022-06-23 11:37:33,2022-06-23 11:37:34,0.181s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationTypeTitleTxt""), 0)",,,,2022-06-23 11:37:34,2022-06-23 11:37:34,0.177s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationNoteTitleTxt""), 0)",,,,2022-06-23 11:37:34,2022-06-23 11:37:34,0.204s,PASSED
+"tap(findTestObject(""Transfer/transferConfirmationOptionalGreyWordTxt""), 0)",,,,2022-06-23 11:37:34,2022-06-23 11:37:34,0.206s,PASSED
+"setText(findTestObject(""Transfer/transferConfirmationDetailsInputField""), ""Test Fav"", 0)",,,,2022-06-23 11:37:34,2022-06-23 11:37:37,2.650s,PASSED
+hideKeyboard(),,,,2022-06-23 11:37:37,2022-06-23 11:37:39,2.051s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationOptionalGreyWordTxt""), ""Test Fav"")",,,,2022-06-23 11:37:39,2022-06-23 11:37:39,0.188s,PASSED
+device_Height_2 = getDeviceHeight(),,,,2022-06-23 11:37:39,2022-06-23 11:37:39,0.294s,PASSED
+device_Width_2 = getDeviceWidth(),,,,2022-06-23 11:37:39,2022-06-23 11:37:40,0.320s,PASSED
+startX_2 = device_Width_2 / 2,,,,2022-06-23 11:37:40,2022-06-23 11:37:40,0.001s,PASSED
+endX_2 = startX_2,,,,2022-06-23 11:37:40,2022-06-23 11:37:40,0.000s,PASSED
+startY_2 = device_Height_2 * 0.30,,,,2022-06-23 11:37:40,2022-06-23 11:37:40,0.000s,PASSED
+endY_2 = device_Height_2 * 0.70,,,,2022-06-23 11:37:40,2022-06-23 11:37:40,0.000s,PASSED
+"swipe(startX_2, endY_2, endX_2, startY_2)",,,,2022-06-23 11:37:40,2022-06-23 11:37:41,1.297s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationNotes1Txt""), 0)",,,,2022-06-23 11:37:41,2022-06-23 11:37:41,0.185s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationFTransferFromTitleTxt""), 0)",,,,2022-06-23 11:37:41,2022-06-23 11:37:41,0.167s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationNotes2Txt""), 0)",,,,2022-06-23 11:37:41,2022-06-23 11:37:42,0.213s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccTypeTxt"", [""accType"":accType]), accType)",,,,2022-06-23 11:37:42,2022-06-23 11:37:42,0.226s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccNoTxt"", [""accNoFrom"":accNoFrom]), accNoFrom)",,,,2022-06-23 11:37:42,2022-06-23 11:37:42,0.268s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationFromAccBalanceTxt""), 0)",,,,2022-06-23 11:37:42,2022-06-23 11:37:42,0.170s,PASSED
+"accountBalance = getText(findTestObject(""Transfer/transferConfirmationFromAccBalanceTxt""), 0)",,,,2022-06-23 11:37:42,2022-06-23 11:37:42,0.174s,PASSED
+println(accountBalance),,,,2022-06-23 11:37:42,2022-06-23 11:37:42,0.000s,PASSED
+"tap(findTestObject(""Main/mainTransferNowBtn""), 0)",,,,2022-06-23 11:37:42,2022-06-23 11:37:43,0.226s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/seasonalGreetingAngpaoTACNoTxt""), 10, OPTIONAL))",,,,2022-06-23 11:37:43,2022-06-23 11:37:53,10.123s,PASSED
+else,,,,2022-06-23 11:37:53,2022-06-23 11:37:56,3.322s,PASSED
+delay(5),,,,2022-06-23 11:37:56,2022-06-23 11:38:01,5.005s,PASSED
+"verifyElementExist(findTestObject(""Festive Season/returnAngpaoStatusMessageTxt""), 0)",,,,2022-06-23 11:38:01,2022-06-23 11:38:02,0.501s,PASSED
+"message = getText(findTestObject(""Festive Season/returnAngpaoStatusMessageTxt""), 10)",,,,2022-06-23 11:38:02,2022-06-23 11:38:02,0.133s,PASSED
+println(message),,,,2022-06-23 11:38:02,2022-06-23 11:38:02,0.001s,PASSED
+assert message == successTransactionMessage,,,,2022-06-23 11:38:02,2022-06-23 11:38:02,0.000s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferSummaryDateTimeTitleTxt""), 0)",,,,2022-06-23 11:38:02,2022-06-23 11:38:02,0.122s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferSummaryRefIDTitleTxt""), 0)",,,,2022-06-23 11:38:02,2022-06-23 11:38:02,0.147s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferSummaryShareReceiptBtn""), 0)",,,,2022-06-23 11:38:02,2022-06-23 11:38:02,0.133s,PASSED
+delay(5),,,,2022-06-23 11:38:02,2022-06-23 11:38:07,5.004s,PASSED
+"referenceID = getText(findTestObject(""Send Request Money/requestMoneyPaySummaryRefIDTxt""), 0)",,,,2022-06-23 11:38:07,2022-06-23 11:38:07,0.133s,PASSED
+println(referenceID),,,,2022-06-23 11:38:07,2022-06-23 11:38:07,0.000s,PASSED
+test = dataFolder,,,,2022-06-23 11:38:07,2022-06-23 11:38:07,0.001s,PASSED
+"sheetName = ""Sheet1""",,,,2022-06-23 11:38:07,2022-06-23 11:38:07,0.000s,PASSED
+file1 = new java.io.File(test),,,,2022-06-23 11:38:07,2022-06-23 11:38:07,0.000s,PASSED
+assert file1.exists() == true,,,,2022-06-23 11:38:07,2022-06-23 11:38:07,0.000s,PASSED
+woorkbook1 = getWorkbook(test),,,,2022-06-23 11:38:07,2022-06-23 11:38:07,0.021s,PASSED
+"sheet1 = getExcelSheet(woorkbook1, sheetName)",,,,2022-06-23 11:38:07,2022-06-23 11:38:07,0.001s,PASSED
+"setValueToCellByIndex(sheet1, 3, 1, referenceID)",,,,2022-06-23 11:38:07,2022-06-23 11:38:07,0.000s,PASSED
+"saveWorkbook(test, woorkbook1)",,,,2022-06-23 11:38:07,2022-06-23 11:38:07,0.013s,PASSED
+delay(3),,,,2022-06-23 11:38:07,2022-06-23 11:38:10,3.005s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/instantSchedule.png"")",,,,2022-06-23 11:38:10,2022-06-23 11:38:12,1.294s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-23 11:38:12,2022-06-23 11:38:12,0.182s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-23 11:38:12,2022-06-23 11:38:12,0.197s,PASSED
+delay(5),,,,2022-06-23 11:38:12,2022-06-23 11:38:17,5.002s,PASSED
+"tap(findTestObject(""Main/mainTopLeftBackButton""), 0)",,,,2022-06-23 11:38:17,2022-06-23 11:38:18,1.069s,PASSED
+delay(5),,,,2022-06-23 11:38:18,2022-06-23 11:38:23,5.004s,PASSED
+"verifyElementVisible(findTestObject(""Banking/m2uAccountTypeSelection"", [""text"":""MAE""]), 0)",,,,2022-06-23 11:38:23,2022-06-23 11:38:23,0.369s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTypeSelection"", [""text"":""MAE""]), 10)",,,,2022-06-23 11:38:23,2022-06-23 11:38:24,0.334s,PASSED
+delay(5),,,,2022-06-23 11:38:24,2022-06-23 11:38:29,5.005s,PASSED
+"afterBalance = getText(findTestObject(""Main/mainAccountsBalanceTxt""), 0)",,,,2022-06-23 11:38:29,2022-06-23 11:38:29,0.151s,PASSED
+"newAfterBalance = afterBalance.replaceAll(""[^0-9.]"", """")",,,,2022-06-23 11:38:29,2022-06-23 11:38:29,0.000s,PASSED
+"newAccountBalance = accountBalance.replaceAll(""[^0-9.]"", """")",,,,2022-06-23 11:38:29,2022-06-23 11:38:29,0.001s,PASSED
+newAfterBalanceF = Float.parseFloat(newAfterBalance),,,,2022-06-23 11:38:29,2022-06-23 11:38:29,0.000s,PASSED
+newAccountBalanceF = Float.parseFloat(newAccountBalance),,,,2022-06-23 11:38:29,2022-06-23 11:38:29,0.000s,PASSED
+println(afterBalance),,,,2022-06-23 11:38:29,2022-06-23 11:38:29,0.000s,PASSED
+println(accountBalance),,,,2022-06-23 11:38:29,2022-06-23 11:38:29,0.000s,PASSED
+println(newAfterBalance),,,,2022-06-23 11:38:29,2022-06-23 11:38:29,0.000s,PASSED
+println(newAccountBalance),,,,2022-06-23 11:38:29,2022-06-23 11:38:29,0.000s,PASSED
+newBalance = newAccountBalanceF - 0.04,,,,2022-06-23 11:38:29,2022-06-23 11:38:29,0.000s,PASSED
+println(newBalance),,,,2022-06-23 11:38:29,2022-06-23 11:38:29,0.000s,PASSED
+delay(5),,,,2022-06-23 11:38:29,2022-06-23 11:38:34,5.003s,PASSED
+,,,,,,,
+Test Cases/Transfer/transfer_instantTransferSetFav,,,,2022-06-23 11:38:34,2022-06-23 11:42:00,3m - 25.824s,PASSED
+delay(5),,,,2022-06-23 11:38:34,2022-06-23 11:38:39,5.007s,PASSED
+device_Height = getDeviceHeight(),,,,2022-06-23 11:38:39,2022-06-23 11:38:39,0.244s,PASSED
+device_Width = getDeviceWidth(),,,,2022-06-23 11:38:39,2022-06-23 11:38:40,0.276s,PASSED
+startX = device_Width / 3,,,,2022-06-23 11:38:40,2022-06-23 11:38:40,0.000s,PASSED
+startY = device_Height * 0.97,,,,2022-06-23 11:38:40,2022-06-23 11:38:40,0.000s,PASSED
+"verifyElementVisible(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-06-23 11:38:40,2022-06-23 11:38:40,0.267s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-06-23 11:38:40,2022-06-23 11:38:40,0.262s,PASSED
+delay(5),,,,2022-06-23 11:38:40,2022-06-23 11:38:45,5.002s,PASSED
+"println(""InterBank Test Case Started"")",,,,2022-06-23 11:38:45,2022-06-23 11:38:45,0.000s,PASSED
+"tap(findTestObject(""Banking/transferOthersTopMenuSelect""), 0)",,,,2022-06-23 11:38:45,2022-06-23 11:39:46,1m - 0.546s,PASSED
+"tap(findTestObject(""Banking/transferBanksIconSelect""), 0)",,,,2022-06-23 11:39:46,2022-06-23 11:40:39,52.842s,PASSED
+"scrollToText(""PUBLIC BANK"", STOP_ON_FAILURE)",,,,2022-06-23 11:40:39,2022-06-23 11:40:51,12.459s,PASSED
+"tap(findTestObject(""Banking/transferBankSelection"", [""text"":""PUBLIC BANK""]), 10)",,,,2022-06-23 11:40:51,2022-06-23 11:40:52,0.424s,PASSED
+"setText(findTestObject(""Banking/transferAccountNoInputField""), accountNum, 0)",,,,2022-06-23 11:40:52,2022-06-23 11:40:54,2.224s,PASSED
+hideKeyboard(),,,,2022-06-23 11:40:54,2022-06-23 11:40:58,4.019s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:40:58,2022-06-23 11:40:58,0.210s,PASSED
+"tap(findTestObject(""Login Onboarding/PIN4""), 0)",,,,2022-06-23 11:40:58,2022-06-23 11:40:59,1.434s,PASSED
+delay(3),,,,2022-06-23 11:40:59,2022-06-23 11:41:02,3.007s,PASSED
+"tap(findTestObject(""Login Onboarding/loginPinTickBtn""), 0)",,,,2022-06-23 11:41:02,2022-06-23 11:41:03,0.195s,PASSED
+"setText(findTestObject(""Banking/transferReferenceInputField""), ""AmountTransfer"", 0)",,,,2022-06-23 11:41:03,2022-06-23 11:41:05,2.251s,PASSED
+hideKeyboard(),,,,2022-06-23 11:41:05,2022-06-23 11:41:07,2.049s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:41:07,2022-06-23 11:41:07,0.173s,PASSED
+delay(5),,,,2022-06-23 11:41:07,2022-06-23 11:41:12,5.003s,PASSED
+"tap(findTestObject(""Banking/transferTypeDropdownSelection""), 0)",,,,2022-06-23 11:41:12,2022-06-23 11:41:12,0.132s,PASSED
+"scrollToText(""Fund Transfer"", STOP_ON_FAILURE)",,,,2022-06-23 11:41:12,2022-06-23 11:41:16,3.650s,PASSED
+"tap(findTestObject(""Banking/tansferTypeFundDropdownSelection""), 0)",,,,2022-06-23 11:41:16,2022-06-23 11:41:16,0.137s,PASSED
+"tap(findTestObject(""Banking/transferModeDropdownDoneBtn""), 0)",,,,2022-06-23 11:41:16,2022-06-23 11:41:16,0.116s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:41:16,2022-06-23 11:41:17,0.735s,PASSED
+delay(5),,,,2022-06-23 11:41:17,2022-06-23 11:41:22,5.005s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainTransferNowBtn""), 0)",,,,2022-06-23 11:41:22,2022-06-23 11:41:23,1.072s,PASSED
+"tap(findTestObject(""Main/mainTransferNowBtn""), 0)",,,,2022-06-23 11:41:23,2022-06-23 11:41:23,0.227s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/seasonalGreetingAngpaoTACNoTxt""), 5, OPTIONAL))",,,,2022-06-23 11:41:23,2022-06-23 11:41:28,5.160s,PASSED
+else,,,,2022-06-23 11:41:28,2022-06-23 11:41:34,5.254s,PASSED
+"println(""Interbank Test Case Completed"")",,,,2022-06-23 11:41:34,2022-06-23 11:41:34,0.000s,PASSED
+delay(5),,,,2022-06-23 11:41:34,2022-06-23 11:41:39,5.005s,PASSED
+"referenceID = getText(findTestObject(""Send Request Money/requestMoneyPaySummaryRefIDTxt""), 0)",,,,2022-06-23 11:41:39,2022-06-23 11:41:41,2.812s,PASSED
+println(referenceID),,,,2022-06-23 11:41:41,2022-06-23 11:41:41,0.000s,PASSED
+test = dataFolder,,,,2022-06-23 11:41:41,2022-06-23 11:41:41,0.000s,PASSED
+"sheetName = ""Sheet1""",,,,2022-06-23 11:41:41,2022-06-23 11:41:41,0.001s,PASSED
+file1 = new java.io.File(test),,,,2022-06-23 11:41:41,2022-06-23 11:41:41,0.000s,PASSED
+assert file1.exists() == true,,,,2022-06-23 11:41:41,2022-06-23 11:41:41,0.000s,PASSED
+woorkbook1 = getWorkbook(test),,,,2022-06-23 11:41:41,2022-06-23 11:41:41,0.018s,PASSED
+"sheet1 = getExcelSheet(woorkbook1, sheetName)",,,,2022-06-23 11:41:41,2022-06-23 11:41:41,0.000s,PASSED
+"setValueToCellByIndex(sheet1, 2, 1, referenceID)",,,,2022-06-23 11:41:41,2022-06-23 11:41:41,0.001s,PASSED
+"saveWorkbook(test, woorkbook1)",,,,2022-06-23 11:41:41,2022-06-23 11:41:41,0.013s,PASSED
+delay(3),,,,2022-06-23 11:41:41,2022-06-23 11:41:44,3.002s,PASSED
+"tap(findTestObject(""Main/mainAddToFavBtn""), 0)",,,,2022-06-23 11:41:44,2022-06-23 11:41:45,0.173s,PASSED
+delay(2),,,,2022-06-23 11:41:45,2022-06-23 11:41:47,2.004s,PASSED
+"tap(findTestObject(""Main/mainAddToFavBtn""), 0)",,,,2022-06-23 11:41:47,2022-06-23 11:41:47,0.194s,PASSED
+delay(2),,,,2022-06-23 11:41:47,2022-06-23 11:41:49,2.004s,PASSED
+"tap(findTestObject(""Main/mainCloseFavPopUpBtn""), 0)",,,,2022-06-23 11:41:49,2022-06-23 11:41:51,1.868s,PASSED
+delay(3),,,,2022-06-23 11:41:51,2022-06-23 11:41:54,3.005s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/instantSetFav.png"")",,,,2022-06-23 11:41:54,2022-06-23 11:41:54,0.784s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 3)",,,,2022-06-23 11:41:54,2022-06-23 11:41:55,0.149s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-23 11:41:55,2022-06-23 11:41:55,0.164s,PASSED
+delay(5),,,,2022-06-23 11:41:55,2022-06-23 11:42:00,5.007s,PASSED
+,,,,,,,
+Test Cases/Transfer/transfer_instantIBFTFav,,,,2022-06-23 11:42:00,2022-06-23 11:48:24,6m - 23.858s,PASSED
+device_Height = getDeviceHeight(),,,,2022-06-23 11:42:00,2022-06-23 11:42:00,0.287s,PASSED
+device_Width = getDeviceWidth(),,,,2022-06-23 11:42:00,2022-06-23 11:42:01,0.267s,PASSED
+startX = device_Width / 3,,,,2022-06-23 11:42:01,2022-06-23 11:42:01,0.000s,PASSED
+startY = device_Height * 0.97,,,,2022-06-23 11:42:01,2022-06-23 11:42:01,0.000s,PASSED
+delay(5),,,,2022-06-23 11:42:01,2022-06-23 11:42:06,5.006s,PASSED
+"verifyElementVisible(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-06-23 11:42:06,2022-06-23 11:42:06,0.313s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-06-23 11:42:06,2022-06-23 11:42:06,0.276s,PASSED
+"tap(findTestObject(""Banking/transferOthersTopMenuSelect""), 0)",,,,2022-06-23 11:42:06,2022-06-23 11:43:07,1m - 0.572s,PASSED
+delay(3),,,,2022-06-23 11:43:07,2022-06-23 11:43:10,3.003s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferFavListAccNameTxt"", [""accName"":accName]), accName)",,"Verify content (Name, Account No, Bank)",,2022-06-23 11:43:10,2022-06-23 11:44:11,1m - 1.074s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferFavListAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:44:11,2022-06-23 11:45:02,50.571s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferFavListAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:45:02,2022-06-23 11:45:52,50.417s,PASSED
+"tap(findTestObject(""Transfer/transferFavListAccNameTxt"", [""accName"":accName]), 0)",,,,2022-06-23 11:45:52,2022-06-23 11:46:44,51.731s,PASSED
+delay(3),,,,2022-06-23 11:46:44,2022-06-23 11:46:47,3.011s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmounttAccNameTxt"", [""accName"":accName]), accName)",,,,2022-06-23 11:46:47,2022-06-23 11:46:47,0.283s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmounttAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:46:47,2022-06-23 11:46:47,0.196s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmounttAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:46:47,2022-06-23 11:46:47,0.186s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferAmountRMTxt""), 0)",,,,2022-06-23 11:46:47,2022-06-23 11:46:48,0.184s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferAmountEnterAmountTitleTxt""), 0)",,,,2022-06-23 11:46:48,2022-06-23 11:46:48,0.165s,PASSED
+trxAmount = value,,,,2022-06-23 11:46:48,2022-06-23 11:46:48,0.001s,PASSED
+length = trxAmount.length(),,,,2022-06-23 11:46:48,2022-06-23 11:46:48,0.000s,PASSED
+delay(5),,,,2022-06-23 11:46:48,2022-06-23 11:46:53,5.007s,PASSED
+"tapAtPosition(startX, startY)",,,,2022-06-23 11:46:53,2022-06-23 11:46:53,0.204s,PASSED
+"for ([i = 0, i < length, (i++)])",,,,2022-06-23 11:46:53,2022-06-23 11:46:55,2.487s,PASSED
+delay(3),,,,2022-06-23 11:46:55,2022-06-23 11:46:58,3.004s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmountInputValueTxt"", [""value"":checkValue]), checkValue)",,,,2022-06-23 11:46:58,2022-06-23 11:46:59,0.206s,PASSED
+delay(3),,,,2022-06-23 11:46:59,2022-06-23 11:47:02,3.004s,PASSED
+"tap(findTestObject(""Login Onboarding/loginPinTickBtn""), 0)",,,,2022-06-23 11:47:02,2022-06-23 11:47:02,0.186s,PASSED
+delay(3),,,,2022-06-23 11:47:02,2022-06-23 11:47:05,3.005s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccNameTxt"", [""accName"":accName]), accName)",,,,2022-06-23 11:47:05,2022-06-23 11:47:05,0.261s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:47:05,2022-06-23 11:47:05,0.184s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:47:05,2022-06-23 11:47:05,0.185s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferReferenceInputField""), 0)",,,,2022-06-23 11:47:05,2022-06-23 11:47:06,0.128s,PASSED
+"setText(findTestObject(""Banking/transferReferenceInputField""), reference, 0)",,,,2022-06-23 11:47:06,2022-06-23 11:47:06,0.799s,PASSED
+hideKeyboard(),,,,2022-06-23 11:47:06,2022-06-23 11:47:09,2.420s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceInputFieldAfter"", [""reference"":reference]), reference)",,,,2022-06-23 11:47:09,2022-06-23 11:47:09,0.154s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:47:09,2022-06-23 11:47:09,0.222s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccNameTxt"", [""accName"":accName]), accName)",,,,2022-06-23 11:47:09,2022-06-23 11:47:09,0.185s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:47:09,2022-06-23 11:47:09,0.111s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:47:09,2022-06-23 11:47:10,0.120s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferModeDuitTxt"", [""mode"":initialMode]), 0)",,,,2022-06-23 11:47:10,2022-06-23 11:47:13,3.758s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferModeTitleTxt""), 0)",,,,2022-06-23 11:47:13,2022-06-23 11:47:14,0.165s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferTypeFundTxt""), 0)",,,,2022-06-23 11:47:14,2022-06-23 11:47:14,0.160s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferTypeTitleTxt""), 0)",,,,2022-06-23 11:47:14,2022-06-23 11:47:14,0.140s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:47:14,2022-06-23 11:47:14,0.166s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationTransactionDateTxt""), trxDate)",,Verify confirmation page,,2022-06-23 11:47:14,2022-06-23 11:47:19,5.184s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationAccountNameTxt"", [""accName"":accName]), accName)",,,,2022-06-23 11:47:19,2022-06-23 11:47:19,0.191s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationAccountNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:47:19,2022-06-23 11:47:20,0.209s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationAmountTxt"", [""amount"":amount]), amount)",,,,2022-06-23 11:47:20,2022-06-23 11:47:20,0.207s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationTransactionRecRefTxt"", [""reference"":reference]), reference)",,,,2022-06-23 11:47:20,2022-06-23 11:47:20,0.179s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationTransactionBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:47:20,2022-06-23 11:47:20,0.180s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationOptionalGreyWordTxt""), ""Optional"")",,,,2022-06-23 11:47:20,2022-06-23 11:47:20,0.146s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantTransferConfirmationTransactionTypeTxt""), trxType)",,,,2022-06-23 11:47:20,2022-06-23 11:47:20,0.200s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantTransferConfirmationTransactionModeTxt"", [""modeC"":initialMode]), initialMode)",,,,2022-06-23 11:47:20,2022-06-23 11:47:21,0.197s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantTransferConfirmationTransactionServiceTxt""), ""RM 0.00"")",,,,2022-06-23 11:47:21,2022-06-23 11:47:21,0.235s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationBankNameTitleTxt""), 0)",,,,2022-06-23 11:47:21,2022-06-23 11:47:21,0.187s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationDateTitleTxt""), 0)",,,,2022-06-23 11:47:21,2022-06-23 11:47:21,0.175s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationRecRefTitleTxt""), 0)",,,,2022-06-23 11:47:21,2022-06-23 11:47:21,0.195s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationPaymentDetailsTitleTxt""), 0)",,,,2022-06-23 11:47:21,2022-06-23 11:47:22,0.182s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationModeTitleTxt""), 0)",,,,2022-06-23 11:47:22,2022-06-23 11:47:22,0.182s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationServiceFeeTitleTxt""), 0)",,,,2022-06-23 11:47:22,2022-06-23 11:47:22,0.197s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationTypeTitleTxt""), 0)",,,,2022-06-23 11:47:22,2022-06-23 11:47:22,0.175s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationNoteTitleTxt""), 0)",,,,2022-06-23 11:47:22,2022-06-23 11:47:22,0.166s,PASSED
+"tap(findTestObject(""Transfer/transferConfirmationOptionalGreyWordTxt""), 0)",,,,2022-06-23 11:47:22,2022-06-23 11:47:23,0.220s,PASSED
+"setText(findTestObject(""Transfer/transferConfirmationDetailsInputField""), details, 0)",,,,2022-06-23 11:47:23,2022-06-23 11:47:25,2.504s,PASSED
+hideKeyboard(),,,,2022-06-23 11:47:25,2022-06-23 11:47:27,1.967s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationOptionalGreyWordTxt""), details)",,,,2022-06-23 11:47:27,2022-06-23 11:47:27,0.161s,PASSED
+device_Height_2 = getDeviceHeight(),,,,2022-06-23 11:47:27,2022-06-23 11:47:27,0.252s,PASSED
+device_Width_2 = getDeviceWidth(),,,,2022-06-23 11:47:27,2022-06-23 11:47:28,0.277s,PASSED
+startX_2 = device_Width_2 / 2,,,,2022-06-23 11:47:28,2022-06-23 11:47:28,0.000s,PASSED
+endX_2 = startX_2,,,,2022-06-23 11:47:28,2022-06-23 11:47:28,0.000s,PASSED
+startY_2 = device_Height_2 * 0.30,,,,2022-06-23 11:47:28,2022-06-23 11:47:28,0.000s,PASSED
+endY_2 = device_Height_2 * 0.70,,,,2022-06-23 11:47:28,2022-06-23 11:47:28,0.000s,PASSED
+"swipe(startX_2, endY_2, endX_2, startY_2)",,,,2022-06-23 11:47:28,2022-06-23 11:47:29,1.259s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationNotes1Txt""), 0)",,,,2022-06-23 11:47:29,2022-06-23 11:47:29,0.210s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationFTransferFromTitleTxt""), 0)",,,,2022-06-23 11:47:29,2022-06-23 11:47:29,0.170s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationNotes2Txt""), 0)",,,,2022-06-23 11:47:29,2022-06-23 11:47:30,0.171s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccTypeTxt"", [""accType"":accType]), accType)",,,,2022-06-23 11:47:30,2022-06-23 11:47:30,0.251s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccNoTxt"", [""accNoFrom"":accNoFrom]), accNoFrom)",,,,2022-06-23 11:47:30,2022-06-23 11:47:30,0.261s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationFromAccBalanceTxt""), 0)",,,,2022-06-23 11:47:30,2022-06-23 11:47:30,0.207s,PASSED
+"accountBalance = getText(findTestObject(""Transfer/transferConfirmationFromAccBalanceTxt""), 0)",,,,2022-06-23 11:47:30,2022-06-23 11:47:30,0.224s,PASSED
+println(accountBalance),,,,2022-06-23 11:47:30,2022-06-23 11:47:30,0.000s,PASSED
+"tap(findTestObject(""Main/mainTransferNowBtn""), 0)",,,,2022-06-23 11:47:30,2022-06-23 11:47:31,0.303s,PASSED
+delay(10),,,,2022-06-23 11:47:31,2022-06-23 11:47:41,10.004s,PASSED
+"verifyElementVisible(findTestObject(""Festive Season/returnAngpaoStatusMessageTxt""), 0)",,,,2022-06-23 11:47:41,2022-06-23 11:47:41,0.116s,PASSED
+delay(5),,,,2022-06-23 11:47:41,2022-06-23 11:47:46,5.002s,PASSED
+"message = getText(findTestObject(""Festive Season/returnAngpaoStatusMessageTxt""), 0)",,,,2022-06-23 11:47:46,2022-06-23 11:47:46,0.172s,PASSED
+println(message),,,,2022-06-23 11:47:46,2022-06-23 11:47:46,0.000s,PASSED
+assert message == successTransactionMessage,,,,2022-06-23 11:47:46,2022-06-23 11:47:46,0.000s,PASSED
+delay(5),,,,2022-06-23 11:47:46,2022-06-23 11:47:51,5.006s,PASSED
+if (value > limit),,,,2022-06-23 11:47:51,2022-06-23 11:47:51,0.000s,PASSED
+else,,,,2022-06-23 11:47:51,2022-06-23 11:47:53,2.058s,PASSED
+delay(5),,,,2022-06-23 11:47:53,2022-06-23 11:47:58,5.004s,PASSED
+"referenceID = getText(findTestObject(""Send Request Money/requestMoneyPaySummaryRefIDTxt""), 0)",,,,2022-06-23 11:47:58,2022-06-23 11:47:58,0.138s,PASSED
+println(referenceID),,,,2022-06-23 11:47:58,2022-06-23 11:47:58,0.001s,PASSED
+test = dataFolder,,,,2022-06-23 11:47:58,2022-06-23 11:47:58,0.000s,PASSED
+"sheetName = ""Sheet1""",,,,2022-06-23 11:47:58,2022-06-23 11:47:58,0.000s,PASSED
+file1 = new java.io.File(test),,,,2022-06-23 11:47:58,2022-06-23 11:47:58,0.000s,PASSED
+assert file1.exists() == true,,,,2022-06-23 11:47:58,2022-06-23 11:47:58,0.000s,PASSED
+woorkbook1 = getWorkbook(test),,,,2022-06-23 11:47:58,2022-06-23 11:47:58,0.015s,PASSED
+"sheet1 = getExcelSheet(woorkbook1, sheetName)",,,,2022-06-23 11:47:58,2022-06-23 11:47:58,0.000s,PASSED
+"setValueToCellByIndex(sheet1, 3, 1, referenceID)",,,,2022-06-23 11:47:58,2022-06-23 11:47:58,0.000s,PASSED
+"saveWorkbook(test, woorkbook1)",,,,2022-06-23 11:47:58,2022-06-23 11:47:58,0.012s,PASSED
+delay(3),,,,2022-06-23 11:47:58,2022-06-23 11:48:01,3.005s,PASSED
+"verifyElementVisible(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-23 11:48:01,2022-06-23 11:48:02,0.289s,PASSED
+"takeScreenshot(""/Users/a00139272/Desktop/Screenshot/instantIBFTFav.png"")",,,,2022-06-23 11:48:02,2022-06-23 11:48:02,0.824s,PASSED
+"tap(findTestObject(""Main/mainDoneBtn""), 0)",,,,2022-06-23 11:48:02,2022-06-23 11:48:03,0.179s,PASSED
+if (value < limit),,,,2022-06-23 11:48:03,2022-06-23 11:48:24,21.005s,PASSED
+,,,,,,,
+Test Cases/Transfer/transfer_instantIBGFav,,,,2022-06-23 11:48:24,2022-06-23 11:54:45,6m - 21.312s,FAILED
+delay(5),,,,2022-06-23 11:48:24,2022-06-23 11:48:29,5.005s,PASSED
+device_Height = getDeviceHeight(),,,,2022-06-23 11:48:29,2022-06-23 11:48:29,0.249s,PASSED
+device_Width = getDeviceWidth(),,,,2022-06-23 11:48:29,2022-06-23 11:48:29,0.221s,PASSED
+startX = device_Width / 3,,,,2022-06-23 11:48:29,2022-06-23 11:48:29,0.001s,PASSED
+startY = device_Height * 0.97,,,,2022-06-23 11:48:29,2022-06-23 11:48:29,0.000s,PASSED
+"verifyElementVisible(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-06-23 11:48:29,2022-06-23 11:48:30,0.229s,PASSED
+"tap(findTestObject(""Banking/m2uAccountTransferIconSelect""), 0)",,,,2022-06-23 11:48:30,2022-06-23 11:48:30,0.243s,PASSED
+delay(5),,,,2022-06-23 11:48:30,2022-06-23 11:48:35,5.002s,PASSED
+"tap(findTestObject(""Banking/transferOthersTopMenuSelect""), 0)",,,,2022-06-23 11:48:35,2022-06-23 11:49:36,1m - 0.703s,PASSED
+delay(3),,,,2022-06-23 11:49:36,2022-06-23 11:49:39,3.004s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferFavListAccNameTxt"", [""accName"":accName]), accName)",,"Verify content (Name, Account No, Bank)",,2022-06-23 11:49:39,2022-06-23 11:50:40,1m - 1.286s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferFavListAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:50:40,2022-06-23 11:51:30,50.420s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferFavListAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:51:30,2022-06-23 11:52:21,50.510s,PASSED
+"tap(findTestObject(""Transfer/transferFavListAccNameTxt"", [""accName"":accName]), 0)",,,,2022-06-23 11:52:21,2022-06-23 11:53:13,51.721s,PASSED
+delay(3),,,,2022-06-23 11:53:13,2022-06-23 11:53:16,3.008s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmounttAccNameTxt"", [""accName"":accName]), accName)",,,,2022-06-23 11:53:16,2022-06-23 11:53:16,0.255s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmounttAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:53:16,2022-06-23 11:53:16,0.169s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmounttAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:53:16,2022-06-23 11:53:16,0.178s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferAmountRMTxt""), 0)",,,,2022-06-23 11:53:16,2022-06-23 11:53:16,0.150s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferAmountEnterAmountTitleTxt""), 0)",,,,2022-06-23 11:53:16,2022-06-23 11:53:17,0.161s,PASSED
+trxAmount = value,,,,2022-06-23 11:53:17,2022-06-23 11:53:17,0.001s,PASSED
+length = trxAmount.length(),,,,2022-06-23 11:53:17,2022-06-23 11:53:17,0.000s,PASSED
+delay(5),,,,2022-06-23 11:53:17,2022-06-23 11:53:22,5.006s,PASSED
+"tapAtPosition(startX, startY)",,,,2022-06-23 11:53:22,2022-06-23 11:53:22,0.196s,PASSED
+"for ([i = 0, i < length, (i++)])",,,,2022-06-23 11:53:22,2022-06-23 11:53:24,2.387s,PASSED
+delay(3),,,,2022-06-23 11:53:24,2022-06-23 11:53:27,3.004s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferAmountInputValueTxt"", [""value"":checkValue]), checkValue)",,,,2022-06-23 11:53:27,2022-06-23 11:53:27,0.247s,PASSED
+delay(3),,,,2022-06-23 11:53:27,2022-06-23 11:53:30,3.007s,PASSED
+"tap(findTestObject(""Login Onboarding/loginPinTickBtn""), 0)",,,,2022-06-23 11:53:30,2022-06-23 11:53:31,0.213s,PASSED
+delay(3),,,,2022-06-23 11:53:31,2022-06-23 11:53:34,3.004s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccNameTxt"", [""accName"":accName]), accName)",,,,2022-06-23 11:53:34,2022-06-23 11:53:34,0.264s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:53:34,2022-06-23 11:53:34,0.206s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:53:34,2022-06-23 11:53:34,0.211s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferReferenceInputField""), 0)",,,,2022-06-23 11:53:34,2022-06-23 11:53:34,0.150s,PASSED
+"setText(findTestObject(""Banking/transferReferenceInputField""), reference, 0)",,,,2022-06-23 11:53:34,2022-06-23 11:53:35,0.827s,PASSED
+hideKeyboard(),,,,2022-06-23 11:53:35,2022-06-23 11:53:37,2.085s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceInputFieldAfter"", [""reference"":reference]), reference)",,,,2022-06-23 11:53:37,2022-06-23 11:53:37,0.150s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:53:37,2022-06-23 11:53:38,0.147s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccNameTxt"", [""accName"":accName]), accName)",,,,2022-06-23 11:53:38,2022-06-23 11:53:38,0.140s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:53:38,2022-06-23 11:53:38,0.116s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferReferenceAccBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:53:38,2022-06-23 11:53:38,0.116s,PASSED
+delay(3),,,,2022-06-23 11:53:38,2022-06-23 11:53:41,3.011s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferModeDuitTxt"", [""mode"":initialMode]), 0)",,,,2022-06-23 11:53:41,2022-06-23 11:53:46,5.053s,PASSED
+"tap(findTestObject(""Transfer/instantTransferModeDuitTxt"", [""mode"":initialMode]), 0)",,,,2022-06-23 11:53:46,2022-06-23 11:53:47,0.721s,PASSED
+delay(3),,,,2022-06-23 11:53:47,2022-06-23 11:53:50,3.004s,PASSED
+"scrollToText(selectedMode, STOP_ON_FAILURE)",,,,2022-06-23 11:53:50,2022-06-23 11:53:51,0.811s,PASSED
+"tap(findTestObject(""Transfer/instantTransferModeDropdownSelect"", [""modeS"":selectedMode]), 0)",,,,2022-06-23 11:53:51,2022-06-23 11:53:51,0.138s,PASSED
+delay(3),,,,2022-06-23 11:53:51,2022-06-23 11:53:54,3.008s,PASSED
+"tap(findTestObject(""Banking/transferModeDropdownDoneBtn""), 0)",,,,2022-06-23 11:53:54,2022-06-23 11:53:54,0.162s,PASSED
+delay(3),,,,2022-06-23 11:53:54,2022-06-23 11:53:57,3.002s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferModeDuitTxt"", [""mode"":selectedMode]), 0)",,,,2022-06-23 11:53:57,2022-06-23 11:53:57,0.198s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferModeTitleTxt""), 0)",,,,2022-06-23 11:53:57,2022-06-23 11:53:57,0.156s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferTypeFundTxt""), 0)",,,,2022-06-23 11:53:57,2022-06-23 11:53:57,0.133s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferTypeTitleTxt""), 0)",,,,2022-06-23 11:53:57,2022-06-23 11:53:58,0.115s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2022-06-23 11:53:58,2022-06-23 11:53:58,0.147s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationTransactionDateTxt""), trxDate)",,Verify confirmation page,,2022-06-23 11:53:58,2022-06-23 11:54:03,4.935s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationAccountNameTxt"", [""accName"":accName]), accName)",,,,2022-06-23 11:54:03,2022-06-23 11:54:03,0.173s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationAccountNoTxt"", [""accNo"":accNo]), accNo)",,,,2022-06-23 11:54:03,2022-06-23 11:54:03,0.157s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationAmountTxt"", [""amount"":amount]), amount)",,,,2022-06-23 11:54:03,2022-06-23 11:54:04,0.673s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationTransactionRecRefTxt"", [""reference"":reference]), reference)",,,,2022-06-23 11:54:04,2022-06-23 11:54:04,0.240s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationTransactionBankTxt"", [""accBank"":accBank]), accBank)",,,,2022-06-23 11:54:04,2022-06-23 11:54:04,0.189s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationOptionalGreyWordTxt""), ""Optional"")",,,,2022-06-23 11:54:04,2022-06-23 11:54:04,0.154s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantTransferConfirmationTransactionTypeTxt""), ""Fund Transfer"")",,,,2022-06-23 11:54:04,2022-06-23 11:54:04,0.204s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantTransferConfirmationTransactionModeTxt"", [""modeC"":selectedMode]), selectedMode)",,,,2022-06-23 11:54:04,2022-06-23 11:54:05,0.210s,PASSED
+"verifyElementText(findTestObject(""Transfer/instantTransferConfirmationTransactionServiceTxt""), ""RM 0.00"")",,,,2022-06-23 11:54:05,2022-06-23 11:54:05,0.185s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationBankNameTitleTxt""), 0)",,,,2022-06-23 11:54:05,2022-06-23 11:54:05,0.194s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationDateTitleTxt""), 0)",,,,2022-06-23 11:54:05,2022-06-23 11:54:05,0.187s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationRecRefTitleTxt""), 0)",,,,2022-06-23 11:54:05,2022-06-23 11:54:05,0.182s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationPaymentDetailsTitleTxt""), 0)",,,,2022-06-23 11:54:05,2022-06-23 11:54:06,0.180s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationModeTitleTxt""), 0)",,,,2022-06-23 11:54:06,2022-06-23 11:54:06,0.200s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationServiceFeeTitleTxt""), 0)",,,,2022-06-23 11:54:06,2022-06-23 11:54:06,0.183s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationTypeTitleTxt""), 0)",,,,2022-06-23 11:54:06,2022-06-23 11:54:06,0.195s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationNoteTitleTxt""), 0)",,,,2022-06-23 11:54:06,2022-06-23 11:54:06,0.197s,PASSED
+"tap(findTestObject(""Transfer/transferConfirmationOptionalGreyWordTxt""), 0)",,,,2022-06-23 11:54:06,2022-06-23 11:54:07,0.203s,PASSED
+"setText(findTestObject(""Transfer/transferConfirmationDetailsInputField""), ""Test Fav"", 0)",,,,2022-06-23 11:54:07,2022-06-23 11:54:09,2.483s,PASSED
+hideKeyboard(),,,,2022-06-23 11:54:09,2022-06-23 11:54:11,1.875s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationOptionalGreyWordTxt""), ""Test Fav"")",,,,2022-06-23 11:54:11,2022-06-23 11:54:11,0.224s,PASSED
+device_Height_2 = getDeviceHeight(),,,,2022-06-23 11:54:11,2022-06-23 11:54:11,0.247s,PASSED
+device_Width_2 = getDeviceWidth(),,,,2022-06-23 11:54:11,2022-06-23 11:54:12,0.260s,PASSED
+startX_2 = device_Width_2 / 2,,,,2022-06-23 11:54:12,2022-06-23 11:54:12,0.000s,PASSED
+endX_2 = startX_2,,,,2022-06-23 11:54:12,2022-06-23 11:54:12,0.001s,PASSED
+startY_2 = device_Height_2 * 0.30,,,,2022-06-23 11:54:12,2022-06-23 11:54:12,0.000s,PASSED
+endY_2 = device_Height_2 * 0.70,,,,2022-06-23 11:54:12,2022-06-23 11:54:12,0.000s,PASSED
+"swipe(startX_2, endY_2, endX_2, startY_2)",,,,2022-06-23 11:54:12,2022-06-23 11:54:13,1.310s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationNotes1Txt""), 0)",,,,2022-06-23 11:54:13,2022-06-23 11:54:13,0.199s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationFTransferFromTitleTxt""), 0)",,,,2022-06-23 11:54:13,2022-06-23 11:54:13,0.191s,PASSED
+"verifyElementExist(findTestObject(""Transfer/instantTransferConfirmationNotes2Txt""), 0)",,,,2022-06-23 11:54:13,2022-06-23 11:54:13,0.187s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccTypeTxt"", [""accType"":accType]), accType)",,,,2022-06-23 11:54:13,2022-06-23 11:54:14,0.212s,PASSED
+"verifyElementText(findTestObject(""Transfer/transferConfirmationFromAccNoTxt"", [""accNoFrom"":accNoFrom]), accNoFrom)",,,,2022-06-23 11:54:14,2022-06-23 11:54:14,0.219s,PASSED
+"verifyElementExist(findTestObject(""Transfer/transferConfirmationFromAccBalanceTxt""), 0)",,,,2022-06-23 11:54:14,2022-06-23 11:54:14,0.148s,PASSED
+"accountBalance = getText(findTestObject(""Transfer/transferConfirmationFromAccBalanceTxt""), 0)",,,,2022-06-23 11:54:14,2022-06-23 11:54:14,0.151s,PASSED
+println(accountBalance),,,,2022-06-23 11:54:14,2022-06-23 11:54:14,0.000s,PASSED
+"tap(findTestObject(""Main/mainTransferNowBtn""), 0)",,,,2022-06-23 11:54:14,2022-06-23 11:54:15,0.276s,PASSED
+"if (verifyElementVisible(findTestObject(""Festive Season/seasonalGreetingAngpaoTACNoTxt""), 10, OPTIONAL))",,,,2022-06-23 11:54:15,2022-06-23 11:54:35,20.207s,PASSED
+delay(10),,,,2022-06-23 11:54:35,2022-06-23 11:54:45,10.012s,PASSED
+"verifyElementExist(findTestObject(""Festive Season/returnAngpaoStatusMessageTxt""), 0)",,,,2022-06-23 11:54:45,2022-06-23 11:54:45,0.107s,PASSED
+"message = getText(findTestObject(""Festive Season/returnAngpaoStatusMessageTxt""), 0)",,,,2022-06-23 11:54:45,2022-06-23 11:54:45,0.117s,PASSED
+println(message),,,,2022-06-23 11:54:45,2022-06-23 11:54:45,0.000s,PASSED
+assert message == successTransactionMessage,,,,2022-06-23 11:54:45,2022-06-23 11:54:45,0.001s,FAILED
